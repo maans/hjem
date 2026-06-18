@@ -9,13 +9,13 @@
     :root {
       --ink: #f8fafc;
       --muted: rgba(248,250,252,.76);
-      --dim: rgba(248,250,252,.56);
-      --line: rgba(255,255,255,.17);
-      --glass: rgba(7, 11, 20, .56);
-      --glass-heavy: rgba(7, 11, 20, .73);
-      --accent: #8ee6c9;
-      --warm: #f6b06d;
-      --shadow: 0 35px 110px rgba(0,0,0,.52);
+      --soft: rgba(248,250,252,.58);
+      --line: rgba(255,255,255,.16);
+      --glass: rgba(8, 10, 18, .24);
+      --glass-strong: rgba(8, 10, 18, .42);
+      --accent: #a7f3d0;
+      --warm: #f7c27c;
+      --shadow: 0 30px 110px rgba(0,0,0,.42);
     }
 
     * { box-sizing: border-box; }
@@ -39,8 +39,8 @@
       z-index: 0;
       overflow: hidden;
       background:
-        radial-gradient(circle at 18% 22%, rgba(142,230,201,.16), transparent 26rem),
-        radial-gradient(circle at 84% 14%, rgba(246,176,109,.16), transparent 24rem),
+        radial-gradient(circle at 18% 20%, rgba(167,243,208,.12), transparent 25rem),
+        radial-gradient(circle at 85% 16%, rgba(247,194,124,.12), transparent 22rem),
         #05070d;
     }
 
@@ -51,9 +51,9 @@
       height: 100%;
       object-fit: cover;
       opacity: 0;
-      transform: scale(1.045);
-      filter: saturate(.98) contrast(1.06);
-      transition: opacity 1.55s ease, transform 8s ease;
+      transform: scale(1.04);
+      transition: opacity 1.5s ease, transform 7s ease;
+      filter: saturate(1.02) contrast(1.03);
     }
 
     .stage img.active {
@@ -66,21 +66,9 @@
       position: absolute;
       inset: 0;
       background:
-        linear-gradient(90deg, rgba(3,7,18,.62), rgba(3,7,18,.38) 42%, rgba(3,7,18,.08) 78%),
-        linear-gradient(0deg, rgba(3,7,18,.45), rgba(3,7,18,.06) 52%, rgba(3,7,18,.32));
-    }
-
-    .grain {
-      position: fixed;
-      inset: 0;
-      z-index: 1;
-      pointer-events: none;
-      opacity: .07;
-      background-image:
-        linear-gradient(rgba(255,255,255,.06) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255,255,255,.04) 1px, transparent 1px);
-      background-size: 44px 44px;
-      mask-image: radial-gradient(circle at center, black, transparent 72%);
+        linear-gradient(90deg, rgba(4,7,14,.56), rgba(4,7,14,.14) 46%, rgba(4,7,14,.28) 100%),
+        radial-gradient(circle at center, transparent 30%, rgba(4,7,14,.16) 100%),
+        linear-gradient(0deg, rgba(4,7,14,.34), rgba(4,7,14,.02) 42%, rgba(4,7,14,.26));
     }
 
     .page {
@@ -89,41 +77,57 @@
       min-height: 100svh;
       display: grid;
       place-items: center;
-      padding: clamp(1rem, 3vw, 3rem);
+      padding: clamp(1rem, 3vw, 2.8rem);
     }
 
-    .card {
-      width: min(1040px, 100%);
+    .shell {
+      width: min(980px, 100%);
       min-height: min(700px, calc(100svh - 2rem));
+      border-radius: clamp(28px, 4vw, 40px);
       border: 1px solid var(--line);
-      border-radius: clamp(26px, 4vw, 44px);
       background:
-        linear-gradient(135deg, rgba(255,255,255,.065), rgba(255,255,255,.025)),
-        rgba(7, 11, 20, .36);
+        linear-gradient(135deg, rgba(255,255,255,.07), rgba(255,255,255,.02)),
+        var(--glass);
       box-shadow: var(--shadow);
-      backdrop-filter: blur(9px);
+      backdrop-filter: blur(8px);
       overflow: hidden;
       display: grid;
-      grid-template-columns: 1.08fr .92fr;
+      grid-template-columns: 1.1fr .72fr;
     }
 
     .identity {
-      padding: clamp(1.6rem, 5vw, 4.5rem);
+      padding: clamp(1.7rem, 4vw, 3.5rem);
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      gap: 3rem;
+      gap: 2rem;
+      position: relative;
+    }
+
+    .identity::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(135deg, rgba(0,0,0,.12), transparent 55%);
+      pointer-events: none;
+    }
+
+    .brand {
+      position: relative;
+      z-index: 1;
     }
 
     .mark {
       display: inline-flex;
       align-items: center;
-      gap: .72rem;
+      gap: .7rem;
       color: var(--muted);
       font-weight: 800;
       letter-spacing: .08em;
       text-transform: uppercase;
-      font-size: .78rem;
+      font-size: .82rem;
+      margin: 0 0 1rem;
     }
 
     .dot {
@@ -131,31 +135,34 @@
       height: .72rem;
       border-radius: 50%;
       background: var(--accent);
-      box-shadow: 0 0 32px rgba(142,230,201,.65);
+      box-shadow: 0 0 26px rgba(167,243,208,.6);
     }
 
     h1 {
       margin: 0;
-      text-shadow: 0 8px 32px rgba(0,0,0,.38);
-      font-size: clamp(3.9rem, 9vw, 7.9rem);
-      line-height: .82;
+      font-size: clamp(4rem, 9vw, 7.3rem);
+      line-height: .84;
       letter-spacing: -.085em;
-      text-wrap: balance;
-      max-width: 8.8ch;
+      max-width: 8.5ch;
+      text-shadow: 0 10px 34px rgba(0,0,0,.28);
     }
 
     .tagline {
-      margin: 1.35rem 0 0;
-      text-shadow: 0 3px 18px rgba(0,0,0,.45);
+      margin: 1.25rem 0 0;
       color: var(--muted);
-      font-size: clamp(1.15rem, 2.15vw, 1.55rem);
+      font-size: clamp(1.08rem, 2vw, 1.38rem);
       line-height: 1.45;
-      max-width: 720px;
+      max-width: 28ch;
+      text-shadow: 0 4px 16px rgba(0,0,0,.32);
     }
-.nav {
+
+    .nav {
+      position: relative;
+      z-index: 1;
       display: flex;
       flex-wrap: wrap;
       gap: .75rem;
+      align-items: center;
     }
 
     a, button { font: inherit; }
@@ -164,168 +171,152 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      min-height: 3.2rem;
-      padding: .84rem 1.08rem;
+      min-height: 3.15rem;
+      padding: .82rem 1.08rem;
       border-radius: 999px;
       border: 1px solid rgba(255,255,255,.18);
       background: rgba(255,255,255,.10);
       color: var(--ink);
       text-decoration: none;
       cursor: pointer;
-      font-weight: 880;
-      transition: transform .16s ease, border-color .16s ease, background .16s ease;
+      font-weight: 850;
+      transition: transform .16s ease, background .16s ease, border-color .16s ease;
+      box-shadow: 0 8px 26px rgba(0,0,0,.12);
     }
 
     .button.primary {
-      color: #061018;
       background: var(--accent);
+      color: #061018;
       border-color: transparent;
-      box-shadow: 0 16px 48px rgba(142,230,201,.22);
+      box-shadow: 0 14px 42px rgba(167,243,208,.18);
     }
 
     .button:hover,
     .button:focus-visible {
       outline: none;
       transform: translateY(-1px);
-      border-color: rgba(142,230,201,.50);
-      background: rgba(255,255,255,.15);
+      background: rgba(255,255,255,.16);
+      border-color: rgba(167,243,208,.44);
     }
 
     .button.primary:hover,
     .button.primary:focus-visible {
-      background: #a5f3da;
+      background: #bbf7d8;
     }
 
-    .panel {
-      border-left: 1px solid var(--line);
+    .side {
+      padding: clamp(1.2rem, 3vw, 2rem);
+      display: grid;
+      align-content: center;
+      gap: 1.15rem;
       background:
-        linear-gradient(180deg, rgba(255,255,255,.055), rgba(255,255,255,.025)),
-        rgba(7,11,20,.16);
-      padding: clamp(1.2rem, 3.2vw, 2.35rem);
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      gap: 1rem;
+        linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02)),
+        rgba(8,10,18,.12);
+      border-left: 1px solid rgba(255,255,255,.09);
     }
 
-    .feature {
-      display: block;
-      text-decoration: none;
-      color: var(--ink);
-      border: 1px solid rgba(255,255,255,.15);
+    .pane {
       border-radius: 26px;
-      background: rgba(7, 11, 20, .56);
-      padding: clamp(1rem, 2.2vw, 1.35rem);
-      transition: transform .16s ease, border-color .16s ease, background .16s ease;
+      border: 1px solid rgba(255,255,255,.14);
+      background: var(--glass-strong);
+      backdrop-filter: blur(10px);
+      padding: 1.25rem 1.25rem 1.2rem;
+      box-shadow: 0 16px 40px rgba(0,0,0,.14);
     }
 
-    .feature:hover,
-    .feature:focus-visible {
-      outline: none;
-      transform: translateY(-2px);
-      border-color: rgba(142,230,201,.48);
-      background: rgba(255,255,255,.12);
-    }
-
-    .feature small {
+    .eyebrow {
       display: block;
       color: var(--warm);
+      font-size: .76rem;
       font-weight: 850;
-      letter-spacing: .055em;
+      letter-spacing: .07em;
       text-transform: uppercase;
-      font-size: .72rem;
       margin-bottom: .45rem;
     }
 
-    .feature strong {
-      display: block;
-      font-size: clamp(1.35rem, 2.4vw, 1.9rem);
-      line-height: 1.05;
-      letter-spacing: -.04em;
+    .pane h2 {
+      margin: 0;
+      font-size: clamp(1.7rem, 2.8vw, 2.3rem);
+      line-height: 1.02;
+      letter-spacing: -.045em;
     }
 
-    .feature span {
-      display: block;
+    .pane p {
+      margin: .7rem 0 0;
       color: var(--muted);
       line-height: 1.42;
-      margin-top: .55rem;
+      font-size: 1.02rem;
+      max-width: 22ch;
     }
 
-    .contact {
-      border: 1px solid rgba(255,255,255,.15);
-      border-radius: 26px;
-      background: rgba(7,11,20,.42);
-      padding: clamp(1rem, 2.2vw, 1.35rem);
-    }
-
-    .contact h2 {
+    .contact h3 {
       margin: 0 0 .85rem;
-      font-size: clamp(1.3rem, 2vw, 1.7rem);
+      font-size: 1.9rem;
+      line-height: 1;
       letter-spacing: -.04em;
     }
 
     .contact-grid {
       display: grid;
-      gap: .65rem;
+      gap: .75rem;
     }
 
-    .contact button,
-    .contact a {
+    .contact-item,
+    .contact button {
       width: 100%;
-      border: 1px solid rgba(255,255,255,.13);
-      border-radius: 18px;
-      background: rgba(255,255,255,.055);
-      padding: .9rem;
-      color: var(--ink);
       text-align: left;
       text-decoration: none;
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 18px;
+      background: rgba(255,255,255,.06);
+      color: var(--ink);
+      padding: .9rem 1rem;
       cursor: pointer;
-      transition: border-color .16s ease, background .16s ease;
+      transition: background .16s ease, border-color .16s ease;
     }
 
+    .contact-item:hover,
+    .contact-item:focus-visible,
     .contact button:hover,
-    .contact button:focus-visible,
-    .contact a:hover,
-    .contact a:focus-visible {
+    .contact button:focus-visible {
       outline: none;
-      border-color: rgba(142,230,201,.46);
-      background: rgba(255,255,255,.12);
+      background: rgba(255,255,255,.11);
+      border-color: rgba(167,243,208,.40);
     }
 
     .label {
       display: block;
-      color: var(--dim);
-      font-size: .78rem;
-      font-weight: 850;
-      margin-bottom: .2rem;
+      color: var(--soft);
+      font-size: .8rem;
+      font-weight: 800;
+      margin-bottom: .15rem;
     }
 
     .value {
       display: block;
-      font-weight: 900;
+      font-weight: 880;
+      font-size: 1.05rem;
+      line-height: 1.2;
       overflow-wrap: anywhere;
     }
 
     .hint {
-      color: var(--dim);
-      font-size: .83rem;
-      line-height: 1.35;
-      margin-top: .26rem;
       display: block;
+      color: var(--soft);
+      font-size: .84rem;
+      margin-top: .34rem;
+      line-height: 1.35;
     }
-@media (max-width: 880px) {
-      .page {
-        align-items: stretch;
-      }
 
-      .card {
+    @media (max-width: 900px) {
+      .shell {
         grid-template-columns: 1fr;
         min-height: auto;
       }
 
-      .panel {
+      .side {
         border-left: 0;
-        border-top: 1px solid var(--line);
+        border-top: 1px solid rgba(255,255,255,.09);
       }
 
       h1 {
@@ -336,51 +327,53 @@
     @media (max-width: 560px) {
       .nav {
         flex-direction: column;
+        align-items: stretch;
       }
 
       .button {
         width: 100%;
       }
-}
+
+      .pane p {
+        max-width: none;
+      }
+    }
   </style>
 </head>
 <body>
   <div class="stage" id="stage" aria-hidden="true"></div>
-  <div class="grain" aria-hidden="true"></div>
 
   <main class="page">
-    <section class="card" aria-label="Visitkort for Måns Mårtensson">
-      <div class="identity">
-        <div>
+    <section class="shell" aria-label="Visitkort for Måns Mårtensson">
+      <section class="identity">
+        <div class="brand">
           <p class="mark"><span class="dot"></span> måns.dk</p>
-          <h1>Måns Mårtensson</h1>
-          <p class="tagline">
-            Musik, undervisning og digitale værktøjer.
-          </p>
-</div>
+          <h1>Måns<br>Mårtensson</h1>
+          <p class="tagline">Musik, undervisning og digitale værktøjer.</p>
+        </div>
 
         <nav class="nav" aria-label="Hovedlinks">
           <a class="button primary" href="https://tavle.måns.dk/">Åbn TavleApp</a>
           <a class="button" href="https://akustisk-elektrisk.dk/">Akustisk-Elektrisk</a>
           <button class="button" type="button" onclick="openMail()">Kontakt</button>
         </nav>
-      </div>
+      </section>
 
-      <aside class="panel" aria-label="Udvalgte links og kontakt">
-        <a class="feature" href="https://tavle.måns.dk/">
-          <small>Undervisning</small>
-          <strong>TavleApp</strong>
-          <span>Et fleksibelt digitalt tavlemiljø til undervisning, PDF’er, data og materialer.</span>
-        </a>
+      <aside class="side" aria-label="Links og kontakt">
+        <section class="pane">
+          <span class="eyebrow">Undervisning</span>
+          <h2>TavleApp</h2>
+          <p>Et fleksibelt digitalt tavlemiljø til undervisning, PDF’er, data og materialer.</p>
+        </section>
 
-        <a class="feature" href="https://akustisk-elektrisk.dk/">
-          <small>Musik</small>
-          <strong>Akustisk-Elektrisk</strong>
-          <span>Min og Ebbes Balkan-duo. Mere info på akustisk-elektrisk.dk.</span>
-        </a>
+        <section class="pane">
+          <span class="eyebrow">Musik</span>
+          <h2>Akustisk-Elektrisk</h2>
+          <p>Min og Ebbes Balkan-duo. Mere info på akustisk-elektrisk.dk.</p>
+        </section>
 
-        <section class="contact" aria-label="Kontakt">
-          <h2>Kontakt</h2>
+        <section class="pane contact" aria-label="Kontakt">
+          <h3>Kontakt</h3>
           <div class="contact-grid">
             <button type="button" onclick="openMail()">
               <span class="label">Mail</span>
@@ -388,7 +381,7 @@
               <span class="hint">Klik for at åbne mailprogrammet.</span>
             </button>
 
-            <a href="tel:+4522155547">
+            <a class="contact-item" href="tel:+4522155547">
               <span class="label">Telefon</span>
               <span class="value">22 15 55 47</span>
             </a>
@@ -397,22 +390,23 @@
       </aside>
     </section>
   </main>
+
   <script>
     /*
-      Billeder:
       Læg dine billeder i mappen "billeder" ved siden af index.html.
 
-      For automatisk opdatering af slideshowet på GitHub Pages:
-      - Repoet skal være offentligt.
-      - Ret repo-navnet herunder, hvis forsiden ikke ligger i maans.github.io.
+      Hvis forsiden ligger i et andet repo end "hjem", ret repo-navnet herunder.
+      Når du tilføjer/fjerner billeder i mappen og committer ændringen,
+      opdateres slideshowet automatisk.
     */
     const githubImageSource = {
       owner: "maans",
-      repo: "maans.github.io",
+      repo: "hjem",
       branch: "main",
       folder: "billeder"
     };
 
+    // Fallback-liste, hvis GitHub API-listning ikke virker
     const manualImages = [
       "billeder/slide-01.jpg",
       "billeder/slide-02.jpg",
@@ -455,7 +449,6 @@
     function startSlideshow(images) {
       const stage = document.querySelector("#stage");
       const cleanImages = images.filter(Boolean);
-
       if (!cleanImages.length) return;
 
       const imgA = document.createElement("img");
@@ -475,7 +468,6 @@
       function next() {
         index = (index + 1) % cleanImages.length;
         back.src = cleanImages[index];
-
         back.onload = () => {
           back.classList.add("active");
           front.classList.remove("active");
