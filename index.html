@@ -92,30 +92,31 @@
       backdrop-filter: blur(8px);
       overflow: hidden;
       display: grid;
-      grid-template-columns: 1.1fr .72fr;
+      grid-template-columns: 1.08fr .78fr;
     }
 
     .identity {
-      padding: clamp(1.7rem, 4vw, 3.5rem);
+      padding: clamp(1.8rem, 4vw, 3.7rem);
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      justify-content: center;
       gap: 2rem;
       position: relative;
+      min-height: 540px;
     }
 
     .identity::before {
       content: "";
       position: absolute;
       inset: 0;
-      background:
-        linear-gradient(135deg, rgba(0,0,0,.12), transparent 55%);
+      background: linear-gradient(135deg, rgba(0,0,0,.12), transparent 55%);
       pointer-events: none;
     }
 
     .brand {
       position: relative;
       z-index: 1;
+      max-width: 620px;
     }
 
     .mark {
@@ -156,54 +157,6 @@
       text-shadow: 0 4px 16px rgba(0,0,0,.32);
     }
 
-    .nav {
-      position: relative;
-      z-index: 1;
-      display: flex;
-      flex-wrap: wrap;
-      gap: .75rem;
-      align-items: center;
-    }
-
-    a, button { font: inherit; }
-
-    .button {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 3.15rem;
-      padding: .82rem 1.08rem;
-      border-radius: 999px;
-      border: 1px solid rgba(255,255,255,.18);
-      background: rgba(255,255,255,.10);
-      color: var(--ink);
-      text-decoration: none;
-      cursor: pointer;
-      font-weight: 850;
-      transition: transform .16s ease, background .16s ease, border-color .16s ease;
-      box-shadow: 0 8px 26px rgba(0,0,0,.12);
-    }
-
-    .button.primary {
-      background: var(--accent);
-      color: #061018;
-      border-color: transparent;
-      box-shadow: 0 14px 42px rgba(167,243,208,.18);
-    }
-
-    .button:hover,
-    .button:focus-visible {
-      outline: none;
-      transform: translateY(-1px);
-      background: rgba(255,255,255,.16);
-      border-color: rgba(167,243,208,.44);
-    }
-
-    .button.primary:hover,
-    .button.primary:focus-visible {
-      background: #bbf7d8;
-    }
-
     .side {
       padding: clamp(1.2rem, 3vw, 2rem);
       display: grid;
@@ -215,6 +168,7 @@
       border-left: 1px solid rgba(255,255,255,.09);
     }
 
+    .pane-link,
     .pane {
       border-radius: 26px;
       border: 1px solid rgba(255,255,255,.14);
@@ -222,6 +176,21 @@
       backdrop-filter: blur(10px);
       padding: 1.25rem 1.25rem 1.2rem;
       box-shadow: 0 16px 40px rgba(0,0,0,.14);
+    }
+
+    .pane-link {
+      display: block;
+      text-decoration: none;
+      color: var(--ink);
+      transition: transform .16s ease, background .16s ease, border-color .16s ease;
+    }
+
+    .pane-link:hover,
+    .pane-link:focus-visible {
+      outline: none;
+      transform: translateY(-2px);
+      background: rgba(255,255,255,.10);
+      border-color: rgba(167,243,208,.44);
     }
 
     .eyebrow {
@@ -234,6 +203,7 @@
       margin-bottom: .45rem;
     }
 
+    .pane-link h2,
     .pane h2 {
       margin: 0;
       font-size: clamp(1.7rem, 2.8vw, 2.3rem);
@@ -241,6 +211,7 @@
       letter-spacing: -.045em;
     }
 
+    .pane-link p,
     .pane p {
       margin: .7rem 0 0;
       color: var(--muted);
@@ -249,8 +220,8 @@
       max-width: 22ch;
     }
 
-    .contact h3 {
-      margin: 0 0 .85rem;
+    .contact h2 {
+      margin: 0 0 .95rem;
       font-size: 1.9rem;
       line-height: 1;
       letter-spacing: -.04em;
@@ -261,8 +232,8 @@
       gap: .75rem;
     }
 
-    .contact-item,
-    .contact button {
+    .contact-action,
+    .contact-item {
       width: 100%;
       text-align: left;
       text-decoration: none;
@@ -270,18 +241,19 @@
       border-radius: 18px;
       background: rgba(255,255,255,.06);
       color: var(--ink);
-      padding: .9rem 1rem;
+      padding: .95rem 1rem;
       cursor: pointer;
-      transition: background .16s ease, border-color .16s ease;
+      transition: background .16s ease, border-color .16s ease, transform .16s ease;
     }
 
+    .contact-action:hover,
+    .contact-action:focus-visible,
     .contact-item:hover,
-    .contact-item:focus-visible,
-    .contact button:hover,
-    .contact button:focus-visible {
+    .contact-item:focus-visible {
       outline: none;
       background: rgba(255,255,255,.11);
       border-color: rgba(167,243,208,.40);
+      transform: translateY(-1px);
     }
 
     .label {
@@ -322,20 +294,9 @@
       h1 {
         max-width: none;
       }
-    }
 
-    @media (max-width: 560px) {
-      .nav {
-        flex-direction: column;
-        align-items: stretch;
-      }
-
-      .button {
-        width: 100%;
-      }
-
-      .pane p {
-        max-width: none;
+      .identity {
+        min-height: 0;
       }
     }
   </style>
@@ -351,34 +312,27 @@
           <h1>Måns<br>Mårtensson</h1>
           <p class="tagline">Musik, undervisning og digitale værktøjer.</p>
         </div>
-
-        <nav class="nav" aria-label="Hovedlinks">
-          <a class="button primary" href="https://tavle.måns.dk/">Åbn TavleApp</a>
-          <a class="button" href="https://akustisk-elektrisk.dk/">Akustisk-Elektrisk</a>
-          <button class="button" type="button" onclick="openMail()">Kontakt</button>
-        </nav>
       </section>
 
       <aside class="side" aria-label="Links og kontakt">
-        <section class="pane">
+        <a class="pane-link" href="https://tavle.måns.dk/" aria-label="Åbn TavleApp">
           <span class="eyebrow">Undervisning</span>
           <h2>TavleApp</h2>
           <p>Et fleksibelt digitalt tavlemiljø til undervisning, PDF’er, data og materialer.</p>
-        </section>
+        </a>
 
-        <section class="pane">
+        <a class="pane-link" href="https://akustisk-elektrisk.dk/" aria-label="Åbn Akustisk-Elektrisk">
           <span class="eyebrow">Musik</span>
           <h2>Akustisk-Elektrisk</h2>
           <p>Min og Ebbes Balkan-duo. Mere info på akustisk-elektrisk.dk.</p>
-        </section>
+        </a>
 
         <section class="pane contact" aria-label="Kontakt">
-          <h3>Kontakt</h3>
+          <h2>Kontakt</h2>
           <div class="contact-grid">
-            <button type="button" onclick="openMail()">
+            <button class="contact-action" type="button" onclick="openMail()">
               <span class="label">Mail</span>
-              <span class="value">humamamm [snabel-a] gmail [punktum] com</span>
-              <span class="hint">Klik for at åbne mailprogrammet.</span>
+              <span class="value">Skriv en mail</span>
             </button>
 
             <a class="contact-item" href="tel:+4522155547">
@@ -406,7 +360,6 @@
       folder: "billeder"
     };
 
-    // Fallback-liste, hvis GitHub API-listning ikke virker
     const manualImages = [
       "billeder/slide-01.jpg",
       "billeder/slide-02.jpg",
