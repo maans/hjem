@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Måns Mårtensson</title>
+  <title>Om mig – Måns Mårtensson</title>
+  <meta name="description" content="Om Måns Mårtensson – lærer, musiker og udvikler af digitale undervisningsværktøjer.">
   <style>
 :root {
   --ink: #f8fafc;
@@ -303,55 +304,165 @@ body { min-height: 100svh; overflow-x: hidden; }
   .cards, .band-list, .gallery { grid-template-columns: 1fr; }
   .event { grid-template-columns: 1fr; }
 }
+
+.about-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(240px, .7fr);
+  gap: 1rem;
+}
+.about-copy {
+  border-radius: 26px;
+  border: 1px solid rgba(255,255,255,.14);
+  background: var(--glass-strong);
+  backdrop-filter: blur(10px);
+  padding: clamp(1.25rem, 3vw, 2rem);
+  box-shadow: 0 16px 40px rgba(0,0,0,.14);
+}
+.about-copy p {
+  margin: 0 0 1.05rem;
+  color: var(--muted);
+  font-size: 1.04rem;
+  line-height: 1.62;
+}
+.about-copy p:last-child {
+  margin-bottom: 0;
+}
+.about-copy a {
+  color: var(--accent);
+  font-weight: 800;
+  text-decoration: none;
+}
+.about-copy a:hover,
+.about-copy a:focus-visible {
+  text-decoration: underline;
+  outline: none;
+}
+.about-side {
+  display: grid;
+  align-content: start;
+  gap: 1rem;
+}
+.fact {
+  border-radius: 22px;
+  border: 1px solid rgba(255,255,255,.13);
+  background: rgba(8,10,18,.40);
+  padding: 1.1rem;
+}
+.fact strong {
+  display: block;
+  font-size: 1.08rem;
+  margin-bottom: .35rem;
+}
+.fact span {
+  color: var(--muted);
+  line-height: 1.42;
+}
+.school-link {
+  display: block;
+  text-decoration: none;
+  color: var(--ink);
+  border-radius: 22px;
+  border: 1px solid rgba(255,255,255,.14);
+  background: rgba(255,255,255,.07);
+  padding: 1.1rem;
+  transition: transform .16s ease, background .16s ease, border-color .16s ease;
+}
+.school-link:hover,
+.school-link:focus-visible {
+  outline: none;
+  transform: translateY(-2px);
+  background: rgba(255,255,255,.11);
+  border-color: rgba(167,243,208,.44);
+}
+.school-link strong {
+  display: block;
+  font-size: 1.1rem;
+}
+.school-link span {
+  display: block;
+  color: var(--soft);
+  margin-top: .35rem;
+}
+@media (max-width: 820px) {
+  .about-layout {
+    grid-template-columns: 1fr;
+  }
+}
 </style>
 </head>
 <body>
   <div class="stage" id="stage" aria-hidden="true"></div>
   
 <main class="page">
-  <section class="shell home-grid">
-    <section class="identity">
-      <div>
-        <p class="mark"><span class="dot"></span> måns.dk</p>
-        <h1 class="hero">Måns<br>Mårtensson</h1>
-        <p class="tagline">Musik, undervisning og digitale værktøjer.</p>
+  <section class="shell subshell">
+    <div class="topbar">
+      <div class="titleblock">
+        <p class="mark"><span class="dot"></span> Profil</p>
+        <h1>Om mig</h1>
+        <p class="lead">Undervisning, musik og udvikling af digitale værktøjer.</p>
       </div>
-    </section>
-    <aside class="side">
-      <a class="pane-link" href="apps.html">
-        <span class="eyebrow">Apps</span>
-        <h2>Værktøjer</h2>
-        <p>Plan, Tavle, Skriv og Tjek samlet ét sted.</p>
-      </a>
-      <a class="pane-link" href="musik.html">
-        <span class="eyebrow">Musik</span>
-        <h2>Orkestre</h2>
-        <p>Orkestre, playliste, billeder og aktivitetskalender.</p>
-      </a>
-      <a class="pane-link" href="om.html">
-        <span class="eyebrow">Profil</span>
-        <h2>Om mig</h2>
-        <p>Undervisning, musik og udvikling af digitale værktøjer.</p>
-      </a>
-      <section class="pane">
-        <h2>Kontakt</h2>
-        <div class="contact-grid">
-          <button class="contact-action" onclick="openMail()">
-            <span class="label">Mail</span>
-            <span class="value">Skriv en mail</span>
-          </button>
-          <a class="contact-item" href="tel:+4522155547">
-            <span class="label">Telefon</span>
-            <span class="value">22 15 55 47</span>
-          </a>
+      <a class="back" href="index.html">← Forsiden</a>
+    </div>
+
+    <div class="about-layout">
+      <article class="about-copy">
+        <p>
+          Jeg hedder Måns Mårtensson og har arbejdet på
+          <a href="https://himmerlandsefterskole.dk" target="_blank" rel="noopener">Himmerlands Efterskole</a>
+          siden 1998. Her underviser jeg blandt andet i dansk, musik og filosofi/psykologi,
+          arbejder som støttelærer og har ansvar for skolens IT og tekniske løsninger.
+        </p>
+
+        <p>
+          Jeg interesserer mig særligt for mødet mellem undervisning, kreativitet og teknologi.
+          Derfor udvikler jeg også digitale værktøjer som Plan, Tavle, Skriv og Tjek.
+          De er vokset ud af konkrete behov i skolens hverdag og skal gøre planlægning,
+          undervisning, elevarbejde og praktisk organisering mere overskuelig.
+        </p>
+
+        <p>
+          Musikken fylder også meget i mit liv. Jeg spiller guitar og andre strengeinstrumenter
+          i flere orkestre og musikalske sammenhænge inden for blandt andet jazz, Balkan,
+          verdensmusik, kirke, pop og klassisk musik. Jeg optræder desuden med instrumental
+          sologuitar og ledsager fællessang.
+        </p>
+
+        <p>
+          Fælles for mit arbejde med undervisning, musik og digitale værktøjer er ønsket om
+          at skabe noget, der fungerer i praksis og bringer mennesker sammen.
+        </p>
+      </article>
+
+      <aside class="about-side">
+        <div class="fact">
+          <span class="eyebrow">Skole</span>
+          <strong>Himmerlands Efterskole</strong>
+          <span>Ansat siden 1998.</span>
         </div>
-      </section>
-    </aside>
+
+        <div class="fact">
+          <span class="eyebrow">Arbejdsområder</span>
+          <strong>Undervisning og støtte</strong>
+          <span>Dansk, musik, filosofi/psykologi, støttelærer og IT-ansvar.</span>
+        </div>
+
+        <div class="fact">
+          <span class="eyebrow">Musik</span>
+          <strong>Guitar og strengeinstrumenter</strong>
+          <span>Orkestre, duoer, instrumental sologuitar og ledsagelse til fællessang.</span>
+        </div>
+
+        <a class="school-link" href="https://himmerlandsefterskole.dk" target="_blank" rel="noopener">
+          <span class="eyebrow">Besøg skolen</span>
+          <strong>Himmerlands Efterskole →</strong>
+          <span>Åbner skolens hjemmeside.</span>
+        </a>
+      </aside>
+    </div>
   </section>
 </main>
 
-  
-<script>
+  <script>
 const githubImageSource = {
   owner: "maans",
   repo: "hjem",
@@ -419,6 +530,5 @@ async function fillGallery() {
 getImagesFromGitHub().then(startSlideshow);
 fillGallery();
 </script>
-
 </body>
 </html>

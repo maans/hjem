@@ -45,3 +45,10 @@ Kalenderrettelse:
 - Kalenderhændelserne er nu skrevet direkte ind i kalender.html.
 - De bliver derfor vist, selv hvis JavaScript ikke afvikles.
 - Upload kalender.html sammen med de øvrige filer, eller upload hele denne pakke.
+
+
+Samlet opdatering:
+- Forsiden har nu et selvstændigt felt til Om mig.
+- om.html indeholder den mellemlange biografi.
+- Der er link til https://himmerlandsefterskole.dk.
+- Pakken indeholder fortsat apps, musik, playliste, billeder, kalender og billedmappe.
