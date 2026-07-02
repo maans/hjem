@@ -303,76 +303,6 @@ body { min-height: 100svh; overflow-x: hidden; }
   .cards, .band-list, .gallery { grid-template-columns: 1fr; }
   .event { grid-template-columns: 1fr; }
 }
-
-.calendar-groups { display: grid; gap: 1.2rem; }
-.calendar-group {
-  border-radius: 24px;
-  border: 1px solid rgba(255,255,255,.14);
-  background: var(--glass-strong);
-  padding: 1rem;
-}
-.calendar-group h2 {
-  margin: .15rem 0 1rem;
-  font-size: clamp(1.5rem, 3vw, 2rem);
-}
-.event-list { display: grid; gap: .75rem; }
-.music-event {
-  display: grid;
-  grid-template-columns: minmax(8rem, 10rem) 1fr;
-  gap: 1rem;
-  align-items: start;
-  border-radius: 18px;
-  border: 1px solid rgba(255,255,255,.12);
-  background: rgba(255,255,255,.055);
-  padding: .95rem 1rem;
-}
-.music-event.past { opacity: .76; }
-.event-date {
-  color: var(--accent);
-  font-weight: 900;
-  line-height: 1.25;
-}
-.event-time {
-  display: block;
-  color: var(--soft);
-  font-size: .86rem;
-  margin-top: .2rem;
-}
-.event-main h3 {
-  margin: 0;
-  font-size: 1.16rem;
-}
-.event-main p {
-  margin: .35rem 0 0;
-  color: var(--muted);
-  line-height: 1.4;
-}
-.event-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: .45rem;
-  margin-top: .6rem;
-}
-.event-badge {
-  display: inline-flex;
-  border-radius: 999px;
-  padding: .28rem .58rem;
-  border: 1px solid rgba(255,255,255,.15);
-  color: var(--soft);
-  font-size: .76rem;
-  font-weight: 800;
-}
-.event-badge.gig { color: var(--warm); }
-.event-badge.solo { color: var(--accent); }
-.calendar-note {
-  color: var(--soft);
-  font-size: .9rem;
-  line-height: 1.45;
-  margin-top: 1rem;
-}
-@media (max-width: 640px) {
-  .music-event { grid-template-columns: 1fr; }
-}
 </style>
 </head>
 <body>
@@ -384,79 +314,39 @@ body { min-height: 100svh; overflow-x: hidden; }
       <div class="titleblock">
         <p class="mark"><span class="dot"></span> Musik</p>
         <h1>Aktivitetskalender</h1>
-        <p class="lead">Øvninger og optrædener fra foråret 2026 samt de aftaler, der fremgår hen over sommeren og videre frem.</p>
+        <p class="lead">Koncerter, øvere og andre musikaktiviteter. Kalenderen ligger kun her på sin egen side.</p>
       </div>
       <a class="back" href="musik.html">← Musik</a>
     </div>
-
-    <div class="calendar-groups">
-      <section class="calendar-group">
-        <span class="eyebrow">På vej</span>
-        <h2>Kommende aktiviteter</h2>
-        <div id="upcomingEvents" class="event-list"></div>
-      </section>
-
-      <section class="calendar-group">
-        <span class="eyebrow">Forår 2026</span>
-        <h2>Tidligere aktiviteter</h2>
-        <div id="pastEvents" class="event-list"></div>
-      </section>
-    </div>
-
-    <p class="calendar-note">
-      Kalenderen viser kun aftaler, der tydeligt fremstår som orkesterprøver, koncerter eller solooptrædener.
-      Private adresser og øvrige kalenderaftaler er ikke medtaget.
-    </p>
+    <section class="pane">
+      <div id="calendar" class="calendar"></div>
+    </section>
   </section>
 </main>
 
-  
 <script>
-const events = [{"key": "2026-05-04", "date": "4. maj 2026", "time": "18.55–22.30", "title": "Helles jazzkvintet", "description": "Øvning som kvintet.", "type": "Øvning", "solo": false}, {"key": "2026-05-06", "date": "6. maj 2026", "time": "19.00–23.20", "title": "SilbaÄtno", "description": "Øvning med verdensmusikorkestret.", "type": "Øvning", "solo": false}, {"key": "2026-05-07", "date": "7. maj 2026", "time": "18.25–22.35", "title": "Birdland Bigband", "description": "Bigbandprøve.", "type": "Øvning", "solo": false}, {"key": "2026-05-09", "date": "9. maj 2026", "time": "09.00–12.30", "title": "Kim Bernth’s kirke trio", "description": "Konfirmation i Bislev Kirke.", "type": "Optræden", "solo": false}, {"key": "2026-05-10", "date": "10. maj 2026", "time": "09.00–14.30", "title": "Kim Bernth’s kirke trio", "description": "Konfirmation i Sebber Kirke.", "type": "Optræden", "solo": false}, {"key": "2026-05-13", "date": "13. maj 2026", "time": "11.00–13.00", "title": "Kim Bernth’s kirke trio", "description": "Lydprøve og opstilling.", "type": "Øvning", "solo": false}, {"key": "2026-05-14", "date": "14. maj 2026", "time": "08.00–14.30", "title": "Kim Bernth’s kirke trio", "description": "Tre konfirmationer i Ejdrup Kirke.", "type": "Optræden", "solo": false}, {"key": "2026-05-18", "date": "18. maj 2026", "time": "18.55–22.30", "title": "Helles jazzkvintet", "description": "Øvning som kvartet.", "type": "Øvning", "solo": false}, {"key": "2026-05-20", "date": "20. maj 2026", "time": "19.00–23.25", "title": "SilbaÄtno", "description": "Øvning i Kolding.", "type": "Øvning", "solo": false}, {"key": "2026-05-21", "date": "21. maj 2026", "time": "18.25–22.30", "title": "Birdland Bigband", "description": "Bigbandprøve.", "type": "Øvning", "solo": false}, {"key": "2026-05-27", "date": "27. maj 2026", "time": "18.00–21.00", "title": "Kim Bernth’s kirke trio", "description": "Øvning med kor i Ejdrup.", "type": "Øvning", "solo": false}, {"key": "2026-05-28", "date": "28. maj 2026", "time": "12.00–23.30", "title": "Akustisk-Elektrisk", "description": "Øvning hos Ebbe.", "type": "Øvning", "solo": false}, {"key": "2026-05-31", "date": "31. maj 2026", "time": "09.30–13.00", "title": "Kim Bernth’s kirke trio", "description": "Rytmisk gudstjeneste i Ejdrup.", "type": "Optræden", "solo": false}, {"key": "2026-06-01", "date": "1. juni 2026", "time": "19.00–21.55", "title": "Helles jazzkvintet", "description": "Øvning.", "type": "Øvning", "solo": false}, {"key": "2026-06-03", "date": "3. juni 2026", "time": "19.00–23.25", "title": "SilbaÄtno", "description": "Øvning i Kolding.", "type": "Øvning", "solo": false}, {"key": "2026-06-04", "date": "4. juni 2026", "time": "08.05–13.55", "title": "Akustisk-Elektrisk", "description": "Øvning med Ebbe.", "type": "Øvning", "solo": false}, {"key": "2026-06-04", "date": "4. juni 2026", "time": "18.25–22.30", "title": "Birdland Bigband", "description": "Bigbandprøve.", "type": "Øvning", "solo": false}, {"key": "2026-06-10", "date": "10. juni 2026", "time": "19.00–23.25", "title": "SilbaÄtno", "description": "Øvning.", "type": "Øvning", "solo": false}, {"key": "2026-06-12", "date": "12. juni 2026", "time": "11.30–13.30", "title": "Lotte Lofn orkester", "description": "Øvning.", "type": "Øvning", "solo": false}, {"key": "2026-06-13", "date": "13. juni 2026", "time": "10.00–12.00", "title": "SilbaÄtno", "description": "Øvning.", "type": "Øvning", "solo": false}, {"key": "2026-06-15", "date": "15. juni 2026", "time": "19.00–22.05", "title": "Helles jazzkvintet", "description": "Øvning.", "type": "Øvning", "solo": false}, {"key": "2026-06-17", "date": "17. juni 2026", "time": "19.00–23.25", "title": "SilbaÄtno", "description": "Øvning.", "type": "Øvning", "solo": false}, {"key": "2026-06-18", "date": "18. juni 2026", "time": "18.25–22.30", "title": "Birdland Bigband", "description": "Bigbandprøve.", "type": "Øvning", "solo": false}, {"key": "2026-06-20", "date": "20. juni 2026", "time": "10.00–23.00", "title": "Vrads Festival", "description": "Festival og musikaktivitet.", "type": "Optræden", "solo": false}, {"key": "2026-06-23", "date": "23. juni 2026", "time": "15.30–21.00", "title": "Sankt Hans hos Dorthe", "description": "Solooptræden.", "type": "Optræden", "solo": true}, {"key": "2026-06-29", "date": "29. juni 2026", "time": "19.00–22.05", "title": "Helles jazzkvintet", "description": "Øvning.", "type": "Øvning", "solo": false}, {"key": "2026-07-23", "date": "23.–26. juli 2026", "time": "Fra kl. 13.00", "title": "Under Solen Festival", "description": "Festival og musikaktivitet.", "type": "Optræden", "solo": false}, {"key": "2026-08-01", "date": "1. august 2026", "time": "10.00–21.00", "title": "SilbaÄtno", "description": "Musik ved bryllup.", "type": "Optræden", "solo": false}, {"key": "2026-08-15", "date": "15. august 2026", "time": "Musik ca. 14.00–15.30", "title": "Privat arrangement", "description": "Solooptræden ved sølvbryllup.", "type": "Optræden", "solo": true}, {"key": "2026-08-24", "date": "24. august 2026", "time": "19.00–22.10", "title": "Helles jazzkvintet", "description": "Foreløbig øvning.", "type": "Øvning", "solo": false}, {"key": "2026-09-30", "date": "30. september 2026", "time": "18.00–21.30", "title": "Fællessang i Søttrup", "description": "Sololedsagelse til fællessange i Kultur- og Debathuset.", "type": "Optræden", "solo": true}];
-const today = new Date();
-today.setHours(0,0,0,0);
+const events = [
+  // Eksempel:
+  // { date: "12. september 2026", title: "Koncert med Birdland Bigband", place: "Aalborg", note: "Kl. 19.30" }
+];
 
-function eventDate(key) {
-  const [year, month, day] = key.split("-").map(Number);
-  return new Date(year, month - 1, day);
-}
-
-function eventMarkup(event, past = false) {
-  const typeClass = event.type === "Optræden" ? "gig" : "";
-  const solo = event.solo ? '<span class="event-badge solo">Solo</span>' : "";
-  return `
-    <article class="music-event ${past ? "past" : ""}">
-      <div class="event-date">
-        ${event.date}
-        <span class="event-time">${event.time}</span>
-      </div>
-      <div class="event-main">
+const calendar = document.querySelector("#calendar");
+if (!events.length) {
+  calendar.innerHTML = '<p class="empty">Der er endnu ikke lagt aktiviteter ind.</p>';
+} else {
+  calendar.innerHTML = events.map(event => `
+    <article class="event">
+      <div class="event-date">${event.date}</div>
+      <div>
         <h3>${event.title}</h3>
-        <p>${event.description}</p>
-        <div class="event-meta">
-          <span class="event-badge ${typeClass}">${event.type}</span>
-          ${solo}
-        </div>
+        <p>${[event.place, event.note].filter(Boolean).join(" · ")}</p>
       </div>
-    </article>`;
+    </article>
+  `).join("");
 }
-
-const upcoming = events
-  .filter(event => eventDate(event.key) >= today)
-  .sort((a,b) => eventDate(a.key) - eventDate(b.key));
-
-const past = events
-  .filter(event => eventDate(event.key) < today)
-  .sort((a,b) => eventDate(b.key) - eventDate(a.key));
-
-document.querySelector("#upcomingEvents").innerHTML =
-  upcoming.length ? upcoming.map(event => eventMarkup(event)).join("") :
-  '<p class="empty">Der er ikke flere kommende musikaktiviteter i den importerede kalender.</p>';
-
-document.querySelector("#pastEvents").innerHTML =
-  past.length ? past.map(event => eventMarkup(event, true)).join("") :
-  '<p class="empty">Ingen tidligere aktiviteter fundet.</p>';
 </script>
+
+  
 <script>
 const githubImageSource = {
   owner: "maans",
@@ -525,5 +415,6 @@ async function fillGallery() {
 getImagesFromGitHub().then(startSlideshow);
 fillGallery();
 </script>
+
 </body>
 </html>

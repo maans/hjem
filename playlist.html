@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Billeder – Måns Mårtensson</title>
+  <title>YouTube-playliste – Måns Mårtensson</title>
   <style>
 :root {
   --ink: #f8fafc;
@@ -313,12 +313,18 @@ body { min-height: 100svh; overflow-x: hidden; }
     <div class="topbar">
       <div class="titleblock">
         <p class="mark"><span class="dot"></span> Musik</p>
-        <h1>Billeder</h1>
-        <p class="lead">Billederne hentes automatisk fra mappen <strong>billeder</strong>.</p>
+        <h1>YouTube-playliste</h1>
+        <p class="lead">En indlejret playliste med musik og videoer.</p>
       </div>
       <a class="back" href="musik.html">← Musik</a>
     </div>
-    <section id="gallery" class="gallery"></section>
+    <section class="embed-wrap">
+      <iframe class="embed"
+        src="https://www.youtube.com/embed/videoseries?list=PLR_LbKTsad04"
+        title="Måns Mårtenssons YouTube-playliste"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </section>
   </section>
 </main>
 
