@@ -347,6 +347,16 @@ body { min-height: 100svh; overflow-x: hidden; }
   color: var(--muted);
   line-height: 1.4;
 }
+.event-link {
+  display: inline-flex;
+  margin-top: .65rem;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 800;
+}
+.event-link:hover, .event-link:focus-visible {
+  text-decoration: underline;
+}
 .event-meta {
   display: flex;
   flex-wrap: wrap;
@@ -373,34 +383,6 @@ body { min-height: 100svh; overflow-x: hidden; }
 @media (max-width: 640px) {
   .music-event { grid-template-columns: 1fr; }
 }
-
-.event-link {
-  color: inherit;
-  text-decoration: none;
-}
-.event-link:hover,
-.event-link:focus-visible {
-  color: var(--accent);
-  outline: none;
-}
-.event-program {
-  display: inline-flex;
-  align-items: center;
-  color: var(--accent);
-  text-decoration: none;
-  font-size: .82rem;
-  font-weight: 850;
-  padding: .28rem .58rem;
-  border-radius: 999px;
-  border: 1px solid rgba(167,243,208,.28);
-  background: rgba(167,243,208,.07);
-}
-.event-program:hover,
-.event-program:focus-visible {
-  background: rgba(167,243,208,.14);
-  outline: none;
-}
-
 </style>
 </head>
 <body>
@@ -422,18 +404,17 @@ body { min-height: 100svh; overflow-x: hidden; }
           <span class="eyebrow">På vej</span>
           <h2>Kommende aktiviteter</h2>
           <div class="event-list">
-
           <article class="music-event">
             <div class="event-date">
               24. juli 2026
               <span class="event-time">16.30–17.30</span>
             </div>
             <div class="event-main">
-              <h3><a class="event-link" href="https://undersolenfestival.dk/#program2026">Under Solen Festival</a></h3>
+              <h3>Under Solen Festival</h3>
               <p>Koncert på festivalen.</p>
+              <a class="event-link" href="https://undersolenfestival.dk/#program2026" target="_blank" rel="noopener">Festivalprogram og info →</a>
               <div class="event-meta">
-                <span class="event-badge gig">Optræden</span>
-                <a class="event-program" href="https://undersolenfestival.dk/#program2026">Se festivalprogrammet →</a>
+                <span class="event-badge gig">Optræden</span><span class="event-badge">Festival</span>
               </div>
             </div>
           </article>

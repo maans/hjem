@@ -45,8 +45,3 @@ Kalenderrettelse:
 - Kalenderhændelserne er nu skrevet direkte ind i kalender.html.
 - De bliver derfor vist, selv hvis JavaScript ikke afvikles.
 - Upload kalender.html sammen med de øvrige filer, eller upload hele denne pakke.
-
-
-Kalenderrettelse:
-- Under Solen Festival er rettet til 24. juli 2026 kl. 16.30–17.30.
-- Kalenderposten linker til festivalens programside.

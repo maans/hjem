@@ -262,9 +262,101 @@ body { min-height: 100svh; overflow-x: hidden; }
   border-radius: 18px;
   background: #000;
 }
+.showcase {
+  margin: 0 0 1rem;
+}
+.feature-button {
+  width: 100%;
+  display: block;
+  padding: 0;
+  border: 1px solid rgba(255,255,255,.14);
+  border-radius: 28px;
+  overflow: hidden;
+  cursor: zoom-in;
+  background: var(--glass-strong);
+  box-shadow: 0 16px 40px rgba(0,0,0,.14);
+}
+.feature-button:hover .feature-image,
+.feature-button:focus-visible .feature-image {
+  transform: scale(1.02);
+  filter: saturate(1.06) brightness(1.05);
+}
+.feature-button:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+.feature-frame {
+  position: relative;
+  aspect-ratio: 16/9;
+  min-height: 220px;
+  background: rgba(255,255,255,.04);
+}
+.feature-frame::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,.08), rgba(0,0,0,.22));
+}
+.feature-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform .35s ease, filter .35s ease, opacity .35s ease;
+}
+.feature-overlay {
+  position: absolute;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.feature-label,
+.feature-counter {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.35rem;
+  padding: .5rem .8rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,.18);
+  background: rgba(8,10,18,.5);
+  backdrop-filter: blur(10px);
+}
+.feature-label {
+  color: rgba(255,255,255,.92);
+  font-weight: 800;
+}
+.feature-counter {
+  color: var(--soft);
+  font-weight: 700;
+}
+.feature-dots {
+  position: absolute;
+  left: 50%;
+  bottom: 1.25rem;
+  transform: translateX(-50%);
+  z-index: 2;
+  display: flex;
+  gap: .45rem;
+}
+.feature-dot {
+  width: .6rem;
+  height: .6rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,.22);
+  background: rgba(255,255,255,.22);
+}
+.feature-dot.active {
+  background: var(--accent);
+  box-shadow: 0 0 16px rgba(167,243,208,.45);
+}
 .gallery {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: .9rem;
 }
 .gallery img {
@@ -347,46 +439,103 @@ body { min-height: 100svh; overflow-x: hidden; }
   border-radius: 14px;
   box-shadow: 0 24px 90px rgba(0,0,0,.6);
 }
+.lightbox-actions {
+  position: fixed;
+  top: max(.8rem, env(safe-area-inset-top));
+  right: max(.8rem, env(safe-area-inset-right));
+  z-index: 1002;
+  display: flex;
+  gap: .65rem;
+}
 .lightbox-close,
 .lightbox-prev,
 .lightbox-next,
 .lightbox-fullscreen {
   position: fixed;
   z-index: 1001;
-  border: 1px solid rgba(255,255,255,.22);
-  background: rgba(10,12,20,.72);
+  border: 1px solid rgba(255,255,255,.28);
+  background: rgba(10,12,20,.82);
   color: white;
-  width: 3.1rem;
-  height: 3.1rem;
+  width: 3.55rem;
+  height: 3.55rem;
   border-radius: 999px;
   font: inherit;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   cursor: pointer;
-  backdrop-filter: blur(12px);
+  backdrop-filter: blur(14px);
+  box-shadow: 0 10px 30px rgba(0,0,0,.28);
+  transition: transform .16s ease, background .16s ease, border-color .16s ease;
 }
-.lightbox-close { top: 1rem; right: 1rem; }
-.lightbox-fullscreen { top: 1rem; right: 4.8rem; }
-.lightbox-prev { left: 1rem; top: 50%; transform: translateY(-50%); }
-.lightbox-next { right: 1rem; top: 50%; transform: translateY(-50%); }
+.lightbox-close,
+.lightbox-fullscreen {
+  position: static;
+}
+.lightbox-close:hover,
+.lightbox-prev:hover,
+.lightbox-next:hover,
+.lightbox-fullscreen:hover,
+.lightbox-close:focus-visible,
+.lightbox-prev:focus-visible,
+.lightbox-next:focus-visible,
+.lightbox-fullscreen:focus-visible {
+  transform: scale(1.04);
+  background: rgba(18,22,34,.92);
+  border-color: rgba(167,243,208,.42);
+  outline: none;
+}
+.lightbox-prev,
+.lightbox-next {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.lightbox-prev { left: max(.85rem, env(safe-area-inset-left)); }
+.lightbox-next { right: max(.85rem, env(safe-area-inset-right)); }
 .lightbox-counter {
   position: fixed;
   left: 50%;
-  bottom: 1rem;
+  bottom: max(1rem, env(safe-area-inset-bottom));
   transform: translateX(-50%);
-  color: rgba(255,255,255,.78);
-  background: rgba(10,12,20,.66);
+  color: rgba(255,255,255,.82);
+  background: rgba(10,12,20,.72);
   border: 1px solid rgba(255,255,255,.16);
   border-radius: 999px;
-  padding: .5rem .85rem;
+  padding: .56rem .92rem;
   backdrop-filter: blur(10px);
+  z-index: 1002;
+}
+@media (max-width: 800px) {
+  .lightbox-prev, .lightbox-next {
+    width: 3.15rem;
+    height: 3.15rem;
+  }
 }
 @media (max-width: 640px) {
+  .feature-frame {
+    aspect-ratio: 4/3;
+  }
+  .feature-overlay {
+    left: .75rem;
+    right: .75rem;
+    bottom: .75rem;
+  }
+  .lightbox-actions {
+    top: max(.6rem, env(safe-area-inset-top));
+    right: max(.6rem, env(safe-area-inset-right));
+  }
+  .lightbox-close,
+  .lightbox-fullscreen,
+  .lightbox-prev,
+  .lightbox-next {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.35rem;
+  }
   .lightbox-prev, .lightbox-next {
     top: auto;
-    bottom: 1rem;
+    bottom: max(4.5rem, env(safe-area-inset-bottom));
     transform: none;
   }
-  .lightbox-counter { bottom: 1.55rem; }
+  .lightbox-counter { bottom: max(1rem, env(safe-area-inset-bottom)); }
 }
 </style>
 </head>
@@ -403,13 +552,27 @@ body { min-height: 100svh; overflow-x: hidden; }
       </div>
       <a class="back" href="musik.html">← Musik</a>
     </div>
+    <section class="showcase" aria-label="Udvalgte billeder">
+      <button id="featureButton" class="feature-button" type="button" aria-label="Åbn det viste billede i stor visning">
+        <div class="feature-frame">
+          <img id="featureImage" class="feature-image" alt="Udvalgt musikbillede">
+          <div class="feature-overlay">
+            <span class="feature-label">Udvalgte billeder</span>
+            <span id="featureCounter" class="feature-counter">1 / 1</span>
+          </div>
+          <div id="featureDots" class="feature-dots" aria-hidden="true"></div>
+        </div>
+      </button>
+    </section>
     <section id="gallery" class="gallery" aria-label="Billedgalleri"></section>
   </section>
 </main>
 
 <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Billede i fuldskærmsvisning">
-  <button class="lightbox-close" type="button" aria-label="Luk">×</button>
-  <button class="lightbox-fullscreen" type="button" aria-label="Brug browserens fuldskærm">⛶</button>
+  <div class="lightbox-actions">
+    <button class="lightbox-fullscreen" type="button" aria-label="Brug browserens fuldskærm">⛶</button>
+    <button class="lightbox-close" type="button" aria-label="Luk">×</button>
+  </div>
   <button class="lightbox-prev" type="button" aria-label="Forrige billede">‹</button>
   <img id="lightboxImage" class="lightbox-image" alt="">
   <button class="lightbox-next" type="button" aria-label="Næste billede">›</button>
@@ -476,13 +639,19 @@ function startSlideshow(images) {
 
 let galleryImages = [];
 let activeIndex = 0;
+let featureIndex = 0;
+let featureTimer;
 const lightbox = document.querySelector("#lightbox");
 const lightboxImage = document.querySelector("#lightboxImage");
+const featureImage = document.querySelector("#featureImage");
+const featureButton = document.querySelector("#featureButton");
+const featureCounter = document.querySelector("#featureCounter");
+const featureDots = document.querySelector("#featureDots");
 
 function fitLightboxImage() {
   if (!lightbox.classList.contains("open") || !lightboxImage.naturalWidth || !lightboxImage.naturalHeight) return;
-  const maxW = window.innerWidth - 24;
-  const maxH = window.innerHeight - 24;
+  const maxW = window.innerWidth - 18;
+  const maxH = window.innerHeight - 18;
   const imageRatio = lightboxImage.naturalWidth / lightboxImage.naturalHeight;
   const viewportRatio = maxW / maxH;
 
@@ -500,8 +669,8 @@ function showLightbox(index) {
   activeIndex = (index + galleryImages.length) % galleryImages.length;
   lightboxImage.onload = fitLightboxImage;
   lightboxImage.src = galleryImages[activeIndex];
-  document.querySelector("#lightboxCounter").textContent =
-    `${activeIndex + 1} / ${galleryImages.length}`;
+  lightboxImage.alt = `Musikbillede ${activeIndex + 1}`;
+  document.querySelector("#lightboxCounter").textContent = `${activeIndex + 1} / ${galleryImages.length}`;
   lightbox.classList.add("open");
   document.body.style.overflow = "hidden";
   if (lightboxImage.complete) fitLightboxImage();
@@ -519,8 +688,27 @@ function moveLightbox(step) {
   showLightbox(activeIndex + step);
 }
 
-async function fillGallery() {
-  galleryImages = await getImagesFromGitHub();
+function renderFeature(index) {
+  if (!galleryImages.length) return;
+  featureIndex = (index + galleryImages.length) % galleryImages.length;
+  featureImage.src = galleryImages[featureIndex];
+  featureCounter.textContent = `${featureIndex + 1} / ${galleryImages.length}`;
+  [...featureDots.children].forEach((dot, i) => dot.classList.toggle("active", i === featureIndex));
+}
+
+function startFeatureShowcase(images) {
+  if (!featureImage || !images.length) return;
+  featureDots.innerHTML = images.map((_, i) => `<span class="feature-dot${i === 0 ? ' active' : ''}"></span>`).join("");
+  renderFeature(0);
+  featureButton.addEventListener("click", () => showLightbox(featureIndex));
+  if (featureTimer) clearInterval(featureTimer);
+  if (images.length > 1) {
+    featureTimer = setInterval(() => renderFeature(featureIndex + 1), 5200);
+  }
+}
+
+function fillGallery(images) {
+  galleryImages = images;
   const gallery = document.querySelector("#gallery");
   gallery.innerHTML = galleryImages.map((src, index) => `
     <button class="gallery-button" type="button" data-index="${index}" aria-label="Åbn billede ${index + 1}">
@@ -531,7 +719,14 @@ async function fillGallery() {
   gallery.addEventListener("click", event => {
     const button = event.target.closest(".gallery-button");
     if (button) showLightbox(Number(button.dataset.index));
-  });
+  }, { once: true });
+}
+
+async function initGalleryPage() {
+  const images = await getImagesFromGitHub();
+  startSlideshow(images);
+  fillGallery(images);
+  startFeatureShowcase(images);
 }
 
 document.querySelector(".lightbox-close").addEventListener("click", closeLightbox);
@@ -556,8 +751,7 @@ document.addEventListener("keydown", event => {
   if (event.key === "ArrowRight") moveLightbox(1);
 });
 
-getImagesFromGitHub().then(startSlideshow);
-fillGallery();
+initGalleryPage();
 </script>
 
 </body>
