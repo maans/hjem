@@ -52,3 +52,10 @@ Samlet opdatering:
 - om.html indeholder den mellemlange biografi.
 - Der er link til https://himmerlandsefterskole.dk.
 - Pakken indeholder fortsat apps, musik, playliste, billeder, kalender og billedmappe.
+
+
+Seneste layoutrettelser:
+- De små beskrivelsestekster er fjernet fra de tre store forsidelinks.
+- Den øverste Himmerlands Efterskole-boks på Om mig-siden er nu klikbar.
+- Den nederste dublerede skoleboks er fjernet.
+- Akustisk-Elektrisk beskrives nu som: Min og Ebbes Balkan-duo. Noder og info (+ SilbaÄtno).

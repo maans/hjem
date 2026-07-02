@@ -388,6 +388,21 @@ body { min-height: 100svh; overflow-x: hidden; }
     grid-template-columns: 1fr;
   }
 }
+
+.fact-link {
+  display: block;
+  text-decoration: none;
+  color: var(--ink);
+  transition: transform .16s ease, background .16s ease, border-color .16s ease;
+}
+.fact-link:hover,
+.fact-link:focus-visible {
+  outline: none;
+  transform: translateY(-2px);
+  background: rgba(255,255,255,.10);
+  border-color: rgba(167,243,208,.44);
+}
+
 </style>
 </head>
 <body>
@@ -434,11 +449,11 @@ body { min-height: 100svh; overflow-x: hidden; }
       </article>
 
       <aside class="about-side">
-        <div class="fact">
+        <a class="fact fact-link" href="https://himmerlandsefterskole.dk" target="_blank" rel="noopener">
           <span class="eyebrow">Skole</span>
           <strong>Himmerlands Efterskole</strong>
-          <span>Ansat siden 1998.</span>
-        </div>
+          <span>Ansat siden 1998. Åbn skolens hjemmeside →</span>
+        </a>
 
         <div class="fact">
           <span class="eyebrow">Arbejdsområder</span>
@@ -451,12 +466,6 @@ body { min-height: 100svh; overflow-x: hidden; }
           <strong>Guitar og strengeinstrumenter</strong>
           <span>Orkestre, duoer, instrumental sologuitar og ledsagelse til fællessang.</span>
         </div>
-
-        <a class="school-link" href="https://himmerlandsefterskole.dk" target="_blank" rel="noopener">
-          <span class="eyebrow">Besøg skolen</span>
-          <strong>Himmerlands Efterskole →</strong>
-          <span>Åbner skolens hjemmeside.</span>
-        </a>
       </aside>
     </div>
   </section>
