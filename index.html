@@ -304,13 +304,25 @@ body { min-height: 100svh; overflow-x: hidden; }
   .event { grid-template-columns: 1fr; }
 }
 
-.home-grid .side .pane-link {
-  min-height: 0;
-  padding-top: 1.1rem;
-  padding-bottom: 1.1rem;
+.home-grid .side {
+  gap: .9rem;
 }
-.home-grid .side .pane-link h2 {
-  margin-bottom: 0;
+.home-grid .side .home-shortcut {
+  min-height: 4.25rem;
+  padding: 1rem 1.2rem;
+  display: flex;
+  align-items: center;
+}
+.home-grid .side .home-shortcut .eyebrow {
+  margin: 0;
+  font-size: .92rem;
+  letter-spacing: .10em;
+}
+.home-grid .side .home-contact {
+  padding: 1rem;
+}
+.home-grid .side .home-contact .contact-grid {
+  margin-top: 0;
 }
 
 </style>
@@ -328,20 +340,16 @@ body { min-height: 100svh; overflow-x: hidden; }
       </div>
     </section>
     <aside class="side">
-      <a class="pane-link" href="apps.html">
+      <a class="pane-link home-shortcut" href="apps.html" aria-label="Åbn apps">
         <span class="eyebrow">Apps</span>
-        <h2>Værktøjer</h2>
       </a>
-      <a class="pane-link" href="musik.html">
+      <a class="pane-link home-shortcut" href="musik.html" aria-label="Åbn musik">
         <span class="eyebrow">Musik</span>
-        <h2>Orkestre</h2>
       </a>
-      <a class="pane-link" href="om.html">
+      <a class="pane-link home-shortcut" href="om.html" aria-label="Åbn profil">
         <span class="eyebrow">Profil</span>
-        <h2>Om mig</h2>
       </a>
-      <section class="pane">
-        <h2>Kontakt</h2>
+      <section class="pane home-contact" aria-label="Kontakt">
         <div class="contact-grid">
           <button class="contact-action" onclick="openMail()">
             <span class="label">Mail</span>
