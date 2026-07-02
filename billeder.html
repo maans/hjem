@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Måns Mårtensson</title>
+  <title>Billeder – Måns Mårtensson</title>
   <style>
 :root {
   --ink: #f8fafc;
@@ -303,47 +303,116 @@ body { min-height: 100svh; overflow-x: hidden; }
   .cards, .band-list, .gallery { grid-template-columns: 1fr; }
   .event { grid-template-columns: 1fr; }
 }
+
+.gallery-button {
+  appearance: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  cursor: zoom-in;
+  border-radius: 18px;
+  display: block;
+  overflow: hidden;
+}
+.gallery-button:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+.gallery-button img {
+  transition: transform .22s ease, filter .22s ease;
+}
+.gallery-button:hover img {
+  transform: scale(1.025);
+  filter: brightness(1.06);
+}
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: none;
+  place-items: center;
+  background: rgba(0,0,0,.94);
+  padding: clamp(.5rem, 2vw, 1.5rem);
+}
+.lightbox.open { display: grid; }
+.lightbox-image {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 24px 90px rgba(0,0,0,.6);
+}
+.lightbox-close,
+.lightbox-prev,
+.lightbox-next,
+.lightbox-fullscreen {
+  position: fixed;
+  z-index: 1001;
+  border: 1px solid rgba(255,255,255,.22);
+  background: rgba(10,12,20,.72);
+  color: white;
+  width: 3.1rem;
+  height: 3.1rem;
+  border-radius: 999px;
+  font: inherit;
+  font-size: 1.5rem;
+  cursor: pointer;
+  backdrop-filter: blur(12px);
+}
+.lightbox-close { top: 1rem; right: 1rem; }
+.lightbox-fullscreen { top: 1rem; right: 4.8rem; }
+.lightbox-prev { left: 1rem; top: 50%; transform: translateY(-50%); }
+.lightbox-next { right: 1rem; top: 50%; transform: translateY(-50%); }
+.lightbox-counter {
+  position: fixed;
+  left: 50%;
+  bottom: 1rem;
+  transform: translateX(-50%);
+  color: rgba(255,255,255,.78);
+  background: rgba(10,12,20,.66);
+  border: 1px solid rgba(255,255,255,.16);
+  border-radius: 999px;
+  padding: .5rem .85rem;
+  backdrop-filter: blur(10px);
+}
+@media (max-width: 640px) {
+  .lightbox-prev, .lightbox-next {
+    top: auto;
+    bottom: 1rem;
+    transform: none;
+  }
+  .lightbox-counter { bottom: 1.55rem; }
+}
 </style>
 </head>
 <body>
   <div class="stage" id="stage" aria-hidden="true"></div>
   
 <main class="page">
-  <section class="shell home-grid">
-    <section class="identity">
-      <div>
-        <p class="mark"><span class="dot"></span> måns.dk</p>
-        <h1 class="hero">Måns<br>Mårtensson</h1>
-        <p class="tagline">Musik, undervisning og digitale værktøjer.</p>
+  <section class="shell subshell">
+    <div class="topbar">
+      <div class="titleblock">
+        <p class="mark"><span class="dot"></span> Musik</p>
+        <h1>Billeder</h1>
+        <p class="lead">Klik på et billede for at åbne det i stor visning.</p>
       </div>
-    </section>
-    <aside class="side">
-      <a class="pane-link" href="apps.html">
-        <span class="eyebrow">Apps</span>
-        <h2>Værktøjer</h2>
-        <p>Plan, Tavle, Skriv og Tjek samlet ét sted.</p>
-      </a>
-      <a class="pane-link" href="musik.html">
-        <span class="eyebrow">Musik</span>
-        <h2>Orkestre</h2>
-        <p>Orkestre, playliste og billeder fra det forløbne år.</p>
-      </a>
-      <section class="pane">
-        <h2>Kontakt</h2>
-        <div class="contact-grid">
-          <button class="contact-action" onclick="openMail()">
-            <span class="label">Mail</span>
-            <span class="value">Skriv en mail</span>
-          </button>
-          <a class="contact-item" href="tel:+4522155547">
-            <span class="label">Telefon</span>
-            <span class="value">22 15 55 47</span>
-          </a>
-        </div>
-      </section>
-    </aside>
+      <a class="back" href="musik.html">← Musik</a>
+    </div>
+    <section id="gallery" class="gallery" aria-label="Billedgalleri"></section>
   </section>
 </main>
+
+<div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Billede i fuldskærmsvisning">
+  <button class="lightbox-close" type="button" aria-label="Luk">×</button>
+  <button class="lightbox-fullscreen" type="button" aria-label="Brug browserens fuldskærm">⛶</button>
+  <button class="lightbox-prev" type="button" aria-label="Forrige billede">‹</button>
+  <img id="lightboxImage" class="lightbox-image" alt="">
+  <button class="lightbox-next" type="button" aria-label="Næste billede">›</button>
+  <div id="lightboxCounter" class="lightbox-counter"></div>
+</div>
 
   
 <script>
@@ -360,15 +429,11 @@ const manualImages = [
   "billeder/slide-04.jpg",
   "billeder/slide-05.jpg"
 ];
-function openMail() {
-  const user = ["huma","mamm"].join("");
-  const host = ["g","mail"].join("");
-  const ending = ["c","om"].join("");
-  location.href = "mailto:" + user + "@" + host + "." + ending;
-}
+
 function isImageFile(name) {
   return /\.(jpe?g|png|webp|gif|avif)$/i.test(name);
 }
+
 async function getImagesFromGitHub() {
   const s = githubImageSource;
   const url = `https://api.github.com/repos/${s.owner}/${s.repo}/contents/${s.folder}?ref=${s.branch}`;
@@ -385,6 +450,7 @@ async function getImagesFromGitHub() {
     return manualImages;
   }
 }
+
 function startSlideshow(images) {
   const stage = document.querySelector("#stage");
   if (!stage || !images.length) return;
@@ -405,12 +471,66 @@ function startSlideshow(images) {
   }
   if (images.length > 1) setInterval(next, 6200);
 }
-async function fillGallery() {
-  const gallery = document.querySelector("#gallery");
-  if (!gallery) return;
-  const images = await getImagesFromGitHub();
-  gallery.innerHTML = images.map(src => `<img src="${src}" alt="">`).join("");
+
+let galleryImages = [];
+let activeIndex = 0;
+
+function showLightbox(index) {
+  if (!galleryImages.length) return;
+  activeIndex = (index + galleryImages.length) % galleryImages.length;
+  document.querySelector("#lightboxImage").src = galleryImages[activeIndex];
+  document.querySelector("#lightboxCounter").textContent =
+    `${activeIndex + 1} / ${galleryImages.length}`;
+  document.querySelector("#lightbox").classList.add("open");
+  document.body.style.overflow = "hidden";
+  document.querySelector(".lightbox-close").focus();
 }
+
+function closeLightbox() {
+  document.querySelector("#lightbox").classList.remove("open");
+  document.body.style.overflow = "";
+}
+
+function moveLightbox(step) {
+  showLightbox(activeIndex + step);
+}
+
+async function fillGallery() {
+  galleryImages = await getImagesFromGitHub();
+  const gallery = document.querySelector("#gallery");
+  gallery.innerHTML = galleryImages.map((src, index) => `
+    <button class="gallery-button" type="button" data-index="${index}" aria-label="Åbn billede ${index + 1}">
+      <img src="${src}" alt="Musikbillede ${index + 1}" loading="lazy">
+    </button>
+  `).join("");
+
+  gallery.addEventListener("click", event => {
+    const button = event.target.closest(".gallery-button");
+    if (button) showLightbox(Number(button.dataset.index));
+  });
+}
+
+document.querySelector(".lightbox-close").addEventListener("click", closeLightbox);
+document.querySelector(".lightbox-prev").addEventListener("click", () => moveLightbox(-1));
+document.querySelector(".lightbox-next").addEventListener("click", () => moveLightbox(1));
+document.querySelector(".lightbox-fullscreen").addEventListener("click", async () => {
+  const box = document.querySelector("#lightbox");
+  if (document.fullscreenElement) {
+    await document.exitFullscreen?.();
+  } else {
+    await box.requestFullscreen?.();
+  }
+});
+document.querySelector("#lightbox").addEventListener("click", event => {
+  if (event.target.id === "lightbox") closeLightbox();
+});
+document.addEventListener("keydown", event => {
+  if (!document.querySelector("#lightbox").classList.contains("open")) return;
+  if (event.key === "Escape") closeLightbox();
+  if (event.key === "ArrowLeft") moveLightbox(-1);
+  if (event.key === "ArrowRight") moveLightbox(1);
+});
+
 getImagesFromGitHub().then(startSlideshow);
 fillGallery();
 </script>

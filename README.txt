@@ -1,23 +1,33 @@
-Måns.dk visitkort
+Måns.dk – fler-sidet visitkort
 
-Indhold:
+Forsiden:
 - index.html
-- billeder/ med startbilleder til slideshow
+- Viser kun Apps, Musik og Kontakt
+- Kalenderen vises ikke på forsiden
 
-Brug:
-1. Upload index.html til roden af dit GitHub Pages-repo.
-2. Upload mappen billeder ved siden af index.html.
-3. Ret eventuelt repo-navnet i index.html:
+Undersider:
+- apps.html: Plan, Tavle, Skriv og Tjek
+- musik.html: orkestre samt links til playliste, billeder, kalender og Akustisk-Elektrisk
+- playlist.html: indlejret YouTube-playliste
+- billeder.html: galleri fra mappen billeder
+- kalender.html: separat aktivitetskalender
 
-   const githubImageSource = {
-     owner: "maans",
-     repo: "maans.github.io",
-     branch: "main",
-     folder: "billeder"
-   };
+Sådan opdaterer du kalenderen:
+Åbn kalender.html og find:
 
-Automatisk slideshow:
-Siden forsøger at hente alle billedfiler i mappen billeder via GitHubs offentlige API.
-Derfor opdateres slideshowet, når du tilføjer eller fjerner billeder i mappen og committer ændringen.
+const events = [
+];
 
-Hvis GitHub API-listning ikke virker, bruger siden den manuelle fallback-liste nederst i HTML-filen.
+Indsæt fx:
+{ date: "12. september 2026", title: "Koncert med Birdland Bigband", place: "Aalborg", note: "Kl. 19.30" }
+
+Upload alle HTML-filerne og mappen billeder til roden af repoet hjem.
+
+
+Opdatering juli 2026:
+- Musikoversigten hedder nu "Seneste".
+- Solooptrædener er tilføjet ved siden af Akustisk-Elektrisk.
+- Billeder kan åbnes i en skærmfyldende visning med klik, pile og Escape.
+- Kalenderen er udfyldt ud fra Viggo-ICS-filen.
+- Peter Sommer-koncerten og Lottes fødselsdag er ikke medtaget.
+- Sankt Hans hos Dorthe er registreret som solooptræden.
