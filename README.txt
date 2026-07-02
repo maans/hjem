@@ -31,3 +31,17 @@ Opdatering juli 2026:
 - Kalenderen er udfyldt ud fra Viggo-ICS-filen.
 - Peter Sommer-koncerten og Lottes fødselsdag er ikke medtaget.
 - Sankt Hans hos Dorthe er registreret som solooptræden.
+
+
+Opdatering:
+- Appoversigten beskriver nu apps ud fra deres faktiske funktion:
+  Plan = samlet undervisningsmiljø
+  Tavle = klassisk tavle-, arbejds- og præsentationsmiljø
+  Skriv = elevudtalelser og vurderinger
+  Tjek = weekend, tilstedeværelse, tjanser, RENG og lister
+
+
+Kalenderrettelse:
+- Kalenderhændelserne er nu skrevet direkte ind i kalender.html.
+- De bliver derfor vist, selv hvis JavaScript ikke afvikles.
+- Upload kalender.html sammen med de øvrige filer, eller upload hele denne pakke.
