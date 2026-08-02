@@ -189,6 +189,37 @@ body { min-height: 100svh; overflow-x: hidden; }
   line-height: 1.42;
   font-size: 1rem;
 }
+.card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem;
+  margin-top: 1rem;
+}
+.download-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.7rem;
+  padding: .65rem .9rem;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,.2);
+  background: rgba(255,255,255,.08);
+  color: var(--ink);
+  font-weight: 760;
+  text-decoration: none;
+  transition: transform .16s ease, background .16s ease, border-color .16s ease;
+}
+.download-link.primary {
+  background: rgba(167,243,208,.16);
+  border-color: rgba(167,243,208,.44);
+}
+.download-link:hover,
+.download-link:focus-visible {
+  outline: none;
+  transform: translateY(-2px);
+  background: rgba(255,255,255,.14);
+  border-color: rgba(167,243,208,.62);
+}
 .contact-grid { display: grid; gap: .75rem; margin-top: .9rem; }
 .contact-action,
 .contact-item,
@@ -320,11 +351,15 @@ body { min-height: 100svh; overflow-x: hidden; }
     </div>
 
       <section class="cards">
-        <a class="card" href="http://plan2.xn--mns-ula.dk">
+        <article class="card">
           <span class="eyebrow">Nyeste</span>
           <h3>Plan 2.0</h3>
           <p><strong>Plan 2.0 er lærerens arbejdsplads gennem skoleåret.</strong> Her samles forløb, undervisningsgange, tavler, materialer og data, så arbejdet kan fortsættes og genbruges.</p>
-        </a>
+          <div class="card-actions" aria-label="Åbn eller hent Plan 2.0">
+            <a class="download-link primary" href="https://github.com/maans/plan2-desktop/releases/latest">Hent til computer</a>
+            <a class="download-link" href="https://plan2.måns.dk/">Brug i browser</a>
+          </div>
+        </article>
 
         <a class="card" href="https://plan.måns.dk/">
           <span class="eyebrow">Undervisningsmiljø</span>
