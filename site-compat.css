@@ -1,0 +1,111 @@
+/* Fælles Firefox-, skærmstørrelse- og ydelsesrettelser for måns.dk
+   De originale farver, fotos, navigationslinks og sideindhold bevares. */
+
+/* Grid-børn skal kunne blive mindre end deres indhold. Uden minmax(0,…)
+   kan den lange overskrift presse kontaktkolonnen ud af vinduet. */
+.page, .shell, .home-grid, .identity, .identity > div,
+.side, .subshell, .about-layout, .about-copy, .about-side,
+.card, .pane, .pane-link, .contact-grid, .contact-item,
+.contact-action, .calendar-group, .music-event, .event {
+  min-width: 0;
+}
+.shell {
+  max-width: 100%;
+  /* Ét mørkt, halvtransparent lag frem for flere dyre baggrundssløringer. */
+  background: linear-gradient(135deg, rgba(15,19,30,.77), rgba(8,11,20,.70));
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+.pane, .pane-link, .card, .about-copy {
+  background: rgba(8,11,21,.74);
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+.feature-label, .feature-counter,
+.lightbox-close, .lightbox-prev, .lightbox-next, .lightbox-fullscreen {
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+
+/* Hold baggrundsbillederne faste og undgå kontinuerlig stor GPU-transform. */
+.stage img, .stage img.active {
+  transform: none;
+  filter: none;
+}
+.stage img { transition: opacity .85s ease; }
+
+/* Bevar den tospaltede forside på brede skærme uden min-content-overløb. */
+.home-grid {
+  grid-template-columns: minmax(0, 1.35fr) minmax(18.5rem, .75fr);
+}
+.identity > div { width: 100%; }
+.hero {
+  max-width: 100%;
+  font-size: clamp(2.4rem, 6vw, 5rem);
+  line-height: .91;
+  overflow-wrap: anywhere;
+}
+.tagline { max-width: 100%; }
+.value, .contact-action, .contact-item, .card, .band,
+.fact, .music-event, .event, .download-link {
+  overflow-wrap: break-word;
+}
+
+/* Under 1100 CSS-pixels (også ved Firefox-zoom) skifter forsiden layout,
+   i stedet for at krympe kontaktboksen til enkelte bogstaver pr. linje. */
+@media (max-width: 1100px) {
+  .home-grid {
+    grid-template-columns: minmax(0, 1fr);
+    min-height: 0;
+  }
+  .identity {
+    min-height: clamp(19rem, 37svh, 28rem);
+  }
+  .hero {
+    font-size: clamp(2.5rem, 8.8vw, 5.75rem);
+  }
+  .side {
+    border-left: 0;
+    border-top: 1px solid rgba(255,255,255,.12);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: .85rem;
+  }
+  .home-grid .side .home-contact { grid-column: 1 / -1; }
+  .home-grid .side .home-contact .contact-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Telefoner, smalle browservinduer og meget høj browserzoom. */
+@media (max-width: 620px) {
+  .page { padding: .75rem; }
+  .shell { border-radius: 24px; }
+  .identity {
+    min-height: 16.5rem;
+    padding: 1.5rem 1.15rem;
+  }
+  .hero {
+    font-size: clamp(2.2rem, 9vw, 4.2rem);
+    line-height: .94;
+  }
+  .tagline { font-size: 1rem; }
+  .side {
+    grid-template-columns: minmax(0, 1fr);
+    padding: 1rem;
+  }
+  .home-grid .side .home-contact .contact-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .subshell { padding: 1.25rem; }
+  .titleblock h1 {
+    font-size: clamp(2rem, 8vw, 3rem);
+    overflow-wrap: anywhere;
+  }
+  .about-layout { grid-template-columns: minmax(0, 1fr); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stage img { transition: none; }
+  .pane-link, .card, .back, .contact-action,
+  .contact-item, .download-link { transition: none; }
+}
