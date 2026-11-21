@@ -109,3 +109,21 @@
   .pane-link, .card, .back, .contact-action,
   .contact-item, .download-link { transition: none; }
 }
+
+
+/* Navnet er altid to hele linjer, med skriftstørrelse efter den faktiske
+   bredde af venstre kolonne - ikke efter hele browservinduet. */
+.identity { container-type: inline-size; }
+.hero {
+  max-width: 100%;
+  font-size: clamp(2.2rem, 7vw, 5.5rem); /* fallback til ældre browsere */
+  overflow-wrap: normal;
+  word-break: normal;
+}
+.hero > span {
+  display: block;
+  white-space: nowrap;
+}
+@supports (font-size: 1cqi) {
+  .hero { font-size: clamp(1.7rem, 16cqi, 6rem); }
+}
