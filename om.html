@@ -404,6 +404,7 @@ body { min-height: 100svh; overflow-x: hidden; }
 }
 
 </style>
+  <link rel="stylesheet" href="site-compat.css?v=20261121">
 </head>
 <body>
   <div class="stage" id="stage" aria-hidden="true"></div>
@@ -521,14 +522,21 @@ function startSlideshow(images) {
   front.classList.add("active");
   function next() {
     index = (index + 1) % images.length;
-    back.src = images[index];
     back.onload = () => {
       back.classList.add("active");
       front.classList.remove("active");
       [front, back] = [back, front];
     };
+    back.src = images[index];
   }
-  if (images.length > 1) setInterval(next, 6200);
+  // Undgå unødigt billedskift i baggrundsfaner og ved reduceret bevægelse.
+  if (images.length > 1 && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    let lastScroll = 0;
+    window.addEventListener("scroll", () => { lastScroll = performance.now(); }, { passive: true });
+    setInterval(() => {
+      if (!document.hidden && performance.now() - lastScroll > 1200) next();
+    }, 8500);
+  }
 }
 async function fillGallery() {
   const gallery = document.querySelector("#gallery");
