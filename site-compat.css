@@ -12,7 +12,7 @@
 .shell {
   max-width: 100%;
   /* Ét mørkt, halvtransparent lag frem for flere dyre baggrundssløringer. */
-  background: linear-gradient(135deg, rgba(15,19,30,.77), rgba(8,11,20,.70));
+  background: linear-gradient(135deg, rgba(15,19,30,.62), rgba(8,11,20,.58));
   -webkit-backdrop-filter: none;
   backdrop-filter: none;
 }
@@ -41,7 +41,7 @@
 .identity > div { width: 100%; }
 .hero {
   max-width: 100%;
-  font-size: clamp(2.4rem, 6vw, 5rem);
+  font-size: clamp(2.4rem, 7vw, 6rem);
   line-height: .91;
   overflow-wrap: anywhere;
 }
