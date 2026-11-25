@@ -1,0 +1,187 @@
+---
+layout: null
+title: Wikier
+---
+{%- assign wiki_count = 0 -%}
+{%- assign wiki_files = site.static_files | sort: 'path' -%}
+{%- capture wiki_links -%}
+  {%- for wiki_file in wiki_files -%}
+    {%- assign wiki_path = wiki_file.path | remove_first: '/' -%}
+    {%- assign wiki_parts = wiki_path | split: '/' -%}
+    {%- if wiki_parts.size == 3 and wiki_parts[0] == 'wiki' and wiki_parts[1] != '' and wiki_parts[2] == 'index.html' -%}
+      {%- assign wiki_count = wiki_count | plus: 1 -%}
+      <li>
+        <a class="card" href="/wiki/{{ wiki_parts[1] | url_encode | replace: '+', '%20' }}/">
+          <span>{{ wiki_parts[1] | replace: '-', ' ' | replace: '_', ' ' | capitalize | escape }}</span>
+          <span class="arrow" aria-hidden="true">→</span>
+        </a>
+      </li>
+    {%- endif -%}
+  {%- endfor -%}
+{%- endcapture -%}
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Wikier på måns.dk.">
+  <title>Wikier · måns.dk</title>
+  <style>
+    :root {
+      --ink: #f8fafc;
+      --muted: rgba(248, 250, 252, .76);
+      --line: rgba(255, 255, 255, .16);
+      --accent: #a7f3d0;
+      --warm: #f7c27c;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      min-height: 100%;
+      background: #05070d;
+      color: var(--ink);
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    body { min-height: 100svh; }
+    .stage {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      background:
+        radial-gradient(circle at 18% 20%, rgba(167, 243, 208, .12), transparent 25rem),
+        radial-gradient(circle at 85% 16%, rgba(247, 194, 124, .12), transparent 22rem),
+        linear-gradient(rgba(4, 7, 14, .62), rgba(4, 7, 14, .78)),
+        url('/billeder/slide-01.jpg') center / cover no-repeat;
+    }
+    .page {
+      position: relative;
+      z-index: 1;
+      min-height: 100svh;
+      display: grid;
+      place-items: center;
+      padding: clamp(1rem, 3vw, 2.8rem);
+    }
+    .shell {
+      width: min(920px, 100%);
+      min-width: 0;
+      padding: clamp(1.4rem, 4vw, 3rem);
+      border: 1px solid var(--line);
+      border-radius: clamp(28px, 4vw, 40px);
+      background: linear-gradient(135deg, rgba(15, 19, 30, .78), rgba(8, 11, 20, .74));
+      box-shadow: 0 30px 110px rgba(0, 0, 0, .42);
+    }
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    .mark {
+      display: inline-flex;
+      align-items: center;
+      gap: .7rem;
+      margin: 0;
+      color: var(--muted);
+      font-size: .82rem;
+      font-weight: 800;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    .dot {
+      width: .72rem;
+      height: .72rem;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 26px rgba(167, 243, 208, .6);
+    }
+    .back {
+      display: inline-block;
+      padding: .8rem 1rem;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: rgba(255, 255, 255, .06);
+      color: var(--ink);
+      text-decoration: none;
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(2.4rem, 6vw, 4rem);
+      line-height: 1;
+      letter-spacing: -.045em;
+    }
+    .lead, .empty {
+      color: var(--muted);
+      font-size: 1.05rem;
+      line-height: 1.5;
+    }
+    .lead { margin: .8rem 0 1.8rem; }
+    .empty { margin: 1.8rem 0 0; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1rem;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .cards li { min-width: 0; }
+    .card {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      height: 100%;
+      min-height: 5rem;
+      padding: 1.25rem;
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      background: rgba(8, 11, 21, .74);
+      color: var(--ink);
+      font-size: clamp(1.2rem, 2.8vw, 1.6rem);
+      font-weight: 750;
+      text-decoration: none;
+      overflow-wrap: anywhere;
+      transition: background .16s ease, border-color .16s ease;
+    }
+    .arrow { flex-shrink: 0; color: var(--warm); }
+    .card:hover, .back:hover {
+      background: rgba(255, 255, 255, .10);
+      border-color: rgba(167, 243, 208, .44);
+    }
+    .card:focus-visible, .back:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 4px;
+    }
+    @media (max-width: 620px) {
+      .page { padding: .75rem; }
+      .shell { padding: 1.25rem; border-radius: 24px; }
+      .cards { grid-template-columns: minmax(0, 1fr); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .card { transition: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="stage" aria-hidden="true"></div>
+  <main class="page">
+    <section class="shell" aria-labelledby="page-title">
+      <div class="topbar">
+        <p class="mark"><span class="dot" aria-hidden="true"></span> måns.dk</p>
+        <a class="back" href="/">Til forsiden</a>
+      </div>
+      <h1 id="page-title">Wikier</h1>
+      {% if wiki_count > 0 %}
+      <p class="lead">Vælg en wiki.</p>
+      <ul class="cards" aria-label="Wikier">
+        {{ wiki_links }}
+      </ul>
+      {% else %}
+      <p class="empty">Der er ingen wikier her endnu.</p>
+      {% endif %}
+    </section>
+  </main>
+</body>
+</html>
