@@ -1,0 +1,22 @@
+HUWiki – Måns 60 – eksterne links
+Kilde: server-snapshot af Wiki – bootstrap.json, 29. oktober 2026.
+Rettelse: kun manglende andet ] i TiddlyWiki [ext[...|...]]-links.
+Ingen gæstedata, flueben eller andre tekstafsnit er ændret.
+Import: 13 eksisterende tiddlere overskrives. Gem en sikkerhedskopi og
+undgå at importere en ældre version, hvis siderne siden er redigeret.
+
+Invitation og svarfrister: 2 link(s)
+Kilder og aftaler: 5 link(s)
+Lokaler og klargøring: 1 link(s)
+Mad · Le Chef og aftaler: 2 link(s)
+Mad · Menuforslag: 1 link(s)
+Mad · Servering og hjælpere: 1 link(s)
+Musik · Birdland: 2 link(s)
+Musik · Helles: 1 link(s)
+Musik · Lottes band: 1 link(s)
+Musik · Silba Ätno: 2 link(s)
+Overnatning · Plan og behov: 1 link(s)
+Overnatning · Poeten og HUPedia-reglen: 1 link(s)
+Poeten · Værelser: 1 link(s)
+
+I alt: 21 links i 13 tiddlere.
