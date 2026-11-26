@@ -1,0 +1,159 @@
+X:1
+T:Easy Money
+C:Benny Carter
+M:4/4
+L:1/4
+Q:"Medium swing" 1/4=126
+U:s=!style=rhythm!
+V:G clef=treble name="Guitar"
+%%MIDI program 26
+K:F
+Z8 ||
+[P:9] "Gm7"sB sB sB sB | "C7"sB sB sB sB | "Am7"sB sB sB sB | "D7"sB sB sB sB |
+"Gm7"sB sB sB sB | "C7"sB sB sB sB | "F6"sB sB "Gm7"sB sB | "Am7"sB sB "D7"sB sB |
+[P:17] "Gm7"sB sB sB sB | "C7"sB sB sB sB | "Am7"sB sB sB sB | "D7"sB sB sB sB |
+"Gm7"sB sB sB sB | "C7"sB sB sB sB | "F"sB sB "Bb7"sB "Bdim"sB | "F"sB sB sB sB |
+[P:25] "F7"sB sB sB sB | sB sB sB sB | "Bb6"sB sB sB sB | sB sB sB sB |
+"G9"sB sB sB sB | sB sB sB sB | "C7"sB sB sB sB | sB sB "D7"sB sB |
+[P:33] "Gm7"sB sB sB sB | "C7"sB sB sB sB | "Am7"sB sB sB sB | "D7"sB sB sB sB |
+"Gm7"sB sB sB sB | "C7"sB sB sB sB | "F"sB z z2 | Z ||
+|: [P:41 / 49] "Gm7"sB sB sB sB | "C7"sB sB sB sB | "Am7"sB sB sB sB | "D7"sB sB sB sB |
+"Gm7"sB sB sB sB | "C7"sB sB sB sB |1
+"F6"sB sB "Gm7"sB sB | "Am7"sB sB "D7"sB sB :|2
+"F"sB sB "Bb7"sB "Bdim"sB | "F"sB sB sB sB ||
+[P:57] "F7"sB sB sB sB | sB sB sB sB | "Bb6"sB sB sB sB | sB sB sB sB |
+"G9"sB sB sB sB | sB sB sB sB | "C7"sB sB sB sB | sB sB "D7"sB sB |
+[P:65] "Gm7"sB sB sB sB | "C7"sB sB sB sB | "Am7"sB sB sB sB | "D7"sB sB sB sB |
+"Gm7"sB sB sB sB | "C7"sB sB sB sB | "F"sB z z2 | Z ||
+|: [P:73 / 81] "Gm7"sB sB sB sB | "C7"sB sB sB sB | "Am7"sB sB sB sB | "D7"sB sB sB sB |
+"Gm7"sB sB sB sB | "C7"sB sB sB sB |1
+"F6"sB sB "Gm7"sB sB | "Am7"sB sB "D7"sB sB :|2
+"F"sB sB "Bb7"sB "Bdim"sB | "F"sB sB sB sB ||
+|: [P:89] "F6"sB sB sB sB | "F7"sB sB sB sB | "Bb6"sB sB sB sB | sB sB sB sB |
+"G9"sB sB sB sB | sB sB sB sB | "C7"sB sB sB sB | sB sB "D7"sB sB |
+[P:97] "Gm7"sB sB sB sB | "C7"sB sB sB sB | "Am7"sB sB sB sB | "D7"sB sB sB sB |
+"Gm7"sB sB sB sB | "C7"sB sB sB sB | "F6"sB sB sB sB | sB sB sB sB :|
+[K:Bb]
+[P:105] "Cm7"sB sB sB sB | "F7"sB sB sB sB | "Bb6"sB sB sB sB | "Ab9"sB sB "G7"sB sB |
+"Cm7"sB sB sB sB | "Cm"sB "Gb7"sB "F7"sB sB | "Bb"sB sB "Cm7"sB sB | "Dm7"sB sB "G7"sB sB ||
+[P:113] "Cm7"sB sB sB sB | "F7"sB sB sB sB | "Bb6"sB sB sB sB | "Ab9"sB sB "G7"sB sB |
+"Cm7"sB sB sB sB | "Cm"sB "Gb7"sB "F7"sB sB | "Bb"sB sB sB sB | sB sB sB sB ||
+[P:121 · Piano solo] !pp!"Bb7"sB sB sB sB | sB sB sB sB | "Eb"sB sB sB sB | sB sB sB "Db9"sB |
+"C7"sB sB sB sB | sB sB sB sB | "F7"sB sB sB sB | sB sB sB sB |:
+[P:129] "Cm7"!ff!sB sB sB sB/"F9"sB/- | sB sB sB sB | z/ "Bb6"sB3/2 sB sB | "Ab9"sB sB "G7"sB sB |
+z/ "Cm7"sB/ sB sB sB | "F9"sB "Gb9"sB "Fsus"sB/sB/ z/ "Bb6"sB/- |1
+sB sB sB sB | sB sB sB sB :|2
+"Bb6"sB sB sB sB | sB sB sB sB ||
+[P:139] "Bb7"sB sB sB sB | sB sB sB sB | "Eb"sB sB sB sB | sB sB sB "Db9"sB |
+"C7"sB sB sB sB | sB sB sB sB | "F7"sB sB "E7"sB sB | "F7"sB sB "G7"sB sB ||
+[P:147] !mf!"Cm7"sB sB sB sB | "F9"sB sB sB sB | "Bb6"sB sB sB sB | "G7"sB sB sB sB |
+"Cm7"sB sB "F9"sB sB | "D7(#5,#9)"sB sB "G7(#5,#9)"!ff!sB "Db7"sB/"Cm"sB/ | Z | z z/ "Bbmaj7"!pp!sB/- !fermata!sB2 |]
+
+X:2
+T:I Left My Heart in San Francisco
+C:George Cory / Douglass Cross
+M:4/4
+L:1/4
+Q:"Slow swing" 1/4=102
+U:s=!style=rhythm!
+V:G clef=treble name="Guitar"
+%%MIDI program 26
+K:C
+Z4 ||
+[P:A] "C"sB sB "Dm7"sB "D#dim"sB | "C/E"sB sB "Ebdim"sB sB | "Dm7"sB sB "Ab7"sB sB | "G7"sB sB sB sB |
+"Dm"sB sB "Dm(maj7)"sB "Dm7"sB | "G"sB sB sB "F7"sB | "Em7"sB sB "A7"sB sB | "Dm7"sB sB "G7"sB "B7"sB |
+"C"sB sB sB sB | "C"sB sB "B7"sB sB | "Em7"sB sB sB sB | "A9"sB sB "Ab9"sB "A9"sB |
+"Am7"sB sB sB sB | "D7"sB sB sB sB | "Dm7"sB sB "Bbdim"sB sB | "G7"sB sB "Dm7"sB "Ebdim"sB ||
+[P:B] "C"sB sB "F9"sB sB | "Em7"sB sB "A7"sB sB | "Dm7"sB sB sB sB | "G7"sB sB sB sB |
+"Dm7"sB sB sB sB | "Dm7"sB sB sB sB | "Bm7"sB sB sB sB | "E7"sB sB "Eb7"sB "E7"sB |
+"A7(#5)"sB sB "Em7"sB sB | "A9"sB sB "Em7"sB "A7"sB | "D7"sB sB sB sB | "D7"sB sB "Db7"sB "D7"sB |
+"Dm7"sB sB sB sB | "G7sus4"sB sB "G7"sB sB | "Cmaj7"sB "C7"sB "F7"sB "F#7(b5)"sB | "G7sus4"sB sB sB sB |:
+[P:C · Sax / guitar] "C"sB sB "F9"sB sB | "Em7"sB sB "A7"sB sB | "Dm7"sB sB sB sB | "G7"sB sB "Bbdim"sB sB |
+"Dm7"sB sB sB sB | "Dm7"sB sB "G7"sB sB | "C"sB sB "Bbdim"sB sB | "Dm7"sB sB "Cdim"sB sB |
+"C"sB sB sB sB | "C"sB sB "Cdim"sB sB | "Em7"sB sB sB sB | "A7"sB sB sB sB |
+"Am7"sB sB sB sB | "D7"sB sB sB sB | "Dm7"sB sB sB sB | "G9"sB "Am7"sB "Dm7"sB "G7"sB :|
+[P:D] "C6"sB sB sB sB | "C"sB "Fm7"sB "Em7"sB "Eb7"sB | "Dm7"sB sB sB sB | "G7"sB sB sB sB |
+"Dm7"sB sB sB sB | "Dm7"sB sB sB sB | "Bm7"sB sB sB sB | "E7"sB sB "Eb7"sB "E7"sB |
+"A7(#5)"sB sB sB "Em7"sB | "A7"sB sB "Em7"sB "A7"sB | "D7"sB sB sB sB | "D7"sB sB "Db7"sB "D7"sB |
+"Dm7"sB sB sB sB | "G7"sB z "^Piano only"g2 | c' "C"sB "Dm7"sB/ "G7"sB3/2 | "Cmaj9"!fermata!sB4 |]
+
+X:3
+T:The Legend
+C:Benny Carter
+M:4/4
+L:1/4
+Q:"Medium-slow swing" 1/4=92
+U:s=!style=rhythm!
+V:G clef=treble name="Guitar"
+%%MIDI program 26
+K:Cm
+Z4 |:
+[P:5] Z6 |1
+Z2 :|2
+Z2 ||
+[P:15] Z8 ||
+[P:23] Z8 |:
+[P:31] !mf!"Cm"sB sB "Cm/Bb"sB sB | "Fm7"sB sB "Cm6"sB sB | "D7(#9)"sB sB "G7"sB sB | "C7(#9)"sB sB sB "Gb9"sB |
+"F7(b9)"sB sB sB sB | "D7(#5,#9)"sB sB "G7(b5,#9)"sB sB |1
+"Cm6/9"sB sB sB sB | "D7(#5,#9)"sB sB "G7(b5,b9)"sB sB :|2
+"Cm6/9"sB sB "Fm6"sB sB | "CmMaj7"sB sB "C7(#5,#9)"sB sB ||
+[P:41] "Fm"sB sB "Fm/Eb"sB sB | "D7(b5,b9)"sB sB "G7(b5,#9)"sB sB | "Cm9"sB sB "Cm6"sB sB | "C7(b5,b9)"sB sB sB sB |
+"Fm"sB sB "Fm/Eb"sB sB | "D7(b5,b9)"sB sB sB sB | "G7sus4"sB sB sB sB | "G7(b5,b9)"sB sB sB sB ||
+[P:49] "Cm"sB sB "Cm/Bb"sB sB | "Fm7"sB sB "Cm6"sB sB | "D7(#9)"sB sB "G7"sB sB | "C7(#9)"sB sB sB "Gb9"sB |
+"F7(b9)"sB sB sB sB | "D7(#5,#9)"sB sB "G7(#9)"sB sB | "Cm6/9"sB sB sB sB | "D7(#5,#9)"sB sB "G7(b5,b9)"sB sB ||
+[P:57] "Cm"sB sB "Cm/Bb"sB sB | "Fm7"sB sB "Cm6"sB sB | "D7(#9)"sB sB "G7"sB sB | "C7(#9)"sB sB sB "Gb9"sB |
+"F7(b9)"sB sB sB sB | "D7(#5,#9)"sB sB "G7(#9)"sB sB | "Cm6/9"sB sB sB sB | "D7(#5,#9)"sB sB "G7(b5,b9)"sB sB ||
+[P:65] "Cm"!ff!sB sB sB sB/"Fm"sB/- | sB sB/"Cm"sB/- sB sB | (3z "Dm7(b5)"sB sB "G7(b9)"sB sB/"C7sus4"sB/- | sB sB (3sB sB "Gb7"sB |
+"F7"sB sB sB sB | "Dm7(b5)"sB sB "G7(b9)"sB sB | "Cm6"sB sB sB sB | sB sB "C7(#9)"sB sB ||
+[P:73] "Fm"sB sB "Fm/Eb"sB sB | "D7(b5,b9)"sB sB "G7(b5,#9)"sB sB | "Cm9"sB sB "Cm6"sB sB | "C7(b5,b9)"sB sB sB sB |
+"Fm"sB sB "Fm/Eb"sB sB | "D7(b5,b9)"sB sB sB sB | "G7sus4"sB sB sB sB | "G7(b5,b9)"sB sB sB sB ||
+[P:81] "Cm"sB z z2 | Z8 | z z/ "Cm6/9"sB/- !fermata!sB2 |]
+
+X:4
+T:The Wiggle Walk
+C:Benny Carter
+M:4/4
+L:1/4
+Q:"Medium swing" 1/4=160
+U:s=!style=rhythm!
+V:G clef=treble name="Guitar"
+%%MIDI program 26
+K:Gm
+!f!"^Følg piano""Gm"sB sB "Am"sB sB | "D(#5)"sB sB "C"sB sB | "D"sB sB "C"sB sB | "D(#5)"sB sB "Am"sB sB |
+"Gm"sB sB "Am"sB sB | "D(#5)"sB sB "C"sB sB | "D"sB sB "C"sB sB | "D(#5)"sB sB z/ "D7(#9)"sB3/2 |:
+[P:9] !mf!"Gm"sB sB sB sB | sB sB "Dm7"sB sB | "Gm"sB sB sB sB | sB sB "Dm7"sB sB |
+"Gm"sB sB sB sB | "Eb7"sB sB sB sB |1
+"Gm"sB "Eb"sB "Edim"sB "D7"sB | "Gm"sB sB "D7"sB sB :|2
+"Gm"sB "Eb"sB "Edim"sB "D7"sB | "Gm"sB sB sB "G7"sB ||
+[P:19] !f!"Cm7"sB sB sB sB | "F7"sB sB sB sB | "Bb"sB sB sB "Gb"sB | "Bb"sB sB "Db9"sB sB |
+"C9"sB sB sB sB | "F7"sB sB sB "Cm7"sB | "Bbmaj7"sB sB sB sB | "Ab7"sB sB sB sB ||
+[P:27] "Gm"sB sB sB sB | sB sB "Dm7"sB sB | "Gm"sB sB sB sB | sB sB "Dm7"sB sB |
+"Gm"sB sB sB sB | "Eb7"sB sB sB sB | "Gm"sB "Eb"sB "Edim"sB "D7"sB | "Gm"sB sB sB "Eb7"sB ||
+[P:35] "D7(#9)"sB sB sB sB | "Gm7"sB sB sB sB | "D7(#9)"sB sB sB sB/"Gm7"sB/ | Z |
+"Cm7"sB sB sB sB | "F7"sB sB sB "F7(#5)"sB/"Bb"sB/ | Z2 |:
+[P:43] !mf!"Gm"sB sB sB sB | sB sB "Dm7"sB sB | "Gm"sB sB sB sB | sB sB "Dm7"sB sB |
+"Gm"sB sB sB sB | "Eb7"sB sB sB sB |1
+"Gm"sB sB "D7(#9)"sB sB | "Gm"sB sB "D7(#9)"sB sB :|2
+"Gm"sB sB "D7(#9)"sB sB | "Gm"sB sB sB sB ||
+[P:53] "Cm7"sB sB sB sB | "F7"sB sB sB sB | "Bb"sB sB "Dm7"sB sB | "G7(#5)"sB sB sB sB |
+"C9"sB sB sB sB | "F9"sB sB sB sB | "Bbmaj7"sB sB sB sB | "Ab7"sB sB sB sB ||
+[P:61 · Piano solo] !mf!"Gm"sB sB sB sB | sB sB "Dm7"sB sB | "Gm"sB sB sB sB | sB sB "Dm7"sB sB |
+"Gm"sB sB sB sB | "Eb7"sB sB sB sB | "Gm"sB sB "D7"sB sB | "Gm"sB sB "D7"sB sB |:
+[P:69] !mf!"Gm"sB sB sB sB | sB sB "Dm7"sB sB | "Gm"sB sB sB sB | sB sB "Dm7"sB sB |
+"Gm"sB sB sB sB | "Eb7"sB sB sB sB |1
+"Gm"sB sB "D7(#9)"sB sB | "Gm"sB sB "D7(#9)"sB sB :|2
+"Gm"sB sB "D7(#9)"sB sB | "Gm"sB sB sB sB ||
+[P:79] "Cm7"sB sB sB sB | "F7"sB sB sB sB | "Bb"sB sB "Dm7"sB sB | "G7(#5)"sB sB sB sB |
+"C9"sB sB sB sB | "F9"sB sB sB sB | "Bbmaj7"sB sB sB sB | "Ab7"sB sB sB sB ||
+[P:87] "Gm"sB sB sB sB | sB sB "Dm7"sB sB | "Gm"sB sB sB sB | sB sB "Dm7"sB sB |
+"Gm"sB sB sB sB | "Eb7"sB sB sB sB | "Gm"sB sB "D7"sB sB | "Gm"sB sB "D7"sB sB ||
+[P:95] "Gm"sB sB sB sB | sB sB "Dm7"sB sB | "Gm"sB sB sB sB | sB sB "Dm7"sB sB |
+"Gm"sB sB sB sB | "Eb7"sB sB sB sB | "Gm"sB sB "D7"sB sB | "Gm"sB sB "D7"sB sB ||
+[P:103] "Gm6"sB sB sB sB | "Am7(b5)"sB sB "D7(b5)"sB sB | "Gm6"sB sB sB sB | "Am7(b5)"sB sB "D7(b5)"sB sB |
+"Gm6"sB sB sB sB | "Eb9"sB sB sB sB | "Gm6"sB sB "D7(b9)"sB sB | "Gm6"sB sB sB sB ||
+[P:111 · Piano solo] "Cm7"sB sB sB sB | "F7"sB sB sB sB | "Bb"sB sB sB sB | "G7"sB sB sB "Db9"sB |
+"C9"sB sB sB sB | "F7"sB sB sB sB | "Bb"sB sB sB sB | "D7"sB sB sB sB ||
+[P:119] "Gm"sB sB sB sB | sB sB "Dm7"sB sB | "Gm"sB sB sB sB | sB sB "Dm7"sB sB |
+"Gm"sB sB sB sB | "Eb7"sB sB sB sB | "Gm"sB "Eb"sB "Edim"sB "D7"sB | "Gm"sB sB "Edim"sB "Eb7"sB |
+"Gm"sB "Eb"sB "Edim"sB "D7"sB | "^Dim. poco a poco""Gm"sB sB "Edim"sB "Eb7"sB | "Gm"sB "Eb"sB "Edim"sB "D7"sB | "Gm"sB sB "Edim"sB "Eb7"sB |
+"Gm"sB "Eb"sB "Edim"sB "D7"sB/"Gm"sB/ | z z/ "Gm(maj9,add6)"!sfz![=EB-d-^f-a-]/ [Bd^fa]2 |]

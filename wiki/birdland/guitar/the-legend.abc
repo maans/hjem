@@ -1,0 +1,31 @@
+X:1
+T:The Legend
+C:Benny Carter
+M:4/4
+L:1/4
+Q:"Medium-slow swing" 1/4=92
+U:s=!style=rhythm!
+V:G clef=treble name="Guitar"
+%%MIDI program 26
+K:Cm
+Z4 |:
+[P:5] Z6 |1
+Z2 :|2
+Z2 ||
+[P:15] Z8 ||
+[P:23] Z8 |:
+[P:31] !mf!"Cm"sB sB "Cm/Bb"sB sB | "Fm7"sB sB "Cm6"sB sB | "D7(#9)"sB sB "G7"sB sB | "C7(#9)"sB sB sB "Gb9"sB |
+"F7(b9)"sB sB sB sB | "D7(#5,#9)"sB sB "G7(b5,#9)"sB sB |1
+"Cm6/9"sB sB sB sB | "D7(#5,#9)"sB sB "G7(b5,b9)"sB sB :|2
+"Cm6/9"sB sB "Fm6"sB sB | "CmMaj7"sB sB "C7(#5,#9)"sB sB ||
+[P:41] "Fm"sB sB "Fm/Eb"sB sB | "D7(b5,b9)"sB sB "G7(b5,#9)"sB sB | "Cm9"sB sB "Cm6"sB sB | "C7(b5,b9)"sB sB sB sB |
+"Fm"sB sB "Fm/Eb"sB sB | "D7(b5,b9)"sB sB sB sB | "G7sus4"sB sB sB sB | "G7(b5,b9)"sB sB sB sB ||
+[P:49] "Cm"sB sB "Cm/Bb"sB sB | "Fm7"sB sB "Cm6"sB sB | "D7(#9)"sB sB "G7"sB sB | "C7(#9)"sB sB sB "Gb9"sB |
+"F7(b9)"sB sB sB sB | "D7(#5,#9)"sB sB "G7(#9)"sB sB | "Cm6/9"sB sB sB sB | "D7(#5,#9)"sB sB "G7(b5,b9)"sB sB ||
+[P:57] "Cm"sB sB "Cm/Bb"sB sB | "Fm7"sB sB "Cm6"sB sB | "D7(#9)"sB sB "G7"sB sB | "C7(#9)"sB sB sB "Gb9"sB |
+"F7(b9)"sB sB sB sB | "D7(#5,#9)"sB sB "G7(#9)"sB sB | "Cm6/9"sB sB sB sB | "D7(#5,#9)"sB sB "G7(b5,b9)"sB sB ||
+[P:65] "Cm"!ff!sB sB sB sB/"Fm"sB/- | sB sB/"Cm"sB/- sB sB | (3z "Dm7(b5)"sB sB "G7(b9)"sB sB/"C7sus4"sB/- | sB sB (3sB sB "Gb7"sB |
+"F7"sB sB sB sB | "Dm7(b5)"sB sB "G7(b9)"sB sB | "Cm6"sB sB sB sB | sB sB "C7(#9)"sB sB ||
+[P:73] "Fm"sB sB "Fm/Eb"sB sB | "D7(b5,b9)"sB sB "G7(b5,#9)"sB sB | "Cm9"sB sB "Cm6"sB sB | "C7(b5,b9)"sB sB sB sB |
+"Fm"sB sB "Fm/Eb"sB sB | "D7(b5,b9)"sB sB sB sB | "G7sus4"sB sB sB sB | "G7(b5,b9)"sB sB sB sB ||
+[P:81] "Cm"sB z z2 | Z8 | z z/ "Cm6/9"sB/- !fermata!sB2 |]

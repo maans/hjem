@@ -1,0 +1,27 @@
+X:1
+T:I Left My Heart in San Francisco
+C:George Cory / Douglass Cross
+M:4/4
+L:1/4
+Q:"Slow swing" 1/4=102
+U:s=!style=rhythm!
+V:G clef=treble name="Guitar"
+%%MIDI program 26
+K:C
+Z4 ||
+[P:A] "C"sB sB "Dm7"sB "D#dim"sB | "C/E"sB sB "Ebdim"sB sB | "Dm7"sB sB "Ab7"sB sB | "G7"sB sB sB sB |
+"Dm"sB sB "Dm(maj7)"sB "Dm7"sB | "G"sB sB sB "F7"sB | "Em7"sB sB "A7"sB sB | "Dm7"sB sB "G7"sB "B7"sB |
+"C"sB sB sB sB | "C"sB sB "B7"sB sB | "Em7"sB sB sB sB | "A9"sB sB "Ab9"sB "A9"sB |
+"Am7"sB sB sB sB | "D7"sB sB sB sB | "Dm7"sB sB "Bbdim"sB sB | "G7"sB sB "Dm7"sB "Ebdim"sB ||
+[P:B] "C"sB sB "F9"sB sB | "Em7"sB sB "A7"sB sB | "Dm7"sB sB sB sB | "G7"sB sB sB sB |
+"Dm7"sB sB sB sB | "Dm7"sB sB sB sB | "Bm7"sB sB sB sB | "E7"sB sB "Eb7"sB "E7"sB |
+"A7(#5)"sB sB "Em7"sB sB | "A9"sB sB "Em7"sB "A7"sB | "D7"sB sB sB sB | "D7"sB sB "Db7"sB "D7"sB |
+"Dm7"sB sB sB sB | "G7sus4"sB sB "G7"sB sB | "Cmaj7"sB "C7"sB "F7"sB "F#7(b5)"sB | "G7sus4"sB sB sB sB |:
+[P:C · Sax / guitar] "C"sB sB "F9"sB sB | "Em7"sB sB "A7"sB sB | "Dm7"sB sB sB sB | "G7"sB sB "Bbdim"sB sB |
+"Dm7"sB sB sB sB | "Dm7"sB sB "G7"sB sB | "C"sB sB "Bbdim"sB sB | "Dm7"sB sB "Cdim"sB sB |
+"C"sB sB sB sB | "C"sB sB "Cdim"sB sB | "Em7"sB sB sB sB | "A7"sB sB sB sB |
+"Am7"sB sB sB sB | "D7"sB sB sB sB | "Dm7"sB sB sB sB | "G9"sB "Am7"sB "Dm7"sB "G7"sB :|
+[P:D] "C6"sB sB sB sB | "C"sB "Fm7"sB "Em7"sB "Eb7"sB | "Dm7"sB sB sB sB | "G7"sB sB sB sB |
+"Dm7"sB sB sB sB | "Dm7"sB sB sB sB | "Bm7"sB sB sB sB | "E7"sB sB "Eb7"sB "E7"sB |
+"A7(#5)"sB sB sB "Em7"sB | "A7"sB sB "Em7"sB "A7"sB | "D7"sB sB sB sB | "D7"sB sB "Db7"sB "D7"sB |
+"Dm7"sB sB sB sB | "G7"sB z "^Piano only"g2 | c' "C"sB "Dm7"sB/ "G7"sB3/2 | "Cmaj9"!fermata!sB4 |]
