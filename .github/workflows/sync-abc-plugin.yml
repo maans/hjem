@@ -1,0 +1,65 @@
+name: Synchronize shared ABC plugin in musician wikis
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/sync-abc-plugin.yml'
+      - 'scripts/update_abc_plugin.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: sync-abc-plugin-main
+  cancel-in-progress: false
+jobs:
+  synchronize:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      FORGE_REF: ca92d87d82ca362aa1aedd2b1958895c4c17e8a9
+      ABC_VERSION: '0.3.57'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Download the verified shared plugin release
+        run: |
+          python - <<'PY'
+          import json, os, pathlib, re, urllib.request
+          ref = os.environ['FORGE_REF']
+          if not re.fullmatch(r'[0-9a-f]{40}', ref):
+              raise SystemExit('The Forge release must be pinned to a full commit SHA')
+          url = f'https://raw.githubusercontent.com/maans/huwiki-forge/{ref}/plugins/abc/dist/plugin.json'
+          with urllib.request.urlopen(url, timeout=60) as response:
+              data = response.read()
+          plugin = json.loads(data)
+          if plugin.get('title') != '$:/plugins/huwiki/abc' or plugin.get('version') != os.environ['ABC_VERSION']:
+              raise SystemExit('The pinned plugin does not match the requested release')
+          pathlib.Path('/tmp/abc-release.json').write_bytes(data)
+          PY
+      - name: Replace only ABC in existing wiki files
+        run: |
+          python - <<'PY'
+          import pathlib, subprocess, sys
+          files = sorted(str(path) for path in pathlib.Path('wiki').rglob('index.html'))
+          if not files:
+              raise SystemExit('No musician wiki files were found')
+          subprocess.run([sys.executable, 'scripts/update_abc_plugin.py', '--plugin', '/tmp/abc-release.json', *files], check=True)
+          PY
+      - name: Publish the updated musician wikis
+        run: |
+          git diff --check
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- 'wiki/**/index.html'
+          if ! git diff --cached --quiet; then
+            git commit -m "build(wiki): synchronize ABC ${ABC_VERSION}"
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
