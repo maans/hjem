@@ -26,6 +26,15 @@ def repair(html, source):
                         raise ValueError('Alone Together has changed since review; refusing to overwrite it')
                     item['abc-source'] = source
                     changed = True
+                if item.get('huwiki-mixer-preset') != 'alone-together-20261127':
+                    settings = json.loads(item.get('abc-accompaniment', '{}'))
+                    voices = settings.setdefault('voiceSettings', {})
+                    for index, level in enumerate([65, 58, 40, 45, 30, 56, 52, 77, 82, 76]):
+                        voices[str(index)] = dict(voices.get(str(index), {}), volume=level, mode='normal', muted=False)
+                    settings['reverb'] = 0
+                    item['abc-accompaniment'] = json.dumps(settings, ensure_ascii=False, separators=(',', ':'))
+                    item['huwiki-mixer-preset'] = 'alone-together-20261127'
+                    changed = True
             if item.get('title') == 'Bjarkes nodepult':
                 old = item.get('text', '')
                 new = old.replace('Brug originalen som reference for trommerne, hvor importen forenkler notationen.', 'Instrumenterne følger stemmerne. Trommerne vises samlet på ét femlinjet system.')
