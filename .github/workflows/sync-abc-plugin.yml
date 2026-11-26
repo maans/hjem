@@ -17,8 +17,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     env:
-      FORGE_REF: 1e29f6db2e58c1d8c6458e1c704f83c74d685d85
-      ABC_VERSION: '0.3.58'
+      FORGE_REF: b8322f93c349966c1abecd55cfe9502285567658
+      ABC_VERSION: '0.3.60'
     steps:
       - uses: actions/checkout@v4
         with:
