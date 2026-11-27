@@ -1,0 +1,785 @@
+{
+  "downloads": [
+    {
+      "bytes": 44352,
+      "corpus": "effendi",
+      "sha256": "b680a755ba9b38089554f0328a7c594aa42425add2051c5e604a6350a339b801",
+      "status": "verified_musicxml",
+      "title": "All of Me",
+      "url": "https://effendi.me/jazz/repo/IV_Part-2/AllOfMe_C.musicxml"
+    },
+    {
+      "bytes": 110988,
+      "corpus": "effendi",
+      "sha256": "8352d3cb9b9d85dad6af8f09ff5e5f2a845d0b194b865a726e02d37bda8c2ecd",
+      "status": "verified_musicxml",
+      "title": "Desafinado",
+      "url": "https://effendi.me/jazz/repo/III/Desafinado.xml"
+    },
+    {
+      "bytes": 58346,
+      "corpus": "effendi",
+      "sha256": "77da8249f6aead9504bc438687cc448220556bc0b854251c165ce56a04fd6c24",
+      "status": "verified_musicxml",
+      "title": "Fly Me to the Moon",
+      "url": "https://effendi.me/jazz/repo/III/FlyMeToTheMoon.xml"
+    },
+    {
+      "bytes": 31109,
+      "corpus": "effendi",
+      "sha256": "52f2e8cff070bd8a9c697a1d1dbed14f270bcdbdcb47cabc6e2db0aa69cb337d",
+      "status": "verified_musicxml",
+      "title": "It Could Happen to You",
+      "url": "https://effendi.me/jazz/repo/IV_Part-2/ItCouldHappenToYou.musicxml"
+    },
+    {
+      "bytes": 48203,
+      "corpus": "effendi",
+      "sha256": "70ae2f1847f72487b0e324325c369455d21bb3d97bf7c5824a945197a9fe9eb4",
+      "status": "verified_musicxml",
+      "title": "On the Sunny Side of the Street",
+      "url": "https://effendi.me/jazz/repo/IV_Part-2/OnTheSunnySideOfTheStreet.musicxml"
+    },
+    {
+      "bytes": 55689,
+      "corpus": "effendi",
+      "sha256": "219b462969673a9078d2295ced0f0e70fafd8ffeccd38e5ea8fc6751de957adc",
+      "status": "verified_musicxml",
+      "title": "Stolen Moments",
+      "url": "https://effendi.me/jazz/repo/IV_Part-1/StolenMoments.xml"
+    },
+    {
+      "bytes": 31070,
+      "corpus": "effendi",
+      "sha256": "f626328efd12af854bf3e8c60da74f7b505966e11ff65573828d5a7dd47f784e",
+      "status": "verified_musicxml",
+      "title": "Summertime",
+      "url": "https://effendi.me/jazz/repo/I/Summertime.xml"
+    },
+    {
+      "bytes": 40522,
+      "corpus": "effendi",
+      "sha256": "370bd6e7d0397cf6d60aa444864304d2a48e115c39b8d3340664cc99912dfb2c",
+      "status": "verified_musicxml",
+      "title": "Take the A Train",
+      "url": "https://effendi.me/jazz/repo/IV_Part-2/TakeTheATrain.musicxml"
+    },
+    {
+      "corpus": "wikifonia",
+      "failure": "http_403",
+      "status": "failed",
+      "url": "https://www.synthzone.com/files/Wikifonia/Wikifonia.zip"
+    }
+  ],
+  "entries": [
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "88 Basie Street"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "920 Special"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "A Foggy Day"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "A Warm Breeze"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "A-Tisket, A-Tasket"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Ain't Misbehavin'"
+    },
+    {
+      "arrangement_verified": false,
+      "match_type": "alternative_lead_sheet",
+      "source": {
+        "bytes": 44352,
+        "composer": "Gerald Marks, Seymour Simons Arr. 6EQUJ5",
+        "corpus": "effendi",
+        "measures": 32,
+        "musicxml_title": "All of Me",
+        "note_events": 84,
+        "notes": 84,
+        "parts": 1,
+        "path": "sources/b680a755ba9b38089554f0328a7c594aa42425add2051c5e604a6350a339b801.musicxml",
+        "sha256": "b680a755ba9b38089554f0328a7c594aa42425add2051c5e604a6350a339b801",
+        "title_aliases": [],
+        "url": "https://effendi.me/jazz/repo/IV_Part-2/AllOfMe_C.musicxml"
+      },
+      "status": "verified_musicxml_alternative",
+      "title": "All of Me"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "All or Nothing at All"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "All the Things You Are"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Almost Like Being in Love"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Alright, Okay, You Win"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Avalon"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Baby, It's Cold Outside"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Beyond the Sea"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Big Swing Face"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Birdland"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Birth of the Blues"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Black Coffee"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Blue Chip"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Blues in the Night"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Booze Brothers"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Broadway"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "But Beautiful"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "But Not for Me"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Bye Bye Blackbird"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Celestial Swingin' Blues"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Cheek to Cheek"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Come Fly with Me"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Connecting the 'Bones"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Corner Pocket"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Cotton Tail"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Crazy Little Thing Called Love"
+    },
+    {
+      "arrangement_verified": false,
+      "match_type": "alternative_lead_sheet",
+      "source": {
+        "bytes": 110988,
+        "composer": "Antonio Carlos Jobim Arr. TAnner Funney",
+        "corpus": "effendi",
+        "measures": 60,
+        "musicxml_title": "Desafinado",
+        "note_events": 263,
+        "notes": 245,
+        "parts": 1,
+        "path": "sources/8352d3cb9b9d85dad6af8f09ff5e5f2a845d0b194b865a726e02d37bda8c2ecd.musicxml",
+        "sha256": "8352d3cb9b9d85dad6af8f09ff5e5f2a845d0b194b865a726e02d37bda8c2ecd",
+        "title_aliases": [],
+        "url": "https://effendi.me/jazz/repo/III/Desafinado.xml"
+      },
+      "status": "verified_musicxml_alternative",
+      "title": "Desafinado"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Destination Moon"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Dickie's Dream"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Do Nothin' Till You Hear from Me"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Don't Be That Way"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Don't Know Why"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Doodle Oodle"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Down for Double"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "East St. Louis Toodle-Oo"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Easy Money"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Everyday I Have the Blues"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Flight of the Foo Birds"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Flirt"
+    },
+    {
+      "arrangement_verified": false,
+      "match_type": "alternative_lead_sheet",
+      "source": {
+        "bytes": 58346,
+        "composer": "Bart Howard Frank Sinatra Joey Defrancesco Arr. 6EQUJ5",
+        "corpus": "effendi",
+        "measures": 38,
+        "musicxml_title": "Fly Me To The Moon",
+        "note_events": 120,
+        "notes": 116,
+        "parts": 1,
+        "path": "sources/77da8249f6aead9504bc438687cc448220556bc0b854251c165ce56a04fd6c24.musicxml",
+        "sha256": "77da8249f6aead9504bc438687cc448220556bc0b854251c165ce56a04fd6c24",
+        "title_aliases": [],
+        "url": "https://effendi.me/jazz/repo/III/FlyMeToTheMoon.xml"
+      },
+      "status": "verified_musicxml_alternative",
+      "title": "Fly Me to the Moon"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "For Lena and Lenny"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Four Brothers"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Fun Time"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Get Out and Stay Out"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "God Bless the Child"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Goin' On"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Groovin' Hard"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Have You Met Miss Jones?"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Hit the Road Jack"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Honeysuckle Rose"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "How Sweet It Is (To Be Loved by You)"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "I Get a Kick Out of You"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "I Just Found Out About Love"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "I Left My Heart in San Francisco"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "I Won't Dance"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "I'm Beginning to See the Light"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "I've Got You Under My Skin"
+    },
+    {
+      "arrangement_verified": false,
+      "match_type": "alternative_lead_sheet",
+      "source": {
+        "bytes": 31109,
+        "composer": "James Van Heusen Johnny Burke Arr. 6EQUJ5",
+        "corpus": "effendi",
+        "measures": 22,
+        "musicxml_title": "It Could Happen To You",
+        "note_events": 54,
+        "notes": 51,
+        "parts": 1,
+        "path": "sources/52f2e8cff070bd8a9c697a1d1dbed14f270bcdbdcb47cabc6e2db0aa69cb337d.musicxml",
+        "sha256": "52f2e8cff070bd8a9c697a1d1dbed14f270bcdbdcb47cabc6e2db0aa69cb337d",
+        "title_aliases": [],
+        "url": "https://effendi.me/jazz/repo/IV_Part-2/ItCouldHappenToYou.musicxml"
+      },
+      "status": "verified_musicxml_alternative",
+      "title": "It Could Happen to You"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "It Don't Mean a Thing (If It Ain't Got That Swing)"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "It's Only a Paper Moon"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Ja-Da"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Jayhawk"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Jeep Jockey Jump"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Jeep's Blues"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Lester Leaps In"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Let's Face the Music and Dance"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Love Is Here to Stay"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Lullaby of Birdland"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Mack the Knife"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Makin' Whoopee"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Me and Mrs. Jones"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Merry Christmas Baby"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "More"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Moten Swing"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "My Funny Valentine"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "On the Road to Mandalay"
+    },
+    {
+      "arrangement_verified": false,
+      "match_type": "alternative_lead_sheet",
+      "source": {
+        "bytes": 48203,
+        "composer": "Jimmy McHugh Arr. 6EQUJ5",
+        "corpus": "effendi",
+        "measures": 27,
+        "musicxml_title": "On the Sunny Side of the Street",
+        "note_events": 111,
+        "notes": 99,
+        "parts": 1,
+        "path": "sources/70ae2f1847f72487b0e324325c369455d21bb3d97bf7c5824a945197a9fe9eb4.musicxml",
+        "sha256": "70ae2f1847f72487b0e324325c369455d21bb3d97bf7c5824a945197a9fe9eb4",
+        "title_aliases": [],
+        "url": "https://effendi.me/jazz/repo/IV_Part-2/OnTheSunnySideOfTheStreet.musicxml"
+      },
+      "status": "verified_musicxml_alternative",
+      "title": "On the Sunny Side of the Street"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Orange Coloured Sky"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Perdido"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Prime Time"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Santa Baby"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Shiny Stockings"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Sophisticated Lady"
+    },
+    {
+      "arrangement_verified": false,
+      "match_type": "alternative_lead_sheet",
+      "source": {
+        "bytes": 55689,
+        "composer": "Oliver Nelson Arr. 6EQUJ5",
+        "corpus": "effendi",
+        "measures": 20,
+        "musicxml_title": "Stolen Moments",
+        "note_events": 134,
+        "notes": 106,
+        "parts": 2,
+        "path": "sources/219b462969673a9078d2295ced0f0e70fafd8ffeccd38e5ea8fc6751de957adc.musicxml",
+        "sha256": "219b462969673a9078d2295ced0f0e70fafd8ffeccd38e5ea8fc6751de957adc",
+        "title_aliases": [],
+        "url": "https://effendi.me/jazz/repo/IV_Part-1/StolenMoments.xml"
+      },
+      "status": "verified_musicxml_alternative",
+      "title": "Stolen Moments"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Straighten Up and Fly Right"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Strike Up the Band"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Summer Wind"
+    },
+    {
+      "arrangement_verified": false,
+      "match_type": "alternative_lead_sheet",
+      "source": {
+        "bytes": 31070,
+        "composer": "George Gershwin Arr. 6EQUJ5",
+        "corpus": "effendi",
+        "measures": 17,
+        "musicxml_title": "Summertime",
+        "note_events": 59,
+        "notes": 57,
+        "parts": 1,
+        "path": "sources/f626328efd12af854bf3e8c60da74f7b505966e11ff65573828d5a7dd47f784e.musicxml",
+        "sha256": "f626328efd12af854bf3e8c60da74f7b505966e11ff65573828d5a7dd47f784e",
+        "title_aliases": [],
+        "url": "https://effendi.me/jazz/repo/I/Summertime.xml"
+      },
+      "status": "verified_musicxml_alternative",
+      "title": "Summertime"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Sweet Georgia Brown"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Swingin' Jingle Bells"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Switch in Time"
+    },
+    {
+      "arrangement_verified": false,
+      "match_type": "alternative_lead_sheet",
+      "source": {
+        "bytes": 40522,
+        "composer": "Billy Strayhorn Duke Ellington",
+        "corpus": "effendi",
+        "measures": 27,
+        "musicxml_title": "Take the A Train",
+        "note_events": 78,
+        "notes": 77,
+        "parts": 1,
+        "path": "sources/370bd6e7d0397cf6d60aa444864304d2a48e115c39b8d3340664cc99912dfb2c.musicxml",
+        "sha256": "370bd6e7d0397cf6d60aa444864304d2a48e115c39b8d3340664cc99912dfb2c",
+        "title_aliases": [],
+        "url": "https://effendi.me/jazz/repo/IV_Part-2/TakeTheATrain.musicxml"
+      },
+      "status": "verified_musicxml_alternative",
+      "title": "Take the A Train"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Teddy the Toad"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "The Best Is Yet to Come"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "The Blues Walk"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "The Christmas Song"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "The Jersey Bounce"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "The Lady Is a Tramp"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "The Legend"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "The More I See You"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "The Wiggle Walk"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "They Can't Take That Away from Me"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Thou Swell"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Tickle Toe"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Times Gettin' Tougher Than Tough"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Unforgettable"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "Walkin' My Baby Back Home"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "What a Wonderful World"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "What Kind of Fool Am I?"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "When I Fall in Love"
+    },
+    {
+      "arrangement_verified": false,
+      "status": "not_found_in_searched_corpora",
+      "title": "White Christmas"
+    }
+  ],
+  "matched_titles": 8,
+  "requested_titles": 117,
+  "schema_version": 1,
+  "scope": "Reviewed Effendi MusicXML links and optional Wikifonia corpus only; not an exhaustive internet search. Every match is an alternative lead sheet, never a verified Birdland arrangement."
+}
