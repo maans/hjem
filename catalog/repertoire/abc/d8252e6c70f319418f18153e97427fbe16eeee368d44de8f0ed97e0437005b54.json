@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\n%%partsfont \"Kreon\" Box\nT:I'm Beginning to See the Light\nC: Duke Ellington, Johnny Hodges, Harry James\nM: 4/4\nL: 1/8\nQ:1/4=120\nK:C\n_A|:\"C6\"AcA2\"Ab7\"c2\"G7\"d2|\"C6\"eA2A-A2z\"C+\"_A|\"C6\"AcA2\"Ab7\"c2\"G7\"d2|\"Ab7\"_e_A2A-A2zA|\n\"C6\"AcA2 c2 \"G7\"d2|\"C\"e\"Bb\"g2 g-\"A7\"g2 gf|\"D9\"ecA2\"Dm7\"c\"G7\"d2c-|1 \"C\"c4\"Co\"z2\"G7\"z_A:|2 \"C\"c4 z4||\n\"E7\"ze2 Be2B2|_AB2e-e4|\"Eb7\"z_e2 _Be2B2|G_B2_e-e4|\n\"D9\"zd2Ad2A2|_GA2d-d2 dd|\"Ab7\"_ee e2 ec2 d-|\"Dm7\"d4 \"G7\"z2 z _A||\n\"C6\"AcA2\"Ab7\"c2\"G7\"d2|\"C6\"eA2A-A2z\"C+\"_A|\"C6\"AcA2\"Ab7\"c2\"G7\"d2|\"Ab7\"_e_A2A-A2zA|\n\"C6\"AcA2 c2 \"G7\"d2|\"C\"e\"Bb\"g2 g-\"A7\"g2 gf|\"D9\"ecA2\"Dm7\"c\"G7\"d2c-|\"C\"c4 z4||\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-abc-label": "Leadsheet (ABC)",
+  "source-url": "https://jazzleadsheet.com/post/i-am-begining-to-see-the-light/",
+  "abc-accompaniment": "{\"style\":\"swing\",\"enabled\":true}"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\n%%partsfont \"Kreon\" Box\nT:A Foggy Day\nC: George Gershwin\nM:4/4\nL:1/4\nQ:1/4=150\nK:Eb\n\"Ebmaj7\"zB,B,B,|\"Gm7b5\"_D2-\"C7b9\"DDD|\"Fm7\"CC3|\"Bb7\"G4|\n\"Eb6\"zEEE|\"Cm7b5\"_G3G|\"F7\"F3F|\"Fm7\"c2\"Bb7\"z2|\n\"Ebmaj7\"zddd|\"Bbm7\"BB-\"Eb7\"B2|\"Ab6\"G3G|\"Abm6\"E4|\n\"Ebmaj7\"zGGG|\"Gm7\"BB-\"C7\"B2|\"F7\"G3G|\"Fm7\"C2\"Bb7\"z2||\n\"Ebmaj7\"zB,B,B,|\"Gm7b5\"_D2-\"C7b9\"DDD|\"Fm7\"CC3|\"Bb7\"G4|\n\"Eb6\"zEEE|\"Cm7b5\"_G3G|\"F7\"F3F|\"Fm7\"c2\"Bb7\"z2|\n\"Bbm7\"e2ee|\"Eb7\"c3c|\"Ab6\"B2B2|\"Db7\"G2GA|\n\"Eb6\"BE\"Fm7\"FA|\"Gm7\"GE\"Abm6\"FA|\"Gm7\"G2\"Cm7\"e2|\"Fm7\"E2\"Bb7\"F2|\n\"Eb6\"E4-|E3z||\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-abc-label": "Leadsheet (ABC)",
+  "source-url": "https://jazzleadsheet.com/post/a-foggy-day/",
+  "abc-accompaniment": "{\"style\":\"swing\",\"enabled\":true}"
+}

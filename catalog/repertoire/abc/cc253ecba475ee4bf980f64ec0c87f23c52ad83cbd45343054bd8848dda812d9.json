@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:To sekunder\nC:Ebbe Munk\nM:7/8\nL:1/8\nQ:1/8=280\nV:1 clef=treble\nV:2 clef=bass\nK:C\nV:1\n[P:A] |:A2 d2 cc z | d2 _B2 ^c-ce | A2 d2 cc z | d2 _B2 ^cBA ::\n[P:B] a/c'/b/a/ f2 ee z | d2 _B2 ^c-ce | a/c'/b/a/ f2 ee z | d2 _B2 ^cBA ::\n[P:C] e/a/f/e/ _e2 cc z | _B2 _d2 c-cd | e/a/f/e/ _e2 cc z | _B2 _d2 c z z :|\nV:2\n|:\"A7\"A,,E,, A,,2 A,,-A,,-A,, | \"Bb13\"G,,E,, _B,,2\"A7\" A,,-A,,-A,, | \"A7\"A,,E,, A,,2 A,,-A,,-A,, | \"Bb13\"G,,E,, _B,,2\"A7\" A,,-A,,-A,, ::\n\"A7\"A,,E,, A,,2 A,,-A,,-A,, | \"Bb13\"G,,E,, _B,,2\"A7\" A,,-A,,-A,, | \"A7\"A,,E,, A,,2 A,,-A,,-A,, | \"Bb13\"G,,E,, _B,,2\"A7\" A,,-A,,-A,, ::\n\"Gb13\"C,_G,, C,2 C,-C,-C, | \"Gb13\"G,,2 _B,,2\"F7\" C,-C,-C, | \"Gb13\"C,_G,, C,2 C,-C,-C, | \"Gb13\"G,,2 _B,,2\"F7\" C,-C,-C, :|\n",
+  "text": "<$huwiki-abc/>",
+  "abc-view": "full",
+  "abc-bars-per-line": "4",
+  "abc-accompaniment": "{\"enabled\": false, \"metronome\": false, \"bassSource\": \"voice:1\", \"melodyInstrument\": \"source\"}"
+}

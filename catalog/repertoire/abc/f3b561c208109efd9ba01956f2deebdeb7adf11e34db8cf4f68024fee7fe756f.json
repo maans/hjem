@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Cocek Srece\nC:Trad. serbisk,  v.2 Ebbe Munk\nM:4/4\nL:1/8\nQ:1/4=100\nV:1 name=\"Klaver\" clef=treble\nV:2 name=\"Klaver\" clef=treble\nV:3 clef=bass\nK:Dm\nV:1\n[P:Intro x 4] |:\"Dm\"z4\"A\" z4 :| [P:Vers 1]\"Dm\"z8 | \"A\"z8 | \"Dm\"z4\"A\" z4 |\n\"Dm\"z4\"F#dim\" z4 | \"Gm\"z8 | \"Bb\"z8 | \"A\"z8 |\nz8 | z8 | z8 | z8 |\nz8 | z8 | \"A\"z4\"G/B\" z2\"A/C#\" z2 | \"Dm\"z4\"A\" z4 |\n\"Dm\"z4\"A\" z4 | [P:Vers 2] z8 | z8 | z8 |\nz8 | z8 | z8 | z8 |\nz8 | z8 | z8 | z8 |\nz8 | z8 | z8 | z8 |\nz8 |\nV:2\n|:z4 z2 A,2 :| [DF]4 [D-E]2 D2 | [A,^C]4 [A,D]2 [CE]2 | [D-F][DE] [A,D]4 z2 |\n[Ad][Gc] [^FA][_EF] [DE][CG] [A,D][^F,F] | [DG]6 [DF]2 | [B,E]4 [F,D]3 [B,E] | [A,^C]2 [E,A,]4 z2 |\n[E,A,][G,B,][A,^C][B,D] [CE][DF][EG][E^G] | [EA]2 [^CE]4 [E^F]2 | [EG]4 z [E-A]/[EG]/ [^D^F][EG] | [EA]2 [^CE]6 |\nz8 | [EA]4 [^CG]2 [A,F]2 | [A,E]2 [A,^C]2 [A,D]2 [CE]2 | [A,-F][A,E] D6 |\nz4 z2 A,2 | [DF]4 [D-E]2 D2 | [A,^C]4 [A,D]2 [CE]2 | [D-F][DE] [A,D]4 z2 |\nz [Ad] [A^c][Ad] [^F=c][FB] [DA][DG] | [DG]6 [DF]2 | [B,E]4 [F,D]3 [B,E] | [A,^C]2 [E,A,]4 z2 |\nz [A^c] [A^B][Ac] [G_B][GA] [EG][E^G] | [EA]2 [^CE]4 [E^F]2 | [EG]4 z [E-A]/[EG]/ [^D^F][EG] | [EA]2 [^CE]6 |\nz [A^c] [A^B][Ac] [G_B-][GB-] [FB-][EB] | [EA]4 [^CG]2 [A,F]2 | [A,E]2 [A,^C]2 [A,D]2 [CE]2 | [A,-F][A,E] D6 |\nz4 z2 A,2 |\nV:3\n|:D,2 D,D, A,,2 ^C,2 :| D,2 D,D, A,,2 D,2 | A,2 A,A, E,2 A,2 | D,2 D,D, A,,2 ^C,2 |\nD,2 D,D, ^F,4 | G,2 G,G, D,2 G,2 | B,2 B,B, F,2 B,2 | A,2 A,A, E,2 ^C,E, |\nA,2 A,A, E,2 ^C,E, | A,2 A,A, E,2 ^C,E, | A,2 A,A, E,2 ^C,E, | A,2 A,A, E,2 ^C,E, |\nA,2 A,A, E,2 ^C,E, | A,2 A,A, E,2 ^C,E, | A,2 A,A, =B,2 ^C2 | D,2 D,D, A,,2 ^C,2 |\nD,2 D,D, A,,2 ^C,2 | z8 | z8 | z8 |\nz8 | z8 | z8 | z8 |\nz8 | z8 | z8 | z8 |\nz8 | z8 | z8 | z8 |\nz8 |\n",
+  "text": "<$huwiki-abc/>",
+  "abc-view": "full",
+  "abc-bars-per-line": "4",
+  "abc-accompaniment": "{\"enabled\":true,\"metronome\":false,\"style\":\"folk\",\"bassSource\":\"style\",\"bass\":\"alternating\",\"chords\":\"folk\",\"drums\":\"folk\",\"melodyInstrument\":\"source\",\"melodyVolume\":100,\"bassVolume\":50,\"chordVolume\":45,\"drumVolume\":40,\"droneEnabled\":false,\"variation\":20}"
+}

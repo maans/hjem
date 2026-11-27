@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Syv sind (Em)\nC:Ebbe Munk\nM:7/8\nL:1/8\nQ:1/4=110\nV:1 name=\"Piano\" clef=treble\nV:2 clef=treble\nK:Em\nV:1\n[P:A] |:\"Em\"G-GF EF\"B7\" B,^D | \"Em\"E z z z2 z2 | \"Em\"G-GF EF\"B7\" E^D | z7 |\n\"B7\"A-AG FE^D z | \"B7\"B,^D FA G-GF | [1\"Em\"EB-B B2\"B7\" B,2 :| [2\"Em\"E z z z2 z2 |:\n[P:B]\"Em\"^deBAGAB | \"B7\"FA-AA\"Em\"GAB | \"Em\"^deBAGAB | \"B7\"FA-AA\"Em\"GFE :|\n[P:C]\"Am\"ABc e2 ^de | \"Em\"B2 A2 GAB | \"B7\"F-FF A2 AF | \"Em\"GAB z2 z2 |\n\"Am\"ABc e2 ^de | \"Em\"B2 A2 GAB | \"B7\"F-FF A2 GF | \"Em\"E2 z z2 z2 |\nV:2\n|:E-EE E^D B,A, | G, z z z2 z2 | E-E^D [B,E]D CB, | z7 |\nF-FE ^DCB, z | B,B, B,B, ^D-DD | [1 E z z z2 z2 :| [2 E2 ^D2 EFG |:\nE2 G2 G-GG | F2 ^D2 E-EG | E2 G2 G-GG | F2 ^D2 E-E-E :|\nA-AA c2 A2 | G2 F2 EFG | ^D-DD F2 D2 | EF G z2 z2 |\nA-AA c2 A2 | G2 F2 EFG | ^D-DD F2 ED | E2 z z2 z2 |\n",
+  "text": "<$huwiki-abc/>",
+  "abc-view": "full",
+  "abc-bars-per-line": "4",
+  "abc-accompaniment": "{\"enabled\":true,\"metronome\":false,\"style\":\"balkan\",\"bassSource\":\"style\",\"bass\":\"alternating\",\"chords\":\"folk\",\"drums\":\"balkan\",\"melodyInstrument\":\"source\",\"melodyVolume\":100,\"bassVolume\":50,\"chordVolume\":45,\"drumVolume\":40,\"droneEnabled\":false,\"variation\":20}"
+}

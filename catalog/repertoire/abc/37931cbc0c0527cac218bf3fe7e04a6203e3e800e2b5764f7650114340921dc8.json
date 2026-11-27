@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Gucina Groove (Gm)\nC:Ebbe Munk\nM:4/4\nL:1/8\nQ:1/4=120\nK:Em\n[P:A] |:\"Em\"E2 e2 BB/c/ B/A/G/F/ | Ee BB/c/ B/A/G/F/ E2 | Ee B2 BB/c/ B/A/G/F/ | Ee BB/c/ B/A/G/F/Ee/f/ ::\n[P:B]\"Em\"gg/d/\"Em/Eb\" ff\"Em/D\" e^d\"Em/C#\"ef | \"Em/C\"gg/d/\"Em/B\" ff\"Em\" e2\"Em/B\" z e/f/ | \"Em\"gg/d/ ff eB/c/ B/A/G/F/ | GG/D/ FFE z e/f/ z :|\n",
+  "text": "<$huwiki-abc/>",
+  "abc-view": "full",
+  "abc-bars-per-line": "4",
+  "abc-accompaniment": "{\"enabled\":true,\"metronome\":false,\"style\":\"folk\",\"bassSource\":\"style\",\"bass\":\"alternating\",\"chords\":\"folk\",\"drums\":\"folk\",\"melodyInstrument\":\"source\",\"melodyVolume\":100,\"bassVolume\":50,\"chordVolume\":45,\"drumVolume\":40,\"droneEnabled\":false,\"variation\":20}"
+}

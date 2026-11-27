@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Hotel Nora\nC:Ebbe Munk\nM:7/8\nL:1/8\nQ:1/4=140\nV:1 name=\"Klaver\" clef=treble\nV:2 clef=bass\nV:3 name=\"Orkesterlilletromm…\" clef=perc\nK:Cm\nV:1\n[P:A x 4] |:\"Cm\"g2 e2 c3 | \"Ab/C\"e2 c2 A-AG | \"D7b9\"^F=A ce\"G\" d=BG | [P:13][1\"Cm\"cd- de- ef-f :|\n[P:24][2\"Cm\"c2 z2 z z z |: [P:B x 4]\"G7b9\"[fa][eg] [df][ce] [=B-d-][Bd][Ac] | [G=B]2 [Bd]2 [d-f-][df][Bd] | \"Ab\"[ce]2 [ce]2 [A-c-][Ac][FA] |\n[P:13][1\"G\"[G=B]2 [Bd]2 [dg]3 :| [P:24][2\"G\"[G=B][Gd] [Gg] z z z z |: [P:C x 4][K:Em]\"D7\"F2 c2\"G\" B2 G | Fc- cB- BG-G |\nF2 c2 B2 G | [P:13][1\"D7b9\"FA c_e\"G\" dBG :| [P:24][2\"D7\"F2 z2\"G\" z z z |\nV:2\n|:C,2 C,2 E,-E,G, | C,2 C,2 E,-E,A, | D,2 D,2 G,-G,G, | [1 C,2 C,2 E,F,G, :|\n[2 C,2 C,2 E,-E,G, |: G,,=B,,- B,,D,- D,F,-F, | G,,2 G,,2 =B,,-B,,D, | A,,2 A,,2 C,-C,E, |\n[1 G,,2 G,,2 =B,,-B,,D, :| [2 G,,G,, G,, z z z z |: [K:Em] D,2 D,2 G,,3 | D,2 D,2 G,,3 |\nD,2 D,2 G,,3 | [1 D,2 D,2 G,,3 :| [2 D,2 D,2 G,,3 |\nV:3\n|:z7 | z7 | z7 | [1 z7 :|\n[2 z7 |: z7 | z7 | z7 |\n[1 z7 :| [2 z7 |: [K:Em] z7 | z7 |\nz7 | [1 z7 :| [2 z7 |\n",
+  "text": "<$huwiki-abc/>",
+  "abc-view": "full",
+  "abc-bars-per-line": "4",
+  "abc-accompaniment": "{\"enabled\":true,\"metronome\":false,\"style\":\"balkan\",\"bassSource\":\"voice:1\",\"bass\":\"alternating\",\"chords\":\"folk\",\"drums\":\"balkan\",\"melodyInstrument\":\"source\",\"melodyVolume\":100,\"bassVolume\":50,\"chordVolume\":45,\"drumVolume\":40,\"droneEnabled\":false,\"variation\":20}"
+}

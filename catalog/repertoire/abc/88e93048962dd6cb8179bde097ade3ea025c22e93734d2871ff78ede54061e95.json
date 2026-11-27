@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Dobar Bubnjar · E♭-sax\nC:Ebbe Munk\nM:9/8\nL:1/8\n%%MIDI transpose 3\nQ:1/8=270\nV:1 clef=treble\nV:2 clef=treble\nK:Dm\nV:1\n[P:A] |:z f-f e-ed ^ceA | z d-d d-dd BA^c | z f-f e-ed ^ceA | ddd z z2 AB^c ::\n[P:B] GBA ^c B2 dcB | z z z d^cB Ace | GBA ^c B2 dcB | AAA z z2 AB^c ::\n[P:C] z GA ^F G2 B3 | z z z d^cB Ace | z GA ^F G2 B3 | AAA z z2 [A^c][Bd][ce] :|\nV:2\n|:\"Dm\"D,2 D,2 D,2\"A7\" A,,-A,,^C, | \"Dm\"D,2 D,2 D,2\"A7\" A,,^C,E, | \"Dm\"D,2 D,2 D,2\"A7\" A,,-A,,^C, | \"Dm\"D,2 D,2 D,2\"A7\" A,,3 ::\n\"Gm\"G,,2 G,,2 G,,2 G,,B,,-B,, | \"A7\"A,,2 A,,2 A,,2 A,,B,,-B,, | \"Gm\"G,,2 G,,2 G,,2 G,,B,,-B,, | \"A7\"A,,2 A,,2 A,,2 A,,B,,-B,, ::\n\"Gm\"G,,2 G,,2 G,,2 D,^C,B,, | \"A7\"A,,2 A,,2 A,,2 A,,B,,-B,, | \"Gm\"G,,2 G,,2 G,,2 D,^C,B,, | \"A7\"A,,A,,A,, z z2 A,,B,,-B,, :|\n",
+  "text": "<$huwiki-abc/>",
+  "abc-view": "full",
+  "abc-bars-per-line": "4",
+  "abc-accompaniment": "{\"enabled\": false, \"metronome\": false, \"bassSource\": \"voice:1\", \"melodyInstrument\": \"source\"}"
+}

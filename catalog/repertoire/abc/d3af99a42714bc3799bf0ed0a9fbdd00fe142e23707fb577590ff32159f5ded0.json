@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Arabsko Kolo (Dm)\nC:Ebbe Munk\nM:4/4\nL:1/8\nQ:1/4=110\nV:1 name=\"Piano\" clef=treble\nV:2 clef=bass\nK:C\nV:1\n[P:A] |:\"Dm\"Dd- d[GB] [_A-c-][Ac] [F=A][G-B-] | \"Dm\"[GB][D^G] [FA][DF]\"Am7\" [DG]/[CA]/[A,G] [C-A]/[CG]/[DA] | \"Dm\"Dd- d[GB] [_A-c-][Ac] [F=A][GB] | \"Dm\"[GB][D^G] [FA][DF]\"Am7\" [D-A]/[DB]/[C-A]/[CG]/ [B,-A]/[B,G]/[A,-F]/[A,E]/ ::\n[P:B]\"E\"EE/E/ EE\"Bm\" [D^G][B,B] [_DA][CG] | \"E\"[B,F]2 [B,F][B,E] [DF][B,-E]/[B,F]/ [DE-]E | \"E\"EE/E/ EE\"Bm\" [D^G][B,A] [DB][_Ed] | \"E\"[Ee]/[Ef]/[Ee] [^Gd]/[GB]/[Gf] [D_A]/[DB]/[DA] [CF-][B,F] :|\n[P:Coda] E8 |\nV:2\n|:D,,D,,/D,,/ D,,D,, F,,D,, E,,_E,, | D,,D,,/D,,/ D,,D,, A,,,2 C,,2 | D,,D,,/D,,/ D,,D,, F,,D,, E,,_E,, | D,,D,,/D,,/ D,,D,, A,,,2 C,,2 ::\nE,,E,,- E,,E,, B,,,2 D,,2 | E,,E,,/E,,/ E,,E,, ^G,,B,, A,,G,, | E,,E,,- E,,E,, B,,,2 D,,2 | E,,E,,/E,,/ E,,E,, ^G,,B,, E,2 :|\nE,8 |\n",
+  "text": "<$huwiki-abc/>",
+  "abc-view": "full",
+  "abc-bars-per-line": "4",
+  "abc-accompaniment": "{\"enabled\":true,\"metronome\":false,\"style\":\"folk\",\"bassSource\":\"voice:1\",\"bass\":\"alternating\",\"chords\":\"folk\",\"drums\":\"folk\",\"melodyInstrument\":\"source\",\"melodyVolume\":100,\"bassVolume\":50,\"chordVolume\":45,\"drumVolume\":40,\"droneEnabled\":false,\"variation\":20}"
+}

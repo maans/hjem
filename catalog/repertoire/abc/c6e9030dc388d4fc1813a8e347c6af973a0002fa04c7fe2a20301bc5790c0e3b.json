@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Silbaätno (Fm/Gm)\nC:Mikael Segerström, Jokkmokk\nM:2/4\nL:1/8\nQ:1/4=110\nK:Gm\n[P:A] |:\"Gm\"DG/G/ GA | Bd d/c/B | \"D7\"D/^F/A d/c/B/A/ | \"Gm\"GB d2 |\n\"Gm\"DG/G/ GA | Bd d/c/B | \"D7\"D/^F/A d/c/B/A/ | \"Gm\"GB G2 ::\n[P:B]\"Cm\"[eg][eg]/[df]/ [ce][ce] | \"Gm\"[Bd][Bd]/[Ac]/ [GB][DG]/[GB]/ | \"D7\"[^FA][FA]/[GB]/ [Ac][Ac] | \"Gm\"[GB]/[^FA]/[GB]/[Ac]/ [Bd]2 |\n\"Cm\"[eg][eg]/[df]/ [ce][ce] | \"Gm\"[Bd][Bd]/[Ac]/ [GB][D-G]/[DB]/ | \"D7\"D/^F/A [Bd][FA] | \"Gm\"[DG][DB] G2 ::\n[P:C]\"Gm\"GG/[DB]/ [Bd][Gd] | \"D7\"D/-[D^F]/[FA] [Fc]2 | [^Fd][Fd]/[Ae]/ [Fd]/[Ec]/[D-B]/[DA]/ | \"Gm\"[G-B]/[GA]/[D-G]/[D^F]/ GD |\n\"Gm\"GG/[DB]/ [Bd][Gd] | \"D7\"D/-[D^F]/[FA] [Fc]2 | [^Fd][D-d]/[De]/ [Fd]/[Ec]/[D-B]/[DA]/ | \"Gm\"[DG][^FB] G2 :|\n",
+  "text": "<$huwiki-abc/>",
+  "abc-view": "full",
+  "abc-bars-per-line": "4",
+  "abc-accompaniment": "{\"enabled\":true,\"metronome\":false,\"style\":\"folk\",\"bassSource\":\"style\",\"bass\":\"alternating\",\"chords\":\"folk\",\"drums\":\"folk\",\"melodyInstrument\":\"source\",\"melodyVolume\":100,\"bassVolume\":50,\"chordVolume\":45,\"drumVolume\":40,\"droneEnabled\":false,\"variation\":20}"
+}

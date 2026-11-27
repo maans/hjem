@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Cupria Express (Fm)\nC:Ebbe Munk\nM:9/8\nL:1/8\nQ:1/4=100\nV:1 name=\"Piano\" clef=treble\nV:2 clef=bass\nK:Fm\nV:1\n[P:A1] |:\"Fm\"F2 C2 F2\"C\" =E z E | \"Fm\"F2 C2 F2\"C\" =E z E | \"Fm\"F2 C2 F2\"C\" =E z E | \"Fm\"FFF z z2\"C\" C=D=E ::\n[P:A2]\"Fm\"z A BA GA\"C\" FC=E | \"Fm\"FC GC FC\"C\" z z z | \"Fm\"z A BA GA\"C\" FC=E | [1\"Fm\"FFF z z2\"C\" z z z :|\n[2\"Fm\"FFF z z2\"Eb\" z z z |: [P:B][M:7/8]\"Ab\"cdBc\"Eb\"AEG | \"Fm\"AF\"C7\" =EB\"Fm\"AFC | \"Ab\"cdBc\"Eb\"AEG |\n[1\"Ab\"AAA z\"Eb\" z3 :| [2\"Ab\"AAA z4 |: [P:C]\"C7b9\"c-c BA GF=E | \"DbMaj\"D4 z z z |\ncB AG F=ED | [1\"C7b9\"C4 z z z :| [2\"C7b9\"C4 C=D=E |\nV:2\n|:F,2 C,2 F,2 =E, z E, | F,2 C,2 F,2 =E, z E, | F,2 C,2 F,2 =E, z E, | F,F,F, z z2 C,=D,=E, ::\nF,2 C,2 F,2 =E, z E, | F,2 C,2 F,2 =E, z E, | F,2 C,2 F,2 =E, z E, | [1 F,F,F, z z2 C,=D,=E, :|\n[2 F,F,F, z z2 E,F,G, |: [M:7/8] A,2 A,2 E,-E,G, | F,2 C,2 F,-F,G, | A,2 A,2 E,-E,G, |\n[1 A,A,A, z E,F,G, :| [2 A,A, A, z4 |: C,7 | D,7 |\nD,7 | [1 C,7 :| [2 C,7 |\n",
+  "text": "<$huwiki-abc/>",
+  "abc-view": "full",
+  "abc-bars-per-line": "4",
+  "abc-accompaniment": "{\"enabled\":true,\"metronome\":false,\"style\":\"balkan\",\"bassSource\":\"voice:1\",\"bass\":\"alternating\",\"chords\":\"folk\",\"drums\":\"balkan\",\"melodyInstrument\":\"source\",\"melodyVolume\":100,\"bassVolume\":50,\"chordVolume\":45,\"drumVolume\":40,\"droneEnabled\":false,\"variation\":20}"
+}

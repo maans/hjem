@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Wave\nM:2/2\nL:1/8\nQ:1/4=126\nK:Eb\n%%MIDI program 0\n|:ced | \"Ebmaj7\"B6 z G | \"Bdim7\"A_cdf a g2 b- | \"Bbm7\"b8 | \"Eb7\"z2 bb- b c'2 b- |\n\"Abmaj7\"b a2 a g2 a2- | \"Abm6\"a2 ga- a b2 g- | \"G13\"g4-\"Gaug7\" g4 | \"C9\"z gb__b\"C7\" a g2 g- |\n\"Cm7/F\"geee-\"F7\" ecef | \"B7\"_ge_d__B\"Bbaug7\" A G2 G- | \"Ebm9\"G E3-\"Ab13\" E4- | \"Ebm9\"E4\"Ab13\" z :| \"Abm7\"e4 (3:2:3_d2 _c2 B2 |\n\"Db9/B\"A4 (3:2:3B2 _c2 e2 | \"Bbm7\"_d3 d d4 | d8 | \"Gbm7/B\"_d4- d_c__BA |\n\"B9/A\"_G4 (3:2:3A2 __B2 _d2 | \"Abm7\"_c3 c c4 | \"Bb7\"c4 z ced | \"Ebmaj7\"B6 z G |\n\"Bdim7\"A_cdf a g2 b- | \"Bbm7\"b8 | \"Eb7\"z2 bb- b c'2 b- | \"Abmaj7\"b a2 a g2 a2- |\n\"Abm6\"a2 ga- a b2 g- | \"Gb13\"g4-\"Gaug7\" g4 | \"C9\"z gb__b\"C7\" a g2 g- | \"Cm7/F\"geee-\"F7\" ecef |\n\"B7\"_ge_d__B\"Bbaug7\" A _G2 G- | \"Ebm9\"_G E3\"Ab13\" E4 | \"Ebm9\"E4-\"Ab13\" E4 |\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-abc-label": "Leadsheet (ABC)",
+  "abc-accompaniment": "{\"enabled\": true, \"style\": \"bossa\"}",
+  "abc-bars-per-line": "4"
+}

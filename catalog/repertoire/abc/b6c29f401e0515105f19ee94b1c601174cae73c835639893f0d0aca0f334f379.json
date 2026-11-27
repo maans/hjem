@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Ålidhems höjder\nC:Erik Peterzén, Umeå\nM:2/2\nL:1/8\nQ:1/2=70\nK:Gm\n[P:A x 4] |:\"Gm\"GDGA B2 BA | G2 Bd\"F7\" g2 f2 | \"Bb\"e2 d2 c2 B2 | \"D7\"A3/2 d/A^F D3 D |\n\"Cm\"E2 ED CDEF | [1\"Gm\"D2 D2 G^FG^G | \"A7\"ABA^G A^c=ec | \"D7\"d2 de dcBA :|\n[2\"Gm\"D2 G2\"Eb7\" B2 GA | \"Gm\"B2 BG\"D7\" A2 A^F | \"Gm\"G2 G2 G2 z2 |: [P:B]\"Gm\"G2 G2 g3 g |\n\"F7\"fgfe\"Bb\" d2\"F7\" e2 | \"Bb\"d2 d2 b3 b | \"A7\"abag\"D7\" ^fdcd | \"Cm\"e2 ed c2 AB |\n\"F7\"c2 cB AFAB | [1\"C7\"c3/2 d/cB\"F7\" AFAc | \"Bb\"B2 B2\"D7#5\" B2 z2 :| [2\"C7\"c3/2 d/cB\"F7\" A3/2 B/AG |\n\"D7\"^F2 G2\"Gm\" G4 |\n",
+  "text": "<$huwiki-abc/>",
+  "abc-view": "full",
+  "abc-bars-per-line": "4",
+  "abc-accompaniment": "{\"enabled\":true,\"metronome\":false,\"style\":\"folk\",\"bassSource\":\"style\",\"bass\":\"alternating\",\"chords\":\"folk\",\"drums\":\"folk\",\"melodyInstrument\":\"source\",\"melodyVolume\":100,\"bassVolume\":50,\"chordVolume\":45,\"drumVolume\":40,\"droneEnabled\":false,\"variation\":20}"
+}

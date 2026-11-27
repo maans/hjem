@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\n%%partsfont \"Kreon\" Box\nT:It's Only a Paper Moon\nC: Harold Arlen\nM: 4/4\nL: 1/8\nQ:140\nK:Bb\nP: A\n|:\"Bb\" zF2F \"B°\"ff2f|\"Cm7\"e2dc-\"F7\" c4|\"Cm7\"zF2F\"F7\" ee2e|\"Bb\"d2cB-B4|\n\"Bb7\"zF2F ff2^f|\"Eb\"g2ec- \"E°\"c2BA-|\"F7\"A2gf-f2AB-|1 \"Bb\"B4z4:||2 \"Bb\"B4z2B2||\nP: B\n\"Eb\"c4 \"E°\"_d4|\"Bb/F\"=d6 eg|\"Cm7\"f3f\"F7\"d3d|\"Bb\"B6B2|\n\"Eb\"c4 \"E°\"_d4|\"Bb/F\"=d4 \"G7\"z2 ^cd|\"Cm7\"fff2f2 ^cd|\"F7\"ggg2g4||\nP: A\n\"Bb\" zF2F \"B°\"ff2f|\"Cm7\"e2dc-\"F7\" c4|\"Cm7\"zF2F\"F7\" ee2e|\"Bb\"d2cB-B4|\n\"Bb7\"zF2F ff2^f|\"Eb\"g2ec- \"E°\"c2BA-|\"F7\"A2gf-f2AB-|\"Bb\"B4z4||\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-abc-label": "Leadsheet (ABC)",
+  "source-url": "https://jazzleadsheet.com/post/its-only-a-paper-moon/",
+  "abc-accompaniment": "{\"style\":\"swing\",\"enabled\":true}"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\n%%partsfont \"Kreon\" Box\nT:But Not for Me\nC: Gershwin\nM: 4/4\nL: 1/4\nQ:140\nK:G\nA B A||:\"A7\"B2 AG-|\"D7\"G A BA|\"Gmaj7\"B4|\"Em7\"z A B A|\n\"A7\"B2 AG-|\"Am7\"G A \"D7\"BA|\"Gmaj7\"B4|\"Dm7\"z  B \"G7\"cd||\n|[1 \"Cmaj7\"^d2 e g] |\"Cm7\"zA\"F7\"Bc|\"Gmaj7\"^c2dg|z GAB|\n\"A7\"B2cg|zgec|\"Am7\"A4|\"D7\"zABA:||\n|[2 \"Cmaj7\"^d2 e g] |\"Cm7\"zA\"F7\"Bc|\"Gmaj7\"^c2da|\"Em7\"z g e c|\n\"Am7\"B4|\"D7\"A4|\"Gmaj7\"G4-|G2z2||\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-abc-label": "Leadsheet (ABC)",
+  "source-url": "https://jazzleadsheet.com/post/but-not-for-me/",
+  "abc-accompaniment": "{\"style\":\"swing\",\"enabled\":true}"
+}

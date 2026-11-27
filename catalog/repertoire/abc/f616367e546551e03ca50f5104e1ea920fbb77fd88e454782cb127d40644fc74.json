@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\n%%partsfont \"Kreon\" Box\nT:Almost Like Being in Love\nC: Frederick Loewe\nM: 4/4\nL: 1/8\nQ:1/4=156\nK:F\nP: A\nF2G2|:\"Bbmaj7\"A4F2D2|\"C7\"E4 E2F2|\"Fmaj7\"G4 E2C2|\"Am7\"D4 \"D7\"D2E2|\n\"Gm7\"zF3D2E2|\"C7\"F2D4 E2|\"F6\"F8|z4 F2G2:||\nP: B\n\"Em7\"A4D2E2|\"A7\"^F4=B2A2|\"Dmaj7\"^F8|z4 D2E2|\n\"Dm7\"=F4E2F2|\"G7\"G2D2 z2 G2|\"Em7\"A8|\"Cm7\"zA3\"F7\"A2A2||\nP: C\n\"Bbmaj7\"A4F2D2|\"C7\"E4 E2F2|\"Fmaj7\"G4 E2C2|\"Am7\"D4 \"D7\"D2E2|\n\"Gm7\"zF3D2E2|\"Ab°7\"F2D4E2|\"F/A\"zF3 D2E2|\"Ab°7\"F4 D2F2|\n\"Gm7\"zA3F2G2|\"C7\"A4 A2G2|\"F6\"F8|z8||\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-abc-label": "Leadsheet (ABC)",
+  "source-url": "https://jazzleadsheet.com/post/almost-like-being-in-love/",
+  "abc-accompaniment": "{\"style\":\"swing\",\"enabled\":true}"
+}

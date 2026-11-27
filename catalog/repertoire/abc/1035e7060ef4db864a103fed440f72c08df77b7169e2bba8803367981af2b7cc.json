@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Gadjo Cocek (Dm/Iberisk A)\nC:Ebbe Munk\nM:4/4\nL:1/8\nQ:1/4=110\nV:1 name=\"Piano\" clef=treble\nV:2 clef=bass\nK:F\nV:1\n[P:C instr] |:\"A7b9\"A^c Bd ^GB A2 | z/ A/^c/e/ b/a/g/f/ ef g2 | A^c Bd ^GB A2 | e3/2 d/ ^cA G^G z2 :|\nA |: \"Dm\"d3/2 e/ fe\"Bb\" dd ^cA | \"A7\"b/a/g/f/ ed d^c dc | \"Gm\"d3/2 e/ fe\"Em7b5\" dd ^cA | \"A7\"ed d^c dc z A :|\nV:2\n|:A,,3/2 A,,/ ^C,B,, z C, B,,A,, | A,,3/2 A,,/ ^C,B,, z ^G,, A,,2 | A,,3/2 A,,/ ^C,B,, z C, B,,A,, | A,,3/2 A,,/ ^C,B,, ^G,,A,, z2 :|\nz |: D,3/2 D,/ F,A, z B,, D,F, | A,,3/2 A,,/ ^C,E, z A,, C,E, | G,,3/2 G,,/ B,,D, z E,, G,,B,, | A,,3/2 A,,/ ^C,E, z A,, C,E, :|\n",
+  "text": "<$huwiki-abc/>",
+  "abc-view": "full",
+  "abc-bars-per-line": "4",
+  "abc-accompaniment": "{\"enabled\":true,\"metronome\":false,\"style\":\"folk\",\"bassSource\":\"voice:1\",\"bass\":\"alternating\",\"chords\":\"folk\",\"drums\":\"folk\",\"melodyInstrument\":\"source\",\"melodyVolume\":100,\"bassVolume\":50,\"chordVolume\":45,\"drumVolume\":40,\"droneEnabled\":false,\"variation\":20}"
+}

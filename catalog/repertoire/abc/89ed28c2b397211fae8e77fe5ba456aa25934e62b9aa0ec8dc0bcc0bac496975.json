@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Makin' Whoopee\nC:Walter Donaldson\nM:4/4\nL:1/8\nQ:1/4=92\nK:C\n%%MIDI program 0\nz G AG | \"C^\"e4-\"C#°7\" eG AG | \"D-7\"f4-\"G7\" fG AG | \"G-7\"g4-\"C7\" gc dc | \"F^\"g4-\"A#7\" gf gf |\n\"C^\"e2 e2-\"A-7\" eG AG | \"G#7\"_e2 e2-\"G7\" e^c d^d | \"C6\"e2 c2-\"A-7\" c4 | \"D-7\"c2 z2\"G7\" z G AG |\n\"C^\"e4-\"C#°7\" eG AG | \"D-7\"f4-\"G7\" fG AG | \"G-7\"g2 g2-\"C7\" gc dc | \"F^\"g4-\"A#7\" gf gf |\n\"C^\"e2 e2-\"A-7\" eG AG | \"G#7\"_e2 e2-\"G7\" e^c d^d | \"C6\"e2 c6 | \"F7\"z8 |\n\"Eø7\"g _b2 g\"A7b9\" b2 g2 | \"D-7\"f2 f6 | \"F-7\"f _a2 f\"A#7\" a2 f2 | \"C^\"e4 z4 |\n\"Eø7\"g _b2 g\"A7b9\" b2 g2 | \"D-7\"f2 f6 | \"F-7\"f _a2 f\"A#7\" a2 f2 | \"E-7\"e2-\"A7\" e2-\"D-7\" eG\"G7\" AG |\n\"C^\"e2 e2-\"C#°7\" eG AG | \"D-7\"f4-\"G7\" fG AG | \"G-7\"g2 g2-\"C7\" gc dc | \"F^\"g4-\"A#7\" gf gf |\n\"C^\"e2 e2-\"A-7\" eG AG | \"G#7\"_e2 e2-\"G7\" e^c d^d | \"C6\"e2 c2-\"A-7\" c4 | \"D-7\"z4\"G7\" z4 |\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-abc-label": "Leadsheet (ABC)",
+  "source-url": "https://freedjazz.org/tunes/makin-whoopee/makin-whoopee.mscz",
+  "abc-accompaniment": "{\"style\":\"swing\",\"enabled\":true}"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Bluesette\nM:3/4\nL:1/8\nQ:1/4=100\nK:Eb\n%%MIDI program 0\n|:\"Eb\"B2 c2 d2 | e2 f2 g2 | \"Ddim\"a4 c2 | \"G7\"=B6 |\n\"Cm7\"g4 B2 | \"F7\"=A6 | \"Bbm7\"f4 A2 | \"Eb7\"G6 |\n\"Abmaj7\"e4 G2 | \"Ab6\"A3 B _c_d | \"Abm7\"e4 _c'2 | \"Db7\"b4 a2 |\n\"Gbmaj7\"_d4 b2 | \"Gb6\"a4 _g2 | \"Gbm7\"_d4 =a2 | \"Cb7\"a4 _g2 |\n\"Fb\"_c2 _d2 e2 | \"Dbm7\"_f2 _g2 a2 | \"Fdim\"b4 a2 | \"Bb7\"g4 f2 |\n\"Gm7\"B6- | \"Gb7\"B6- | \"Fm7\"B6- | \"Bb7\"B2 z4 :|\n\"Eb\"e2 f2 g2 | b2 z2 z2 | \"Ddim\"a2 g2 f2 | \"G7\"e4 d2 |\n\"Cm7\"c2 d2 e2 | \"F7\"g6 | \"Bbm7\"f2 e2 _d2 | \"Eb7\"c4 B2 |\n\"Abmaj7\"e4 G2 | \"Ab6\"A3 G AB | \"Abm7\"_c3 _d e_g | \"Db7\"f2 _g2 a2 |\n\"Gbmaj7\"_d4 F2 | \"Gb6\"_G3 A =A_c | \"Gbm7\"_d4 =a2 | \"Cb7\"a4 _g2 |\n\"Fb\"_cc _dd ee | \"Dbm7\"_ff _gg aa | \"Fdim\"b4 (3:2:3aba | \"Bb7\"g4 f2 |\n\"Gm7\"B6- | \"Gb7\"B6- | \"Fm7\"B6 | \"Bb7\"z6 |\n\"Eb\"z2 bb bb | a2 g4 | \"Ddim\"z2 aa aa | \"G7\"g2 f4 |\n\"Cm7\"z2 gg gg | \"F7\"f2 e4 | \"Bbm7\"z2 ff ff | \"Eb7\"e2 _d4 |\n\"Abmaj7\"c2 _d2 =d2 | \"Ab6\"f2 f2 g2 | \"Abm7\"a2 =a2 b2 | \"Db7\"_c'2 b2 a2 |\n\"Gbmaj7\"_d2 e2 f2 | \"Gb6\"_g2 =g2 a2 | \"Gbm7\"=a2 b2 =b2 | \"Cb7\"c'2 _c'2 =a2 |\n\"Fb\"a2 z _g3 | \"Dbm7\"_f2 z _g2 a | \"Fdim\"b2 z a2 g | \"Bb7\"_f2 z2 dc |\n\"Gm7\"B2 B2 B2 | \"Gb7\"_d2 B3 A | \"Fm7\"B6- | \"Bb7\"B6 :|\n\"Gm7\"c'6- | c'6- | \"C7\"c'4 b2 | a4 g2 |\n\"Fm7\"b6- | b6- | \"Bb7\"b4 a2 | g2 e3 c |:\n\"Eb\"e6- | \"Eb7\"e6- | \"Eb\"e6- | \"Eb7\"e6 :|\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-abc-label": "Leadsheet (ABC)",
+  "abc-accompaniment": "{\"enabled\": true, \"style\": \"auto\"}",
+  "abc-bars-per-line": "4",
+  "abc-genre": "Jazz waltz"
+}

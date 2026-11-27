@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Majstore (Dm/Iberisk A)\nC:.\nM:2/4\nL:1/8\nQ:1/4=100\nV:1 name=\"Piano\" clef=treble\nV:2 clef=treble\nK:F\nV:1\n|:\"A\"[GB][A^c]/[Ac]/ [Ac][Ac] | [A^c]/[Bd]/[Ac]/[GB]/ [Ac]/[Ac]/[Ac] | [A^c]/[Bd]/[Ac]/[GB]/ [Ac]/[Bd]/[Ac]/[GB]/ | [A^c]/[Bd]/[ce]/[df]/ [eg]/[eg]/[eg] |\n\"Dm\"[^ce][df]/[df]/ [df][df] | \"Gm\"[df]/[eg]/[df]/[^ce]/ [Bd]2 | \"Bb\"[df]/[eg]/[df]/[^ce]/ [Bd]/[ce]/[Bd]/[Ac]/ | \"A\"[A^c]/[Bd]/[Ac]/[GB]/ [Ac]/[Ac]/[Ac] :|\n\"A\"[a^c']4 | z [gb]/[fa]/ [eg]/[df]/[^ce]/[Bd]/ |: [P:Vers]\"A\"z4 | z4 |\n\"Dm\"z4 | \"A\"z4 | \"Gm\"z4 | \"Bb\"z4 |\n\"Gm\"z4 | [1\"A\"z2 A/B/G/A/ :| [2\"A\"z4 | [A^c]/[Bd]/[ce]/[df]/ [Bd]/[ce]/[df]/[eg]/ |\n[^ce]/[df]/[eg]/[fa]/ [df]/[eg]/[fa]/[^fb]/ | [P:Omkvæd]\"Gm\"z4 | z4 | \"A\"z4 |\nz4 | \"F\"z4 | z4 | \"Dm\"z4 |\nz4 |: \"Gm\"z4 | z4 | \"Dm\"z4 |\nz4 | \"A\"z4 | \"Gm\"z4 | [1\"A\"z4 |\n[^ce]/[df]/[eg]/[fa]/ [df]/[eg]/[fa]/[^fb]/ :| [2\"A\"z4 | z4 |\nV:2\n|:z4 | z4 | z4 | z4 |\nz4 | z4 | z4 | z4 :|\nz4 | z4 |: A,A, ^CD | EE ED |\nF2 GF | E2 z2 | G3/2 G/ G^F | GF ED |\nED ^CB, | [1 A,2 z2 :| [2 A,2 z2 | z4 |\nz4 | [GB]2 [GB][GB] | [GB]2 [FA]2 | [E-G-]4 |\n[EG] z z2 | [FA]2 [FA][FA] | [FA]2 [EG]2 | [FA]2 [EG]2 |\n[DF]4 |: [GB][GB] [GB][GB] | [GB][FA] [EG]2 | [FA][FA] [FA][FA] |\n[FA][EG] [DF]2 | [EG]2 [DF][^CE] | [DF][^CE] [B,D][A,C] | [1 [A,^C]4 |\nz4 :| [2 [A,^C]4 | z4 |\n",
+  "text": "<$huwiki-abc/>",
+  "abc-view": "full",
+  "abc-bars-per-line": "4",
+  "abc-accompaniment": "{\"enabled\":true,\"metronome\":false,\"style\":\"folk\",\"bassSource\":\"style\",\"bass\":\"alternating\",\"chords\":\"folk\",\"drums\":\"folk\",\"melodyInstrument\":\"source\",\"melodyVolume\":100,\"bassVolume\":50,\"chordVolume\":45,\"drumVolume\":40,\"droneEnabled\":false,\"variation\":20}"
+}

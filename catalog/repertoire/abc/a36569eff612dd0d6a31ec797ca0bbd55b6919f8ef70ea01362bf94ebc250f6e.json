@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\n%%partsfont \"Kreon\" Box\nT:Moten Swing\nC: Bennie and Buster Moten\nM: 4/4\nL: 1/8\nQ:200\nK:Ab\nP: A\n\"Ab\"A2 z2 BABA|z4 BABA|\"Bbm7\"_cB z2 z2 cB|\"Eb7\"z4 z2 A2|\n\"Bb7\"_cBz2z2A2|\"Bbm7/Eb\"_cc B2 A2 FA-|\"Ab\"A4 \"F7\"z4|\"Bb7\"_ccBA \"Eb7\"c B3||\nP: A\n\"Ab\"A2 z2 BABA|z4 BABA|\"Bbm7\"_cB z2 z2 cB|\"Eb7\"z4 z2 A2|\n\"Bb7\"_cBz2z2A2|\"Bbm7/Eb\"_cc B2 A2 FA-|\"Ab\"A4 z4|\"Dm7\"z4 \"G7\"z G3||\nP: B\n\"C\" c2 z2 \"Am7\" z2 C2|\"Dm7\"=D2 E2 \"G7\" F2 =AG-|\"C\"G3 C \"Am7\"z4|\"Dm7\"z4 \"G7\"z G3|\n\"C\" c2 z2 \"Am7\" z2 C2|\"Dm7\"=D2 E2 \"G7\" F2 =AG-|\"C\"G3 C z4|\"Bbm6\" z2 (3cd=d \"Eb7\"(3ed_d c2||\nP: A\n\"Ab\"A2 z2 BABA|z4 BABA|\"Bbm7\"_cB z2 z2 cB|\"Eb7\"z4 z2 A2|\n\"Bb7\"_cBz2z2A2|\"Bbm7/Eb\"_cc B2 A2 FA-|\"Ab\"A8|z8||\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-abc-label": "Leadsheet (ABC)",
+  "source-url": "https://jazzleadsheet.com/post/moten-swing/",
+  "abc-accompaniment": "{\"style\":\"swing\",\"enabled\":true}"
+}

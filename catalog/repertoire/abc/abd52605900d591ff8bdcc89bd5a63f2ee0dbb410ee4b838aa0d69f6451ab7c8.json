@@ -1,0 +1,13 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:The Legend\nC:Benny Carter\nM:4/4\nL:1/4\nQ:\"Medium-slow swing\" 1/4=92\nU:s=!style=rhythm!\nV:G clef=treble name=\"Guitar\"\n%%MIDI program 26\nK:Cm\nZ4 |:\n[P:5] Z6 |1\nZ2 :|2\nZ2 ||\n[P:15] Z8 ||\n[P:23] Z8 |:\n[P:31] !mf!\"Cm\"sB sB \"Cm/Bb\"sB sB | \"Fm7\"sB sB \"Cm6\"sB sB | \"D7(#9)\"sB sB \"G7\"sB sB | \"C7(#9)\"sB sB sB \"Gb9\"sB |\n\"F7(b9)\"sB sB sB sB | \"D7(#5,#9)\"sB sB \"G7(b5,#9)\"sB sB |1\n\"Cm6/9\"sB sB sB sB | \"D7(#5,#9)\"sB sB \"G7(b5,b9)\"sB sB :|2\n\"Cm6/9\"sB sB \"Fm6\"sB sB | \"CmMaj7\"sB sB \"C7(#5,#9)\"sB sB ||\n[P:41] \"Fm\"sB sB \"Fm/Eb\"sB sB | \"D7(b5,b9)\"sB sB \"G7(b5,#9)\"sB sB | \"Cm9\"sB sB \"Cm6\"sB sB | \"C7(b5,b9)\"sB sB sB sB |\n\"Fm\"sB sB \"Fm/Eb\"sB sB | \"D7(b5,b9)\"sB sB sB sB | \"G7sus4\"sB sB sB sB | \"G7(b5,b9)\"sB sB sB sB ||\n[P:49] \"Cm\"sB sB \"Cm/Bb\"sB sB | \"Fm7\"sB sB \"Cm6\"sB sB | \"D7(#9)\"sB sB \"G7\"sB sB | \"C7(#9)\"sB sB sB \"Gb9\"sB |\n\"F7(b9)\"sB sB sB sB | \"D7(#5,#9)\"sB sB \"G7(#9)\"sB sB | \"Cm6/9\"sB sB sB sB | \"D7(#5,#9)\"sB sB \"G7(b5,b9)\"sB sB ||\n[P:57] \"Cm\"sB sB \"Cm/Bb\"sB sB | \"Fm7\"sB sB \"Cm6\"sB sB | \"D7(#9)\"sB sB \"G7\"sB sB | \"C7(#9)\"sB sB sB \"Gb9\"sB |\n\"F7(b9)\"sB sB sB sB | \"D7(#5,#9)\"sB sB \"G7(#9)\"sB sB | \"Cm6/9\"sB sB sB sB | \"D7(#5,#9)\"sB sB \"G7(b5,b9)\"sB sB ||\n[P:65] \"Cm\"!ff!sB sB sB sB/\"Fm\"sB/- | sB sB/\"Cm\"sB/- sB sB | (3z \"Dm7(b5)\"sB sB \"G7(b9)\"sB sB/\"C7sus4\"sB/- | sB sB (3sB sB \"Gb7\"sB |\n\"F7\"sB sB sB sB | \"Dm7(b5)\"sB sB \"G7(b9)\"sB sB | \"Cm6\"sB sB sB sB | sB sB \"C7(#9)\"sB sB ||\n[P:73] \"Fm\"sB sB \"Fm/Eb\"sB sB | \"D7(b5,b9)\"sB sB \"G7(b5,#9)\"sB sB | \"Cm9\"sB sB \"Cm6\"sB sB | \"C7(b5,b9)\"sB sB sB sB |\n\"Fm\"sB sB \"Fm/Eb\"sB sB | \"D7(b5,b9)\"sB sB sB sB | \"G7sus4\"sB sB sB sB | \"G7(b5,b9)\"sB sB sB sB ||\n[P:81] \"Cm\"sB z z2 | Z8 | z z/ \"Cm6/9\"sB/- !fermata!sB2 |]\n",
+  "text": "<$huwiki-abc/>",
+  "abc-bars-per-line": "4",
+  "abc-parts-new-line": "no",
+  "abc-rhythm-playback": "written",
+  "abc-accompaniment": "{\"style\":\"swing\",\"enabled\":true}"
+}

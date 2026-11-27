@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Summertime\nC:George Gershwin Arr. 6EQUJ5\nM:4/4\nL:1/8\nQ:1/4=76\nK:Cm\n%%MIDI program 0\nz4 g2 e2 |: \"Cm7\"gg- g6- | \"Db7\"g2 fe fg e2 | \"Cm7\"c4\"G7\" G4- |\n\"Cm7\"G4\"C7\" g2 e2 | \"Fm7\"ff- f6- | \"Ab7\"f2 ec ec e2 | \"Am7\"d4-\"D7\" d4- |\n\"G7\"d4 z g2 e | \"Cm7\"g g2- g- g4- | \"Db7\"g2 fe fg e2 | \"Cm7\"c4 G4- |\n\"F7\"G6 G2 | \"Eb\"B2 GB\"Cm7\" c2 e2 | \"F7\"gf- f2\"G7\" e4 | \"Cm7\"c6-\"F7\" c2- |\n\"Dm7\"c4\"G7\" g2 e-e :|\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-abc-label": "Leadsheet (ABC)",
+  "source-url": "https://effendi.me/jazz/repo/I/Summertime.xml",
+  "abc-accompaniment": "{\"style\":\"swing\",\"enabled\":true}"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\n%%partsfont \"Kreon\" Box\nT:Honeysuckle Rose\nC: Fats Waller\nM:4/4\nL:1/8\nQ:1/4=192\nK:Db\n\"Ebm7\"AGB,D\"Ab7\"F4|\"Ebm7\"AGB,D\"Ab7\"F4|\"Ebm7\"AGB,D\"Ab7\"F2F2|\"Ebm7\"F4\"Ab7\"FEDB,|\n\"Db\"DD2D-\"Db7/F\"D4-|\"Gb\"D4 \"Ab7\"FEDB,|\"Db\"D4-\"Gb7\"D4|\"Fm7\"z4\"Bb7\"z4||\n\"Ebm7\"AGB,D\"Ab7\"F4|\"Ebm7\"AGB,D\"Ab7\"F4|\"Ebm7\"AGB,D\"Ab7\"F2F2|\"Ebm7\"F4\"Ab7\"FEDB,|\n\"Db\"DD2D-\"Db7/F\"D4-|\"Gb\"D4 \"Ab7\"FEDB,|\"Db\"D8|z8||\n\"Db7\"D4E4|=E4F4|\"Gb6\"z2 GA-AG A2|__B2AG-G4|\n\"Eb7\"E4F4|^F4=G4|\"Ab7\"z2 AB-BA B2|_c2BA-A4||\n\"Ebm7\"AGB,D\"Ab7\"F4|\"Ebm7\"AGB,D\"Ab7\"F4|\"Ebm7\"AGB,D\"Ab7\"F2F2|\"Ebm7\"F4\"Ab7\"FEDB,|\n\"Db\"DD2D-\"Db7/F\"D4-|\"Gb\"D4 \"Ab7\"FEDB,|\"Db\"D8|z8||\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-abc-label": "Leadsheet (ABC)",
+  "source-url": "https://jazzleadsheet.com/post/honeysuckle-rose/",
+  "abc-accompaniment": "{\"style\":\"swing\",\"enabled\":true}"
+}

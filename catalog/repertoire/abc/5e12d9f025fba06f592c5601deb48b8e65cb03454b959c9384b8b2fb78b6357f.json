@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\n%%partsfont \"Kreon\" Box\nT:Cotton Tail\nC: Duke Ellington\nM: 4/4\nL: 1/8\nQ:1/4=190\nK:Bb\nP: A\n|:\"Bbmaj7\"z c3\"Gm7\"GB d2|\"Cm7\"c3 c\"F7\"z4|\"Dm7\"z c2 z\"Gm7\"c3 d|\"Cm7\"cB G2\"F7\"F4|\n\"Bb\"z2 =e2-e3 g|\"Eb\"f_e2 d\"E°\"zc zB|\"Bb\"zG^GA \"F7\"zF^F=G|1 \"G7\"zE=E=F-\"Cm7\"F2 \"F7\"z2:|2 \"Bbmaj7\"z^GAB-B2 z2||\nP: B\n\"D7\"Z2|\"G7\"Z2|\"C7\"Z2|\"F7\"Z2||\nP: A\n\"Bbmaj7\"z c3\"Gm7\"GB d2|\"Cm7\"c3 c\"F7\"z4|\"Dm7\"z c2 z\"Gm7\"c3 d|\"Cm7\"cB G2\"F7\"F4|\n\"Bb\"z2 =e2-e3 g|\"Eb\"f_e2 d\"E°\"zc zB|\"Bb\"zG^GA \"F7\"zF^F=G|\"Bbmaj7\"z^GAB-B2 z2||\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-abc-label": "Leadsheet (ABC)",
+  "source-url": "https://jazzleadsheet.com/post/cotton-tail/",
+  "abc-accompaniment": "{\"style\":\"swing\",\"enabled\":true}"
+}

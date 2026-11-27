@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Avalon\nC:Al Jolson & Vincent Rose\nM:4/4\nL:1/8\nQ:1/4=264\nK:C\n%%MIDI program 0\nG4 | \"D-7\"d4 e4 | f4 g4 | \"G7\"f2 e2 d4- | d2 z2 G4 |\n\"C6\"c8- | c4 d4 | e8- | \"A7\"e2 z2 G4 |\n\"D-7\"B4 c4 | d4 c4 | \"G7\"B2 A2 G4- | G2 z2 A4 |\n\"C6\"e8- | e2 z2 A4 | e8- | e2 z2 A4 |\n\"E-7\"e4 f4 | g4 a4 | \"A7\"g2 f2 e4- | e2 z2 A4 |\n\"D-7\"d8- | d4 e4 | \"F-7\"f8- | \"A#7\"f2 z2 A4 |\n\"C6\"G4 c4 | e4 g4 | \"A7\"b2 a2 b4- | b4 a4 |\n\"D-7\"f8 | \"G7\"e8 | \"C6\"c8- | c2 z2 z4 |\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-abc-label": "Leadsheet (ABC)",
+  "source-url": "https://freedjazz.org/tunes/avalon/avalon.mscz",
+  "abc-accompaniment": "{\"style\":\"swing\",\"enabled\":true}"
+}

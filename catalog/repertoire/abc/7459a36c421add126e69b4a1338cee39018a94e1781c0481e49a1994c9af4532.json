@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Fly Me to the Moon\nC:Bart Howard Frank Sinatra Joey Defrancesco Arr. 6EQUJ5\nM:4/4\nL:1/8\nQ:1/4=116\nK:C\n%%MIDI program 0\n|:c2-\"Am7\" cB A2 GF- | \"Dm7\"F G3 A2 c2 | \"G7\"B3 A G2 FE- | \"Cmaj7\"E4-\"C7\" E4 |\n\"Fmaj7\"A3 G F2 ED- | \"Bm7(b5)\"D E3 F2 A2 | \"E7\"^G3 F E2 DC- | \"Am7\"C4\"A7\" z2 ^C2 |\n\"Dm7\"D A2 A- A4- | \"G7\"A2 c4 B2 | \"Cmaj7\"G8- | \"Em7\"G4-\"A7\" G2 B,2 |\n\"Dm7\"C F2 F- F4- | \"G7\"F2 A4 G2 | \"Cmaj7\"F3 E- E4- | \"Bm7(b5)\"E4\"E7\" z4 |\n\"Am7\"c-c-cB A-AGF- | \"Dm7\"F G3 A2 c2 | \"G7\"B3 A G2 FE- | \"Cmaj7\"E4-\"C7\" E4 |\n\"Fmaj7\"A3 G F2 ED- | \"Bm7(b5)\"D E3 F2 A2 | \"E7\"^G3 F E2 DC- | \"Am7\"C4\"A7\" z2 ^C2 |\n\"Dm7\"D A2 A- A4- | \"G7\"A2 c4 B2 | \"Em7\"G8- | \"A7\"G6 ^G2 |\n\"Dm7\"A C2 C- C4- | \"G7\"C2 C4 D2 | \"Cmaj7\"C8 | \"Bm7(b5)\"z6\"E7\" z2 :|\n\"Em7\"e8- | \"A\"e6 c2 | \"Dm7\"d A2 A- A4- | \"G7\"A4 B2 d2 |\n\"Cmaj7\"c8- | c2 |\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-abc-label": "Leadsheet (ABC)",
+  "source-url": "https://effendi.me/jazz/repo/III/FlyMeToTheMoon.xml",
+  "abc-accompaniment": "{\"style\":\"swing\",\"enabled\":true}"
+}

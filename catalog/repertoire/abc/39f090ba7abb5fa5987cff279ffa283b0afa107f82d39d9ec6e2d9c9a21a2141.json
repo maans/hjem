@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\n%%partsfont \"Kreon\" Box\nT:Have You Met Miss Jones?\nC: Richard Rodgers\nM:4/4\nL:1/8\nQ:140\nK:G\n|:\"Gmaj7\"B3 E DE2D-|\"G#°7\"D8|\"Am7\"zE2F GA2B-|\"D7\"Bc2d-d4|\n\"Bm7\"e3A GA2G-|\"Em7\"G6B2|1 \"Am7\"c8-|\"D7\"c8:|2 \"Dm7\"d8|\"G7\"ze3e2e2||\n\"Cmaj7\"d3c GA2_B-|\"A#m7\"B_B3\"D#7\"B2B2|\"G#maj7\"_B3_A_E2=F2|\"F#m7\"^F3F \"B7\"FF2F-|\n\"Emaj7\"FE3^G2B2|\"A#m7\"_e4\"D#7\"e3c-|\"G#maj7\"c8|\"Am7\"z4\"D7\"z4||\n\"Gmaj7\"B3 E DE2D-|\"G#°7\"D8|\"Am7\"zE2F GA2B-|\"D7\"Bc3\"C7\"de2f-|\n\"Bm7\"f4\"E7\"z4|\"Am7\"ze3\"D7\"B2AG-|\"Gmaj7\"G8|z8||\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-abc-label": "Leadsheet (ABC)",
+  "source-url": "https://jazzleadsheet.com/post/have-you-met-miss-jones/",
+  "abc-accompaniment": "{\"style\":\"swing\",\"enabled\":true}"
+}

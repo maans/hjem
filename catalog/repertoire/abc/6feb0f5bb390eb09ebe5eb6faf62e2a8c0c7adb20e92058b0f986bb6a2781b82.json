@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Sweet Georgia Brown\nC:Ben Bernie, Maceo Pinkard & Kenneth Casey\nM:4/4\nL:1/8\nQ:1/4=184\nK:Eb\n%%MIDI program 0\n\"C7\"C D2 =E- E3 C | G =E2 =A- A3 G | c4 G =E2 C- | C6 z2 |\n\"F7\"C D2 E- E3 C | G E2 =A- A3 F | c4 =A G2 F- | F6 z2 |\n\"Bb7\"B, C2 D- D3 B, | F D2 G- G3 F | B4 F D2 B,- | B,2 B,C- CB, C2 |\n\"Eb^\"G8- | \"F-7\"G2 B,C-\"Bb7\" CB, C2 | \"Eb^\"G6 G2 | \"Dø7\"F4-\"G7b9\" F2 z2 |\n\"C7\"C D2 =E- E3 C | G =E2 =A- A3 G | c4 G =E2 C- | C6 z2 |\n\"F7\"C D2 E- E3 C | G E2 =A- A3 F | c4 =A G2 F- | F4 z4 |\n\"C-\"G3 G- G2 z2 | \"Dø7\"F D2 G-\"G7b9\" G2- G2 | \"C-\"G3 G- G2 z2 | \"F-7\"F D2 G-\"Bb7\" G2 z2 |\n\"Eb7\"B, C2 E-\"D7\" E G3 | \"Db7\"B =B2 c-\"C7\" c G3 | \"F7\"F4\"Bb7\" B G2 E- | \"Eb6\"E4 z4 |\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-abc-label": "Leadsheet (ABC)",
+  "source-url": "https://freedjazz.org/tunes/sweet-georgia-brown/sweet-georgia-brown.mscz",
+  "abc-accompaniment": "{\"style\":\"swing\",\"enabled\":true}"
+}

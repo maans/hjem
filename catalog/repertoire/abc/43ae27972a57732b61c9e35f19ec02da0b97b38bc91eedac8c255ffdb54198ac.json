@@ -1,0 +1,14 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Libertango\nC:Astor Piazzolla\nZ:Melodi og becifringer efter Helles' originale nodeark. Originalens Am med capo III klinger i Cm.\nR:Tango nuevo\nM:4/4\nL:1/8\nQ:1/4=116\nK:Cm\n%%MIDI program 0\n%%barsperstaff 6\nf d e |:\n\"Cm\"g8- | g3 G f e d c | \"D/C\"d8- | d6 e2 |\n\"Dm7b5/C\"f8- | f3 G e d c =B | \"Cm\"c8- | c4 z G c d |\n\"Cm/Bb\"e8- | e3 G e d e c | \"Adim7\"d8- | d6 z2 |\n\"Abdim7\"d8- | d4- d e d c | [1\"G7\"d8- | d6 z e/ f/ :|\n[2\"G7\"d8 | G4- G G A =A ||\n\"Gm7b5/Db\"B8- | \"C7b9\"B3 B _A G F G | \"Fm7\"A8- | A2 z2 (3C2 F2 G2 |\n\"Fm7b5/B\"A8- | \"Bb7b9\"A3 F B A G F | \"Ebmaj7\"G8- | \"G7/D\"G6 z2 ||\n\"Cm\"g8- | g3 G f e d c | \"D/C\"d8 | d8 |\n\"Dm7b5/C\"f8- | f3 G e d c =B | \"Cm\"c8- | \"Dm7\"c4\"G7\"c2 z2 |]\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-abc-label": "Leadsheet (ABC)",
+  "abc-key": "Cm",
+  "abc-bars-per-line": "6",
+  "abc-accompaniment": "{\"enabled\": false, \"style\": \"auto\"}",
+  "abc-genre": "Tango nuevo"
+}

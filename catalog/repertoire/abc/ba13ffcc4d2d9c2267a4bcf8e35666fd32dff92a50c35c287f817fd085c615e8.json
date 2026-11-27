@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:To sekunder · Capo III og E♭-sax\nC:Ebbe Munk\nM:7/8\nL:1/8\n%%MIDI transpose 3\nQ:1/8=280\nV:1 clef=treble\nV:2 clef=bass\nK:A\nV:1\n[P:A] |:F2 B2 AA z | B2 =G2 ^A-Ac | F2 B2 AA z | B2 =G2 ^AGF ::\n[P:B] f/a/g/f/ d2 cc z | B2 =G2 ^A-Ac | f/a/g/f/ d2 cc z | B2 =G2 ^AGF ::\n[P:C] c/f/d/c/ =c2 AA z | =G2 _B2 A-AB | c/f/d/c/ =c2 AA z | =G2 _B2 A z z :|\nV:2\n|:\"F#7\"F,,C,, F,,2 F,,-F,,-F,, | \"G13\"E,,C,, =G,,2\"F#7\" F,,-F,,-F,, | \"F#7\"F,,C,, F,,2 F,,-F,,-F,, | \"G13\"E,,C,, =G,,2\"F#7\" F,,-F,,-F,, ::\n\"F#7\"F,,C,, F,,2 F,,-F,,-F,, | \"G13\"E,,C,, =G,,2\"F#7\" F,,-F,,-F,, | \"F#7\"F,,C,, F,,2 F,,-F,,-F,, | \"G13\"E,,C,, =G,,2\"F#7\" F,,-F,,-F,, ::\n\"Eb13\"A,,_E,, A,,2 A,,-A,,-A,, | \"Eb13\"E,,2 =G,,2\"D7\" A,,-A,,-A,, | \"Eb13\"A,,_E,, A,,2 A,,-A,,-A,, | \"Eb13\"E,,2 =G,,2\"D7\" A,,-A,,-A,, :|\n",
+  "text": "<$huwiki-abc/>",
+  "abc-view": "full",
+  "abc-bars-per-line": "4",
+  "abc-accompaniment": "{\"enabled\": false, \"metronome\": false, \"bassSource\": \"voice:1\", \"melodyInstrument\": \"source\"}"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\n%%partsfont \"Kreon\" Box\nT:Easy Money\nC: Benny Carter\nM: 4/4\nL: 1/8\nQ:1/4=126\nK:F\nP: A\nz2 C^C Dc A2||\"Gm7\"c3 D z4|\"C7\"z2 C^C Dc A2|\"F\"c3 D z4|\"Am7\"z2  C^C \"D7\"Dc A2|\n\"Gm7\"c3 D z4|\"C7\" z2 c^G Ac AC-|\"F\"C8|\"Am7\"z2  C^C \"D7\"Dc A2||\nP: A\n\"Gm7\"c3 D z4|\"C7\"z2 C^C Dc A2|\"F\"c3 D z4|\"Am7\"z2  C^C \"D7\"Dc A2|\n\"Gm7\"c3 D z4|\"C7\" z2 c^G Ac AF-|\"F\"F8|z2 AF GA z F-||\nP: B\n\"F7\"F8| z2 AF GA z F-|\"Bb\"F8|z2 AF GA z F-|\n\"G7\"F8| z2 AF GA z c-|\"C7\"c8|\"Am7\"z2 C^C \"D7\"Dc A2||\nP: A\n\"Gm7\"c3 D z4|\"C7\"z2 C^C Dc A2|\"F\"c3 D z4|\"Am7\"z2  C^C \"D7\"Dc A2|\n\"Gm7\"c3 D z4|\"C7\" z2 c^G Ac AF-|\"F\"F8|z8||\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-abc-label": "Leadsheet (ABC)",
+  "source-url": "https://jazzleadsheet.com/post/easy-money/",
+  "abc-accompaniment": "{\"style\":\"swing\",\"enabled\":true}"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Brudmarch från Jämtland\nC:De nordiske spillemænd\nM:2/4\nL:1/8\nQ:1/4=100\nK:Gm\n[P:A] |:\"Gm\"D2 G2 | G2 G2 | G3 A | B2 AG |\n\"D7\"^F2 A2 | A2 A2 | A3 B | c2 BA |\n[1\"Gm\"B2 B2 | B2 B2 | B2 AB | d2 B2 |\n\"D7\"B2 A2 | A2 G2 | ^F4 | z4 :|\n[2\"Gm\"B2 d2 | B2 AG | \"D7\"A2 c2 | A2 G^F |\n\"Gm\"G4 | \"D7\"GABA | \"Gm\"G4 | z2 F2 |:\n[P:B]\"Bb\"d4 | d4 | d4 | e3 d |\n\"F\"d2 c2 | c2 c2 | \"D7/F#\"c4 | d2 A2 |\n[1\"Gm\"B2 B2 | B2 B2 | B2 AB | d2 B2 |\n\"A\"B2 A2 | A2 G2 | \"D7\"^F4 | z2 F2 :|\n[2\"Gm\"B2 d2 | B2 AG | \"D7\"A2 c2 | A2 G^F |\n\"Gm\"G4 | \"D7\"GABA | \"Gm\"G4 | z4 |\n",
+  "text": "<$huwiki-abc/>",
+  "abc-view": "full",
+  "abc-bars-per-line": "4",
+  "abc-accompaniment": "{\"enabled\":true,\"metronome\":false,\"style\":\"folk\",\"bassSource\":\"style\",\"bass\":\"alternating\",\"chords\":\"folk\",\"drums\":\"folk\",\"melodyInstrument\":\"source\",\"melodyVolume\":100,\"bassVolume\":50,\"chordVolume\":45,\"drumVolume\":40,\"droneEnabled\":false,\"variation\":20}"
+}

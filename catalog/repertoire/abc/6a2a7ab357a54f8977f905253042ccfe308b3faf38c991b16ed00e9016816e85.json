@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\n%%partsfont \"Kreon\" Box\nT:Shiny Stockings\nC: Frank Foster\nM: 4/4\nL: 1/8\nQ:1/4=120\nK:Bb\nP: A\n\"Bm7\"^c|| \"Cm7\"d2 z2cd2f|\"F7\"zd3c2d2|\"Cm7\"G2c2dc2d|\"F7\"z4 z=B3|\n\"Bb6\"c2z2Bc2f|\"Eb7\"zc3B2c2|\"Dm7\"F2B2cB2c|\"Db°7\"z4 z=B3||\nP: B\n\"Cm7\"_B2z2GBdf-|\"F7\"f4 \"Eb7\"z_d3|\"Dm7\"c2z2Ac=eg-|\"G7\"g6_ed|\n\"Em7\"z4 =Bd^fa-|\"A7\"a4 z^f3|\"D6\"d2z2z2z _a|\"Dm7b5\"z_ag2 \"G7b9\"fe3||\nP: A\n\"Cm7\"d2 z2cd2f|\"F7\"zd3c2d2|\"Cm7\"G2c2dc2d|\"F7\"z4 z=B3|\n\"Bb6\"c2z2Bc2f|\"Eb7\"zc3B2c2|\"Dm7\"F2B2cB2c|\"Db°7\"z4 z=B3||\nP: C\n\"Cm7\"_B2z2GBdf-|\"F7\"f4 \"Eb7\"z_d3|\"Dm7\"c2z2Ac=eg-|\"G7\"g4 z a3|\n\"Cm7\"b2g2fe2d|\"F7\"zB3 d d2 B|\"Bb6\"z8|z8||\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-abc-label": "Leadsheet (ABC)",
+  "source-url": "https://jazzleadsheet.com/post/shiny-stockings/",
+  "abc-accompaniment": "{\"style\":\"swing\",\"enabled\":true}"
+}

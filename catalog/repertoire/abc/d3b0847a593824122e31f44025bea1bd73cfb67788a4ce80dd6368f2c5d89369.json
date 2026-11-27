@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\n%%partsfont \"Kreon\" Box\nT:Love Is Here to Stay\nC: George Gershwin\nM: 4/4\nL: 1/8\nQ:100\nK:F\nP: A \nz2 C2 D2 A2||\"G7\"F8|\"Gm7\"FG2F \"C7\"G2G2|\"F\"F4 \"Bb7\"z4|\"Am7\"z2C2 \"D7\"D2c2|\n\"G7\"A8|\"Gm7/C\"FG2F \"C7\"G2G2|\"Eb7\"A4\"D7\"z4|\"Bm7b5\"z2e2 \"E7\"e2d2||\nP: B\n\"Am7\"c4\"D7\"d3c|\"Gm7\"BB B2 \"C7\"c3 B|\"Fmaj7\"A2A2 \"Bbmaj7\"c2B2|\"Em7b5\"G2A2 \"A7\"A2G2|\n\"Dm\"F2G2E2F2|\"G7\"zG2A ^F2G2|\"Gm7\"d8|\"C7\"z2 C2 D2 A2||\nP: A\n\"G7\"F8|\"Gm7\"FG2F \"C7\"G2G2|\"F\"F4 \"Bb7\"z4|\"Am7\"z2C2 \"D7\"D2c2|\n\"G7\"A8|\"Gm7/C\"FG2F \"C7\"G2G2|\"Eb7\"A4\"D7\"z4|\"Bm7b5\"z2e2 \"E7\"e2d2||\nP: C\n\"Am7\"ccc2 \"D7\"dd2 c|\"Gm7\"BBB2 \"C7\"cc3|\"Eb7\"zA ^GA \"D7\"c2B2|\"Gm7\"=G4 \"G#o7\"d4|\n\"Am7\"z2 c2 \"D7\"d2A2|\"Gm7\"c4 \"C7\"D4|\"F\"F8-|F8||\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-abc-label": "Leadsheet (ABC)",
+  "source-url": "https://jazzleadsheet.com/post/love-is-here-to-stay/",
+  "abc-accompaniment": "{\"style\":\"swing\",\"enabled\":true}"
+}

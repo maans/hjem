@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Take the A Train\nC:Billy Strayhorn Duke Ellington\nM:4/4\nL:1/8\nQ:1/4=165\nK:C\n%%MIDI program 0\n|:\"C6\"G8- | \"Cmaj7\"G e3 G2 c2 | \"D7(b5)\"e ^G4- G3- | ^G8 |\n\"Dm7\"A8 | \"G7\"A^ABe G_GF_d | \"Cmaj7\"c E4- E3- | [1\"Dm7\"E4-\"C7\" E4 :|\n[2\"Gm7\"E4-\"C7\" E4 | \"Fmaj7\"A c4- c3 | e F3 A2 c2 | e A3- A4- |\nA8 | \"D7\"A c4- c3 | e ^F3 A2 c2 | \"Dm7\"e A3- A4- |\n\"G7\"A4\"G7(b9)\" _A4 | \"Cmaj7\"G8- | G e3 G2 c2 | \"D7(b5)\"e ^G4- G3- |\n^G8 | \"Dm7\"A8 | \"G7\"A^ABe G_GF_d | \"Cmaj7\"c E4- E3- |\n\"Dm7\"E4-\"G7\" E4 | [P:Coda]\"Cmaj7\"c E3\"C\" F2 ^F2 | GABc z2\"Cmaj7\" C2 |\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-abc-label": "Leadsheet (ABC)",
+  "source-url": "https://effendi.me/jazz/repo/IV_Part-2/TakeTheATrain.musicxml",
+  "abc-accompaniment": "{\"style\":\"swing\",\"enabled\":true}"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Those Who Were\nM:4/4\nL:1/8\nQ:1/4=50\nK:G\nB, |: \"G\"B,B, B,B,\"Am/G\" CD EF | \"G\"B,2 B,2-\"B7/D#\" B,2 z F | \"Em\"GG\"Em/D\" FF\"Cmaj7\" EE FF | [1\"Bsus4\"B,6\"B7\" z B, :|\n[2\"Bsus4\"B,6\"B7\" z E | \"Cmaj7\"E3 G,\"D/C\" G,F, F,E | \"G/B\"D2\"B7/D#\" B,4\"Em7\" z B, | \"Am7\"C3 C\"Dsus4\" D3 A, |\n\"Gmaj7\"B,6\"Gmaj7\" z E | \"Cmaj7\"E3 G,\"D/C\" G,F, F,E | \"G/B\"D3\"B7/D#\" B,/A,/\"Em7\" G,2 z/ G,/A,/B,/ | \"Asus4\"B,3 A,\"A7\" A,2- A,/A,/A,/E/ |\n[1\"Dsus4\"E3 D\"D13\" D3 z :| [2\"Dsus4\"E3 D\"D13\" D3 z | \"G\"z [B,G,D,] [CA,E,][B,G,D,] [DB,F,][B,G,D,] [CA,E,][B,G,D,] | \"Am/G\"z [CA,E,] [DB,F,][CA,E,] [ECG,][CA,E,] [DB,F,][CA,E,] |\n\"G\"z [GDB,] [FDA,][ECG,] [DB,F,][B,G,D,] [CA,E,][A,E,C,] | [B,G,D,]8 |\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-abc-label": "Leadsheet (ABC)",
+  "abc-accompaniment": "{\"enabled\": true, \"style\": \"swing\"}",
+  "abc-bars-per-line": "4"
+}

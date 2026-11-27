@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Mita, Barfly (Gm)\nC:Trad. Balkan,  arr. Ebbe Munk\nM:7/8\nL:1/8\nQ:1/4=80\nV:1 name=\"Fløjte\" clef=treble\nV:2 name=\"Piano\" clef=treble\nV:3 clef=bass\nK:Gm\nV:1\n|:\"Gm\"z7 | z7 | [DG]2 [GB] [Ac]2 [Ad]2 | [dg]/[c-d-]/[cd][Ac] [Bd]2 z2 |\nz7 | z7 | \"Eb\"[Be]3\"Cm\" [Ec]4 | \"D\"[A-d]2 [A-e] [A^f]4 |\nz7 :| z7 |: \"D\"[A^f]3 [^Fd]4 | [^Fg]2 [Gd] [Ac]2 [Ad]2 |\n\"Gm\"[B-d-]3 [Bd]4 | [dg]/[c-d-]/[cd][Ac] [Bd]2 z2 :| \"D\"z7 | z7 |\n[Ad]3 [^FA]4 | [D^F]3 [FA]4 | \"Eb\"[Ge]3 [EB]4 | \"Cm\"[Ec]3 [Gc]4 |\n\"D\"[A-d]2 [A-e] [A^f]4 | z7 |\nV:2\n|:G^FGAB AG | cBABA G2 | G^FGAB AG | B/A/-AG/^F/ G2 z2 |\nG^FGAB AG | cBABA G2 | G^FEGF E2 | D3- D4 |\nz7 :| z7 |: d3 A4 | c2 BB A G^F |\nG3- G4 | z7 :| [^FA]2 [GB] [Ad]2 [Bd]2 | [cd]2 [Bd] [Ad]2 [GB]2 |\n[^FA]2 [GB] [Ad]2 [Bd]2 | [Ad]2 [GB] [^FA]2 [GB]2 | [Ac]2 [GB] [GB]4 | [Ac]2 [GB] [^FA]2 [EG]2 |\n[D-^F-]3 [DF]4 | z7 |\nV:3\n|:G,,B,,D,G,,B,, D,G, | G,,B,,D,G,,B,, D,G, | G,,B,,D,G,,B,, D,G, | B,,/A,,/-A,,G,,/^F,,/ G,,2 z2 |\nG,,B,,D,G,,B,, D,G, | G,,B,,D,G,,B,, D,G, | E,G,B,C,E, G,E, | D,^F,A,D,F, A,D |\nD,^F,A,D,F, A,D :| D,E,^F,G,A, B,C |: D,^F,A,D,F, A,D | D,2 E, =E,2 ^F,2 |\nG,B,,D,G,,B,, D,G, | B,,/A,,/-A,,G,,/^F,,/ G,,2 z2 :| D,^F,A,D,F, A,D | D,^F,A,D,F, A,D |\nD,^F,A,D,F, A,D | D,^F,A,D,F, A,D | E,G,B,E,G, B,E | C,E,G,C,E, G,C |\nD,^F,A,D,F, A,D | D,E, ^F,G, A,B,D |\n",
+  "text": "<$huwiki-abc/>",
+  "abc-view": "full",
+  "abc-bars-per-line": "4",
+  "abc-accompaniment": "{\"enabled\":true,\"metronome\":false,\"style\":\"balkan\",\"bassSource\":\"style\",\"bass\":\"alternating\",\"chords\":\"folk\",\"drums\":\"balkan\",\"melodyInstrument\":\"source\",\"melodyVolume\":100,\"bassVolume\":50,\"chordVolume\":45,\"drumVolume\":40,\"droneEnabled\":false,\"variation\":20}"
+}

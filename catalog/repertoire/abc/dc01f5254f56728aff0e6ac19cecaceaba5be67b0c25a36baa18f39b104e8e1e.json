@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Englishman in New York\nC:Sting, 1987, arr. Ebbe. Original Em, her klang Gm\nM:4/4\nL:1/8\nQ:1/4=100\nV:1 name=\"Piano\" clef=treble\nV:2 clef=bass\nK:F\nV:1\n[P:Intro]\"Gm\"a4-\"C\" a4- | \"Dm\"a6-\"C\" a2- | \"Gm\"a4-\"C\" a4- | \"Dm\"a2- a3/2 d'/ (3:2:3agf\"C\" (3:2:3efA |\n\"Gm\"ed- d2\"C\" z4 | \"Dm\"z4 z2\"C\" B2- | \"Gm\"B2- (3:2:3BcG\"C\" A4- | \"Dm\"A/B/c/G/ A3/2 B/ c/G/-G/A/-\"C\" AG/F/- |:\n[P:V1 8tk V2 8tk Ch 4tk V3 8tk Ch 4tk]\"Gm\"F z z2\"C\" z4 | \"Dm\"z6\"C\" z2 :| [P:Bridge 1]\"F\"F2 FF\"F\" [CA]2 [FA]2 | \"C\"[EG]2 [EG][EG]\"C\" [^C-A-][CA]/[D-F-]/ [DF]E |\n\"Bb\"[DF]2 [DF][DF]\"Bb\" [A,F]2 [DF]2 | \"A\"[EA]2 [FA]2\"A\" G-G/A/- AB | \"Bb\"A[FA] [FA][CA]\"Bb\" [C-A-][CA]/[B,-G-]/ [B,G][A,F] | \"C\"[CG][EG] [EG]G\"C\" G-G/F/- F/E/-E |\n\"Em\"G2 [EG]2\"Em\" [E-G-][EG]/[F-A-]/ [FA][GB] | \"F\"A[FA] [FA][CA]\"F\" [C-A-][CA]/[B,-G-]/ [B,G][A,F] |: [P:Sax solo 4 el 8 tk]\"Gm\"z4\"C\" z4 | \"Dm\"z4\"Dm\" z2\"C\" z2 ::\n[P:V4 8tk V5 8tk Ch 4tk]\"Gm\"z2\"C\" z2\"C\" z4 | \"Dm\"z4\"Dm\" z2\"C\" z2 :| [P:Bridge 2]\"F\"A/A[A-c-]/\"C\" [Ac]/[Ac][c-f-]/\"F\" [cf][Ac] z [Ac] | \"C\"GG/[G-c-]/ [Gc]/[Gc][B-e-]/\"C\" [Be][Gc] z2 |\n\"Bb\"[FA]/[FA][F-B-]/ [FB]/[FB][A-c-]/\"Bb\" [Ac]/A[F-G-]/ [FG][E-A-] | \"A\"[EA]4\"A\" z4 | \"Bb\"[Df]/[Df][D-e-]/ [De]/[De][F-d-]/\"Bb\" [Fd][DB] z [DA] | \"C\"[Ee][Ee]/[E-d-]/ [Ed]/[Ed][G-c-]/\"C\" [Gc][EG] z [EG] |\n\"Em\"[Ge]/[Ge][G-d-]/ [Gd]/[Ad][B-c-]/\"Em\" [Bc]/[Ac][G-d-]/ [Gd]/[Ac][A-c-]/ | [P:- Chorus harpe 8tk]\"F\"[Ac]4\"F\" z4 |\nV:2\nG,,4 C,4 | D,4 D,2 C,2 | G,,4 C,4 | D,4 D,2 C,2 |\nG,,4 C,4 | D,4 D,2 C,2 | G,,4 C,4 | D,4 D,2 C,2 |:\nG,,4 C,4 | D,4 D,2 C,2 :| F,4- F,4 | C,4- C,4 |\nB,,4- B,,4 | A,,4- A,,4 | B,,4- B,,4 | C,4- C,4 |\nE,4- E,4 | F,4- F,4 |: G,,4 C,4 | D,4 D,2 C,2 ::\nG,,4 C,4 | D,4 D,2 C,2 :| F,4- F,4 | C,4- C,4 |\nB,,4- B,,4 | A,,4- A,,4 | B,,4- B,,4 | C,4- C,4 |\nE,4- E,4 | F,4- F,4 |\n",
+  "text": "<$huwiki-abc/>",
+  "abc-view": "full",
+  "abc-bars-per-line": "4",
+  "abc-accompaniment": "{\"enabled\":true,\"metronome\":false,\"style\":\"folk\",\"bassSource\":\"voice:1\",\"bass\":\"alternating\",\"chords\":\"folk\",\"drums\":\"folk\",\"melodyInstrument\":\"source\",\"melodyVolume\":100,\"bassVolume\":50,\"chordVolume\":45,\"drumVolume\":40,\"droneEnabled\":false,\"variation\":20}"
+}

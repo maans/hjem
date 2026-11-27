@@ -1,0 +1,13 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Čik, čik\nC:Rade Krstić\nM:4/4\nL:1/8\nQ:1/4=125\nV:1 clef=treble\nV:2 clef=bass\nK:F\nV:1\n[P:A] |:\"F\"z/ c/f/a/ d'/c'/c'/b/ b/a/b/c'/ b/a/^g/a/ | z/ c/f/a/ d'/c'/c'/b/ b/a/b/c'/ b/a/^g/a/ | z/ c/f/a/ d'/c'/c'/b/ b/a/b/c'/ b/a/^g/a/ | \"G\"b3/2 a/\"G/B\" a3/2 g/\"C7\" g4 :|\n[P:Fine ved DC] z4 z2 fg |: [P:Bx4]\"C7\"gf/g/ f/e/_d z2 de | [1-3\"Bbm\"_d2 c2\"C7\" z2 fg :| [4[M:2/4]\"Bbm\"_d2 c2 |: [P:Cx4][M:4/4]\"C7\"c_ded cded |\n\"Bbm\"z _d/(d/ d/)d/d\"C7\" e/d/c/d/ c2 :: [P:Dx4]\"C7\"z g- g2- gf/g/ f/e/_d | \"Bbm\"z _d/d/ de\"C7\" d2 c2 :| [P:DC]\"F\"z/ c/f/a/ d'/c'/c'/b/ b/a/b/c'/ b/a/^g/a/ |\nz/ c/f/a/ d'/c'/c'/b/ b/a/b/c'/ b/a/^g/a/ | z/ c/f/a/ d'/c'/c'/b/ b/a/b/c'/ b/a/^g/a/ | \"G\"b3/2 a/\"G/B\" a3/2 g/\"C7\" g4 | [P:Fine] z4 z2 fg |\nV:2\n|:F,/ z/ z z2 z4 | F,2 C,A,, F,,2 A,,C, | F,2 C,A,, F,,2 A,,C, | G,,2 =B,,2 C,C,C,C, :|\nC,C, C,_D, C, z2 z |: C2 G,E, C,2 E,G, | [1-3 B,2 =B,2 C2 G,E, :| [4[M:2/4] B,2 =B,2 |: [M:4/4] C2 G,E, C,2 E,G, |\nB,2 =B,2 C2 G,E, :: C2 G,E, C,2 E,G, | B,2 =B,2 C2 G,E, :| F,/ z/ z z2 z4 |\nF,2 C,A,, F,,2 A,,C, | F,2 C,A,, F,,2 A,,C, | G,,2 =B,,2 C,C,C,C, | C,C, C,_D, C, z2 z |\n",
+  "text": "<$huwiki-abc/>",
+  "abc-view": "full",
+  "abc-bars-per-line": "4",
+  "abc-accompaniment": "{\"enabled\": false, \"metronome\": false, \"bassSource\": \"voice:1\", \"melodyInstrument\": \"source\"}",
+  "abc-parts-new-line": "no"
+}

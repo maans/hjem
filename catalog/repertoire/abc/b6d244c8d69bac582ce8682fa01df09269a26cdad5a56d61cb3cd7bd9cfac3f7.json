@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:All of Me\nC:Gerald Marks, Seymour Simons Arr. 6EQUJ5\nM:4/4\nL:1/8\nQ:1/4=142\nK:C\n%%MIDI program 0\n\"C6\"c2 GE- E4- | E4 (3:2:3c2 d2 c2 | \"E7\"B2 ^GE- E4- | E8 |\n\"A7\"A3 G E4- | E2 ^D2 (3:2:3E2 _B2 A2 | \"Dm7\"G4 F4- | F8 |\n\"E7\"E3 _E D4- | D4 (3:2:3_E2 ^G2 B2 | \"Am7\"d4 c4- | c8 |\n\"D7\"B3 _B A4- | A4 (3:2:3A2 d2 B2 | \"Dm7\"A8 | \"G7\"B8 |\n\"Cmaj7\"c2 GE- E4- | E4 (3:2:3c2 d2 c2 | \"E7\"B2 ^GE- E4- | E8 |\n\"A7\"A3 G E4- | E2 ^D2 (3:2:3E2 _B2 A2 | \"Dm7\"G4 F4- | F8 |\n\"Fmaj7\"d4 c2 B2 | \"Fm6\"d6 c2 | \"Cmaj7\"B4\"Em7(b5)\" E2 G2 | \"A7\"B6 A2 |\n\"Dm7\"c4 A2 c2 | \"G7\"e4 e4 | \"Cmaj7\"c4-\"Ebdim7\" c4- | \"Dm7\"c4-\"G7\" c4 |\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-abc-label": "Leadsheet (ABC)",
+  "source-url": "https://effendi.me/jazz/repo/IV_Part-2/AllOfMe_C.musicxml",
+  "abc-accompaniment": "{\"style\":\"swing\",\"enabled\":true}"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\n%%partsfont \"Kreon\" Box\nT:All the Things You Are\nC: Jerome Kern\nM: 4/4\nL: 1/4\nQ:1/4=160\nK:Ab\nP: A\n\"Fm7\"A4|\"Bbm7\"d3 A|\"Eb7\"G G G G|\"Abmaj7\"G c2 G|\n\"Dbmaj7\"F F F2|\"G7\" (3FGA G F|\"Cmaj7\"=E4-|E4|\nP: B\n\"Cm7\"_E4|\"Fm7\"A3 E|\"Bb7\"=D D D D|\"Ebmaj7\"=D G2 D|\n\"Abmaj7\" C C C2|\"D7\" (3C=DE DC|\"Gmaj7\"=B,4-|B, =D G =d||\nP: C\n\"Am7\"=d2 c2-|\"D7\"c E =E c|\"Gmaj7\"=B4-|B =D G =B|\n\"F#m7\"=B2 =A2-|\"B7\"A B, =B, =A|\"Emaj7\"_A4-|\"C7\"A4||\nP: D\n\"Fm7\"A4|\"Bbm7\"d3 A|\"Eb7\"G G G G|\"Abmaj7\"G c2 G|\n\"Dbmaj7\"F4|\"Dbm7\"e2 d2|\"Cm7\"E E (3EEE|\"B07\"G3 F|\n\"Bbm7\"D F A d|\"Eb7\" f2 g2|\"Abmaj7\" a4-|a4||\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-abc-label": "Leadsheet (ABC)",
+  "source-url": "https://jazzleadsheet.com/post/all-the-things-you-are/",
+  "abc-accompaniment": "{\"style\":\"swing\",\"enabled\":true}"
+}

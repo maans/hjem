@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Libertango (Am)\nC:Astor Piazolla, arr. E.M.\nM:4/4\nL:1/8\nQ:1/4=100\nK:Am\ndB c |: [P:A]\"Am\"[C-A-e-]8 | [CAe]3 E dc BA | \"B/A\"[^D-^F-B-]8 | [^D^FB]6 c2 |\n\"Bm7b5/A\"[F-B-d-]8 | [FBd]3 E cB A^G | \"Am\"[C-E-A-]8 | [CEA]4 z E AB |\n\"Am/G\"[E-A-c-]8 | [EAc]3 E cB cA | \"F#o7\"[E-A-B-]8 | [EAB]6 z2 |\n\"Fo7\"[_E-_A-B-]8 | [_E-_A-B-]4 [EAB]c B=A | [1\"E7\"[D-^G-B-]8 | [D^GB]6 z c/d/ :|\n[2\"E7\"[D-^GB]8 | [D-E-]4 [DE]E F^F | [P:B]\"Em7b5/Bb\"[D-E-G-]8 | [DEG]3 G FE DE |\n\"Dm7\"[A,-C-F-]8 | [A,CF]2 z2 (3:2:3A,2 D2 E2 | \"Dm7b5/Ab\"[_A,-C-F-]8 | [_A,CF]3 D GF ED |\n\"Cmaj7\"[G,-B,-E-]8 | [G,B,E]6 z2 |: [P:Coda]\"Cmaj7\"[B,Ec][B,Ec] [B,Ec][B,Ec] [B,Ec][B,Ec] [B,Ec][B,Ec] | \"Cmaj7\"[B,Ec][B,Ec] [B,Ec][B,Ec] [B,Ec][B,Ec] [B,Ec] z |\n\"D#m7\"[C-^F-^d-]8 | [C^F^d]8 | \"Dm7\"[C-F-d-]8 | [CFd]8 |\n\"Cmaj7\"[B,-E-c-]8 | [B,Ec]8 :|\n",
+  "text": "<$huwiki-abc/>",
+  "abc-view": "full",
+  "abc-bars-per-line": "4",
+  "abc-accompaniment": "{\"enabled\":true,\"metronome\":false,\"style\":\"folk\",\"bassSource\":\"style\",\"bass\":\"alternating\",\"chords\":\"folk\",\"drums\":\"folk\",\"melodyInstrument\":\"source\",\"melodyVolume\":100,\"bassVolume\":50,\"chordVolume\":45,\"drumVolume\":40,\"droneEnabled\":false,\"variation\":20}"
+}

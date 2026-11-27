@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:On the Sunny Side of the Street\nC:Jimmy McHugh Arr. 6EQUJ5\nM:4/4\nL:1/8\nQ:1/4=104\nK:G\n%%MIDI program 0\nB,2 A, |: \"Gmaj7\"G,2 z A, B, D2 B- | \"B7\"B4 z B2 _B | \"C6\"A G3 E2 C2 | \"D7\"B,3\"D#dim7\" A,- A,4 |\n\"Em7\"z G,2 A, B, G2 F- | \"A7\"F6 ^DE | [1\"Am7\"G E2 C-\"D7\" CB, A,D- | \"Gmaj7\"D4\"D7\" z B,2 A, :|\n[2\"Am7\"G E2 C-\"D7\" CB, A,\"Gmaj7\"G, | \"F9\"z G3\"Em7\" G2\"Eb7\" G2 | \"Dm7\"G4 A, C2 B,- | \"G7\"B,4 G2 G2 |\n\"Cmaj7\"G4 B, D2 C- | \"C6\"C6 G2 | \"Em7\"G4 B, D2 ^C- | \"A7\"^C4 z E3 |\n\"D7\"FA z3\"Am7\" B,3 | \"D7\"CE z3 B,2 A, | \"Gmaj7\"G,2 z A, B, D2 B- | \"B7\"B4 z B2 _B |\n\"C6\"A G3 E2 C2 | \"D7\"B,3 A,-\"D#dim7\" A,4 | \"Em7\"z G,2 A, B, G2 F- | \"A7\"F6 ^DE |\n\"Am7\"G E2 C-\"D7\" CB, A,G,- | \"Gmaj7\"G,4\"D7\" z4 |\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-abc-label": "Leadsheet (ABC)",
+  "source-url": "https://effendi.me/jazz/repo/IV_Part-2/OnTheSunnySideOfTheStreet.musicxml",
+  "abc-accompaniment": "{\"style\":\"swing\",\"enabled\":true}"
+}

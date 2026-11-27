@@ -1,0 +1,12 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\n%%partsfont \"Kreon\" Box\nT:Lullaby of Birdland\nC: George Shearing\nM: 4/4\nL: 1/8\nQ:1/4=126\nK:Bbm\nP: A\n\"Bbm7\"ffed cB2=G-|\"C7\"G2B=A-\"F7\"A2zF-|\"Bbm7\"F2cB-B2zG-|\"Ebm7\"G2fe-\"Ab7\"e2za-|\n\"Dbmaj7\"a2gf \"Bbm7\"ed2B-|\"Ebm7\"Bfe=A- \"Ab7\"Afe_A-|\"Dbmaj7\"A4ze dG-|\"Gb7\"GdcF- \"F7\"F4||\nP: A\n\"Bbm7\"ffed cB2=G-|\"C7\"G2B=A-\"F7\"A2zF-|\"Bbm7\"F2cB-B2zG-|\"Ebm7\"G2fe-\"Ab7\"e2za-|\n\"Dbmaj7\"a2gf \"Bbm7\"ed2B-|\"Ebm7\"Bfe=A- \"Ab7\"Afe_A-|\"Dbmaj7\"A4 \"Ab7\"zA cd|\"Dbmaj7\"z8||\nP: B\n\"Bb7\"f2g=ga2a_g|\"Ebm7\"ze3-e2z2|\"Ebm7\"e2=ef\"Ab7\"g2gf-|\"Dbmaj7\"f4z4|\n\"Bb7\"f2g=ga2a_g|\"Ebm7\"ze3-e2z2|\"Ebm7\"e2=ef\"Ab7\"g2gf-|\"Dbmaj7\"fgfe \"F7\"z4||\nP: A\n\"Bbm7\"ffed cB2=G-|\"C7\"G2B=A-\"F7\"A2zF-|\"Bbm7\"F2cB-B2zG-|\"Ebm7\"G2fe-\"Ab7\"e2za-|\n\"Dbmaj7\"a2gf \"Bbm7\"ed2B-|\"Ebm7\"Bfe=A- \"Ab7\"Afe_A-|\"Dbmaj7\"A4 \"Ab7\"zA cd|\"Dbmaj7\"z8||\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-abc-label": "Leadsheet (ABC)",
+  "source-url": "https://jazzleadsheet.com/post/lullaby-of-birdland/",
+  "abc-accompaniment": "{\"style\":\"swing\",\"enabled\":true}"
+}

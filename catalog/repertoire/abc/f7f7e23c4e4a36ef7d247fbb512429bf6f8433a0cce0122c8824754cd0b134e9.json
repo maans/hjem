@@ -1,0 +1,14 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Bas-riff i 7/8\nC:Ebbe Munk\nM:7/8\nL:1/8\nQ:1/4=100\nV:1 name=\"Piano\" clef=treble\nV:2 clef=bass\nK:Dm\nV:1\n[P:A] |:z7 | \"Dm\"d4\"A\" e2 d | \"Bbm7b5\"f2 d2 ^c-cA | \"Dm\"f2 d2 ^cAd ::\n[P:B] z7 | \"Dm\"a2 f2\"A\" d2 A | \"Bdim7\"=B2 ^G2 FED | \"Dm\"a2 f2 dA=B ::\n[P:C] z7 | \"Dm\"a2 f2\"A\" d2 A | \"Bdim7\"^G=B df ^g=b-b | \"Dm\"a2 f2 fed :|\nV:2\n|:z A,, =B,,^C, D,E,F, | D,2 D,D, A,,-A,,^C, | B,,B,, B,, z A,,=B,,^C, | D,2 D,D, A,,=B,,^C, ::\nz A,, =B,,^C, D,E,F, | D,2 D,D, A,,-A,,^C, | =B,,B,, B,, z A,,B,,^C, | D,2 D,D, A,,=B,,^C, ::\nz A,, =B,,^C, D,E,F, | D,2 D,D, A,,-A,,^C, | =B,,B,, B,, z A,,B,,^C, | D,2 D,D, A,,=B,,^C, :|\n",
+  "text": "<$huwiki-abc/>",
+  "abc-bars-per-line": "4",
+  "abc-parts-new-line": "no",
+  "abc-origin-sha256": "d65785a65ff4253034429ab5158bbbe09567854241f80ef660e783b5afb13807",
+  "abc-origin-url": "https://forge.xn--mns-ula.dk/catalog/musescore/sources/d65785a65ff4253034429ab5158bbbe09567854241f80ef660e783b5afb13807.mscz",
+  "abc-collection": "Silba Ätno"
+}
