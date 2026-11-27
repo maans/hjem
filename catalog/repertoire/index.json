@@ -6486,32 +6486,32 @@
     {
       "name": "Birdland",
       "path": "wiki/birdland/index.html",
-      "sha256": "d829d447db29969446bf1dd59fd6f00c2bf8d05d2c20f50437beedee6951ef15"
+      "sha256": "ae20bf2b286e3f9f385953a51a3f6ab55e8026f74c9055e825aba3872d409f70"
     },
     {
       "name": "Birdland · Guitar",
       "path": "wiki/birdland/guitar/index.html",
-      "sha256": "561acbc9fd75f92cc5727c81987c750f02f22dfd035c6a1b3a351cd2d9f86bc5"
+      "sha256": "3fc925dcbbe427dcecbc97f0c1fbbc37d69ec0aaec2443392dc0455d0639688e"
     },
     {
       "name": "Bjarkes nodepult",
       "path": "wiki/bjarke/index.html",
-      "sha256": "7c4e2001de26ba0ecf31bbe01669930870daf2845de60691ef6ebbef9c8314c0"
+      "sha256": "1234bf32734f5a4a754cfe6c63ce34343d4560c3e7aad99da71667babc75c9d9"
     },
     {
       "name": "Helles",
       "path": "wiki/helles/index.html",
-      "sha256": "bb88fbb6b38ccfe05e560cae1536d54d8e3b1314fa4788a95623d3131e5690dd"
+      "sha256": "76ee885854ca2c1550f9ec11fafd12324cac8701d5dac46720700bc06fd3d9ca"
     },
     {
       "name": "Silba Ätno",
       "path": "wiki/silba/index.html",
-      "sha256": "0ba1f8d3b18c81a784d536a22326cf4e9d2f1aa6d5bc78e34dd2dede0072e27e"
+      "sha256": "67fac0d9c27e2a46dd7f9ae9c5fb72dde9b3e71d9baad68f7c5aad8ff9b6b55b"
     },
     {
       "name": "Akustisk Elektrisk",
       "path": "wiki/akustisk/index.html",
-      "sha256": "17133ca6e215bd24412cd53222854a0183072306f20130a3115e32556aab5264"
+      "sha256": "2a45a2b35c527f1a347e9a6df295447cc4ea57092c50f43064ed0a1fb7c07a9b"
     }
   ]
 }
