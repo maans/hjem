@@ -17,9 +17,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     env:
-      FORGE_REF: fe32dc7115d835aa654375f225ef3499f998c964
-      ABC_VERSION: '0.3.69'
-      REPERTOIRE_VERSION: '0.3.12'
+      FORGE_REF: d33d927a1423d0999bc133997c98646ee0b043ab
+      ABC_VERSION: '0.3.70'
+      REPERTOIRE_VERSION: '0.3.13'
       PRINT_VERSION: '0.2.10-test.1'
       MUSESCORE_VERSION: '0.1.12'
     steps:
@@ -33,7 +33,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: maans/huwiki-forge
-          ref: fe32dc7115d835aa654375f225ef3499f998c964
+          ref: d33d927a1423d0999bc133997c98646ee0b043ab
           path: .forge-source
           persist-credentials: false
       - uses: actions/setup-node@v4
