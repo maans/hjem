@@ -1,4 +1,4 @@
-name: Synchronize shared Repertoire plugin in musician wikis
+name: Synchronize shared Repertoire and ABC plugins in musician wikis
 on:
   push:
     branches: [main]
@@ -9,7 +9,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: sync-repertoire-plugin-main
+  group: sync-shared-musician-plugins-main
   cancel-in-progress: false
 jobs:
   synchronize:
@@ -17,8 +17,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     env:
-      FORGE_REF: b1612fd3f3a962ff05312d5a8f9239de6a177983
-      REPERTOIRE_VERSION: '0.3.2'
+      FORGE_REF: da102aceb4bb522fc155bf8bb8d34c8a8d4e9e88
+      ABC_VERSION: '0.3.62'
+      REPERTOIRE_VERSION: '0.3.3'
     steps:
       - uses: actions/checkout@v4
         with:
@@ -27,29 +28,54 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Download the verified shared plugin release
+      - name: Download and verify the matching shared plugin releases
         run: |
           python - <<'PY'
           import json, os, pathlib, re, urllib.request
           ref = os.environ['FORGE_REF']
           if not re.fullmatch(r'[0-9a-f]{40}', ref):
               raise SystemExit('The Forge release must be pinned to a full commit SHA')
-          url = f'https://raw.githubusercontent.com/maans/huwiki-forge/{ref}/plugins/repertoire/dist/plugin.json'
-          with urllib.request.urlopen(url, timeout=60) as response:
-              data = response.read()
-          plugin = json.loads(data)
-          if plugin.get('title') != '$:/plugins/huwiki/repertoire' or plugin.get('version') != os.environ['REPERTOIRE_VERSION']:
-              raise SystemExit('The pinned plugin does not match the requested release')
-          pathlib.Path('/tmp/repertoire-release.json').write_bytes(data)
+          for name in ('abc', 'repertoire'):
+              url = f'https://raw.githubusercontent.com/maans/huwiki-forge/{ref}/plugins/{name}/dist/plugin.json'
+              with urllib.request.urlopen(url, timeout=60) as response:
+                  data = response.read()
+              plugin = json.loads(data)
+              if plugin.get('title') != f'$:/plugins/huwiki/{name}' or plugin.get('version') != os.environ[f'{name.upper()}_VERSION']:
+                  raise SystemExit(f'The pinned {name} plugin does not match the requested release')
+              bundled = json.loads(plugin['text'])['tiddlers']
+              if name == 'abc' and '$:/plugins/huwiki/abc/fullscreen.js' not in bundled:
+                  raise SystemExit('The shared fullscreen controller is missing from ABC')
+              pathlib.Path(f'/tmp/{name}-release.json').write_bytes(data)
           PY
-      - name: Replace only Repertoire in existing wiki files
+      - name: Update both plugins together and verify every wiki
         run: |
           python - <<'PY'
-          import pathlib, subprocess, sys
-          files = sorted(str(path) for path in pathlib.Path('wiki').rglob('index.html'))
+          import importlib.util, json, pathlib, subprocess, sys
+          spec = importlib.util.spec_from_file_location('updater', 'scripts/update_abc_plugin.py')
+          updater = importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(updater)
+          files = sorted(pathlib.Path('wiki').rglob('index.html'))
           if not files:
               raise SystemExit('No musician wiki files were found')
-          subprocess.run([sys.executable, 'scripts/update_abc_plugin.py', '--title', '$:/plugins/huwiki/repertoire', '--plugin', '/tmp/repertoire-release.json', *files], check=True)
+          releases = {name: json.loads(pathlib.Path(f'/tmp/{name}-release.json').read_bytes()) for name in ('abc', 'repertoire')}
+          expected = {}
+          for path in files:
+              original = path.read_bytes().decode('utf-8')
+              updated, abc_status = updater.replace_plugin(original, releases['abc'], '$:/plugins/huwiki/abc')
+              updated, repertoire_status = updater.replace_plugin(updated, releases['repertoire'], '$:/plugins/huwiki/repertoire')
+              if repertoire_status != 'absent' and abc_status == 'absent':
+                  raise SystemExit(f'{path}: Repertoire requires the matching ABC plugin')
+              expected[path] = updated.encode('utf-8')
+          for name, plugin in releases.items():
+              subprocess.run([sys.executable, 'scripts/update_abc_plugin.py', '--title', plugin['title'], '--plugin', f'/tmp/{name}-release.json', *map(str, files)], check=True)
+          for path in files:
+              if path.read_bytes() != expected[path]:
+                  raise SystemExit(f'{path}: plugin update changed unexpected wiki content')
+              for plugin in releases.values():
+                  _, status = updater.replace_plugin(path.read_bytes().decode('utf-8'), plugin, plugin['title'])
+                  if status not in ('current', 'absent'):
+                      raise SystemExit(f'{path}: the requested plugin was not installed')
+          print(f'Verified both releases in {len(files)} wikis; all other wiki content is unchanged')
           PY
       - name: Publish the updated musician wikis
         run: |
@@ -58,9 +84,8 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -- 'wiki/**/index.html'
           if ! git diff --cached --quiet; then
-            git commit -m "build(wiki): synchronize Repertoire ${REPERTOIRE_VERSION}"
+            git commit -m "build(wiki): synchronize ABC ${ABC_VERSION} and Repertoire ${REPERTOIRE_VERSION}"
             git fetch origin main
             git rebase origin/main
             git push origin HEAD:main
           fi
-
