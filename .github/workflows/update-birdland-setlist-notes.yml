@@ -1,0 +1,35 @@
+name: Update Birdland setlist notes
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/birdland-setlists.json'
+      - 'scripts/update_birdland_setlist_notes.py'
+      - '.github/workflows/update-birdland-setlist-notes.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: sync-shared-musician-plugins-main
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: main}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python scripts/update_birdland_setlist_notes.py
+      - name: Publish descriptions with all musical material preserved
+        run: |
+          git diff --check
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- wiki/birdland/index.html wiki/birdland/guitar/index.html
+          if ! git diff --cached --quiet; then
+            git commit -m 'fix(birdland): remove unnecessary programme commentary'
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi

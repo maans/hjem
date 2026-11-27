@@ -2,7 +2,7 @@ name: Publish Birdland dated folders and reviewed leadsheets
 on:
   push:
     branches: [main]
-    paths: ['scripts/publish_birdland_library.py', 'scripts/birdland-setlists.json', 'scripts/birdland-arrangement-settings.json', 'scripts/convert_birdland_leadsheets.mjs', 'scripts/extend_birdland_leadsheets.mjs', 'scripts/test_repertoire_navigation_browser.mjs', '.github/workflows/publish-birdland-library.yml']
+    paths: ['scripts/publish_birdland_library.py', 'scripts/birdland-arrangement-settings.json', 'scripts/convert_birdland_leadsheets.mjs', 'scripts/extend_birdland_leadsheets.mjs', 'scripts/test_repertoire_navigation_browser.mjs', '.github/workflows/publish-birdland-library.yml']
   workflow_dispatch:
 permissions: {contents: write}
 concurrency:
