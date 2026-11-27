@@ -17,8 +17,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     env:
-      FORGE_REF: b8322f93c349966c1abecd55cfe9502285567658
-      ABC_VERSION: '0.3.60'
+      FORGE_REF: b63595e405784ac01cf4a3961171872d53f37306
+      ABC_VERSION: '0.3.61'
     steps:
       - uses: actions/checkout@v4
         with:
@@ -63,3 +63,4 @@ jobs:
             git rebase origin/main
             git push origin HEAD:main
           fi
+
