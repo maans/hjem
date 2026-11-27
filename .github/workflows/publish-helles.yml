@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v4
         with: {ref: main}
       - uses: actions/checkout@v4
-        with: {repository: maans/huwiki-forge, ref: a7c46ab1458b0ffab5068f86b9ea585c5e423342, path: .forge-source}
+        with: {repository: maans/huwiki-forge, ref: 633c2f09dcbab6c886806d8c7e1370ad4cb16db9, path: .forge-source}
       - uses: actions/setup-node@v4
         with: {node-version: '22'}
       - uses: actions/setup-python@v5
