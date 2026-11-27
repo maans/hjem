@@ -3,6 +3,8 @@ import { advance, normalizeSpread, resolvePdfUrl, spreadStart, visiblePages } fr
 const parameters = new URLSearchParams(location.search);
 const elements = Object.fromEntries(["title", "previous", "next", "page", "total", "spread", "fullscreen", "original", "status", "pages"].map(id => [id, document.getElementById(id)]));
 const embedded = window.parent !== window;
+const bookEmbedded = embedded && parameters.get("fullscreen-owner") === "book";
+if (bookEmbedded) document.documentElement.classList.add("book-embedded");
 let documentPdf = null;
 let loadingTask = null;
 let currentPage = 1;
@@ -71,7 +73,7 @@ async function renderPages(resetScroll = false) {
     const columns = spread === 2 && !narrow ? 2 : 1;
     const availableWidth = Math.max(120, (elements.pages.clientWidth - 24 - (columns - 1) * 12) / columns);
     const toolbar = document.querySelector(".toolbar").getBoundingClientRect().height;
-    const availableHeight = Math.max(180, window.innerHeight - toolbar - 64);
+    const availableHeight = Math.max(180, window.innerHeight - toolbar - (bookEmbedded ? 8 : 64));
     await Promise.all(selected.map(async pageNumber => {
       const page = await documentPdf.getPage(pageNumber);
       if (token !== revision) return;
