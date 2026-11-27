@@ -12,6 +12,13 @@ def normalize(rows):
     for row in rows:
         for field in ('abc-source','abc_source'):
             if isinstance(row.get(field),str):row[field]=compact_chords(row[field])
+        if row.get('abc-source') and (row.get('repertoire-work-title')=='Bluesette' or re.search(r'^T:\s*Bluesette\s*$',row['abc-source'],re.M|re.I)):
+            row['abc-genre']='Jazz waltz'
+            try: config=json.loads(row.get('abc-accompaniment','{}'))
+            except ValueError: config={}
+            if config.get('style')=='swing':
+                config['style']='auto'
+                row['abc-accompaniment']=json.dumps(config,ensure_ascii=False)
     return rows
 
 def merge(rows):
