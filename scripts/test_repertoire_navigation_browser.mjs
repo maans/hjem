@@ -10,17 +10,21 @@ const server=spawn('python3',['-m','http.server','8765','--bind','127.0.0.1'],{c
 for(let i=0;i<50;i++){try{if((await fetch('http://127.0.0.1:8765/')).ok)break;}catch{}await new Promise(r=>setTimeout(r,100));}
 const browser=await chromium.launch({executablePath:process.env.CHROME_BIN||'/usr/bin/google-chrome',headless:true,args:['--no-sandbox','--disable-dev-shm-usage','--autoplay-policy=no-user-gesture-required']});
 const errors=[],checked=[];
+let page;
 try{
  const context=await browser.newContext({viewport:{width:1280,height:900},hasTouch:true});
  // The local wiki, PDF.js and chart originals are allowed. Sound downloads
  // are irrelevant to control visibility; MIDI generation is tested separately.
  await context.route('**/*',route=>{const url=route.request().url();return /^(?:http:\/\/127\.0\.0\.1:8765\/|https:\/\/xn--mns-ula\.dk\/wiki\/)/.test(url)?route.continue():route.abort();});
- const page=await context.newPage();page.setDefaultTimeout(60000);page.on('pageerror',e=>errors.push(e.message));
+ page=await context.newPage();page.setDefaultTimeout(60000);page.on('pageerror',e=>errors.push(e.message));
  await page.goto('http://127.0.0.1:8765/wiki/birdland/guitar/',{waitUntil:'domcontentloaded'});
  await page.waitForFunction(()=>window.$tw&&$tw.wiki&&$tw.rootWidget);
  async function open(title){
   await page.evaluate(title=>$tw.wiki.addTiddler(new $tw.Tiddler({title:'$:/StoryList',list:[title]})),title);
-  await page.locator('.huwrep-book').waitFor();
+  await page.waitForFunction(title=>{
+   const books=document.querySelectorAll('.huwrep-book');
+   return books.length===1&&books[0].closest('.tc-tiddler-frame')?.getAttribute('data-tiddler-title')===title;
+  },title);
  }
  const leads=await page.evaluate(()=>$tw.wiki.allTitles().filter(title=>$tw.wiki.getTiddler(title).fields['repertoire-abc-label']==='Leadsheet (ABC)'));
  assert.equal(leads.length,34);
@@ -75,4 +79,7 @@ try{
  assert.deepEqual(errors,[],'no unhandled browser errors');
  await writeFile(path.join(artifacts,'report.json'),JSON.stringify({leadsheets:checked.length,guitarParts:4,widths:[1280,1024],checks:['one shared reader','permanent transport','sound style change','PDF audio provenance','source switch keeps fullscreen','PDF-only explanation','library click preserves setlists'],errors},null,2));
  console.log('Browser acceptance passed for '+checked.length+' leadsheets and four guitar arrangements.');
+}catch(error){
+ if(page){await page.screenshot({path:path.join(artifacts,'failure.png'),fullPage:false}).catch(()=>{});await writeFile(path.join(artifacts,'failure.json'),JSON.stringify({error:error.message,checked,errors,books:await page.locator('.huwrep-book').evaluateAll(nodes=>nodes.map(n=>({title:n.closest('.tc-tiddler-frame')?.getAttribute('data-tiddler-title'),text:n.textContent.slice(0,900)}))).catch(()=>[])},null,2));}
+ throw error;
 }finally{await browser.close();server.kill();}
