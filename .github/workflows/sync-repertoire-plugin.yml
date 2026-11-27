@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     env:
-      FORGE_REF: 05ad98894f38288027e3bdbb5f7c94db524785e7
+      FORGE_REF: b00adc453ce17b2a9335c3f499ebff61b28bb292
       ABC_VERSION: '0.3.69'
       REPERTOIRE_VERSION: '0.3.12'
       PRINT_VERSION: '0.2.10-test.1'
@@ -33,7 +33,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: maans/huwiki-forge
-          ref: 05ad98894f38288027e3bdbb5f7c94db524785e7
+          ref: b00adc453ce17b2a9335c3f499ebff61b28bb292
           path: .forge-source
           persist-credentials: false
       - uses: actions/setup-node@v4
