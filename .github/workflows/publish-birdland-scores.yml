@@ -7,6 +7,7 @@ on:
       - 'scripts/test_publish_birdland_pdf_spreads.py'
       - 'scripts/birdland-pdf-sources.json'
       - 'wiki/birdland/pdf-viewer/**'
+      - '!wiki/birdland/pdf-viewer/viewer.js'
   workflow_dispatch:
 permissions:
   contents: write
@@ -18,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     env:
-      FORGE_REF: 6d78c21bba65fcdf571f4b79ea9c4047c667c516
+      FORGE_REF: 712240600938c43f84a7845d241ccd8af24892be
     steps:
       - uses: actions/checkout@v4
         with: {ref: main}
@@ -39,7 +40,7 @@ jobs:
           with urllib.request.urlopen(f'https://raw.githubusercontent.com/maans/huwiki-forge/{ref}/plugins/repertoire/dist/plugin.json',timeout=60) as r:
               data=r.read()
           p=json.loads(data)
-          assert p['title']=='$:/plugins/huwiki/repertoire' and p['version']=='0.2.2'
+          assert p['title']=='$:/plugins/huwiki/repertoire' and p['version']=='0.2.3'
           pathlib.Path('/tmp/repertoire-release.json').write_bytes(data)
           PY
       - name: Synchronize the shared plugin without changing scores

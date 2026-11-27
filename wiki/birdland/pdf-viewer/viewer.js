@@ -12,6 +12,7 @@ let readySent = false;
 let resizeTimer;
 const renderTasks = new Set();
 elements.spread.value = String(spread);
+if (parameters.get("fullscreen-active") === "yes") elements.fullscreen.textContent = "Luk fuldskærm";
 if (parameters.get("embedded") === "1") elements.spread.closest("label").hidden = true;
 
 function tellParent(type, extra = {}) {
@@ -151,15 +152,17 @@ elements.page.addEventListener("keydown", event => {
 });
 elements.spread.addEventListener("change", () => setSpread(elements.spread.value));
 elements.fullscreen.addEventListener("click", async () => {
+  if (parameters.get("fullscreen-owner") === "book") { tellParent("fullscreen"); return; }
   try {
     if (document.fullscreenElement) await document.exitFullscreen();
     else await document.documentElement.requestFullscreen();
   } catch { status("Fuldskærm er ikke tilgængelig her. Åbn PDF-filen direkte for en større visning."); }
 });
-if (!document.documentElement.requestFullscreen) elements.fullscreen.hidden = true;
+if (!document.documentElement.requestFullscreen && parameters.get("fullscreen-owner") !== "book") elements.fullscreen.hidden = true;
 document.addEventListener("fullscreenchange", () => { elements.fullscreen.textContent = document.fullscreenElement ? "Luk fuldskærm" : "Fuldskærm"; });
 
 window.addEventListener("keydown", event => {
+  if (event.key === "Escape" && parameters.get("fullscreen-owner") === "book") { tellParent("fullscreen", {exit:true}); return; }
   if (event.altKey || event.ctrlKey || event.metaKey || event.target.closest("input,select,textarea,[contenteditable]")) return;
   if (["ArrowRight", "PageDown", " "].includes(event.key)) { event.preventDefault(); move(1); }
   else if (["ArrowLeft", "PageUp"].includes(event.key)) { event.preventDefault(); move(-1); }
@@ -171,6 +174,7 @@ window.addEventListener("message", event => {
   if (!embedded || event.source !== window.parent || event.origin !== location.origin) return;
   const message = event.data;
   if (!message || typeof message !== "object" || message.type !== "birdland-pdf:command") return;
+  if (message.command === "fullscreen-state") { elements.fullscreen.textContent = message.active ? "Luk fuldskærm" : "Fuldskærm"; return; }
   if (message.command === "spread") setSpread(message.spread);
   else if (message.command === "next") move(1);
   else if (message.command === "previous") move(-1);
