@@ -30,10 +30,23 @@ def merge(rows):
         title=source['repertoire-work-title']
         work=index[title]
         work.update({'repertoire-leadsheet-source':source['title'],'repertoire-source-role':'leadsheet','repertoire-has-leadsheet':'yes'})
+    material=DATA/'material-additions.json'
+    for addition in json.loads(material.read_text()) if material.exists() else []:
+        title=addition['title']
+        work=index.setdefault(title,{'title':title,'type':'text/vnd.tiddlywiki'})
+        work.update(addition)
+        if work.get('repertoire-pdf') or work.get('repertoire-chord-stabs-source'):
+            work['text']=work.get('text','').replace('Nodefil til dette nummer er endnu ikke fundet i arkivet.\n\n','')
     if 'Materialestatus' in index:
-        count=sum(bool(r.get('abc-source')) and r.get('repertoire-work-title') in index for r in index.values())
+        count=sum(bool(index.get(r.get('repertoire-leadsheet-source',''),{}).get('abc-source')) for r in index.values() if r.get('repertoire-kind')=='piece')
         status=index['Materialestatus']
         status['text']=re.sub(r'\d+ transponérbare ABC-leadsheets',str(count)+' transponérbare ABC-leadsheets',status.get('text',''))
+        pdf_count=sum(bool(r.get('repertoire-score-pdf')) for r in index.values() if r.get('repertoire-kind')=='piece')
+        status['text']=re.sub(r'\d+ leadsheets som PDF',str(pdf_count)+' leadsheets som PDF',status['text'])
+        for title in ('The Guaracha','Altid et Goodbye'):
+            work=index.get(title,{})
+            if work.get('repertoire-pdf') or work.get('repertoire-chord-stabs-source'):
+                status['text']=status['text'].replace('* [['+title+']]\n','')
     return normalize(list(index.values()))
 
 def apply_data():
