@@ -20,6 +20,12 @@ def merge(rows,group):
     for row in rows:
         if row.get('repertoire-work-title') or row.get('repertoire-kind') in ('orchestra-item','setlist','orchestra'):continue
         if row.get('repertoire-kind')!='piece' and not row.get('abc-source'):continue
+        if group in ('silba','akustisk') and row.get('abc-source') and row.get('type','text/vnd.tiddlywiki')=='text/vnd.tiddlywiki' and not re.search(r'<\$huwiki-(?:abc|repertoire-piece|repertoire-book)\b',row.get('text','')):
+            original=row.get('text','')
+            practice='<details class="huwrep-practice-notes"><summary>Øvestatus og noter</summary>\n\n<label>Status <$select field="musik-status"><option>Ny</option><option>Øver</option><option>Kan selv</option><option>Klar til undervisning</option></$select></label>\n\n<label>Mit øvemål <$edit-text field="musik-mål" tag="input"/></label>\n\n</details>'
+            row['text']='<$huwiki-repertoire-piece tiddler=<<currentTiddler>>/>\n\n'+practice+'\n\n'+original
+            row['music-template']='off'
+            changed+=1
         record=matches.get(key(row.get('title','')))
         if not record:continue
         if row.get('repertoire-youtube-match')=='manual':continue
