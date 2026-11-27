@@ -1,0 +1,1140 @@
+{
+  "scope": "Two reviewed free primary catalogues, matched against the complete Birdland title list. Sources remain unmodified and are not automatically imported into active wikis. Birdland key, tempo and musical content must be checked.",
+  "entries": [
+    {
+      "title": "88 Basie Street",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "920 Special",
+      "sources": [
+        {
+          "format": "abc",
+          "url": "https://jazzleadsheet.com/post/9-20-special/",
+          "page": "https://jazzleadsheet.com/post/9-20-special/",
+          "path": "sources/06072f65cd45e3cacbc5516ae7d699b3d70da012240382f7bf8582ce3fc3a287.abc",
+          "sha256": "06072f65cd45e3cacbc5516ae7d699b3d70da012240382f7bf8582ce3fc3a287",
+          "bytes": 536,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "chord_symbols": 36,
+          "source_key": "C"
+        }
+      ],
+      "status": "downloaded_needs_musical_review"
+    },
+    {
+      "title": "A Foggy Day",
+      "sources": [
+        {
+          "format": "abc",
+          "url": "https://jazzleadsheet.com/post/a-foggy-day/",
+          "page": "https://jazzleadsheet.com/post/a-foggy-day/",
+          "path": "sources/d33dc29195a6b83232636fafce33613ebf9b27fe436a824637c5c396ce2fcce2.abc",
+          "sha256": "d33dc29195a6b83232636fafce33613ebf9b27fe436a824637c5c396ce2fcce2",
+          "bytes": 485,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "chord_symbols": 45,
+          "source_key": "F"
+        }
+      ],
+      "status": "downloaded_needs_musical_review"
+    },
+    {
+      "title": "A Warm Breeze",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "A-Tisket, A-Tasket",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Ain't Misbehavin'",
+      "sources": [
+        {
+          "format": "mscz",
+          "url": "https://freedjazz.org/tunes/aint-misbehavin/aint-misbehavin.mscz",
+          "page": "https://freedjazz.org/tunes/aint-misbehavin/",
+          "path": "sources/0707d1d9ac6b26ff0ec97c6c74f43dd03325d65e7559dce1db1f59786c1fd67d.mscz",
+          "sha256": "0707d1d9ac6b26ff0ec97c6c74f43dd03325d65e7559dce1db1f59786c1fd67d",
+          "bytes": 95517,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "parts": 1,
+          "notes": 131,
+          "harmonies": 60
+        },
+        {
+          "format": "abc",
+          "url": "https://jazzleadsheet.com/post/aint-misbehavin/",
+          "page": "https://jazzleadsheet.com/post/aint-misbehavin/",
+          "path": "sources/dba98e45cf4092d0d44485652ad0ba3e9071afe94fb5d9c620230e13b3e21af7.abc",
+          "sha256": "dba98e45cf4092d0d44485652ad0ba3e9071afe94fb5d9c620230e13b3e21af7",
+          "bytes": 626,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "chord_symbols": 56,
+          "source_key": "C"
+        }
+      ],
+      "status": "downloaded_needs_musical_review"
+    },
+    {
+      "title": "All of Me",
+      "sources": [
+        {
+          "format": "abc",
+          "url": "https://jazzleadsheet.com/post/all-of-me/",
+          "page": "https://jazzleadsheet.com/post/all-of-me/",
+          "path": "sources/02171750b986b4377c172f43ec8d207249a6a35455098be499aee4dbea45e3e7.abc",
+          "sha256": "02171750b986b4377c172f43ec8d207249a6a35455098be499aee4dbea45e3e7",
+          "bytes": 465,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "chord_symbols": 22,
+          "source_key": "C"
+        }
+      ],
+      "status": "downloaded_needs_musical_review"
+    },
+    {
+      "title": "All or Nothing at All",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "All the Things You Are",
+      "sources": [
+        {
+          "format": "abc",
+          "url": "https://jazzleadsheet.com/post/all-the-things-you-are/",
+          "page": "https://jazzleadsheet.com/post/all-the-things-you-are/",
+          "path": "sources/5399f0eb9d4c3ebec467a4c9d911567460e38b907d40c7442c4fe2bddfeba07d.abc",
+          "sha256": "5399f0eb9d4c3ebec467a4c9d911567460e38b907d40c7442c4fe2bddfeba07d",
+          "bytes": 550,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "chord_symbols": 33,
+          "source_key": "Ab"
+        }
+      ],
+      "status": "downloaded_needs_musical_review"
+    },
+    {
+      "title": "Almost Like Being in Love",
+      "sources": [
+        {
+          "format": "abc",
+          "url": "https://jazzleadsheet.com/post/almost-like-being-in-love/",
+          "page": "https://jazzleadsheet.com/post/almost-like-being-in-love/",
+          "path": "sources/ad8a71f51022b50bfb2c29b644cdf31b8de51096bfc284dc571f4b83eb1af74b.abc",
+          "sha256": "ad8a71f51022b50bfb2c29b644cdf31b8de51096bfc284dc571f4b83eb1af74b",
+          "bytes": 484,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "chord_symbols": 29,
+          "source_key": "Bb"
+        }
+      ],
+      "status": "downloaded_needs_musical_review"
+    },
+    {
+      "title": "Alright, Okay, You Win",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Avalon",
+      "sources": [
+        {
+          "format": "mscz",
+          "url": "https://freedjazz.org/tunes/avalon/avalon.mscz",
+          "page": "https://freedjazz.org/tunes/avalon/",
+          "path": "sources/e36caf5b6b3c343fa0ee00552f4d1bd4f3f16ac2996f831cb69b613d29f03483.mscz",
+          "sha256": "e36caf5b6b3c343fa0ee00552f4d1bd4f3f16ac2996f831cb69b613d29f03483",
+          "bytes": 62072,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "parts": 1,
+          "notes": 59,
+          "harmonies": 17
+        }
+      ],
+      "status": "downloaded_needs_musical_review"
+    },
+    {
+      "title": "Baby, It's Cold Outside",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Beyond the Sea",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Big Swing Face",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Birdland",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Birth of the Blues",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Black Coffee",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Blue Chip",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Blues in the Night",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Booze Brothers",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Broadway",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "But Beautiful",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "But Not for Me",
+      "sources": [
+        {
+          "format": "mscz",
+          "url": "https://freedjazz.org/tunes/but-not-for-me/but-not-for-me.mscz",
+          "page": "https://freedjazz.org/tunes/but-not-for-me/",
+          "path": "sources/b6726fb7e8253945c127c02df8f86f1551fe9412fb7aea50593961bc1dde76fa.mscz",
+          "sha256": "b6726fb7e8253945c127c02df8f86f1551fe9412fb7aea50593961bc1dde76fa",
+          "bytes": 76760,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "parts": 1,
+          "notes": 84,
+          "harmonies": 37
+        },
+        {
+          "format": "abc",
+          "url": "https://jazzleadsheet.com/post/but-not-for-me/",
+          "page": "https://jazzleadsheet.com/post/but-not-for-me/",
+          "path": "sources/636bdb77c6a3553f3d17a875550153b663fb1bee5716158e301381cfbd099c07.abc",
+          "sha256": "636bdb77c6a3553f3d17a875550153b663fb1bee5716158e301381cfbd099c07",
+          "bytes": 379,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "chord_symbols": 26,
+          "source_key": "F"
+        }
+      ],
+      "status": "downloaded_needs_musical_review"
+    },
+    {
+      "title": "Bye Bye Blackbird",
+      "sources": [
+        {
+          "format": "mscz",
+          "url": "https://freedjazz.org/tunes/bye-bye-blackbird/bye-bye-blackbird.mscz",
+          "page": "https://freedjazz.org/tunes/bye-bye-blackbird/",
+          "path": "sources/0c33157d4eebd4094c467e8a9458213f9581920dd33475ce0ca89b88df035e5f.mscz",
+          "sha256": "0c33157d4eebd4094c467e8a9458213f9581920dd33475ce0ca89b88df035e5f",
+          "bytes": 70196,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "parts": 1,
+          "notes": 74,
+          "harmonies": 36
+        },
+        {
+          "format": "abc",
+          "url": "https://jazzleadsheet.com/post/bye-bye-blackbird/",
+          "page": "https://jazzleadsheet.com/post/bye-bye-blackbird/",
+          "path": "sources/6d22a78822622e8bc51163f2decdf4ccb58327ccbad5aeda69c9773db789dee4.abc",
+          "sha256": "6d22a78822622e8bc51163f2decdf4ccb58327ccbad5aeda69c9773db789dee4",
+          "bytes": 363,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "chord_symbols": 23,
+          "source_key": "F"
+        }
+      ],
+      "status": "downloaded_needs_musical_review"
+    },
+    {
+      "title": "Celestial Swingin' Blues",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Cheek to Cheek",
+      "sources": [
+        {
+          "format": "abc",
+          "url": "https://jazzleadsheet.com/post/cheek-to-cheek/",
+          "page": "https://jazzleadsheet.com/post/cheek-to-cheek/",
+          "path": "sources/27ea1b9bbfee2097923302f79ac1a44fe27c276496f26563669ce3800abbeaa3.abc",
+          "sha256": "27ea1b9bbfee2097923302f79ac1a44fe27c276496f26563669ce3800abbeaa3",
+          "bytes": 871,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "chord_symbols": 71,
+          "source_key": "C"
+        }
+      ],
+      "status": "downloaded_needs_musical_review"
+    },
+    {
+      "title": "Come Fly with Me",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Connecting the 'Bones",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Corner Pocket",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Cotton Tail",
+      "sources": [
+        {
+          "format": "abc",
+          "url": "https://jazzleadsheet.com/post/cotton-tail/",
+          "page": "https://jazzleadsheet.com/post/cotton-tail/",
+          "path": "sources/8857ed1da0bfaf2e9def8c01c7cb9d30819aaa8743ba0a44c0c466fd3b6cfd9e.abc",
+          "sha256": "8857ed1da0bfaf2e9def8c01c7cb9d30819aaa8743ba0a44c0c466fd3b6cfd9e",
+          "bytes": 495,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "chord_symbols": 36,
+          "source_key": "Ab"
+        }
+      ],
+      "status": "downloaded_needs_musical_review"
+    },
+    {
+      "title": "Crazy Little Thing Called Love",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Desafinado",
+      "sources": [
+        {
+          "format": "abc",
+          "url": "https://jazzleadsheet.com/post/desafinado/",
+          "page": "https://jazzleadsheet.com/post/desafinado/",
+          "path": "sources/232cf34567afb8c0c1373ff4489414132f3a78631d7c5505fcc6cd8efaedab47.abc",
+          "sha256": "232cf34567afb8c0c1373ff4489414132f3a78631d7c5505fcc6cd8efaedab47",
+          "bytes": 923,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "chord_symbols": 51,
+          "source_key": "F"
+        }
+      ],
+      "status": "downloaded_needs_musical_review"
+    },
+    {
+      "title": "Destination Moon",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Dickie's Dream",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Do Nothin' Till You Hear from Me",
+      "sources": [
+        {
+          "format": "abc",
+          "url": "https://jazzleadsheet.com/post/do-nothing-till-you-hear-from-me/",
+          "page": "https://jazzleadsheet.com/post/do-nothing-till-you-hear-from-me/",
+          "path": "sources/0f09473bc9e163cec1bfa2dee044a3bdead4ef874b3886705ceec6106b0389f1.abc",
+          "sha256": "0f09473bc9e163cec1bfa2dee044a3bdead4ef874b3886705ceec6106b0389f1",
+          "bytes": 568,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "chord_symbols": 34,
+          "source_key": "G"
+        }
+      ],
+      "status": "downloaded_needs_musical_review"
+    },
+    {
+      "title": "Don't Be That Way",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Don't Know Why",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Doodle Oodle",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Down for Double",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "East St. Louis Toodle-Oo",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Easy Money",
+      "sources": [
+        {
+          "format": "abc",
+          "url": "https://jazzleadsheet.com/post/easy-money/",
+          "page": "https://jazzleadsheet.com/post/easy-money/",
+          "path": "sources/6da12be5db70c64286436dde39c2584757a9dd3d694c4e8739d9383a6069b9e8.abc",
+          "sha256": "6da12be5db70c64286436dde39c2584757a9dd3d694c4e8739d9383a6069b9e8",
+          "bytes": 579,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "chord_symbols": 33,
+          "source_key": "F"
+        }
+      ],
+      "status": "downloaded_needs_musical_review"
+    },
+    {
+      "title": "Everyday I Have the Blues",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Flight of the Foo Birds",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Flirt",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Fly Me to the Moon",
+      "sources": [
+        {
+          "format": "abc",
+          "url": "https://jazzleadsheet.com/post/fly-me-to-the-moon/",
+          "page": "https://jazzleadsheet.com/post/fly-me-to-the-moon/",
+          "path": "sources/1904b993b01a929512c03d2603a1097444ffce7f387467c2d09de3d70e23cab7.abc",
+          "sha256": "1904b993b01a929512c03d2603a1097444ffce7f387467c2d09de3d70e23cab7",
+          "bytes": 621,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "chord_symbols": 40,
+          "source_key": "C"
+        }
+      ],
+      "status": "downloaded_needs_musical_review"
+    },
+    {
+      "title": "For Lena and Lenny",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Four Brothers",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Fun Time",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Get Out and Stay Out",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "God Bless the Child",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Goin' On",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Groovin' Hard",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Have You Met Miss Jones?",
+      "sources": [
+        {
+          "format": "abc",
+          "url": "https://jazzleadsheet.com/post/have-you-met-miss-jones/",
+          "page": "https://jazzleadsheet.com/post/have-you-met-miss-jones/",
+          "path": "sources/543033ef662bdad15dac41f398d93f2a6b7341dc096df2a57e2901ad3f0f6c03.abc",
+          "sha256": "543033ef662bdad15dac41f398d93f2a6b7341dc096df2a57e2901ad3f0f6c03",
+          "bytes": 469,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "chord_symbols": 33,
+          "source_key": "F"
+        }
+      ],
+      "status": "downloaded_needs_musical_review"
+    },
+    {
+      "title": "Hit the Road Jack",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Honeysuckle Rose",
+      "sources": [
+        {
+          "format": "abc",
+          "url": "https://jazzleadsheet.com/post/honeysuckle-rose/",
+          "page": "https://jazzleadsheet.com/post/honeysuckle-rose/",
+          "path": "sources/72521b3edf840e203749b968e5b43eaeba3d1c9d13ce13dec4ceba26a32d0417.abc",
+          "sha256": "72521b3edf840e203749b968e5b43eaeba3d1c9d13ce13dec4ceba26a32d0417",
+          "bytes": 535,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "chord_symbols": 47,
+          "source_key": "F"
+        }
+      ],
+      "status": "downloaded_needs_musical_review"
+    },
+    {
+      "title": "How Sweet It Is (To Be Loved by You)",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "I Get a Kick Out of You",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "I Just Found Out About Love",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "I Left My Heart in San Francisco",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "I Won't Dance",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "I'm Beginning to See the Light",
+      "sources": [
+        {
+          "format": "abc",
+          "url": "https://jazzleadsheet.com/post/i-am-begining-to-see-the-light/",
+          "page": "https://jazzleadsheet.com/post/i-am-begining-to-see-the-light/",
+          "path": "sources/37d16a0a11dd2aa8a7b9fcfd5b25850d22de1a6cc32168c754c4bd08e0f535c0.abc",
+          "sha256": "37d16a0a11dd2aa8a7b9fcfd5b25850d22de1a6cc32168c754c4bd08e0f535c0",
+          "bytes": 601,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "chord_symbols": 46,
+          "source_key": "C"
+        }
+      ],
+      "status": "downloaded_needs_musical_review"
+    },
+    {
+      "title": "I've Got You Under My Skin",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "It Could Happen to You",
+      "sources": [
+        {
+          "format": "abc",
+          "url": "https://jazzleadsheet.com/post/it-could-happen-to-you/",
+          "page": "https://jazzleadsheet.com/post/it-could-happen-to-you/",
+          "path": "sources/41277e5e58d9f0520d101b13bb3aa1b7a4a3ddeeb137e774dd8d9cf2d55d1a5c.abc",
+          "sha256": "41277e5e58d9f0520d101b13bb3aa1b7a4a3ddeeb137e774dd8d9cf2d55d1a5c",
+          "bytes": 504,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "chord_symbols": 34,
+          "source_key": "Eb"
+        }
+      ],
+      "status": "downloaded_needs_musical_review"
+    },
+    {
+      "title": "It Don't Mean a Thing (If It Ain't Got That Swing)",
+      "sources": [
+        {
+          "format": "abc",
+          "url": "https://jazzleadsheet.com/post/it-dont-mean-a-thing/",
+          "page": "https://jazzleadsheet.com/post/it-dont-mean-a-thing/",
+          "path": "sources/ab8d1ca2afef89ad77804ea0d2ca4909e108c0d1906657cad30b55088c28a41c.abc",
+          "sha256": "ab8d1ca2afef89ad77804ea0d2ca4909e108c0d1906657cad30b55088c28a41c",
+          "bytes": 650,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "chord_symbols": 34,
+          "source_key": "Gm"
+        }
+      ],
+      "status": "downloaded_needs_musical_review"
+    },
+    {
+      "title": "It's Only a Paper Moon",
+      "sources": [
+        {
+          "format": "abc",
+          "url": "https://jazzleadsheet.com/post/its-only-a-paper-moon/",
+          "page": "https://jazzleadsheet.com/post/its-only-a-paper-moon/",
+          "path": "sources/fa17d13859ea0e6e4f14f6fb6f68e90337d062c4707fb886d61e769870991d5d.abc",
+          "sha256": "fa17d13859ea0e6e4f14f6fb6f68e90337d062c4707fb886d61e769870991d5d",
+          "bytes": 510,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "chord_symbols": 38,
+          "source_key": "C"
+        }
+      ],
+      "status": "downloaded_needs_musical_review"
+    },
+    {
+      "title": "Ja-Da",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Jayhawk",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Jeep Jockey Jump",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Jeep's Blues",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Lester Leaps In",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Let's Face the Music and Dance",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Love Is Here to Stay",
+      "sources": [
+        {
+          "format": "abc",
+          "url": "https://jazzleadsheet.com/post/love-is-here-to-stay/",
+          "page": "https://jazzleadsheet.com/post/love-is-here-to-stay/",
+          "path": "sources/e6d092482895ace9449eee31881652c74020e116d0ca30abff48320a0f193b07.abc",
+          "sha256": "e6d092482895ace9449eee31881652c74020e116d0ca30abff48320a0f193b07",
+          "bytes": 647,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "chord_symbols": 54,
+          "source_key": "F"
+        }
+      ],
+      "status": "downloaded_needs_musical_review"
+    },
+    {
+      "title": "Lullaby of Birdland",
+      "sources": [
+        {
+          "format": "abc",
+          "url": "https://jazzleadsheet.com/post/lullaby-of-birdland/",
+          "page": "https://jazzleadsheet.com/post/lullaby-of-birdland/",
+          "path": "sources/c02ef59a905916f9b44636f5cd9122e934209569fa36e3dd4b6caee426b75876.abc",
+          "sha256": "c02ef59a905916f9b44636f5cd9122e934209569fa36e3dd4b6caee426b75876",
+          "bytes": 728,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "chord_symbols": 51,
+          "source_key": "Ab"
+        }
+      ],
+      "status": "downloaded_needs_musical_review"
+    },
+    {
+      "title": "Mack the Knife",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Makin' Whoopee",
+      "sources": [
+        {
+          "format": "mscz",
+          "url": "https://freedjazz.org/tunes/makin-whoopee/makin-whoopee.mscz",
+          "page": "https://freedjazz.org/tunes/makin-whoopee/",
+          "path": "sources/ee36daeceafc85f3e64d1a4f7b10edab490c95fc91c2cc1795c9185d73660154.mscz",
+          "sha256": "ee36daeceafc85f3e64d1a4f7b10edab490c95fc91c2cc1795c9185d73660154",
+          "bytes": 99167,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "parts": 1,
+          "notes": 142,
+          "harmonies": 61
+        }
+      ],
+      "status": "downloaded_needs_musical_review"
+    },
+    {
+      "title": "Me and Mrs. Jones",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Merry Christmas Baby",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "More",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Moten Swing",
+      "sources": [
+        {
+          "format": "abc",
+          "url": "https://jazzleadsheet.com/post/moten-swing/",
+          "page": "https://jazzleadsheet.com/post/moten-swing/",
+          "path": "sources/e6f770d75d87f9a9d8aae800ab97c1f618eac5125d7fce223af57a1f0d088fae.abc",
+          "sha256": "e6f770d75d87f9a9d8aae800ab97c1f618eac5125d7fce223af57a1f0d088fae",
+          "bytes": 662,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "chord_symbols": 39,
+          "source_key": "Ab"
+        }
+      ],
+      "status": "downloaded_needs_musical_review"
+    },
+    {
+      "title": "My Funny Valentine",
+      "sources": [
+        {
+          "format": "abc",
+          "url": "https://jazzleadsheet.com/post/my-funny-valentine/",
+          "page": "https://jazzleadsheet.com/post/my-funny-valentine/",
+          "path": "sources/558c4da1f2e7486d550dbd5bdcd843c7b06b9b1041c142a2ba256888092ca7a9.abc",
+          "sha256": "558c4da1f2e7486d550dbd5bdcd843c7b06b9b1041c142a2ba256888092ca7a9",
+          "bytes": 611,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "chord_symbols": 47,
+          "source_key": "Eb"
+        }
+      ],
+      "status": "downloaded_needs_musical_review"
+    },
+    {
+      "title": "On the Road to Mandalay",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "On the Sunny Side of the Street",
+      "sources": [
+        {
+          "format": "mscz",
+          "url": "https://freedjazz.org/tunes/on-the-sunny-side-of-the-street/on-the-sunny-side-of-the-street.mscz",
+          "page": "https://freedjazz.org/tunes/on-the-sunny-side-of-the-street/",
+          "path": "sources/366452f89170d5bef0d3161a085feea5ab1853d4613d9c038eb285f1e44f9d3f.mscz",
+          "sha256": "366452f89170d5bef0d3161a085feea5ab1853d4613d9c038eb285f1e44f9d3f",
+          "bytes": 86470,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "parts": 1,
+          "notes": 114,
+          "harmonies": 41
+        },
+        {
+          "format": "abc",
+          "url": "https://jazzleadsheet.com/post/on-the-sunny-side-of-the-street/",
+          "page": "https://jazzleadsheet.com/post/on-the-sunny-side-of-the-street/",
+          "path": "sources/a41dc09d9ca9fdb136f92bfffcea427c5024fd440c26d678f55411d3c2f7f674.abc",
+          "sha256": "a41dc09d9ca9fdb136f92bfffcea427c5024fd440c26d678f55411d3c2f7f674",
+          "bytes": 475,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "chord_symbols": 29,
+          "source_key": "C"
+        }
+      ],
+      "status": "downloaded_needs_musical_review"
+    },
+    {
+      "title": "Orange Coloured Sky",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Perdido",
+      "sources": [
+        {
+          "format": "abc",
+          "url": "https://jazzleadsheet.com/post/perdido/",
+          "page": "https://jazzleadsheet.com/post/perdido/",
+          "path": "sources/327166032eeb39725998c8bc3a197353278b9a3bc3183fa0a25e5e760a042c65.abc",
+          "sha256": "327166032eeb39725998c8bc3a197353278b9a3bc3183fa0a25e5e760a042c65",
+          "bytes": 587,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "chord_symbols": 32,
+          "source_key": "Bb"
+        }
+      ],
+      "status": "downloaded_needs_musical_review"
+    },
+    {
+      "title": "Prime Time",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Santa Baby",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Shiny Stockings",
+      "sources": [
+        {
+          "format": "abc",
+          "url": "https://jazzleadsheet.com/post/shiny-stockings/",
+          "page": "https://jazzleadsheet.com/post/shiny-stockings/",
+          "path": "sources/6bd0a2547480f6415128a0742d9ff6b4464b9e4f8d3604dfe3c4a36b41e68a2f.abc",
+          "sha256": "6bd0a2547480f6415128a0742d9ff6b4464b9e4f8d3604dfe3c4a36b41e68a2f",
+          "bytes": 595,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "chord_symbols": 36,
+          "source_key": "Ab"
+        }
+      ],
+      "status": "downloaded_needs_musical_review"
+    },
+    {
+      "title": "Sophisticated Lady",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Stolen Moments",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Straighten Up and Fly Right",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Strike Up the Band",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Summer Wind",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Summertime",
+      "sources": [
+        {
+          "format": "abc",
+          "url": "https://jazzleadsheet.com/post/summertime/",
+          "page": "https://jazzleadsheet.com/post/summertime/",
+          "path": "sources/6e53b7d1b6efd257fb7e4aba96076e109829b30f3b7f09c47112c183d165d6ac.abc",
+          "sha256": "6e53b7d1b6efd257fb7e4aba96076e109829b30f3b7f09c47112c183d165d6ac",
+          "bytes": 309,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "chord_symbols": 17,
+          "source_key": "Am"
+        }
+      ],
+      "status": "downloaded_needs_musical_review"
+    },
+    {
+      "title": "Sweet Georgia Brown",
+      "sources": [
+        {
+          "format": "mscz",
+          "url": "https://freedjazz.org/tunes/sweet-georgia-brown/sweet-georgia-brown.mscz",
+          "page": "https://freedjazz.org/tunes/sweet-georgia-brown/",
+          "path": "sources/58db548f797e7359f06fc9e469c75562879a3602d7ecef5e7bd10b01cc7648c9.mscz",
+          "sha256": "58db548f797e7359f06fc9e469c75562879a3602d7ecef5e7bd10b01cc7648c9",
+          "bytes": 88466,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "parts": 1,
+          "notes": 120,
+          "harmonies": 24
+        },
+        {
+          "format": "abc",
+          "url": "https://jazzleadsheet.com/post/sweet-georgia-brown/",
+          "page": "https://jazzleadsheet.com/post/sweet-georgia-brown/",
+          "path": "sources/215d14771d393c69f0f4a5bb0d8c4df16372adf01e82fa5ec8f12c6370ff4e26.abc",
+          "sha256": "215d14771d393c69f0f4a5bb0d8c4df16372adf01e82fa5ec8f12c6370ff4e26",
+          "bytes": 518,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "chord_symbols": 22,
+          "source_key": "F"
+        }
+      ],
+      "status": "downloaded_needs_musical_review"
+    },
+    {
+      "title": "Swingin' Jingle Bells",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Switch in Time",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Take the A Train",
+      "sources": [
+        {
+          "format": "abc",
+          "url": "https://jazzleadsheet.com/post/take-the-a-train/",
+          "page": "https://jazzleadsheet.com/post/take-the-a-train/",
+          "path": "sources/528403b3e6d746de336c5bd07d67d099b1c924c75d3d27449f54e446a757bbbc.abc",
+          "sha256": "528403b3e6d746de336c5bd07d67d099b1c924c75d3d27449f54e446a757bbbc",
+          "bytes": 408,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "chord_symbols": 15,
+          "source_key": "C"
+        }
+      ],
+      "status": "downloaded_needs_musical_review"
+    },
+    {
+      "title": "Teddy the Toad",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "The Best Is Yet to Come",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "The Blues Walk",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "The Christmas Song",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "The Jersey Bounce",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "The Lady Is a Tramp",
+      "sources": [
+        {
+          "format": "abc",
+          "url": "https://jazzleadsheet.com/post/lady-is-a-tramp/",
+          "page": "https://jazzleadsheet.com/post/lady-is-a-tramp/",
+          "path": "sources/22712b3c0e1aa57c26a0a641dd1df61566e51a9369fe6c360a9bc9fdf6372c97.abc",
+          "sha256": "22712b3c0e1aa57c26a0a641dd1df61566e51a9369fe6c360a9bc9fdf6372c97",
+          "bytes": 587,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "chord_symbols": 43,
+          "source_key": "C"
+        }
+      ],
+      "status": "downloaded_needs_musical_review"
+    },
+    {
+      "title": "The Legend",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "The More I See You",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "The Wiggle Walk",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "They Can't Take That Away from Me",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Thou Swell",
+      "sources": [
+        {
+          "format": "mscz",
+          "url": "https://freedjazz.org/tunes/thou-swell/thou-swell.mscz",
+          "page": "https://freedjazz.org/tunes/thou-swell/",
+          "path": "sources/35c326a24b0510a57d5941b6f6490239d00384fffbf339ed847e5bb7e4491dd6.mscz",
+          "sha256": "35c326a24b0510a57d5941b6f6490239d00384fffbf339ed847e5bb7e4491dd6",
+          "bytes": 81292,
+          "access": "free_public_source",
+          "arrangement": "alternative_leadsheet",
+          "birdland_key_tempo_verified": false,
+          "parts": 1,
+          "notes": 91,
+          "harmonies": 41
+        }
+      ],
+      "status": "downloaded_needs_musical_review"
+    },
+    {
+      "title": "Tickle Toe",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Times Gettin' Tougher Than Tough",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Unforgettable",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "Walkin' My Baby Back Home",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "What a Wonderful World",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "What Kind of Fool Am I?",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "When I Fall in Love",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    },
+    {
+      "title": "White Christmas",
+      "sources": [],
+      "status": "not_found_in_reviewed_catalogues"
+    }
+  ],
+  "failures": []
+}
