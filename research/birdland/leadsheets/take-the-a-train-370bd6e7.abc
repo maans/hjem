@@ -1,0 +1,15 @@
+X:1
+T:Take the A Train
+C:Billy Strayhorn Duke Ellington
+M:4/4
+L:1/8
+Q:1/4=165
+K:C
+%%MIDI program 0
+|:"C6"G8- | "Cmaj7"G e3 G2 c2 | "D7(b5)"e ^G4- G3- | ^G8 |
+"Dm7"A8 | "G7"A^ABe G_GF_d | "Cmaj7"c E4- E3- | [1"Dm7"E4-"C7" E4 :|
+[2"Gm7"E4-"C7" E4 | "Fmaj7"A c4- c3 | e F3 A2 c2 | e A3- A4- |
+A8 | "D7"A c4- c3 | e ^F3 A2 c2 | "Dm7"e A3- A4- |
+"G7"A4"G7(b9)" _A4 | "Cmaj7"G8- | G e3 G2 c2 | "D7(b5)"e ^G4- G3- |
+^G8 | "Dm7"A8 | "G7"A^ABe G_GF_d | "Cmaj7"c E4- E3- |
+"Dm7"E4-"G7" E4 | [P:Coda]"Cmaj7"c E3"C" F2 ^F2 | GABc z2"Cmaj7" C2 |

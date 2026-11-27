@@ -1,0 +1,756 @@
+{
+  "schema_version": 1,
+  "scope": "Alternative lead sheets for comparison; no Birdland arrangement is verified and no existing guitar ABC is replaced.",
+  "converted": 5,
+  "entries": [
+    {
+      "title": "88 Basie Street",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "920 Special",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "A Foggy Day",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "A Warm Breeze",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "A-Tisket, A-Tasket",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Ain't Misbehavin'",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "All of Me",
+      "status": "converted_birdland_key_tempo_verified",
+      "arrangement_verified": false,
+      "source_key": {
+        "fifths": 0,
+        "mode": "major"
+      },
+      "source_tempo": null,
+      "source_tempo_changes": 0,
+      "source_harmony_count": 24,
+      "birdland_reference": {
+        "key": "C",
+        "fifths": 0,
+        "mode": "major",
+        "bpm": 142,
+        "beat": "1/4",
+        "reference": "Birdlands guitar-PDF, første side: ingen fortegn, C6/9 ved A, Swing fjerdedel=142",
+        "abcTempo": "1/4=142"
+      },
+      "effective_source_key": {
+        "fifths": 0,
+        "mode": "major"
+      },
+      "transpose_semitones": 0,
+      "abc_key": "C",
+      "abc_tempo": "1/4=142",
+      "abc_chord_count": 24,
+      "tempo_status": "birdland_reference",
+      "source_tempo_status": "tempo_unverified",
+      "key_status": "birdland_reference",
+      "abc_path": "leadsheets/all-of-me-b680a755.abc",
+      "warnings": []
+    },
+    {
+      "title": "All or Nothing at All",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "All the Things You Are",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Almost Like Being in Love",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Alright, Okay, You Win",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Avalon",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Baby, It's Cold Outside",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Beyond the Sea",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Big Swing Face",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Birdland",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Birth of the Blues",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Black Coffee",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Blue Chip",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Blues in the Night",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Booze Brothers",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Broadway",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "But Beautiful",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "But Not for Me",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Bye Bye Blackbird",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Celestial Swingin' Blues",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Cheek to Cheek",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Come Fly with Me",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Connecting the 'Bones",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Corner Pocket",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Cotton Tail",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Crazy Little Thing Called Love",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Desafinado",
+      "status": "needs_birdland_reference",
+      "arrangement_verified": false,
+      "source_key": {
+        "fifths": -1,
+        "mode": "major"
+      },
+      "source_tempo": null,
+      "source_tempo_changes": 0,
+      "source_harmony_count": 56
+    },
+    {
+      "title": "Destination Moon",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Dickie's Dream",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Do Nothin' Till You Hear from Me",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Don't Be That Way",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Don't Know Why",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Doodle Oodle",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Down for Double",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "East St. Louis Toodle-Oo",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Easy Money",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Everyday I Have the Blues",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Flight of the Foo Birds",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Flirt",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Fly Me to the Moon",
+      "status": "converted_birdland_key_tempo_verified",
+      "arrangement_verified": false,
+      "source_key": {
+        "fifths": 0,
+        "mode": "major"
+      },
+      "source_tempo": null,
+      "source_tempo_changes": 0,
+      "source_harmony_count": 44,
+      "birdland_reference": {
+        "key": "C",
+        "fifths": 0,
+        "mode": "major",
+        "bpm": 116,
+        "beat": "1/4",
+        "reference": "Birdlands guitar-PDF: ingen fortegn, relativ-mol-åbning i Am, trykt fjerdedel=116",
+        "abcTempo": "1/4=116"
+      },
+      "effective_source_key": {
+        "fifths": 0,
+        "mode": "major"
+      },
+      "transpose_semitones": 0,
+      "abc_key": "C",
+      "abc_tempo": "1/4=116",
+      "abc_chord_count": 44,
+      "tempo_status": "birdland_reference",
+      "source_tempo_status": "tempo_unverified",
+      "key_status": "birdland_reference",
+      "abc_path": "leadsheets/fly-me-to-the-moon-77da8249.abc",
+      "warnings": []
+    },
+    {
+      "title": "For Lena and Lenny",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Four Brothers",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Fun Time",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Get Out and Stay Out",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "God Bless the Child",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Goin' On",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Groovin' Hard",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Have You Met Miss Jones?",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Hit the Road Jack",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Honeysuckle Rose",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "How Sweet It Is (To Be Loved by You)",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "I Get a Kick Out of You",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "I Just Found Out About Love",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "I Left My Heart in San Francisco",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "I Won't Dance",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "I'm Beginning to See the Light",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "I've Got You Under My Skin",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "It Could Happen to You",
+      "status": "needs_birdland_reference",
+      "arrangement_verified": false,
+      "source_key": {
+        "fifths": -1,
+        "mode": "major"
+      },
+      "source_tempo": null,
+      "source_tempo_changes": 0,
+      "source_harmony_count": 28
+    },
+    {
+      "title": "It Don't Mean a Thing (If It Ain't Got That Swing)",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "It's Only a Paper Moon",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Ja-Da",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Jayhawk",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Jeep Jockey Jump",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Jeep's Blues",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Lester Leaps In",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Let's Face the Music and Dance",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Love Is Here to Stay",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Lullaby of Birdland",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Mack the Knife",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Makin' Whoopee",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Me and Mrs. Jones",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Merry Christmas Baby",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "More",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Moten Swing",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "My Funny Valentine",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "On the Road to Mandalay",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "On the Sunny Side of the Street",
+      "status": "converted_birdland_key_tempo_verified",
+      "arrangement_verified": false,
+      "source_key": {
+        "fifths": 0,
+        "mode": "major"
+      },
+      "source_tempo": null,
+      "source_tempo_changes": 0,
+      "source_harmony_count": 37,
+      "birdland_reference": {
+        "key": "G",
+        "fifths": 1,
+        "mode": "major",
+        "bpm": 104,
+        "beat": "1/4",
+        "reference": "Birdlands klaver/guitar-PDF: ét kryds, G6 ved melodistart, Medium Swing fjerdedel=104",
+        "abcTempo": "1/4=104"
+      },
+      "effective_source_key": {
+        "fifths": 0,
+        "mode": "major"
+      },
+      "transpose_semitones": -5,
+      "abc_key": "G",
+      "abc_tempo": "1/4=104",
+      "abc_chord_count": 37,
+      "tempo_status": "birdland_reference",
+      "source_tempo_status": "tempo_unverified",
+      "key_status": "birdland_reference",
+      "abc_path": "leadsheets/on-the-sunny-side-of-the-street-70ae2f18.abc",
+      "warnings": []
+    },
+    {
+      "title": "Orange Coloured Sky",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Perdido",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Prime Time",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Santa Baby",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Shiny Stockings",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Sophisticated Lady",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Stolen Moments",
+      "status": "needs_multi_part_review",
+      "arrangement_verified": false,
+      "review": "needs_multi_part_review"
+    },
+    {
+      "title": "Straighten Up and Fly Right",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Strike Up the Band",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Summer Wind",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Summertime",
+      "status": "converted_birdland_key_tempo_verified",
+      "arrangement_verified": false,
+      "source_key": {
+        "fifths": 0,
+        "mode": "major"
+      },
+      "source_tempo": null,
+      "source_tempo_changes": 0,
+      "source_harmony_count": 23,
+      "birdland_reference": {
+        "key": "Cm",
+        "fifths": -3,
+        "mode": "minor",
+        "bpm": 76,
+        "beat": "1/4",
+        "reference": "Birdlands guitar-PDF: tre b'er, Cm6, A Little Faster fjerdedel=76 fra takt 5. Introen i arrangementet er langsommere (67); leadsheetet starter ved melodien.",
+        "abcTempo": "1/4=76",
+        "source_mode_override": "minor",
+        "source_mode_evidence": "Kildens key.mode=major er misvisende. Melodi E-C-E...A og harmoni Am7-Bb7-Am7-E7 viser A-mol uden faste fortegn."
+      },
+      "effective_source_key": {
+        "fifths": 0,
+        "mode": "minor"
+      },
+      "source_mode_override": "minor",
+      "source_mode_evidence": "Kildens key.mode=major er misvisende. Melodi E-C-E...A og harmoni Am7-Bb7-Am7-E7 viser A-mol uden faste fortegn.",
+      "transpose_semitones": 3,
+      "abc_key": "Cm",
+      "abc_tempo": "1/4=76",
+      "abc_chord_count": 23,
+      "tempo_status": "birdland_reference",
+      "source_tempo_status": "tempo_unverified",
+      "key_status": "birdland_reference",
+      "abc_path": "leadsheets/summertime-f626328e.abc",
+      "warnings": []
+    },
+    {
+      "title": "Sweet Georgia Brown",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Swingin' Jingle Bells",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Switch in Time",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Take the A Train",
+      "status": "converted_birdland_key_tempo_verified",
+      "arrangement_verified": false,
+      "source_key": {
+        "fifths": 0,
+        "mode": "major"
+      },
+      "source_tempo": null,
+      "source_tempo_changes": 0,
+      "source_harmony_count": 25,
+      "birdland_reference": {
+        "key": "C",
+        "fifths": 0,
+        "mode": "major",
+        "bpm": 165,
+        "beat": "1/4",
+        "reference": "Birdlands guitar-PDF: ingen faste fortegn, C6/9 ved A, Swing fjerdedel=165",
+        "abcTempo": "1/4=165"
+      },
+      "effective_source_key": {
+        "fifths": 0,
+        "mode": "major"
+      },
+      "transpose_semitones": 0,
+      "abc_key": "C",
+      "abc_tempo": "1/4=165",
+      "abc_chord_count": 25,
+      "tempo_status": "birdland_reference",
+      "source_tempo_status": "tempo_unverified",
+      "key_status": "birdland_reference",
+      "abc_path": "leadsheets/take-the-a-train-370bd6e7.abc",
+      "warnings": []
+    },
+    {
+      "title": "Teddy the Toad",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "The Best Is Yet to Come",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "The Blues Walk",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "The Christmas Song",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "The Jersey Bounce",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "The Lady Is a Tramp",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "The Legend",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "The More I See You",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "The Wiggle Walk",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "They Can't Take That Away from Me",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Thou Swell",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Tickle Toe",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Times Gettin' Tougher Than Tough",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Unforgettable",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "Walkin' My Baby Back Home",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "What a Wonderful World",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "What Kind of Fool Am I?",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "When I Fall in Love",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    },
+    {
+      "title": "White Christmas",
+      "status": "not_found_in_searched_corpora",
+      "arrangement_verified": false
+    }
+  ]
+}

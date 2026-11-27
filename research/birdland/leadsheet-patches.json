@@ -1,0 +1,179 @@
+[
+  {
+    "title": "All of Me",
+    "fields": {
+      "repertoire-has-leadsheet": "yes",
+      "repertoire-abc-label": "Leadsheet · anden udgave",
+      "repertoire-leadsheet-tempo-status": "birdland_reference"
+    },
+    "abc_source": "X:1\nT:All of Me\nC:Gerald Marks, Seymour Simons Arr. 6EQUJ5\nM:4/4\nL:1/8\nQ:1/4=142\nK:C\n%%MIDI program 0\n\"C6\"c2 GE- E4- | E4 (3:2:3c2 d2 c2 | \"E7\"B2 ^GE- E4- | E8 |\n\"A7\"A3 G E4- | E2 ^D2 (3:2:3E2 _B2 A2 | \"Dm7\"G4 F4- | F8 |\n\"E7\"E3 _E D4- | D4 (3:2:3_E2 ^G2 B2 | \"Am7\"d4 c4- | c8 |\n\"D7\"B3 _B A4- | A4 (3:2:3A2 d2 B2 | \"Dm7\"A8 | \"G7\"B8 |\n\"Cmaj7\"c2 GE- E4- | E4 (3:2:3c2 d2 c2 | \"E7\"B2 ^GE- E4- | E8 |\n\"A7\"A3 G E4- | E2 ^D2 (3:2:3E2 _B2 A2 | \"Dm7\"G4 F4- | F8 |\n\"Fmaj7\"d4 c2 B2 | \"Fm6\"d6 c2 | \"Cmaj7\"B4\"Em7(b5)\" E2 G2 | \"A7\"B6 A2 |\n\"Dm7\"c4 A2 c2 | \"G7\"e4 e4 | \"Cmaj7\"c4-\"Ebdim7\" c4- | \"Dm7\"c4-\"G7\" c4 |\n",
+    "abc_path": "leadsheets/all-of-me-b680a755.abc",
+    "target": "alternative_leadsheet_only",
+    "arrangement_verified": false,
+    "source": "https://effendi.me/jazz/repo/IV_Part-2/AllOfMe_C.musicxml",
+    "source_key": {
+      "fifths": 0,
+      "mode": "major"
+    },
+    "effective_source_key": {
+      "fifths": 0,
+      "mode": "major"
+    },
+    "source_tempo": null,
+    "birdland_reference": {
+      "key": "C",
+      "fifths": 0,
+      "mode": "major",
+      "bpm": 142,
+      "beat": "1/4",
+      "reference": "Birdlands guitar-PDF, første side: ingen fortegn, C6/9 ved A, Swing fjerdedel=142",
+      "abcTempo": "1/4=142"
+    },
+    "transpose_semitones": 0,
+    "abc_key": "C",
+    "abc_tempo": "1/4=142",
+    "abc_chord_count": 24
+  },
+  {
+    "title": "Fly Me to the Moon",
+    "fields": {
+      "repertoire-has-leadsheet": "yes",
+      "repertoire-abc-label": "Leadsheet · anden udgave",
+      "repertoire-leadsheet-tempo-status": "birdland_reference"
+    },
+    "abc_source": "X:1\nT:Fly Me to the Moon\nC:Bart Howard Frank Sinatra Joey Defrancesco Arr. 6EQUJ5\nM:4/4\nL:1/8\nQ:1/4=116\nK:C\n%%MIDI program 0\n|:c2-\"Am7\" cB A2 GF- | \"Dm7\"F G3 A2 c2 | \"G7\"B3 A G2 FE- | \"Cmaj7\"E4-\"C7\" E4 |\n\"Fmaj7\"A3 G F2 ED- | \"Bm7(b5)\"D E3 F2 A2 | \"E7\"^G3 F E2 DC- | \"Am7\"C4\"A7\" z2 ^C2 |\n\"Dm7\"D A2 A- A4- | \"G7\"A2 c4 B2 | \"Cmaj7\"G8- | \"Em7\"G4-\"A7\" G2 B,2 |\n\"Dm7\"C F2 F- F4- | \"G7\"F2 A4 G2 | \"Cmaj7\"F3 E- E4- | \"Bm7(b5)\"E4\"E7\" z4 |\n\"Am7\"c-c-cB A-AGF- | \"Dm7\"F G3 A2 c2 | \"G7\"B3 A G2 FE- | \"Cmaj7\"E4-\"C7\" E4 |\n\"Fmaj7\"A3 G F2 ED- | \"Bm7(b5)\"D E3 F2 A2 | \"E7\"^G3 F E2 DC- | \"Am7\"C4\"A7\" z2 ^C2 |\n\"Dm7\"D A2 A- A4- | \"G7\"A2 c4 B2 | \"Em7\"G8- | \"A7\"G6 ^G2 |\n\"Dm7\"A C2 C- C4- | \"G7\"C2 C4 D2 | \"Cmaj7\"C8 | \"Bm7(b5)\"z6\"E7\" z2 :|\n\"Em7\"e8- | \"A\"e6 c2 | \"Dm7\"d A2 A- A4- | \"G7\"A4 B2 d2 |\n\"Cmaj7\"c8- | c2 |\n",
+    "abc_path": "leadsheets/fly-me-to-the-moon-77da8249.abc",
+    "target": "alternative_leadsheet_only",
+    "arrangement_verified": false,
+    "source": "https://effendi.me/jazz/repo/III/FlyMeToTheMoon.xml",
+    "source_key": {
+      "fifths": 0,
+      "mode": "major"
+    },
+    "effective_source_key": {
+      "fifths": 0,
+      "mode": "major"
+    },
+    "source_tempo": null,
+    "birdland_reference": {
+      "key": "C",
+      "fifths": 0,
+      "mode": "major",
+      "bpm": 116,
+      "beat": "1/4",
+      "reference": "Birdlands guitar-PDF: ingen fortegn, relativ-mol-åbning i Am, trykt fjerdedel=116",
+      "abcTempo": "1/4=116"
+    },
+    "transpose_semitones": 0,
+    "abc_key": "C",
+    "abc_tempo": "1/4=116",
+    "abc_chord_count": 44
+  },
+  {
+    "title": "On the Sunny Side of the Street",
+    "fields": {
+      "repertoire-has-leadsheet": "yes",
+      "repertoire-abc-label": "Leadsheet · anden udgave",
+      "repertoire-leadsheet-tempo-status": "birdland_reference"
+    },
+    "abc_source": "X:1\nT:On the Sunny Side of the Street\nC:Jimmy McHugh Arr. 6EQUJ5\nM:4/4\nL:1/8\nQ:1/4=104\nK:G\n%%MIDI program 0\nB,2 A, |: \"Gmaj7\"G,2 z A, B, D2 B- | \"B7\"B4 z B2 _B | \"C6\"A G3 E2 C2 | \"D7\"B,3\"D#dim7\" A,- A,4 |\n\"Em7\"z G,2 A, B, G2 F- | \"A7\"F6 ^DE | [1\"Am7\"G E2 C-\"D7\" CB, A,D- | \"Gmaj7\"D4\"D7\" z B,2 A, :|\n[2\"Am7\"G E2 C-\"D7\" CB, A,\"Gmaj7\"G, | \"F9\"z G3\"Em7\" G2\"Eb7\" G2 | \"Dm7\"G4 A, C2 B,- | \"G7\"B,4 G2 G2 |\n\"Cmaj7\"G4 B, D2 C- | \"C6\"C6 G2 | \"Em7\"G4 B, D2 ^C- | \"A7\"^C4 z E3 |\n\"D7\"FA z3\"Am7\" B,3 | \"D7\"CE z3 B,2 A, | \"Gmaj7\"G,2 z A, B, D2 B- | \"B7\"B4 z B2 _B |\n\"C6\"A G3 E2 C2 | \"D7\"B,3 A,-\"D#dim7\" A,4 | \"Em7\"z G,2 A, B, G2 F- | \"A7\"F6 ^DE |\n\"Am7\"G E2 C-\"D7\" CB, A,G,- | \"Gmaj7\"G,4\"D7\" z4 |\n",
+    "abc_path": "leadsheets/on-the-sunny-side-of-the-street-70ae2f18.abc",
+    "target": "alternative_leadsheet_only",
+    "arrangement_verified": false,
+    "source": "https://effendi.me/jazz/repo/IV_Part-2/OnTheSunnySideOfTheStreet.musicxml",
+    "source_key": {
+      "fifths": 0,
+      "mode": "major"
+    },
+    "effective_source_key": {
+      "fifths": 0,
+      "mode": "major"
+    },
+    "source_tempo": null,
+    "birdland_reference": {
+      "key": "G",
+      "fifths": 1,
+      "mode": "major",
+      "bpm": 104,
+      "beat": "1/4",
+      "reference": "Birdlands klaver/guitar-PDF: ét kryds, G6 ved melodistart, Medium Swing fjerdedel=104",
+      "abcTempo": "1/4=104"
+    },
+    "transpose_semitones": -5,
+    "abc_key": "G",
+    "abc_tempo": "1/4=104",
+    "abc_chord_count": 37
+  },
+  {
+    "title": "Summertime",
+    "fields": {
+      "repertoire-has-leadsheet": "yes",
+      "repertoire-abc-label": "Leadsheet · anden udgave",
+      "repertoire-leadsheet-tempo-status": "birdland_reference"
+    },
+    "abc_source": "X:1\nT:Summertime\nC:George Gershwin Arr. 6EQUJ5\nM:4/4\nL:1/8\nQ:1/4=76\nK:Cm\n%%MIDI program 0\nz4 g2 e2 |: \"Cm7\"gg- g6- | \"Db7\"g2 fe fg e2 | \"Cm7\"c4\"G7\" G4- |\n\"Cm7\"G4\"C7\" g2 e2 | \"Fm7\"ff- f6- | \"Ab7\"f2 ec ec e2 | \"Am7\"d4-\"D7\" d4- |\n\"G7\"d4 z g2 e | \"Cm7\"g g2- g- g4- | \"Db7\"g2 fe fg e2 | \"Cm7\"c4 G4- |\n\"F7\"G6 G2 | \"Eb\"B2 GB\"Cm7\" c2 e2 | \"F7\"gf- f2\"G7\" e4 | \"Cm7\"c6-\"F7\" c2- |\n\"Dm7\"c4\"G7\" g2 e-e :|\n",
+    "abc_path": "leadsheets/summertime-f626328e.abc",
+    "target": "alternative_leadsheet_only",
+    "arrangement_verified": false,
+    "source": "https://effendi.me/jazz/repo/I/Summertime.xml",
+    "source_key": {
+      "fifths": 0,
+      "mode": "major"
+    },
+    "effective_source_key": {
+      "fifths": 0,
+      "mode": "minor"
+    },
+    "source_tempo": null,
+    "birdland_reference": {
+      "key": "Cm",
+      "fifths": -3,
+      "mode": "minor",
+      "bpm": 76,
+      "beat": "1/4",
+      "reference": "Birdlands guitar-PDF: tre b'er, Cm6, A Little Faster fjerdedel=76 fra takt 5. Introen i arrangementet er langsommere (67); leadsheetet starter ved melodien.",
+      "abcTempo": "1/4=76",
+      "source_mode_override": "minor",
+      "source_mode_evidence": "Kildens key.mode=major er misvisende. Melodi E-C-E...A og harmoni Am7-Bb7-Am7-E7 viser A-mol uden faste fortegn."
+    },
+    "transpose_semitones": 3,
+    "abc_key": "Cm",
+    "abc_tempo": "1/4=76",
+    "abc_chord_count": 23
+  },
+  {
+    "title": "Take the A Train",
+    "fields": {
+      "repertoire-has-leadsheet": "yes",
+      "repertoire-abc-label": "Leadsheet · anden udgave",
+      "repertoire-leadsheet-tempo-status": "birdland_reference"
+    },
+    "abc_source": "X:1\nT:Take the A Train\nC:Billy Strayhorn Duke Ellington\nM:4/4\nL:1/8\nQ:1/4=165\nK:C\n%%MIDI program 0\n|:\"C6\"G8- | \"Cmaj7\"G e3 G2 c2 | \"D7(b5)\"e ^G4- G3- | ^G8 |\n\"Dm7\"A8 | \"G7\"A^ABe G_GF_d | \"Cmaj7\"c E4- E3- | [1\"Dm7\"E4-\"C7\" E4 :|\n[2\"Gm7\"E4-\"C7\" E4 | \"Fmaj7\"A c4- c3 | e F3 A2 c2 | e A3- A4- |\nA8 | \"D7\"A c4- c3 | e ^F3 A2 c2 | \"Dm7\"e A3- A4- |\n\"G7\"A4\"G7(b9)\" _A4 | \"Cmaj7\"G8- | G e3 G2 c2 | \"D7(b5)\"e ^G4- G3- |\n^G8 | \"Dm7\"A8 | \"G7\"A^ABe G_GF_d | \"Cmaj7\"c E4- E3- |\n\"Dm7\"E4-\"G7\" E4 | [P:Coda]\"Cmaj7\"c E3\"C\" F2 ^F2 | GABc z2\"Cmaj7\" C2 |\n",
+    "abc_path": "leadsheets/take-the-a-train-370bd6e7.abc",
+    "target": "alternative_leadsheet_only",
+    "arrangement_verified": false,
+    "source": "https://effendi.me/jazz/repo/IV_Part-2/TakeTheATrain.musicxml",
+    "source_key": {
+      "fifths": 0,
+      "mode": "major"
+    },
+    "effective_source_key": {
+      "fifths": 0,
+      "mode": "major"
+    },
+    "source_tempo": null,
+    "birdland_reference": {
+      "key": "C",
+      "fifths": 0,
+      "mode": "major",
+      "bpm": 165,
+      "beat": "1/4",
+      "reference": "Birdlands guitar-PDF: ingen faste fortegn, C6/9 ved A, Swing fjerdedel=165",
+      "abcTempo": "1/4=165"
+    },
+    "transpose_semitones": 0,
+    "abc_key": "C",
+    "abc_tempo": "1/4=165",
+    "abc_chord_count": 25
+  }
+]
