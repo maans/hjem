@@ -19,6 +19,20 @@ try{
  page=await context.newPage();page.setDefaultTimeout(60000);page.on('pageerror',e=>errors.push(e.message));
  await page.goto('http://127.0.0.1:8765/wiki/birdland/guitar/',{waitUntil:'domcontentloaded'});
  await page.waitForFunction(()=>window.$tw&&$tw.wiki&&$tw.rootWidget);
+ async function localReferences(){
+  // The real reader deliberately requires same-origin PDFs. Point fixture
+  // addresses at this checkout, preserving that protection in the test.
+  await page.evaluate(()=>{
+   const origin=location.origin,production='https://xn--mns-ula.dk';
+   for(const title of $tw.wiki.allTitles()){
+    const t=$tw.wiki.getTiddler(title),updates={};
+    for(const key of ['repertoire-pdf','repertoire-guitar-pdf','repertoire-score-pdf'])if(String(t.fields[key]||'').startsWith(production+'/'))updates[key]=origin+t.fields[key].slice(production.length);
+    if(title==='$:/config/maans/repertoire/pdf-viewer'&&String(t.fields.text||'').startsWith(production+'/'))updates.text=origin+t.fields.text.slice(production.length);
+    if(Object.keys(updates).length)$tw.wiki.addTiddler(new $tw.Tiddler(t,updates));
+   }
+  });
+ }
+ await localReferences();
  async function open(title){
   await page.evaluate(title=>$tw.wiki.addTiddler(new $tw.Tiddler({title:'$:/StoryList',list:[title]})),title);
   await page.waitForFunction(title=>{
@@ -74,6 +88,7 @@ try{
  assert.equal(await page.locator('.huwrep-book').count(),1);
  await page.goto('http://127.0.0.1:8765/wiki/birdland/',{waitUntil:'domcontentloaded'});
  await page.waitForFunction(()=>window.$tw&&$tw.wiki&&$tw.rootWidget);
+ await localReferences();
  const fullScore=await page.evaluate(()=>$tw.wiki.allTitles().find(t=>$tw.wiki.getTiddler(t).fields['repertoire-kind']==='piece'&&$tw.wiki.getTiddler(t).fields['repertoire-score-pdf']));
  assert.ok(fullScore,'orchestra library has a full score for the conductor');await open(fullScore);await page.locator('.huwrep-book-pdf-frame').waitFor({state:'visible'});
  assert.deepEqual(errors,[],'no unhandled browser errors');
