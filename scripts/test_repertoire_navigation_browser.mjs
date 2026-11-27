@@ -74,7 +74,7 @@ try{
  for(const title of ['Easy Money','I Left My Heart in San Francisco','The Legend','The Wiggle Walk']){
   await open(title);await page.locator('.huwrep-book-pdf-frame').waitFor({state:'visible'});
   await page.locator('.huwrep-performance .abcjs-midi-start').waitFor({state:'visible'});
-  assert.equal(await page.locator('.huwrep-book').count(),1);assert.equal(await page.locator('.abcjs-midi-start').count(),1);
+  assert.equal(await page.locator('.huwrep-book').count(),1);assert.equal(await page.locator('.abcjs-midi-start').count(),1);assert.match(await page.locator('.huwrep-audio-source').textContent(),/Guitar.*chord stabs/);
  }
  await open('Four Brothers');await page.locator('.huwrep-book-pdf-frame').waitFor({state:'visible'});
  assert.equal(await page.getByRole('button',{name:'Afspil',exact:true}).isDisabled(),true,'PDF without ABC explains unavailable audio');
