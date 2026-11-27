@@ -1,0 +1,16 @@
+X:1
+T:Sweet Georgia Brown
+C:Ben Bernie, Maceo Pinkard & Kenneth Casey
+M:4/4
+L:1/8
+Q:1/4=184
+K:Eb
+%%MIDI program 0
+"C7"C D2 =E- E3 C | G =E2 =A- A3 G | c4 G =E2 C- | C6 z2 |
+"F7"C D2 E- E3 C | G E2 =A- A3 F | c4 =A G2 F- | F6 z2 |
+"Bb7"B, C2 D- D3 B, | F D2 G- G3 F | B4 F D2 B,- | B,2 B,C- CB, C2 |
+"Eb^"G8- | "F-7"G2 B,C-"Bb7" CB, C2 | "Eb^"G6 G2 | "Dø7"F4-"G7b9" F2 z2 |
+"C7"C D2 =E- E3 C | G =E2 =A- A3 G | c4 G =E2 C- | C6 z2 |
+"F7"C D2 E- E3 C | G E2 =A- A3 F | c4 =A G2 F- | F4 z4 |
+"C-"G3 G- G2 z2 | "Dø7"F D2 G-"G7b9" G2- G2 | "C-"G3 G- G2 z2 | "F-7"F D2 G-"Bb7" G2 z2 |
+"Eb7"B, C2 E-"D7" E G3 | "Db7"B =B2 c-"C7" c G3 | "F7"F4"Bb7" B G2 E- | "Eb6"E4 z4 |

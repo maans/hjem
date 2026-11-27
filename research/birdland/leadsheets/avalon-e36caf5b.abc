@@ -1,0 +1,16 @@
+X:1
+T:Avalon
+C:Al Jolson & Vincent Rose
+M:4/4
+L:1/8
+Q:1/4=264
+K:C
+%%MIDI program 0
+G4 | "D-7"d4 e4 | f4 g4 | "G7"f2 e2 d4- | d2 z2 G4 |
+"C6"c8- | c4 d4 | e8- | "A7"e2 z2 G4 |
+"D-7"B4 c4 | d4 c4 | "G7"B2 A2 G4- | G2 z2 A4 |
+"C6"e8- | e2 z2 A4 | e8- | e2 z2 A4 |
+"E-7"e4 f4 | g4 a4 | "A7"g2 f2 e4- | e2 z2 A4 |
+"D-7"d8- | d4 e4 | "F-7"f8- | "A#7"f2 z2 A4 |
+"C6"G4 c4 | e4 g4 | "A7"b2 a2 b4- | b4 a4 |
+"D-7"f8 | "G7"e8 | "C6"c8- | c2 z2 z4 |
