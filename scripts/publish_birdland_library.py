@@ -63,6 +63,25 @@ def main():
    changes[sid]={'title':sid,'caption':title,'type':'text/vnd.tiddlywiki','text':'','repertoire-work-title':title,'repertoire-abc-label':'Leadsheet (ABC)','abc-source':lead['abc_source'],'source-url':lead['source'],'repertoire-source-reference':lead['birdland_reference']['reference']}
    changes[title]['repertoire-leadsheet-source']=sid
    changes[title]['repertoire-has-leadsheet']='yes'
+   view='<$huwiki-repertoire-piece tiddler="'+title+'"/>'
+   body=changes[title].get('text','')
+   if '<$huwiki-repertoire-piece' not in body:
+    body,n=re.subn(r'<iframe\b[^>]*>[\s\S]*?</iframe\s*>',lambda _:view,body,count=1,flags=re.I)
+    if not n:body=view+'\n\n'+body
+   body=body.replace('Partitur mangler i det delte materiale.','Fuldt partitur mangler i det delte materiale. Leadsheetet vises ovenfor.')
+   changes[title]['text']=body
+  for title,original in guitar.items():
+   if not original.get('abc-source') or title not in changes:continue
+   piece=changes[title]; pdf=piece.get('repertoire-guitar-pdf')
+   if not pdf:continue
+   url=ORIGIN+'wiki/birdland/pdf-viewer/?file='+quote(pdf,safe='')+'&spread=2'
+   link='<p class="bird-original-chart"><a href="'+url+'" target="_blank" rel="noopener">Originale chord stabs (PDF) · to sider</a></p>'
+   if 'class="bird-original-chart"' not in piece.get('text',''):piece['text']=link+'\n'+piece.get('text','')
+   if not piece.get('abc-source') and '<$huwiki-repertoire-piece' not in piece.get('text',''):
+    view='<$huwiki-repertoire-piece tiddler="'+title+'"/>'
+    piece['text'],n=re.subn(r'<iframe\b[^>]*>[\s\S]*?</iframe\s*>',lambda _:view,piece['text'],count=1,flags=re.I)
+    if not n:piece['text']=view+'\n'+piece['text']
+   piece['text']=piece['text'].replace('Partitur mangler i det delte materiale.','Fuldt orkesterpartitur mangler. De originale guitar-chordstabs findes som PDF og ABC.')
   orchestra=next(t['title'] for t in current.values() if t.get('repertoire-kind')=='orchestra')
   items={t.get('music-title'):t['title'] for t in current.values() if t.get('repertoire-kind')=='orchestra-item' and t.get('orchestra-title')==orchestra}
   links=[]
@@ -74,6 +93,9 @@ def main():
    record={'title':sid,'type':'text/vnd.tiddlywiki','text':'','repertoire-kind':'setlist','orchestra-title':orchestra,'name':name,'repertoire-event-date':event['date'],'repertoire-event':event['event'],'repertoire-programme-status':event['programme_status'],'repertoire-order-status':event['order_status'],'repertoire-sections':json.dumps(event['sets'],ensure_ascii=False),'description':event['notes'],'list':' '.join('[['+items[x]+']]' for x in ordered),'repertoire-source-role':role,'repertoire-sheet-format':'pdf'}
    for k in ['repertoire-overrides','repertoire-source-role','repertoire-sheet-format']:
     if k in old:record[k]=old[k]
+   if event['date']=='2026-11-28' and not old.get('repertoire-view-corrected'):
+    record['repertoire-source-role']='guitar';record['repertoire-sheet-format']='pdf'
+   if event['date']=='2026-11-28':record['repertoire-view-corrected']='yes'
    changes[sid]=record
    page='Nodemappe · '+name
    changes[page]={'title':page,'type':'text/vnd.tiddlywiki','tags':'BirdlandNodemappe','text':'! '+name+'\n\n'+event['notes']+'\n\n<$huwiki-repertoire-book setlist="'+sid+'"/>\n'}
