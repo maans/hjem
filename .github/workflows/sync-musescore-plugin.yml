@@ -17,9 +17,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     env:
-      FORGE_REF: c33918c8a308cb66894fa1b4b36ef6424cb2c77f
-      ABC_VERSION: '0.3.68'
-      REPERTOIRE_VERSION: '0.3.11'
+      FORGE_REF: 05ad98894f38288027e3bdbb5f7c94db524785e7
+      ABC_VERSION: '0.3.69'
+      REPERTOIRE_VERSION: '0.3.12'
+      PRINT_VERSION: '0.2.10-test.1'
       MUSESCORE_VERSION: '0.1.12'
     steps:
       - uses: actions/checkout@v4
@@ -32,7 +33,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: maans/huwiki-forge
-          ref: c33918c8a308cb66894fa1b4b36ef6424cb2c77f
+          ref: 05ad98894f38288027e3bdbb5f7c94db524785e7
           path: .forge-source
           persist-credentials: false
       - uses: actions/setup-node@v4
@@ -42,6 +43,7 @@ jobs:
         run: |
           node .forge-source/scripts/build-abc-ui.mjs
           node .forge-source/scripts/build-repertoire-plugin.mjs
+          node .forge-source/scripts/build-print-article.mjs --check
           node .forge-source/scripts/build-musescore-import.mjs
       - name: Download and verify the matching shared plugin releases
         run: |
@@ -50,10 +52,10 @@ jobs:
           ref = os.environ['FORGE_REF']
           if not re.fullmatch(r'[0-9a-f]{40}', ref):
               raise SystemExit('The Forge release must be pinned to a full commit SHA')
-          for name in ('abc', 'repertoire', 'musescore-import'):
+          for name in ('abc', 'repertoire', 'musescore-import', 'print-article'):
               data = pathlib.Path(f'.forge-source/plugins/{name}/dist/plugin.json').read_bytes()
               plugin = json.loads(data)
-              if plugin.get('title') != f'$:/plugins/huwiki/{name}' or plugin.get('version') != os.environ[{'abc':'ABC_VERSION','repertoire':'REPERTOIRE_VERSION','musescore-import':'MUSESCORE_VERSION'}[name]]:
+              if plugin.get('title') != f'$:/plugins/huwiki/{name}' or plugin.get('version') != os.environ[{'abc':'ABC_VERSION','repertoire':'REPERTOIRE_VERSION','musescore-import':'MUSESCORE_VERSION','print-article':'PRINT_VERSION'}[name]]:
                   raise SystemExit(f'The pinned {name} plugin does not match the requested release')
               bundled = json.loads(plugin['text'])['tiddlers']
               if name == 'abc' and '$:/plugins/huwiki/abc/fullscreen.js' not in bundled:
@@ -70,7 +72,7 @@ jobs:
           files = sorted(pathlib.Path('wiki').rglob('index.html'))
           if not files:
               raise SystemExit('No musician wiki files were found')
-          releases = {name: json.loads(pathlib.Path(f'/tmp/{name}-release.json').read_bytes()) for name in ('abc', 'repertoire', 'musescore-import')}
+          releases = {name: json.loads(pathlib.Path(f'/tmp/{name}-release.json').read_bytes()) for name in ('abc', 'repertoire', 'musescore-import', 'print-article')}
           expected = {}
           for path in files:
               original = path.read_bytes().decode('utf-8')
@@ -79,6 +81,7 @@ jobs:
               updated, importer_status = updater.replace_plugin(updated, releases['musescore-import'], '$:/plugins/huwiki/musescore-import')
               if repertoire_status != 'absent' and abc_status == 'absent':
                   raise SystemExit(f'{path}: Repertoire requires the matching ABC plugin')
+              updated, publisher_status = updater.replace_plugin(updated, releases['print-article'], '$:/plugins/huwiki/print-article')
               expected[path] = updated.encode('utf-8')
           for name, plugin in releases.items():
               subprocess.run([sys.executable, 'scripts/update_abc_plugin.py', '--title', plugin['title'], '--plugin', f'/tmp/{name}-release.json', *map(str, files)], check=True)
