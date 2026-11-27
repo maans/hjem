@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     env:
-      FORGE_REF: 712240600938c43f84a7845d241ccd8af24892be
+      FORGE_REF: 5d18e9897551129f0ae98f512c5548e42d7c6318
     steps:
       - uses: actions/checkout@v4
         with: {ref: main}
@@ -40,7 +40,7 @@ jobs:
           with urllib.request.urlopen(f'https://raw.githubusercontent.com/maans/huwiki-forge/{ref}/plugins/repertoire/dist/plugin.json',timeout=60) as r:
               data=r.read()
           p=json.loads(data)
-          assert p['title']=='$:/plugins/huwiki/repertoire' and p['version']=='0.2.3'
+          assert p['title']=='$:/plugins/huwiki/repertoire' and p['version']=='0.2.4'
           pathlib.Path('/tmp/repertoire-release.json').write_bytes(data)
           PY
       - name: Synchronize the shared plugin without changing scores

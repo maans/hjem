@@ -2,7 +2,7 @@ name: Publish Birdland dated folders and reviewed leadsheets
 on:
   push:
     branches: [main]
-    paths: ['.github/workflows/publish-birdland-library.yml', 'scripts/publish_birdland_library.py', 'scripts/birdland-setlists.json', 'scripts/birdland-arrangement-settings.json', 'scripts/convert_birdland_leadsheets.mjs']
+    paths: ['scripts/publish_birdland_library.py', 'scripts/birdland-setlists.json', 'scripts/birdland-arrangement-settings.json', 'scripts/convert_birdland_leadsheets.mjs']
   workflow_dispatch:
 permissions: {contents: write}
 concurrency:
@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: maans/huwiki-forge
-          ref: 712240600938c43f84a7845d241ccd8af24892be
+          ref: 5d18e9897551129f0ae98f512c5548e42d7c6318
           path: .forge-source
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}
