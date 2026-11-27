@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     env:
-      FORGE_REF: 5d18e9897551129f0ae98f512c5548e42d7c6318
+      FORGE_REF: 6842c13f836f1ba234d1265f1748d6f7d8ba0f77
     steps:
       - uses: actions/checkout@v4
         with: {ref: main}

@@ -60,7 +60,7 @@ def main():
    assert re.search(r'^K:\s*'+re.escape(lead['abc_key'])+r'\s*$',lead['abc_source'],re.M)
    assert re.search(r'^Q:\s*'+re.escape(lead['abc_tempo'])+r'\s*$',lead['abc_source'],re.M)
    assert lead['abc_chord_count']>0
-   changes[sid]={'title':sid,'caption':title,'type':'text/vnd.tiddlywiki','text':'','repertoire-work-title':title,'repertoire-abc-label':'Leadsheet (ABC)','abc-source':lead['abc_source'],'source-url':lead['source'],'repertoire-source-reference':lead['birdland_reference']['reference']}
+   changes[sid]={'title':sid,'caption':title,'type':'text/vnd.tiddlywiki','text':'<$huwiki-abc tiddler=<<currentTiddler>> view="full" embedded="yes" audio="all" show-title="no"/>','repertoire-work-title':title,'repertoire-abc-label':'Leadsheet (ABC)','abc-source':lead['abc_source'],'source-url':lead['source'],'repertoire-source-reference':lead['birdland_reference']['reference']}
    changes[title]['repertoire-leadsheet-source']=sid
    changes[title]['repertoire-has-leadsheet']='yes'
    view='<$huwiki-repertoire-piece tiddler="'+title+'"/>'
@@ -100,6 +100,7 @@ def main():
    page='Nodemappe · '+name
    changes[page]={'title':page,'type':'text/vnd.tiddlywiki','tags':'BirdlandNodemappe','text':'! '+name+'\n\n'+event['notes']+'\n\n<$huwiki-repertoire-book setlist="'+sid+'"/>\n'}
    links.append('* [['+name+'|'+page+']]')
+  changes['Leadsheets']={'title':'Leadsheets','type':'text/vnd.tiddlywiki','tags':'Birdland Oversigt','text':'Afspillelige ABC-noder med melodi og becifringer, tilpasset Birdlands klingende toneart og tempo.\n\n<$list filter="[field:repertoire-has-leadsheet[yes]has[repertoire-leadsheet-source]sort[title]]" emptyMessage="Der er endnu ingen færdigkontrollerede leadsheets i denne wiki."><div><$link to={{!!repertoire-leadsheet-source}}><$view field="title"/></$link></div></$list>\n'}
   changes['Nodemapper']={'title':'Nodemapper','type':'text/vnd.tiddlywiki','tags':'Birdland Oversigt','text':'! Daterede nodemapper\n\nÉn fælles rækkefølge med valgfri visning for hele mappen og for hvert nummer.\n\n'+'\n'.join(links)+'\n\nNordjysk Bigband Dag 23.11.2025 afventer dokumenteret rækkefølge.\n'}
   changes['$:/config/maans/repertoire/default-source-role']={'title':'$:/config/maans/repertoire/default-source-role','text':role}
   for home in ['Birdland · Guitar','Birdlands orkesterwiki']:
@@ -110,6 +111,11 @@ def main():
   for title,t in current.items():
    if 'abc-source' in t:assert after[title].get('abc-source')==t['abc-source'],title
   assert len([t for t in after.values() if t.get('repertoire-has-leadsheet')=='yes'])==len(leads)
+  for lead in leads:
+   source=after[after[lead['title']]['repertoire-leadsheet-source']]
+   assert source['abc-source']==lead['abc_source']
+   assert '<$huwiki-abc ' in source['text'] and 'audio="all"' in source['text']
+  assert 'to={{!!repertoire-leadsheet-source}}' in after['Leadsheets']['text']
   updates[p]=result
  for p,text in updates.items():(ROOT/p).write_text(text)
  print(json.dumps({'wikis':2,'leadsheets':len(leads),'event_folders':len(history['events']),'original_abc_preserved':True}))

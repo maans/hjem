@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: maans/huwiki-forge
-          ref: 5d18e9897551129f0ae98f512c5548e42d7c6318
+          ref: 6842c13f836f1ba234d1265f1748d6f7d8ba0f77
           path: .forge-source
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}
