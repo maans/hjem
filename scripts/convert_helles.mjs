@@ -32,10 +32,12 @@ for(const input of JSON.parse(fs.readFileSync(path.join(root,'source-manifest.js
  if(shift)abc=Transpose.apply(ABC,abc,shift).replace(/^K:.*$/m,'K:'+target);
  if(ref)abc=abc.replace(/^Q:.*$/m,'Q:1/4='+ref.tempo);
  let tune=ABC.parseOnly(abc)[0],audio=tune.setUpAudio({chordsOff:true});let notes=audio.tracks.flat().filter(e=>e.cmd==='note');
- let record={...e,key,target,shift,warnings:Array.from(rendered.warnings||[]),abcWarnings:tune.warnings||[],notes:notes.length,chords:(abc.match(/"[A-G][^"\n]*"/g)||[]).length,abc_source:abc,publish:['Desafinado','Wave','Bluesette','Those Who Were'].includes(e.title)&&!rendered.warnings?.length&&!tune.warnings?.length};
+ const actionableWarnings=(rendered.warnings||[]).filter(w=>!(e.preserve_modulations&&/^Gentagelse i anden toneart fra takt /.test(w)));
+ let record={...e,key,target,shift,warnings:Array.from(rendered.warnings||[]),abcWarnings:tune.warnings||[],notes:notes.length,chords:(abc.match(/"[A-G][^"\n]*"/g)||[]).length,abc_source:abc,publish:['Desafinado','Wave','Bluesette','Those Who Were'].includes(e.title)&&!actionableWarnings.length&&!tune.warnings?.length};
  result.push(record);
  }catch(err){result.push({...e,error:String(err.stack)});}
 }
 fs.writeFileSync(path.join(root,'conversions.json'),JSON.stringify(result,null,2));
 console.log(JSON.stringify(result.map(({abc_source,...r})=>r),null,2));
 if(result.filter(r=>r.publish).length!==4)throw Error('Expected four validated playable leadsheets');
+

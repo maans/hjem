@@ -9,6 +9,9 @@ on:
       - 'research/videos/recordings.json'
       - 'scripts/apply_leadsheet_additions.py'
       - 'research/helles/leadsheet-additions.json'
+  workflow_run:
+    workflows: ['Publish Helles repertoire wiki']
+    types: [completed]
   workflow_dispatch:
 permissions:
   contents: write
@@ -17,7 +20,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   synchronize:
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/main' && (github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success')
     runs-on: ubuntu-latest
     timeout-minutes: 10
     env:

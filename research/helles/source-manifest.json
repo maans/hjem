@@ -21,8 +21,9 @@
   },
   {
     "title": "Those Who Were",
-    "original": "Those Who Were 2 ms.musicxml",
-    "xml": "Those Who Were 2 ms.musicxml"
+    "original": "those-who-were.mscx",
+    "xml": "those-who-were.mscx",
+    "preserve_modulations": true
   },
   {
     "title": "Visan från Utanmyra",
