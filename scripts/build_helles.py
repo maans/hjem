@@ -58,6 +58,7 @@ for r in rows:
  if not r.get('pdf') and title not in conversions:text+='Nodefil til dette nummer er endnu ikke fundet i arkivet.\n\n'
  text+='[[Sangtekst og noter|'+title+' · Sangtekst]]\n'
  tiddlers.append(tid(title,text,**fields))
+ if title=='Dejlighedssang':tiddlers.append(tid('Dejlighedsvise','Se [[Dejlighedssang]].',tags='HellesAlias'))
  tiddlers.append(tid(item(title),'',**{'repertoire-kind':'orchestra-item','orchestra-title':ORCH,'music-title':title,'repertoire-key':fields['repertoire-key'],'repertoire-tempo':fields['repertoire-tempo'],'repertoire-form':r['form'],'repertoire-cues':r['cues']}))
  lyrictext='! '+title+' · Sangtekst\n\n[[Åbn noder|'+title+']]\n\n'
  if extra.get('lyrics'):lyrictext+='[[Original tekstside (PDF)|pdf/'+extra['lyrics']+']]\n\n<iframe src="pdf/'+extra['lyrics']+'" title="Sangtekst" style="width:100%;height:75vh;border:0;"></iframe>\n\n'
