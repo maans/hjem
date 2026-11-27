@@ -183,6 +183,7 @@
     "source": "https://jazzleadsheet.com/post/9-20-special/",
     "source_format": "abc",
     "source_key": "C",
+    "source_tempo": "190",
     "effective_source_key": "C",
     "birdland_reference": {
       "key": "C",
@@ -191,6 +192,11 @@
       "reference": "Birdlands originale guitar-/klaver-PDF, første side: Ingen faste fortegn, C ved takt 15, trykt fjerdedel=170 Swing.",
       "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/920-special.pdf"
     },
+    "settings_origin": {
+      "key": "birdland",
+      "tempo": "birdland"
+    },
+    "source_repairs": [],
     "transpose_semitones": 0,
     "abc_key": "C",
     "abc_tempo": "1/4=170",
@@ -206,6 +212,7 @@
     "source": "https://jazzleadsheet.com/post/a-foggy-day/",
     "source_format": "abc",
     "source_key": "F",
+    "source_tempo": "120",
     "effective_source_key": "F",
     "birdland_reference": {
       "key": "Eb",
@@ -214,6 +221,11 @@
       "reference": "Birdlands originale guitar-/klaver-PDF, første side: Tre b’er og Eb-dur; trykt fjerdedel=c.150, swingottendedele.",
       "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/a-foggy-day.pdf"
     },
+    "settings_origin": {
+      "key": "birdland",
+      "tempo": "birdland"
+    },
+    "source_repairs": [],
     "transpose_semitones": -2,
     "abc_key": "Eb",
     "abc_tempo": "1/4=150",
@@ -229,6 +241,7 @@
     "source": "https://freedjazz.org/tunes/aint-misbehavin/aint-misbehavin.mscz",
     "source_format": "mscz",
     "source_key": "C",
+    "source_tempo": null,
     "effective_source_key": "C",
     "birdland_reference": {
       "key": "F",
@@ -238,11 +251,43 @@
       "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/ain-t-misbehavin.pdf",
       "style": "jazzballad"
     },
+    "settings_origin": {
+      "key": "birdland",
+      "tempo": "birdland"
+    },
+    "source_repairs": [],
     "transpose_semitones": 5,
     "abc_key": "F",
     "abc_tempo": "1/4=76",
     "abc_chord_count": 60,
     "melody_notes": 135,
+    "arrangement_verified": false,
+    "target": "alternative_leadsheet_only"
+  },
+  {
+    "title": "All the Things You Are",
+    "abc_source": "X:1\n%%partsfont \"Kreon\" Box\nT:All the Things You Are\nC: Jerome Kern\nM: 4/4\nL: 1/4\nQ:1/4=160\nK:Ab\nP: A\n\"Fm7\"A4|\"Bbm7\"d3 A|\"Eb7\"G G G G|\"Abmaj7\"G c2 G|\n\"Dbmaj7\"F F F2|\"G7\" (3FGA G F|\"Cmaj7\"=E4-|E4|\nP: B\n\"Cm7\"_E4|\"Fm7\"A3 E|\"Bb7\"=D D D D|\"Ebmaj7\"=D G2 D|\n\"Abmaj7\" C C C2|\"D7\" (3C=DE DC|\"Gmaj7\"=B,4-|B, =D G =d||\nP: C\n\"Am7\"=d2 c2-|\"D7\"c E =E c|\"Gmaj7\"=B4-|B =D G =B|\n\"F#m7\"=B2 =A2-|\"B7\"A B, =B, =A|\"Emaj7\"_A4-|\"C7\"A4||\nP: D\n\"Fm7\"A4|\"Bbm7\"d3 A|\"Eb7\"G G G G|\"Abmaj7\"G c2 G|\n\"Dbmaj7\"F4|\"Dbm7\"e2 d2|\"Cm7\"E E (3EEE|\"B07\"G3 F|\n\"Bbm7\"D F A d|\"Eb7\" f2 g2|\"Abmaj7\" a4-|a4||\n",
+    "abc_path": "leadsheets/all-the-things-you-are-5399f0eb.abc",
+    "source": "https://jazzleadsheet.com/post/all-the-things-you-are/",
+    "source_format": "abc",
+    "source_key": "Ab",
+    "source_tempo": "1/4=160",
+    "effective_source_key": "Ab",
+    "birdland_reference": {
+      "key": "Ab",
+      "reference": "Birdlands originale guitar-/klaver-PDF, første side: tonearten er læst i fortegn og harmoni; numerisk tempo ikke angivet.",
+      "bpm": null
+    },
+    "settings_origin": {
+      "key": "birdland",
+      "tempo": "source"
+    },
+    "source_repairs": [],
+    "transpose_semitones": 0,
+    "abc_key": "Ab",
+    "abc_tempo": "1/4=160",
+    "abc_chord_count": 32,
+    "melody_notes": 90,
     "arrangement_verified": false,
     "target": "alternative_leadsheet_only"
   },
@@ -253,6 +298,7 @@
     "source": "https://jazzleadsheet.com/post/almost-like-being-in-love/",
     "source_format": "abc",
     "source_key": "Bb",
+    "source_tempo": "160",
     "effective_source_key": "Bb",
     "birdland_reference": {
       "key": "F",
@@ -261,6 +307,11 @@
       "reference": "Birdlands originale guitar-/klaver-PDF, første side: Ét b og F-dur; Moderate swing fjerdedel=156.",
       "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/almost-like-being-in-love.pdf"
     },
+    "settings_origin": {
+      "key": "birdland",
+      "tempo": "birdland"
+    },
+    "source_repairs": [],
     "transpose_semitones": -5,
     "abc_key": "F",
     "abc_tempo": "1/4=156",
@@ -276,6 +327,7 @@
     "source": "https://freedjazz.org/tunes/avalon/avalon.mscz",
     "source_format": "mscz",
     "source_key": "G",
+    "source_tempo": null,
     "effective_source_key": "G",
     "birdland_reference": {
       "key": "C",
@@ -284,11 +336,43 @@
       "reference": "Birdlands originale guitar-/klaver-PDF, første side: Ingen faste fortegn, Dm7-Em7-Fmaj7-G7; Very Fast Jazz fjerdedel=264.",
       "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/avalon.pdf"
     },
+    "settings_origin": {
+      "key": "birdland",
+      "tempo": "birdland"
+    },
+    "source_repairs": [],
     "transpose_semitones": 5,
     "abc_key": "C",
     "abc_tempo": "1/4=264",
     "abc_chord_count": 17,
     "melody_notes": 59,
+    "arrangement_verified": false,
+    "target": "alternative_leadsheet_only"
+  },
+  {
+    "title": "But Not for Me",
+    "abc_source": "X:1\n%%partsfont \"Kreon\" Box\nT:But Not for Me\nC: Gershwin\nM: 4/4\nL: 1/4\nQ:140\nK:G\nA B A||:\"A7\"B2 AG-|\"D7\"G A BA|\"Gmaj7\"B4|\"Em7\"z A B A|\n\"A7\"B2 AG-|\"Am7\"G A \"D7\"BA|\"Gmaj7\"B4|\"Dm7\"z  B \"G7\"cd||\n|[1 \"Cmaj7\"^d2 e g] |\"Cm7\"zA\"F7\"Bc|\"Gmaj7\"^c2dg|z GAB|\n\"A7\"B2cg|zgec|\"Am7\"A4|\"D7\"zABA:||\n|[2 \"Cmaj7\"^d2 e g] |\"Cm7\"zA\"F7\"Bc|\"Gmaj7\"^c2da|\"Em7\"z g e c|\n\"Am7\"B4|\"D7\"A4|\"Gmaj7\"G4-|G2z2||\n",
+    "abc_path": "leadsheets/but-not-for-me-636bdb77.abc",
+    "source": "https://jazzleadsheet.com/post/but-not-for-me/",
+    "source_format": "abc",
+    "source_key": "F",
+    "source_tempo": "140",
+    "effective_source_key": "F",
+    "birdland_reference": {
+      "key": "G",
+      "reference": "Birdlands originale guitar-/klaver-PDF, første side: tonearten er læst i fortegn og harmoni; numerisk tempo ikke angivet.",
+      "bpm": null
+    },
+    "settings_origin": {
+      "key": "birdland",
+      "tempo": "source"
+    },
+    "source_repairs": [],
+    "transpose_semitones": 2,
+    "abc_key": "G",
+    "abc_tempo": "140",
+    "abc_chord_count": 25,
+    "melody_notes": 63,
     "arrangement_verified": false,
     "target": "alternative_leadsheet_only"
   },
@@ -299,6 +383,7 @@
     "source": "https://freedjazz.org/tunes/bye-bye-blackbird/bye-bye-blackbird.mscz",
     "source_format": "mscz",
     "source_key": "F",
+    "source_tempo": null,
     "effective_source_key": "F",
     "birdland_reference": {
       "key": "F",
@@ -307,6 +392,11 @@
       "reference": "Birdlands originale guitar-/klaver-PDF, første side: Ét b og Fmaj7; Med. Easy Swing fjerdedel=100.",
       "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/bye-bye-blackbird.pdf"
     },
+    "settings_origin": {
+      "key": "birdland",
+      "tempo": "birdland"
+    },
+    "source_repairs": [],
     "transpose_semitones": 0,
     "abc_key": "F",
     "abc_tempo": "1/4=100",
@@ -322,6 +412,7 @@
     "source": "https://jazzleadsheet.com/post/cheek-to-cheek/",
     "source_format": "abc",
     "source_key": "C",
+    "source_tempo": "140",
     "effective_source_key": "C",
     "birdland_reference": {
       "key": "Bb",
@@ -330,6 +421,11 @@
       "reference": "Birdlands originale guitar-/klaver-PDF, første side: To b’er og Bbmaj7 i takt 12; fjerdedel=150.",
       "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/cheek-to-cheek.pdf"
     },
+    "settings_origin": {
+      "key": "birdland",
+      "tempo": "birdland"
+    },
+    "source_repairs": [],
     "transpose_semitones": -2,
     "abc_key": "Bb",
     "abc_tempo": "1/4=150",
@@ -345,6 +441,7 @@
     "source": "https://jazzleadsheet.com/post/cotton-tail/",
     "source_format": "abc",
     "source_key": "Ab",
+    "source_tempo": "250",
     "effective_source_key": "Ab",
     "birdland_reference": {
       "key": "Bb",
@@ -353,11 +450,47 @@
       "reference": "Birdlands originale guitar-/klaver-PDF, første side: Håndskrevet Bb–Gm7–Cm7–F7; tempo 190 under titlen.",
       "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/cotton-tail.pdf"
     },
+    "settings_origin": {
+      "key": "birdland",
+      "tempo": "birdland"
+    },
+    "source_repairs": [],
     "transpose_semitones": 2,
     "abc_key": "Bb",
     "abc_tempo": "1/4=190",
     "abc_chord_count": 35,
     "melody_notes": 66,
+    "arrangement_verified": false,
+    "target": "alternative_leadsheet_only"
+  },
+  {
+    "title": "Desafinado",
+    "abc_source": "X:1\n%%partsfont \"Kreon\" Box\nT:Desafinado\nC: Antônio Carlos Jobim\nM: 4/4\nL: 1/8\nQ:160\nK:Eb\nP: A\n|:\"Ebmaj7\"zB,2 C D2E2|D3 C =B,2C2|\"F7\"E3 _C C4-|C8|\n\"Fm7\"z =C2 D E2 F2|\"Bb7\"E3D^C2D2|\"Gm7b5\"B3_D D4-|\"C7b9\"D8||\n[1 \"Fm7\" z C BA G F2 A- |\"G7b9\"A3 G ^C2D2|\"C7\"=EG E4 C2|\"C7b9\"_D8|\n\"F7b9\"z G2 F E2C2|_G3 F E2C2|\"Fgmaj7\"E3_C C4-|C8:|\n[2 \"Fm7\"z B2A GF2 A-|\"Abm\"A3 G F2E2|\"Gm7\"FE F6-|\"Am7b5\"F4 \"D7#9\"z4||\nP:B\n\"Gmaj7\"D2 =E2 DE2D-|\"Ab°7\"D3 C =B,2C2|\"Am7\"D2 =A,D- D4-|\"D7\"D6 =B,2|\n\"Gmaj7\"z D2 =E ^F2G2|\"Em7\" =A3 G =B,2C2|\"Am7\"D=EDE D4-|\"D7\"D6 D2||\n\"Bbmaj7\"F2G2FG2F-|\"B°7\"FE3D2E2|\"Cm7\"F2C2F2CF-|\"F7\"F4z C FG|\n\"Fm7\"A2G2AG2B-|\"Gm7b5\"BA3 \"C7b9\"G2 AF-|\"Fm7\"F8|\"Bb7b5\"z8||\nP:C\n\"Ebmaj7\"zB,2 C D2E2|D3 C =B,2C2|\"F7\"E3 _C C4-|C8|\n\"Fm7\"z =C2 D E2 F2|\"Bb7\"E3D^C2D2|\"Gm7b5\"c2 _c2B2 =A2|\"C7b9\"_A2=c2z2G2|\n\"Fm7\"B2__B2A2G2|\"Abm\"A2G2F2E2|\"Gm7\"G6 D2|\"Gb°\"F6 CD|\n\"F7\"EEEE E2 E2|z C2 DE2E2|\"Abm7\"EEEE B2 A2-|\"Db7\"A6 CD|\n\"F7\"EEEE E2 DE-|\"Bb7\"E3 D ^C2D2|\"Eb6\"F3E E4-|E8||\n",
+    "abc_path": "leadsheets/desafinado-232cf345.abc",
+    "source": "https://jazzleadsheet.com/post/desafinado/",
+    "source_format": "abc",
+    "source_key": "F",
+    "source_tempo": "160",
+    "effective_source_key": "F",
+    "birdland_reference": {
+      "key": "Eb",
+      "beat": "1/4",
+      "bpm": null,
+      "status": "needs_birdland_tempo",
+      "reference": "Birdlands guitar-PDF: tre b'er, Ebmaj7; intet numerisk tempo i det læste begyndelsesudsnit.",
+      "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/desafinado.pdf",
+      "style": "bossa"
+    },
+    "settings_origin": {
+      "key": "birdland",
+      "tempo": "source"
+    },
+    "source_repairs": [],
+    "transpose_semitones": -2,
+    "abc_key": "Eb",
+    "abc_tempo": "160",
+    "abc_chord_count": 50,
+    "melody_notes": 197,
     "arrangement_verified": false,
     "target": "alternative_leadsheet_only"
   },
@@ -368,6 +501,7 @@
     "source": "https://jazzleadsheet.com/post/do-nothing-till-you-hear-from-me/",
     "source_format": "abc",
     "source_key": "G",
+    "source_tempo": "1/4=90",
     "effective_source_key": "G",
     "birdland_reference": {
       "key": "G",
@@ -376,6 +510,11 @@
       "reference": "Birdlands originale guitar-/klaver-PDF, første side: Ét kryds og G-dur; Moderate Shuffle fjerdedel=102.",
       "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/do-nothin-till-you-hear-from-me.pdf"
     },
+    "settings_origin": {
+      "key": "birdland",
+      "tempo": "birdland"
+    },
+    "source_repairs": [],
     "transpose_semitones": 0,
     "abc_key": "G",
     "abc_tempo": "1/4=102",
@@ -391,6 +530,7 @@
     "source": "https://jazzleadsheet.com/post/easy-money/",
     "source_format": "abc",
     "source_key": "F",
+    "source_tempo": "120",
     "effective_source_key": "F",
     "birdland_reference": {
       "key": "F",
@@ -398,11 +538,43 @@
       "bpm": 126,
       "reference": "Birdlands eksisterende guitar-ABC: K:F og Q:Medium swing 1/4=126"
     },
+    "settings_origin": {
+      "key": "birdland",
+      "tempo": "birdland"
+    },
+    "source_repairs": [],
     "transpose_semitones": 0,
     "abc_key": "F",
     "abc_tempo": "1/4=126",
     "abc_chord_count": 32,
     "melody_notes": 108,
+    "arrangement_verified": false,
+    "target": "alternative_leadsheet_only"
+  },
+  {
+    "title": "Have You Met Miss Jones?",
+    "abc_source": "X:1\n%%partsfont \"Kreon\" Box\nT:Have You Met Miss Jones?\nC: Richard Rodgers\nM:4/4\nL:1/8\nQ:140\nK:G\n|:\"Gmaj7\"B3 E DE2D-|\"G#°7\"D8|\"Am7\"zE2F GA2B-|\"D7\"Bc2d-d4|\n\"Bm7\"e3A GA2G-|\"Em7\"G6B2|1 \"Am7\"c8-|\"D7\"c8:|2 \"Dm7\"d8|\"G7\"ze3e2e2||\n\"Cmaj7\"d3c GA2_B-|\"A#m7\"B_B3\"D#7\"B2B2|\"G#maj7\"_B3_A_E2=F2|\"F#m7\"^F3F \"B7\"FF2F-|\n\"Emaj7\"FE3^G2B2|\"A#m7\"_e4\"D#7\"e3c-|\"G#maj7\"c8|\"Am7\"z4\"D7\"z4||\n\"Gmaj7\"B3 E DE2D-|\"G#°7\"D8|\"Am7\"zE2F GA2B-|\"D7\"Bc3\"C7\"de2f-|\n\"Bm7\"f4\"E7\"z4|\"Am7\"ze3\"D7\"B2AG-|\"Gmaj7\"G8|z8||\n",
+    "abc_path": "leadsheets/have-you-met-miss-jones-543033ef.abc",
+    "source": "https://jazzleadsheet.com/post/have-you-met-miss-jones/",
+    "source_format": "abc",
+    "source_key": "F",
+    "source_tempo": "140",
+    "effective_source_key": "F",
+    "birdland_reference": {
+      "key": "G",
+      "reference": "Birdlands originale guitar-/klaver-PDF, første side: tonearten er læst i fortegn og harmoni; numerisk tempo ikke angivet.",
+      "bpm": null
+    },
+    "settings_origin": {
+      "key": "birdland",
+      "tempo": "source"
+    },
+    "source_repairs": [],
+    "transpose_semitones": 2,
+    "abc_key": "G",
+    "abc_tempo": "140",
+    "abc_chord_count": 32,
+    "melody_notes": 76,
     "arrangement_verified": false,
     "target": "alternative_leadsheet_only"
   },
@@ -413,6 +585,7 @@
     "source": "https://jazzleadsheet.com/post/honeysuckle-rose/",
     "source_format": "abc",
     "source_key": "F",
+    "source_tempo": "200",
     "effective_source_key": "F",
     "birdland_reference": {
       "key": "Db",
@@ -421,6 +594,11 @@
       "reference": "Birdlands originale guitar-/klaver-PDF, første side: Fem b’er og Vocal [Db]; Fast Jazz fjerdedel=192.",
       "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/honeysuckle-rose.pdf"
     },
+    "settings_origin": {
+      "key": "birdland",
+      "tempo": "birdland"
+    },
+    "source_repairs": [],
     "transpose_semitones": -4,
     "abc_key": "Db",
     "abc_tempo": "1/4=192",
@@ -436,6 +614,7 @@
     "source": "https://jazzleadsheet.com/post/i-am-begining-to-see-the-light/",
     "source_format": "abc",
     "source_key": "C",
+    "source_tempo": "140",
     "effective_source_key": "C",
     "birdland_reference": {
       "key": "C",
@@ -444,11 +623,129 @@
       "reference": "Birdlands originale guitar-/klaver-PDF, første side: Ingen faste fortegn og C-dur; fjerdedel=120.",
       "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/i-m-beginning-to-see-the-light.pdf"
     },
+    "settings_origin": {
+      "key": "birdland",
+      "tempo": "birdland"
+    },
+    "source_repairs": [],
     "transpose_semitones": 0,
     "abc_key": "C",
     "abc_tempo": "1/4=120",
     "abc_chord_count": 45,
     "melody_notes": 113,
+    "arrangement_verified": false,
+    "target": "alternative_leadsheet_only"
+  },
+  {
+    "title": "It Could Happen to You",
+    "abc_source": "X:1\n%%partsfont \"Kreon\" Box\nT:It Could Happen to You\nC: Jimmy Van Heusen\nM: 4/4\nL: 1/4\nQ:1/4=120\nK:Eb\nP: A\n\"Ebmaj7\"B,3 C|\"Eo7\"_D C G2|\"Fm7\"C3 D|\"F#o7\"ED=A2|\n\"Eb^\"B2 B2|\"Ab^\"B A2 E|\"Gm7b5\"G4-|\"C7\"G4||\nP: B\n\"Fm7\"G2 G2|\"Db7\"GAEF|\"Ebmaj7\"G2 G2-|\"Dm7b5\"G2 \"G7\"z2|\n\"Cm7\"E2 E2|EFCD|\"Fm7\"E2 F2|\"Bb7\"C2 D2||\nP: A\n\"Ebmaj7\"B,3 C|\"Eo7\"_D C G2|\"Fm7\"C3 D|\"F#o7\"ED=A2|\n\"Eb^\"B2 B2|\"Ab^\"B A2 E|\"Gm7b5\"G4-|\"C7\"G4||\nP: C\n\"Fm7\"G2 G2|\"Db7\"GAEF|\"Ebmaj7\"GD \"Ab7\"FE|\"Gm7b5\"B2-\"G7\"B2|\n\"Fm7\"B,2 B,2|\"Bb7\"z A F G|\"Ebmaj7\"E4|z4||\n",
+    "abc_path": "leadsheets/it-could-happen-to-you-41277e5e.abc",
+    "source": "https://jazzleadsheet.com/post/it-could-happen-to-you/",
+    "source_format": "abc",
+    "source_key": "Eb",
+    "source_tempo": "1/4=120",
+    "effective_source_key": "Eb",
+    "birdland_reference": {
+      "key": "Eb",
+      "beat": "1/4",
+      "bpm": null,
+      "status": "needs_birdland_tempo",
+      "reference": "Birdlands guitar-PDF: tre b'er og Eb-kadence; Moder­ate Swing uden numerisk tempo.",
+      "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/it-could-happen-to-you.pdf"
+    },
+    "settings_origin": {
+      "key": "birdland",
+      "tempo": "source"
+    },
+    "source_repairs": [],
+    "transpose_semitones": 0,
+    "abc_key": "Eb",
+    "abc_tempo": "1/4=120",
+    "abc_chord_count": 33,
+    "melody_notes": 71,
+    "arrangement_verified": false,
+    "target": "alternative_leadsheet_only"
+  },
+  {
+    "title": "It Don't Mean a Thing (If It Ain't Got That Swing)",
+    "abc_source": "X:1\n%%partsfont \"Kreon\" Box\nT:It Don't Mean a Thing (If It Ain't Got That Swing)\nC: Duke Ellington\nM: 4/4\nL: 1/8\nQ:160\nK:Gm\nd2||:\"Gm\"G4 \"Gm/Gb\"G2B2|\"Gm/F\"d4 \"Gm/E\"G2B2|\"Eb7\"_d2 c2-\"D7\"c2 B2|\"Gm\"G6 z2|\n\"C7\" z2 BB- BB B2|\"F7sus4\" B B2 B B2 BB-|\"Bb6\"BB B2 BB2 B|1 B2 z2 \"D7\"z2 d2:|2 B4 z2 B2||\n\"Fm7\"c2 c2 cB2 c-|\"Bb7\"c2 B2 cB3|\"Ebmaj7\"G8-|G6 B2|\n\"Gm7\"c2 c2 cB2 c-|\"C7\"c2 B2 cB3|\"F4\"d8-|d4 z2 d2||\n\"Gm\"G4 \"Gm/Gb\"G2B2|\"Gm/F\"d4 \"Gm/E\"G2B2|\"Eb7\"_d2 c2-\"D7\"c2 B2|\"Gm\"G6 z2|\n\"C7\" z2 BB- BB B2|\"F7sus4\" B B2 B B2 BB-|\"Bb6\"BB B2 BB2 B|B8||\nP: Ending\n\"C7\" z2 BB- BB B2|\"F7sus4\" B B2 B B2 BB-|\"Bb6\"BB B2 BB2 B|B8|\n\"C7\" z2 BB- BB B2|\"F7sus4\" B B2 B B2 BB-|\"Bb6\"BB B2 BB2 B|B z z6||\n",
+    "abc_path": "leadsheets/it-don-t-mean-a-thing-if-it-ain-t-got-that-swing-ab8d1ca2.abc",
+    "source": "https://jazzleadsheet.com/post/it-dont-mean-a-thing/",
+    "source_format": "abc",
+    "source_key": "Gm",
+    "source_tempo": "160",
+    "effective_source_key": "Gm",
+    "birdland_reference": {
+      "key": "Gm",
+      "reference": "Birdlands originale guitar-/klaver-PDF, første side: tonearten er læst i fortegn og harmoni; numerisk tempo ikke angivet.",
+      "bpm": null
+    },
+    "settings_origin": {
+      "key": "birdland",
+      "tempo": "source"
+    },
+    "source_repairs": [
+      "Removed an orphan > after a barline, which ABCJS ignored; the played pitches and durations are unchanged."
+    ],
+    "transpose_semitones": 0,
+    "abc_key": "Gm",
+    "abc_tempo": "160",
+    "abc_chord_count": 33,
+    "melody_notes": 122,
+    "arrangement_verified": false,
+    "target": "alternative_leadsheet_only"
+  },
+  {
+    "title": "It's Only a Paper Moon",
+    "abc_source": "X:1\n%%partsfont \"Kreon\" Box\nT:It's Only a Paper Moon\nC: Harold Arlen\nM: 4/4\nL: 1/8\nQ:140\nK:Bb\nP: A\n|:\"Bb\" zF2F \"B°\"ff2f|\"Cm7\"e2dc-\"F7\" c4|\"Cm7\"zF2F\"F7\" ee2e|\"Bb\"d2cB-B4|\n\"Bb7\"zF2F ff2^f|\"Eb\"g2ec- \"E°\"c2BA-|\"F7\"A2gf-f2AB-|1 \"Bb\"B4z4:||2 \"Bb\"B4z2B2||\nP: B\n\"Eb\"c4 \"E°\"_d4|\"Bb/F\"=d6 eg|\"Cm7\"f3f\"F7\"d3d|\"Bb\"B6B2|\n\"Eb\"c4 \"E°\"_d4|\"Bb/F\"=d4 \"G7\"z2 ^cd|\"Cm7\"fff2f2 ^cd|\"F7\"ggg2g4||\nP: A\n\"Bb\" zF2F \"B°\"ff2f|\"Cm7\"e2dc-\"F7\" c4|\"Cm7\"zF2F\"F7\" ee2e|\"Bb\"d2cB-B4|\n\"Bb7\"zF2F ff2^f|\"Eb\"g2ec- \"E°\"c2BA-|\"F7\"A2gf-f2AB-|\"Bb\"B4z4||\n",
+    "abc_path": "leadsheets/it-s-only-a-paper-moon-fa17d138.abc",
+    "source": "https://jazzleadsheet.com/post/its-only-a-paper-moon/",
+    "source_format": "abc",
+    "source_key": "C",
+    "source_tempo": "140",
+    "effective_source_key": "C",
+    "birdland_reference": {
+      "key": "Bb",
+      "reference": "Birdlands originale guitar-/klaver-PDF, første side: tonearten er læst i fortegn og harmoni; numerisk tempo ikke angivet.",
+      "bpm": null
+    },
+    "settings_origin": {
+      "key": "birdland",
+      "tempo": "source"
+    },
+    "source_repairs": [],
+    "transpose_semitones": -2,
+    "abc_key": "Bb",
+    "abc_tempo": "140",
+    "abc_chord_count": 37,
+    "melody_notes": 100,
+    "arrangement_verified": false,
+    "target": "alternative_leadsheet_only"
+  },
+  {
+    "title": "Love Is Here to Stay",
+    "abc_source": "X:1\n%%partsfont \"Kreon\" Box\nT:Love Is Here to Stay\nC: George Gershwin\nM: 4/4\nL: 1/8\nQ:100\nK:F\nP: A \nz2 C2 D2 A2||\"G7\"F8|\"Gm7\"FG2F \"C7\"G2G2|\"F\"F4 \"Bb7\"z4|\"Am7\"z2C2 \"D7\"D2c2|\n\"G7\"A8|\"Gm7/C\"FG2F \"C7\"G2G2|\"Eb7\"A4\"D7\"z4|\"Bm7b5\"z2e2 \"E7\"e2d2||\nP: B\n\"Am7\"c4\"D7\"d3c|\"Gm7\"BB B2 \"C7\"c3 B|\"Fmaj7\"A2A2 \"Bbmaj7\"c2B2|\"Em7b5\"G2A2 \"A7\"A2G2|\n\"Dm\"F2G2E2F2|\"G7\"zG2A ^F2G2|\"Gm7\"d8|\"C7\"z2 C2 D2 A2||\nP: A\n\"G7\"F8|\"Gm7\"FG2F \"C7\"G2G2|\"F\"F4 \"Bb7\"z4|\"Am7\"z2C2 \"D7\"D2c2|\n\"G7\"A8|\"Gm7/C\"FG2F \"C7\"G2G2|\"Eb7\"A4\"D7\"z4|\"Bm7b5\"z2e2 \"E7\"e2d2||\nP: C\n\"Am7\"ccc2 \"D7\"dd2 c|\"Gm7\"BBB2 \"C7\"cc3|\"Eb7\"zA ^GA \"D7\"c2B2|\"Gm7\"=G4 \"G#o7\"d4|\n\"Am7\"z2 c2 \"D7\"d2A2|\"Gm7\"c4 \"C7\"D4|\"F\"F8-|F8||\n",
+    "abc_path": "leadsheets/love-is-here-to-stay-e6d09248.abc",
+    "source": "https://jazzleadsheet.com/post/love-is-here-to-stay/",
+    "source_format": "abc",
+    "source_key": "F",
+    "source_tempo": "100",
+    "effective_source_key": "F",
+    "birdland_reference": {
+      "key": "F",
+      "reference": "Birdlands originale guitar-/klaver-PDF, første side: tonearten er læst i fortegn og harmoni; numerisk tempo ikke angivet.",
+      "bpm": null
+    },
+    "settings_origin": {
+      "key": "birdland",
+      "tempo": "source"
+    },
+    "source_repairs": [],
+    "transpose_semitones": 0,
+    "abc_key": "F",
+    "abc_tempo": "100",
+    "abc_chord_count": 53,
+    "melody_notes": 96,
     "arrangement_verified": false,
     "target": "alternative_leadsheet_only"
   },
@@ -459,6 +756,7 @@
     "source": "https://jazzleadsheet.com/post/lullaby-of-birdland/",
     "source_format": "abc",
     "source_key": "Ab",
+    "source_tempo": "180",
     "effective_source_key": "Fm",
     "birdland_reference": {
       "key": "Bbm",
@@ -469,6 +767,11 @@
       "abc_source_key_override": "Fm",
       "abc_source_key_evidence": "Kildens K:Ab angiver de fire b’er, men melodi og åbningsharmoni Fm–Dm7b5–G7–Cm viser F-mol. Birdland spiller samme moltema i B-mol (internationalt Bbm)."
     },
+    "settings_origin": {
+      "key": "birdland",
+      "tempo": "birdland"
+    },
+    "source_repairs": [],
     "transpose_semitones": 5,
     "abc_key": "Bbm",
     "abc_tempo": "1/4=126",
@@ -484,6 +787,7 @@
     "source": "https://freedjazz.org/tunes/makin-whoopee/makin-whoopee.mscz",
     "source_format": "mscz",
     "source_key": "G",
+    "source_tempo": null,
     "effective_source_key": "G",
     "birdland_reference": {
       "key": "C",
@@ -492,11 +796,100 @@
       "reference": "Birdlands originale guitar-/klaver-PDF, første side: Ingen faste fortegn og Cmaj7; Moderately Slow & Bluesy fjerdedel=92.",
       "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/makin-whoopee.pdf"
     },
+    "settings_origin": {
+      "key": "birdland",
+      "tempo": "birdland"
+    },
+    "source_repairs": [],
     "transpose_semitones": 5,
     "abc_key": "C",
     "abc_tempo": "1/4=92",
     "abc_chord_count": 61,
     "melody_notes": 145,
+    "arrangement_verified": false,
+    "target": "alternative_leadsheet_only"
+  },
+  {
+    "title": "Moten Swing",
+    "abc_source": "X:1\n%%partsfont \"Kreon\" Box\nT:Moten Swing\nC: Bennie and Buster Moten\nM: 4/4\nL: 1/8\nQ:200\nK:Ab\nP: A\n\"Ab\"A2 z2 BABA|z4 BABA|\"Bbm7\"_cB z2 z2 cB|\"Eb7\"z4 z2 A2|\n\"Bb7\"_cBz2z2A2|\"Bbm7/Eb\"_cc B2 A2 FA-|\"Ab\"A4 \"F7\"z4|\"Bb7\"_ccBA \"Eb7\"c B3||\nP: A\n\"Ab\"A2 z2 BABA|z4 BABA|\"Bbm7\"_cB z2 z2 cB|\"Eb7\"z4 z2 A2|\n\"Bb7\"_cBz2z2A2|\"Bbm7/Eb\"_cc B2 A2 FA-|\"Ab\"A4 z4|\"Dm7\"z4 \"G7\"z G3||\nP: B\n\"C\" c2 z2 \"Am7\" z2 C2|\"Dm7\"=D2 E2 \"G7\" F2 =AG-|\"C\"G3 C \"Am7\"z4|\"Dm7\"z4 \"G7\"z G3|\n\"C\" c2 z2 \"Am7\" z2 C2|\"Dm7\"=D2 E2 \"G7\" F2 =AG-|\"C\"G3 C z4|\"Bbm6\" z2 (3cd=d \"Eb7\"(3ed_d c2||\nP: A\n\"Ab\"A2 z2 BABA|z4 BABA|\"Bbm7\"_cB z2 z2 cB|\"Eb7\"z4 z2 A2|\n\"Bb7\"_cBz2z2A2|\"Bbm7/Eb\"_cc B2 A2 FA-|\"Ab\"A8|z8||\n",
+    "abc_path": "leadsheets/moten-swing-e6f770d7.abc",
+    "source": "https://jazzleadsheet.com/post/moten-swing/",
+    "source_format": "abc",
+    "source_key": "Ab",
+    "source_tempo": "200",
+    "effective_source_key": "Ab",
+    "birdland_reference": {
+      "key": "Ab",
+      "reference": "Birdlands originale guitar-/klaver-PDF, første side: tonearten er læst i fortegn og harmoni; numerisk tempo ikke angivet.",
+      "bpm": null
+    },
+    "settings_origin": {
+      "key": "birdland",
+      "tempo": "source"
+    },
+    "source_repairs": [],
+    "transpose_semitones": 0,
+    "abc_key": "Ab",
+    "abc_tempo": "200",
+    "abc_chord_count": 38,
+    "melody_notes": 105,
+    "arrangement_verified": false,
+    "target": "alternative_leadsheet_only"
+  },
+  {
+    "title": "My Funny Valentine",
+    "abc_source": "X:1\n%%partsfont \"Kreon\" Box\nT:My Funny Valentine\nC: Richard Rodgers\nM: 4/4\nL: 1/8\nQ:80\nK:Cm\n\"Cm\"C4D2E2|\"Cmin(Maj7)\"D3ED4|\"Cm7\"C4D2E2|\"Cm6\"D3ED4|\n\"Abmaj7\"C4D2E2|\"Fm7\"B4A2G2|\"Dm7b5\"F8-|\"G7b9\"F8|\n\"Cm\"E4F2G2|\"Cmin(Maj7)\"F3GF4|\"Cm7\"E4F2G2|\"Cm6\"F3GF4|\n\"Abmaj7\"E4F2G2|\"Fm7\"d3cB3=A|\"Abm6\"_A8-|\"Bb7b9\"A4G2F2||\n\"Ebmaj7\"B3E\"Fm7\"E2D2|\"Gm7\"E4\"Fm7\"E2D2|\"Ebmaj7\"c3E\"Fm7\"E2D2|\"Gm7\"E4 \"Fm7\"E2D2|\n\"Ebmaj7\"d3 E\"G7\"E2D2|\"Cm\"E4 \"Bbm7\"F2\"A7\"G2|\"Abmaj7\"c8-|\"Dm7b5\"c4\"G7b9\"D4||\n\"Cm\"C4D2E2|\"Cmin(Maj7)\"D3ED4|\"Cm7\"E4F2G2|\"Cm6\"F3GF4|\n\"Abmaj7\"c4d2e2|\"Dm7b5\"d3e\"G7b9\"d4|\"Cm\"e8-|\"Bbm7\"e4-\"A7#11\"e4|\n\"Abmaj7\"E4F2G2|\"Fm7\"F3G\"Bb7b9\"F4|\"Eb6\"E8|z8||\n",
+    "abc_path": "leadsheets/my-funny-valentine-558c4da1.abc",
+    "source": "https://jazzleadsheet.com/post/my-funny-valentine/",
+    "source_format": "abc",
+    "source_key": "Eb",
+    "source_tempo": "80",
+    "effective_source_key": "Cm",
+    "birdland_reference": {
+      "key": "Cm",
+      "reference": "Birdlands originale guitar-/klaver-PDF, første side: tonearten er læst i fortegn og harmoni; numerisk tempo ikke angivet.",
+      "bpm": null,
+      "style": "jazzballad",
+      "abc_source_key_override": "Cm",
+      "abc_source_key_evidence": "Kildens K:Eb har samme fortegn som C-mol; åbningsharmonien Cm og den tilhørende melodi viser C-mol."
+    },
+    "settings_origin": {
+      "key": "birdland",
+      "tempo": "source"
+    },
+    "source_repairs": [],
+    "transpose_semitones": 0,
+    "abc_key": "Cm",
+    "abc_tempo": "80",
+    "abc_chord_count": 46,
+    "melody_notes": 95,
+    "arrangement_verified": false,
+    "target": "alternative_leadsheet_only"
+  },
+  {
+    "title": "Perdido",
+    "abc_source": "X:1\n%%partsfont \"Kreon\" Box\nC: Juan Tizol\nT:Perdido\nM: 4/4\nL: 1/8\nQ:150\nK:Bb\nP: A\nC||\"Cm7\"EF-F4 z C|\"F7\"E F2 C E F2 B,|\"Bb6\"DF-F4 z B,|\"Dm7\"D F2 B, \"Db7\"D F2 C|\n\"Cm7\"EF-F4 z C|\"F7\"EFdc-c3 F|\"Bb6\"GB-B6|\"Dm7\"z4\"Db7\"z2 z C||\nP: A\n\"Cm7\"EF-F4 z C|\"F7\"E F2 C E F2 B,|\"Bb6\"DF-F4 z B,|\"Dm7\"D F2 B, \"Db7\"D F2 C|\n\"Cm7\"EF-F4 z C|\"F7\"EFdc-c3 F|\"Bb6\"GB3-B4-|B4z4||\nP: B\n\"D7\"d8|(3A2=B2c2 d2 e=e-|\"G7\"=e8|=BA-A6|\n\"C7\"c8|(3G2A2B2 c2 ^cd-|\"Cm7\"d8|\"F7\"AG-G4 z C||\nP: A\n\"Cm7\"EF-F4 z C|\"F7\"E F2 C E F2 B,|\"Bb6\"DF-F4 z B,|\"Dm7\"D F2 B, \"Db7\"D F2 C|\n\"Cm7\"EF-F4 z C|\"F7\"EFdc-c3 F|\"Bb6\"GB-B6|z8||\n",
+    "abc_path": "leadsheets/perdido-32716603.abc",
+    "source": "https://jazzleadsheet.com/post/perdido/",
+    "source_format": "abc",
+    "source_key": "Bb",
+    "source_tempo": "150",
+    "effective_source_key": "Bb",
+    "birdland_reference": {
+      "key": "Bb",
+      "reference": "Birdlands originale guitar-/klaver-PDF, første side: tonearten er læst i fortegn og harmoni; numerisk tempo ikke angivet.",
+      "bpm": null
+    },
+    "settings_origin": {
+      "key": "birdland",
+      "tempo": "source"
+    },
+    "source_repairs": [],
+    "transpose_semitones": 0,
+    "abc_key": "Bb",
+    "abc_tempo": "150",
+    "abc_chord_count": 31,
+    "melody_notes": 125,
     "arrangement_verified": false,
     "target": "alternative_leadsheet_only"
   },
@@ -507,6 +900,7 @@
     "source": "https://jazzleadsheet.com/post/shiny-stockings/",
     "source_format": "abc",
     "source_key": "Ab",
+    "source_tempo": "120",
     "effective_source_key": "Ab",
     "birdland_reference": {
       "key": "Bb",
@@ -515,6 +909,11 @@
       "reference": "Birdlands originale guitar-/klaver-PDF, første side: To b’er og Bb6, Tempo 120.",
       "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/shiny-stockings.pdf"
     },
+    "settings_origin": {
+      "key": "birdland",
+      "tempo": "birdland"
+    },
+    "source_repairs": [],
     "transpose_semitones": 2,
     "abc_key": "Bb",
     "abc_tempo": "1/4=120",
@@ -530,6 +929,7 @@
     "source": "https://freedjazz.org/tunes/sweet-georgia-brown/sweet-georgia-brown.mscz",
     "source_format": "mscz",
     "source_key": "G",
+    "source_tempo": null,
     "effective_source_key": "G",
     "birdland_reference": {
       "key": "Eb",
@@ -538,6 +938,11 @@
       "reference": "Birdlands originale guitar-/klaver-PDF, første side: Tre b’er og Eb-dur; Medium Bright fjerdedel=184.",
       "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/sweet-georgia-brown.pdf"
     },
+    "settings_origin": {
+      "key": "birdland",
+      "tempo": "birdland"
+    },
+    "source_repairs": [],
     "transpose_semitones": -4,
     "abc_key": "Eb",
     "abc_tempo": "1/4=184",
@@ -553,6 +958,7 @@
     "source": "https://jazzleadsheet.com/post/lady-is-a-tramp/",
     "source_format": "abc",
     "source_key": "C",
+    "source_tempo": "140",
     "effective_source_key": "C",
     "birdland_reference": {
       "key": "Bb",
@@ -561,11 +967,43 @@
       "reference": "Birdlands originale guitar-/klaver-PDF, første side: To b’er og Bb6; Moderato swing fjerdedel=172.",
       "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/the-lady-is-a-tramp.pdf"
     },
+    "settings_origin": {
+      "key": "birdland",
+      "tempo": "birdland"
+    },
+    "source_repairs": [],
     "transpose_semitones": -2,
     "abc_key": "Bb",
     "abc_tempo": "1/4=172",
     "abc_chord_count": 42,
     "melody_notes": 81,
+    "arrangement_verified": false,
+    "target": "alternative_leadsheet_only"
+  },
+  {
+    "title": "Thou Swell",
+    "abc_source": "X:1\nT:Thou Swell\nC:Richard Rodgers\nM:4/4\nL:1/8\nK:G\n%%MIDI program 0\nB2 | \"A-7\"A6 B2 | \"D7\"A D3- D2 B2 | \"A-7\"A6 B2 | \"D7\"d6 e2 |\n\"G^\"d6 e2 | \"C7\"e G3- G2 e2 | \"G^\"d6 e2 | \"C#ø7\"g4 e\"F#7b9\" f2 d- |\n\"B-7\"d3 ^d\"E7\" e B3 | \"A-7\"c3 ^c\"D7\" d A3 | \"G^\"B8- | \"D-7\"B4\"G7\" d2 G2 |\n\"C6\"A A2 ^A\"B7\" B B2 F | \"E-7\"G G2 ^G\"A7\" A A2 E | \"D7\"F8- | \"B-7\"F4-\"E7\" F2 B2 |\n\"A-7\"A6 B2 | \"D7\"A D3- D2 B2 | \"A-7\"A6 B2 | \"D7\"d6 e2 |\n\"G^\"d6 e2 | \"C7\"d G3- G2 e2 | \"G^\"d6 e2 | \"C#ø7\"g4 e\"F#7b9\" f2 d- |\n\"B-7\"d3 ^d\"E7\" e B3 | \"A-7\"c3 ^c\"D7\" d A3 | \"F7#11\"B8 | \"E7\"e6 B2 |\n\"A-7\"A6 B2 | \"D7\"A D3- D2 B2 | \"G6\"G8- | G4 z4 |\n",
+    "abc_path": "leadsheets/thou-swell-35c326a2.abc",
+    "source": "https://freedjazz.org/tunes/thou-swell/thou-swell.mscz",
+    "source_format": "mscz",
+    "source_key": "Eb",
+    "source_tempo": null,
+    "effective_source_key": "Eb",
+    "birdland_reference": {
+      "key": "G",
+      "reference": "Birdlands originale guitar-/klaver-PDF, første side: tonearten er læst i fortegn og harmoni; numerisk tempo ikke angivet.",
+      "bpm": null
+    },
+    "settings_origin": {
+      "key": "birdland",
+      "tempo": "player_default"
+    },
+    "source_repairs": [],
+    "transpose_semitones": 4,
+    "abc_key": "G",
+    "abc_tempo": null,
+    "abc_chord_count": 41,
+    "melody_notes": 92,
     "arrangement_verified": false,
     "target": "alternative_leadsheet_only"
   }

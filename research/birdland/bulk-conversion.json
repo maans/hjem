@@ -1,37 +1,49 @@
 {
-  "converted": 22,
+  "converted": 34,
   "entries": [
     {
       "title": "920 Special",
       "source": "https://jazzleadsheet.com/post/9-20-special/",
-      "status": "converted_birdland_key_tempo_verified",
+      "status": "converted_with_resolved_settings",
       "notes": 101,
       "chords": 35,
       "source_format": "abc",
       "abc_key": "C",
       "abc_tempo": "1/4=170",
+      "settings_origin": {
+        "key": "birdland",
+        "tempo": "birdland"
+      },
       "transpose_semitones": 0
     },
     {
       "title": "A Foggy Day",
       "source": "https://jazzleadsheet.com/post/a-foggy-day/",
-      "status": "converted_birdland_key_tempo_verified",
+      "status": "converted_with_resolved_settings",
       "notes": 78,
       "chords": 44,
       "source_format": "abc",
       "abc_key": "Eb",
       "abc_tempo": "1/4=150",
+      "settings_origin": {
+        "key": "birdland",
+        "tempo": "birdland"
+      },
       "transpose_semitones": -2
     },
     {
       "title": "Ain't Misbehavin'",
       "source": "https://freedjazz.org/tunes/aint-misbehavin/aint-misbehavin.mscz",
-      "status": "converted_birdland_key_tempo_verified",
+      "status": "converted_with_resolved_settings",
       "notes": 135,
       "chords": 60,
       "source_format": "mscz",
       "abc_key": "F",
       "abc_tempo": "1/4=76",
+      "settings_origin": {
+        "key": "birdland",
+        "tempo": "birdland"
+      },
       "transpose_semitones": 5
     },
     {
@@ -40,91 +52,152 @@
     },
     {
       "title": "All the Things You Are",
-      "status": "needs_birdland_tempo_or_key"
+      "source": "https://jazzleadsheet.com/post/all-the-things-you-are/",
+      "status": "converted_with_resolved_settings",
+      "notes": 90,
+      "chords": 32,
+      "source_format": "abc",
+      "abc_key": "Ab",
+      "abc_tempo": "1/4=160",
+      "settings_origin": {
+        "key": "birdland",
+        "tempo": "source"
+      },
+      "transpose_semitones": 0
     },
     {
       "title": "Almost Like Being in Love",
       "source": "https://jazzleadsheet.com/post/almost-like-being-in-love/",
-      "status": "converted_birdland_key_tempo_verified",
+      "status": "converted_with_resolved_settings",
       "notes": 73,
       "chords": 28,
       "source_format": "abc",
       "abc_key": "F",
       "abc_tempo": "1/4=156",
+      "settings_origin": {
+        "key": "birdland",
+        "tempo": "birdland"
+      },
       "transpose_semitones": -5
     },
     {
       "title": "Avalon",
       "source": "https://freedjazz.org/tunes/avalon/avalon.mscz",
-      "status": "converted_birdland_key_tempo_verified",
+      "status": "converted_with_resolved_settings",
       "notes": 59,
       "chords": 17,
       "source_format": "mscz",
       "abc_key": "C",
       "abc_tempo": "1/4=264",
+      "settings_origin": {
+        "key": "birdland",
+        "tempo": "birdland"
+      },
       "transpose_semitones": 5
     },
     {
       "title": "But Not for Me",
-      "status": "needs_birdland_tempo_or_key"
+      "source": "https://jazzleadsheet.com/post/but-not-for-me/",
+      "status": "converted_with_resolved_settings",
+      "notes": 63,
+      "chords": 25,
+      "source_format": "abc",
+      "abc_key": "G",
+      "abc_tempo": "140",
+      "settings_origin": {
+        "key": "birdland",
+        "tempo": "source"
+      },
+      "transpose_semitones": 2
     },
     {
       "title": "Bye Bye Blackbird",
       "source": "https://freedjazz.org/tunes/bye-bye-blackbird/bye-bye-blackbird.mscz",
-      "status": "converted_birdland_key_tempo_verified",
+      "status": "converted_with_resolved_settings",
       "notes": 75,
       "chords": 36,
       "source_format": "mscz",
       "abc_key": "F",
       "abc_tempo": "1/4=100",
+      "settings_origin": {
+        "key": "birdland",
+        "tempo": "birdland"
+      },
       "transpose_semitones": 0
     },
     {
       "title": "Cheek to Cheek",
       "source": "https://jazzleadsheet.com/post/cheek-to-cheek/",
-      "status": "converted_birdland_key_tempo_verified",
+      "status": "converted_with_resolved_settings",
       "notes": 149,
       "chords": 70,
       "source_format": "abc",
       "abc_key": "Bb",
       "abc_tempo": "1/4=150",
+      "settings_origin": {
+        "key": "birdland",
+        "tempo": "birdland"
+      },
       "transpose_semitones": -2
     },
     {
       "title": "Cotton Tail",
       "source": "https://jazzleadsheet.com/post/cotton-tail/",
-      "status": "converted_birdland_key_tempo_verified",
+      "status": "converted_with_resolved_settings",
       "notes": 66,
       "chords": 35,
       "source_format": "abc",
       "abc_key": "Bb",
       "abc_tempo": "1/4=190",
+      "settings_origin": {
+        "key": "birdland",
+        "tempo": "birdland"
+      },
       "transpose_semitones": 2
     },
     {
       "title": "Desafinado",
-      "status": "needs_birdland_tempo_or_key"
+      "source": "https://jazzleadsheet.com/post/desafinado/",
+      "status": "converted_with_resolved_settings",
+      "notes": 197,
+      "chords": 50,
+      "source_format": "abc",
+      "abc_key": "Eb",
+      "abc_tempo": "160",
+      "settings_origin": {
+        "key": "birdland",
+        "tempo": "source"
+      },
+      "transpose_semitones": -2
     },
     {
       "title": "Do Nothin' Till You Hear from Me",
       "source": "https://jazzleadsheet.com/post/do-nothing-till-you-hear-from-me/",
-      "status": "converted_birdland_key_tempo_verified",
+      "status": "converted_with_resolved_settings",
       "notes": 114,
       "chords": 33,
       "source_format": "abc",
       "abc_key": "G",
       "abc_tempo": "1/4=102",
+      "settings_origin": {
+        "key": "birdland",
+        "tempo": "birdland"
+      },
       "transpose_semitones": 0
     },
     {
       "title": "Easy Money",
       "source": "https://jazzleadsheet.com/post/easy-money/",
-      "status": "converted_birdland_key_tempo_verified",
+      "status": "converted_with_resolved_settings",
       "notes": 108,
       "chords": 32,
       "source_format": "abc",
       "abc_key": "F",
       "abc_tempo": "1/4=126",
+      "settings_origin": {
+        "key": "birdland",
+        "tempo": "birdland"
+      },
       "transpose_semitones": 0
     },
     {
@@ -133,75 +206,168 @@
     },
     {
       "title": "Have You Met Miss Jones?",
-      "status": "needs_birdland_tempo_or_key"
+      "source": "https://jazzleadsheet.com/post/have-you-met-miss-jones/",
+      "status": "converted_with_resolved_settings",
+      "notes": 76,
+      "chords": 32,
+      "source_format": "abc",
+      "abc_key": "G",
+      "abc_tempo": "140",
+      "settings_origin": {
+        "key": "birdland",
+        "tempo": "source"
+      },
+      "transpose_semitones": 2
     },
     {
       "title": "Honeysuckle Rose",
       "source": "https://jazzleadsheet.com/post/honeysuckle-rose/",
-      "status": "converted_birdland_key_tempo_verified",
+      "status": "converted_with_resolved_settings",
       "notes": 120,
       "chords": 46,
       "source_format": "abc",
       "abc_key": "Db",
       "abc_tempo": "1/4=192",
+      "settings_origin": {
+        "key": "birdland",
+        "tempo": "birdland"
+      },
       "transpose_semitones": -4
     },
     {
       "title": "I'm Beginning to See the Light",
       "source": "https://jazzleadsheet.com/post/i-am-begining-to-see-the-light/",
-      "status": "converted_birdland_key_tempo_verified",
+      "status": "converted_with_resolved_settings",
       "notes": 113,
       "chords": 45,
       "source_format": "abc",
       "abc_key": "C",
       "abc_tempo": "1/4=120",
+      "settings_origin": {
+        "key": "birdland",
+        "tempo": "birdland"
+      },
       "transpose_semitones": 0
     },
     {
       "title": "It Could Happen to You",
-      "status": "needs_birdland_tempo_or_key"
+      "source": "https://jazzleadsheet.com/post/it-could-happen-to-you/",
+      "status": "converted_with_resolved_settings",
+      "notes": 71,
+      "chords": 33,
+      "source_format": "abc",
+      "abc_key": "Eb",
+      "abc_tempo": "1/4=120",
+      "settings_origin": {
+        "key": "birdland",
+        "tempo": "source"
+      },
+      "transpose_semitones": 0
     },
     {
       "title": "It Don't Mean a Thing (If It Ain't Got That Swing)",
-      "status": "needs_birdland_tempo_or_key"
+      "source": "https://jazzleadsheet.com/post/it-dont-mean-a-thing/",
+      "status": "converted_with_resolved_settings",
+      "notes": 122,
+      "chords": 33,
+      "source_format": "abc",
+      "abc_key": "Gm",
+      "abc_tempo": "160",
+      "settings_origin": {
+        "key": "birdland",
+        "tempo": "source"
+      },
+      "transpose_semitones": 0
     },
     {
       "title": "It's Only a Paper Moon",
-      "status": "needs_birdland_tempo_or_key"
+      "source": "https://jazzleadsheet.com/post/its-only-a-paper-moon/",
+      "status": "converted_with_resolved_settings",
+      "notes": 100,
+      "chords": 37,
+      "source_format": "abc",
+      "abc_key": "Bb",
+      "abc_tempo": "140",
+      "settings_origin": {
+        "key": "birdland",
+        "tempo": "source"
+      },
+      "transpose_semitones": -2
     },
     {
       "title": "Love Is Here to Stay",
-      "status": "needs_birdland_tempo_or_key"
+      "source": "https://jazzleadsheet.com/post/love-is-here-to-stay/",
+      "status": "converted_with_resolved_settings",
+      "notes": 96,
+      "chords": 53,
+      "source_format": "abc",
+      "abc_key": "F",
+      "abc_tempo": "100",
+      "settings_origin": {
+        "key": "birdland",
+        "tempo": "source"
+      },
+      "transpose_semitones": 0
     },
     {
       "title": "Lullaby of Birdland",
       "source": "https://jazzleadsheet.com/post/lullaby-of-birdland/",
-      "status": "converted_birdland_key_tempo_verified",
+      "status": "converted_with_resolved_settings",
       "notes": 158,
       "chords": 50,
       "source_format": "abc",
       "abc_key": "Bbm",
       "abc_tempo": "1/4=126",
+      "settings_origin": {
+        "key": "birdland",
+        "tempo": "birdland"
+      },
       "transpose_semitones": 5
     },
     {
       "title": "Makin' Whoopee",
       "source": "https://freedjazz.org/tunes/makin-whoopee/makin-whoopee.mscz",
-      "status": "converted_birdland_key_tempo_verified",
+      "status": "converted_with_resolved_settings",
       "notes": 145,
       "chords": 61,
       "source_format": "mscz",
       "abc_key": "C",
       "abc_tempo": "1/4=92",
+      "settings_origin": {
+        "key": "birdland",
+        "tempo": "birdland"
+      },
       "transpose_semitones": 5
     },
     {
       "title": "Moten Swing",
-      "status": "needs_birdland_tempo_or_key"
+      "source": "https://jazzleadsheet.com/post/moten-swing/",
+      "status": "converted_with_resolved_settings",
+      "notes": 105,
+      "chords": 38,
+      "source_format": "abc",
+      "abc_key": "Ab",
+      "abc_tempo": "200",
+      "settings_origin": {
+        "key": "birdland",
+        "tempo": "source"
+      },
+      "transpose_semitones": 0
     },
     {
       "title": "My Funny Valentine",
-      "status": "needs_birdland_tempo_or_key"
+      "source": "https://jazzleadsheet.com/post/my-funny-valentine/",
+      "status": "converted_with_resolved_settings",
+      "notes": 95,
+      "chords": 46,
+      "source_format": "abc",
+      "abc_key": "Cm",
+      "abc_tempo": "80",
+      "settings_origin": {
+        "key": "birdland",
+        "tempo": "source"
+      },
+      "transpose_semitones": 0
     },
     {
       "title": "On the Sunny Side of the Street",
@@ -209,17 +375,32 @@
     },
     {
       "title": "Perdido",
-      "status": "needs_birdland_tempo_or_key"
+      "source": "https://jazzleadsheet.com/post/perdido/",
+      "status": "converted_with_resolved_settings",
+      "notes": 125,
+      "chords": 31,
+      "source_format": "abc",
+      "abc_key": "Bb",
+      "abc_tempo": "150",
+      "settings_origin": {
+        "key": "birdland",
+        "tempo": "source"
+      },
+      "transpose_semitones": 0
     },
     {
       "title": "Shiny Stockings",
       "source": "https://jazzleadsheet.com/post/shiny-stockings/",
-      "status": "converted_birdland_key_tempo_verified",
+      "status": "converted_with_resolved_settings",
       "notes": 103,
       "chords": 35,
       "source_format": "abc",
       "abc_key": "Bb",
       "abc_tempo": "1/4=120",
+      "settings_origin": {
+        "key": "birdland",
+        "tempo": "birdland"
+      },
       "transpose_semitones": 2
     },
     {
@@ -229,12 +410,16 @@
     {
       "title": "Sweet Georgia Brown",
       "source": "https://freedjazz.org/tunes/sweet-georgia-brown/sweet-georgia-brown.mscz",
-      "status": "converted_birdland_key_tempo_verified",
+      "status": "converted_with_resolved_settings",
       "notes": 121,
       "chords": 24,
       "source_format": "mscz",
       "abc_key": "Eb",
       "abc_tempo": "1/4=184",
+      "settings_origin": {
+        "key": "birdland",
+        "tempo": "birdland"
+      },
       "transpose_semitones": -4
     },
     {
@@ -244,17 +429,32 @@
     {
       "title": "The Lady Is a Tramp",
       "source": "https://jazzleadsheet.com/post/lady-is-a-tramp/",
-      "status": "converted_birdland_key_tempo_verified",
+      "status": "converted_with_resolved_settings",
       "notes": 81,
       "chords": 42,
       "source_format": "abc",
       "abc_key": "Bb",
       "abc_tempo": "1/4=172",
+      "settings_origin": {
+        "key": "birdland",
+        "tempo": "birdland"
+      },
       "transpose_semitones": -2
     },
     {
       "title": "Thou Swell",
-      "status": "needs_birdland_tempo_or_key"
+      "source": "https://freedjazz.org/tunes/thou-swell/thou-swell.mscz",
+      "status": "converted_with_resolved_settings",
+      "notes": 92,
+      "chords": 41,
+      "source_format": "mscz",
+      "abc_key": "G",
+      "abc_tempo": null,
+      "settings_origin": {
+        "key": "birdland",
+        "tempo": "player_default"
+      },
+      "transpose_semitones": 4
     }
   ]
 }

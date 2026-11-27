@@ -1,0 +1,25 @@
+X:1
+%%partsfont "Kreon" Box
+T:Desafinado
+C: Antônio Carlos Jobim
+M: 4/4
+L: 1/8
+Q:160
+K:Eb
+P: A
+|:"Ebmaj7"zB,2 C D2E2|D3 C =B,2C2|"F7"E3 _C C4-|C8|
+"Fm7"z =C2 D E2 F2|"Bb7"E3D^C2D2|"Gm7b5"B3_D D4-|"C7b9"D8||
+[1 "Fm7" z C BA G F2 A- |"G7b9"A3 G ^C2D2|"C7"=EG E4 C2|"C7b9"_D8|
+"F7b9"z G2 F E2C2|_G3 F E2C2|"Fgmaj7"E3_C C4-|C8:|
+[2 "Fm7"z B2A GF2 A-|"Abm"A3 G F2E2|"Gm7"FE F6-|"Am7b5"F4 "D7#9"z4||
+P:B
+"Gmaj7"D2 =E2 DE2D-|"Ab°7"D3 C =B,2C2|"Am7"D2 =A,D- D4-|"D7"D6 =B,2|
+"Gmaj7"z D2 =E ^F2G2|"Em7" =A3 G =B,2C2|"Am7"D=EDE D4-|"D7"D6 D2||
+"Bbmaj7"F2G2FG2F-|"B°7"FE3D2E2|"Cm7"F2C2F2CF-|"F7"F4z C FG|
+"Fm7"A2G2AG2B-|"Gm7b5"BA3 "C7b9"G2 AF-|"Fm7"F8|"Bb7b5"z8||
+P:C
+"Ebmaj7"zB,2 C D2E2|D3 C =B,2C2|"F7"E3 _C C4-|C8|
+"Fm7"z =C2 D E2 F2|"Bb7"E3D^C2D2|"Gm7b5"c2 _c2B2 =A2|"C7b9"_A2=c2z2G2|
+"Fm7"B2__B2A2G2|"Abm"A2G2F2E2|"Gm7"G6 D2|"Gb°"F6 CD|
+"F7"EEEE E2 E2|z C2 DE2E2|"Abm7"EEEE B2 A2-|"Db7"A6 CD|
+"F7"EEEE E2 DE-|"Bb7"E3 D ^C2D2|"Eb6"F3E E4-|E8||

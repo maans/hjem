@@ -1,0 +1,15 @@
+X:1
+T:Thou Swell
+C:Richard Rodgers
+M:4/4
+L:1/8
+K:G
+%%MIDI program 0
+B2 | "A-7"A6 B2 | "D7"A D3- D2 B2 | "A-7"A6 B2 | "D7"d6 e2 |
+"G^"d6 e2 | "C7"e G3- G2 e2 | "G^"d6 e2 | "C#ø7"g4 e"F#7b9" f2 d- |
+"B-7"d3 ^d"E7" e B3 | "A-7"c3 ^c"D7" d A3 | "G^"B8- | "D-7"B4"G7" d2 G2 |
+"C6"A A2 ^A"B7" B B2 F | "E-7"G G2 ^G"A7" A A2 E | "D7"F8- | "B-7"F4-"E7" F2 B2 |
+"A-7"A6 B2 | "D7"A D3- D2 B2 | "A-7"A6 B2 | "D7"d6 e2 |
+"G^"d6 e2 | "C7"d G3- G2 e2 | "G^"d6 e2 | "C#ø7"g4 e"F#7b9" f2 d- |
+"B-7"d3 ^d"E7" e B3 | "A-7"c3 ^c"D7" d A3 | "F7#11"B8 | "E7"e6 B2 |
+"A-7"A6 B2 | "D7"A D3- D2 B2 | "G6"G8- | G4 z4 |
