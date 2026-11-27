@@ -1,8 +1,9 @@
-import {readFile} from 'node:fs/promises';
+import {readFile,readdir} from 'node:fs/promises';
 import {runInNewContext} from 'node:vm';
 
 let checked=0,collections=0,fallbacks=0;
-for(const file of process.argv.slice(2)){
+const files=process.argv.length>2?process.argv.slice(2):(await readdir('wiki',{recursive:true})).filter(p=>p==='index.html'||p.endsWith('/index.html')).map(p=>'wiki/'+p);
+for(const file of files){
  const html=await readFile(file,'utf8'),rows=[];
  for(const m of html.matchAll(/<script\b[^>]*class=["'][^"']*\btiddlywiki-tiddler-store\b[^"']*["'][^>]*>([\s\S]*?)<\/script>/g))rows.push(...JSON.parse(m[1]));
  const index=new Map(rows.map(r=>[r.title,{fields:r}])),pkg=index.get('$:/plugins/huwiki/repertoire');if(!pkg)continue;
@@ -24,4 +25,4 @@ for(const file of process.argv.slice(2)){
  }
 }
 if(!checked)throw Error('No real repertoire entries checked');
-console.log(JSON.stringify({collections,existingNotationViews:checked,automaticFallbacks:fallbacks}));
+console.log(JSON.stringify({wikiFiles:files.length,collections,existingNotationViews:checked,automaticFallbacks:fallbacks}));
