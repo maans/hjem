@@ -1,0 +1,387 @@
+{
+  "sources": [
+    {
+      "number": 1,
+      "id": "1ERo-I4mN9hbjBgGYuOwaMJZ_Of4C-n72",
+      "size": 1676787,
+      "name": "Booze Brothers - FULL Big Band - Frank Foster - Count Basie Orchestra.pdf"
+    },
+    {
+      "number": 2,
+      "id": "1F57O2pXWg8KtSd7YbKWBMgYHevYKEAwR",
+      "size": 1947786,
+      "name": "Broadway (Count Basie).pdf"
+    },
+    {
+      "number": 3,
+      "id": "1wteS87bvLI5i9r6zj0WjKDUM8uC75OTa",
+      "size": 8358778,
+      "name": "For Lena And Lenny - FULL Big Band - Quincy Jones+.pdf"
+    },
+    {
+      "number": 4,
+      "id": "1zhKd5ZEHifGxwDoq0rhcgLjosanE2qLP",
+      "size": 1963496,
+      "name": "Get out and stay out - Partitur.pdf"
+    },
+    {
+      "number": 5,
+      "id": "1fzhdQ-H_jlaMqKpAUSnYP0hpNkhDImPz",
+      "size": 132637,
+      "name": "Conductorp1.pdf"
+    },
+    {
+      "number": 6,
+      "id": "1xhoKMsxd7bjfAQHO2Wy4sVqq8liZ_shj",
+      "size": 115155,
+      "name": "Conductorp2.pdf"
+    },
+    {
+      "number": 7,
+      "id": "1snZ7SFbPUhITMOJ0itSrojriryPkYTSn",
+      "size": 132364,
+      "name": "Conductorp3.pdf"
+    },
+    {
+      "number": 8,
+      "id": "15V9wMSGbxaZaa259Rnb0bZHw9Pelq9Xa",
+      "size": 139724,
+      "name": "Conductorp4.pdf"
+    },
+    {
+      "number": 9,
+      "id": "1fajweA9JHTthNxlgYnTomy_c8JyBj8uG",
+      "size": 610623,
+      "name": "I Left My Heart In San Francisco - FULL Big Band - Unk - Count Basie Orchestra.pdf"
+    },
+    {
+      "number": 10,
+      "id": "1XuMrytsuzftwrHV2hppH3_aNeDHRLyx4",
+      "size": 345490,
+      "name": "25.11.13 Jayhawk (5,4,4,4) - Full Score.pdf"
+    },
+    {
+      "number": 11,
+      "id": "1yze5wO-lN3FRJy7DxnY2o425biNyfonl",
+      "size": 789897,
+      "name": "Let's Face the Music And Dance - FULL Big Band - Myagkov- Natalie Cole.pdf"
+    },
+    {
+      "number": 12,
+      "id": "1TTa4HE24LAtXXq2lUyQFsiGZEn3P2xo1",
+      "size": 2186094,
+      "name": "Stolen Moments - partitur.pdf"
+    },
+    {
+      "number": 13,
+      "id": "1kvOmoIcf-4BNqUOULBlCdcw4EVyNxxkI",
+      "size": 176383,
+      "name": "A foggy day guitar.pdf"
+    },
+    {
+      "number": 14,
+      "id": "15b1KmFkR2LBggbrOeSyK6EKQ8X-ReiI4",
+      "size": 374575,
+      "name": "For Lena And Lenny - Guitar.pdf"
+    },
+    {
+      "number": 15,
+      "id": "1ya_Miaottq6TSnJoRmm_2jPMP3O-KPSD",
+      "size": 182983,
+      "name": "Get out and stay out - Guitar.pdf"
+    },
+    {
+      "number": 16,
+      "id": "1zuN_I4q67cshmw_O18c52E1VB_RRAlV5",
+      "size": 3371884,
+      "name": "Honeysuckle Rose Ella-Basie.pdf"
+    },
+    {
+      "number": 17,
+      "id": "1v1pc8LalzNlznhXE92DrdX3msZxXc4vX",
+      "size": 119327,
+      "name": "Guitarp1.pdf"
+    },
+    {
+      "number": 18,
+      "id": "177RXfNzpmYYSAwPtaKyyTZk8kxz9mqOO",
+      "size": 89381,
+      "name": "Guitarp2.pdf"
+    },
+    {
+      "number": 19,
+      "id": "1HcNHsxjGa6Socv2keXa2ZvT-4BJ4UjFx",
+      "size": 72202,
+      "name": "25.11.13 Jayhawk (5,4,4,4) - Jazz Guitar.pdf"
+    },
+    {
+      "number": 20,
+      "id": "19lk-XC__g4HQiyEUdwFgjt7yrFi_mAja",
+      "size": 1801098,
+      "name": "Shiny_Stockings_Ella-Basie_.pdf"
+    }
+  ],
+  "targets": [
+    {
+      "wiki": "wiki/birdland/index.html",
+      "title": "Booze Brothers",
+      "output": "wiki/birdland/pdf/booze-brothers.pdf",
+      "segments": [
+        {
+          "id": "1ERo-I4mN9hbjBgGYuOwaMJZ_Of4C-n72",
+          "start": 58,
+          "end": 74
+        }
+      ]
+    },
+    {
+      "wiki": "wiki/birdland/index.html",
+      "title": "Broadway",
+      "output": "wiki/birdland/pdf/broadway.pdf",
+      "segments": [
+        {
+          "id": "1F57O2pXWg8KtSd7YbKWBMgYHevYKEAwR",
+          "start": 1,
+          "end": 12
+        }
+      ]
+    },
+    {
+      "wiki": "wiki/birdland/index.html",
+      "title": "For Lena and Lenny",
+      "output": "wiki/birdland/pdf/for-lena-and-lenny.pdf",
+      "segments": [
+        {
+          "id": "1wteS87bvLI5i9r6zj0WjKDUM8uC75OTa",
+          "start": 2,
+          "end": 9
+        }
+      ]
+    },
+    {
+      "wiki": "wiki/birdland/index.html",
+      "title": "Get Out and Stay Out",
+      "output": "wiki/birdland/pdf/get-out-and-stay-out.pdf",
+      "segments": [
+        {
+          "id": "1zhKd5ZEHifGxwDoq0rhcgLjosanE2qLP",
+          "start": 1,
+          "end": 16
+        }
+      ]
+    },
+    {
+      "wiki": "wiki/birdland/index.html",
+      "title": "I Get a Kick Out of You",
+      "output": "wiki/birdland/pdf/i-get-a-kick-out-of-you.pdf",
+      "segments": [
+        {
+          "id": "1fzhdQ-H_jlaMqKpAUSnYP0hpNkhDImPz",
+          "start": 1,
+          "end": 1
+        },
+        {
+          "id": "1xhoKMsxd7bjfAQHO2Wy4sVqq8liZ_shj",
+          "start": 1,
+          "end": 1
+        },
+        {
+          "id": "1snZ7SFbPUhITMOJ0itSrojriryPkYTSn",
+          "start": 1,
+          "end": 1
+        },
+        {
+          "id": "15V9wMSGbxaZaa259Rnb0bZHw9Pelq9Xa",
+          "start": 1,
+          "end": 1
+        }
+      ]
+    },
+    {
+      "wiki": "wiki/birdland/index.html",
+      "title": "I Left My Heart in San Francisco",
+      "output": "wiki/birdland/pdf/i-left-my-heart-in-san-francisco.pdf",
+      "segments": [
+        {
+          "id": "1fajweA9JHTthNxlgYnTomy_c8JyBj8uG",
+          "start": 1,
+          "end": 10
+        }
+      ]
+    },
+    {
+      "wiki": "wiki/birdland/index.html",
+      "title": "Jayhawk",
+      "output": "wiki/birdland/pdf/jayhawk.pdf",
+      "segments": [
+        {
+          "id": "1XuMrytsuzftwrHV2hppH3_aNeDHRLyx4",
+          "start": 1,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "wiki": "wiki/birdland/index.html",
+      "title": "Let's Face the Music and Dance",
+      "output": "wiki/birdland/pdf/let-s-face-the-music-and-dance.pdf",
+      "segments": [
+        {
+          "id": "1yze5wO-lN3FRJy7DxnY2o425biNyfonl",
+          "start": 1,
+          "end": 8
+        }
+      ]
+    },
+    {
+      "wiki": "wiki/birdland/index.html",
+      "title": "Stolen Moments",
+      "output": "wiki/birdland/pdf/stolen-moments.pdf",
+      "segments": [
+        {
+          "id": "1TTa4HE24LAtXXq2lUyQFsiGZEn3P2xo1",
+          "start": 1,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "wiki": "wiki/birdland/guitar/index.html",
+      "title": "A Foggy Day",
+      "output": "wiki/birdland/guitar/pdf/a-foggy-day.pdf",
+      "segments": [
+        {
+          "id": "1kvOmoIcf-4BNqUOULBlCdcw4EVyNxxkI",
+          "start": 1,
+          "end": 2
+        }
+      ]
+    },
+    {
+      "wiki": "wiki/birdland/guitar/index.html",
+      "title": "Booze Brothers",
+      "output": "wiki/birdland/guitar/pdf/booze-brothers.pdf",
+      "segments": [
+        {
+          "id": "1ERo-I4mN9hbjBgGYuOwaMJZ_Of4C-n72",
+          "start": 39,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "wiki": "wiki/birdland/guitar/index.html",
+      "title": "Broadway",
+      "output": "wiki/birdland/guitar/pdf/broadway.pdf",
+      "segments": [
+        {
+          "id": "1F57O2pXWg8KtSd7YbKWBMgYHevYKEAwR",
+          "start": 13,
+          "end": 14
+        }
+      ]
+    },
+    {
+      "wiki": "wiki/birdland/guitar/index.html",
+      "title": "For Lena and Lenny",
+      "output": "wiki/birdland/guitar/pdf/for-lena-and-lenny.pdf",
+      "segments": [
+        {
+          "id": "15b1KmFkR2LBggbrOeSyK6EKQ8X-ReiI4",
+          "start": 1,
+          "end": 2
+        }
+      ]
+    },
+    {
+      "wiki": "wiki/birdland/guitar/index.html",
+      "title": "Get Out and Stay Out",
+      "output": "wiki/birdland/guitar/pdf/get-out-and-stay-out.pdf",
+      "segments": [
+        {
+          "id": "1ya_Miaottq6TSnJoRmm_2jPMP3O-KPSD",
+          "start": 1,
+          "end": 3
+        }
+      ]
+    },
+    {
+      "wiki": "wiki/birdland/guitar/index.html",
+      "title": "Honeysuckle Rose",
+      "output": "wiki/birdland/guitar/pdf/honeysuckle-rose.pdf",
+      "segments": [
+        {
+          "id": "1zuN_I4q67cshmw_O18c52E1VB_RRAlV5",
+          "start": 38,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "wiki": "wiki/birdland/guitar/index.html",
+      "title": "I Get a Kick Out of You",
+      "output": "wiki/birdland/guitar/pdf/i-get-a-kick-out-of-you.pdf",
+      "segments": [
+        {
+          "id": "1v1pc8LalzNlznhXE92DrdX3msZxXc4vX",
+          "start": 1,
+          "end": 1
+        },
+        {
+          "id": "177RXfNzpmYYSAwPtaKyyTZk8kxz9mqOO",
+          "start": 1,
+          "end": 1
+        }
+      ]
+    },
+    {
+      "wiki": "wiki/birdland/guitar/index.html",
+      "title": "I Left My Heart in San Francisco",
+      "output": "wiki/birdland/guitar/pdf/i-left-my-heart-in-san-francisco.pdf",
+      "segments": [
+        {
+          "id": "1fajweA9JHTthNxlgYnTomy_c8JyBj8uG",
+          "start": 40,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "wiki": "wiki/birdland/guitar/index.html",
+      "title": "Jayhawk",
+      "output": "wiki/birdland/guitar/pdf/jayhawk.pdf",
+      "segments": [
+        {
+          "id": "1HcNHsxjGa6Socv2keXa2ZvT-4BJ4UjFx",
+          "start": 1,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "wiki": "wiki/birdland/guitar/index.html",
+      "title": "Let's Face the Music and Dance",
+      "output": "wiki/birdland/guitar/pdf/let-s-face-the-music-and-dance.pdf",
+      "segments": [
+        {
+          "id": "1yze5wO-lN3FRJy7DxnY2o425biNyfonl",
+          "start": 41,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "wiki": "wiki/birdland/guitar/index.html",
+      "title": "Shiny Stockings",
+      "output": "wiki/birdland/guitar/pdf/shiny-stockings.pdf",
+      "segments": [
+        {
+          "id": "19lk-XC__g4HQiyEUdwFgjt7yrFi_mAja",
+          "start": 16,
+          "end": 17
+        }
+      ]
+    }
+  ],
+  "viewer": "https://xn--mns-ula.dk/wiki/birdland/pdf-viewer/"
+}

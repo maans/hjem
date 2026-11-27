@@ -1,0 +1,67 @@
+name: Publish Birdland mixed notation and two-page PDF readers
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/publish-birdland-scores.yml'
+      - 'scripts/publish_birdland_pdf_spreads.py'
+      - 'scripts/test_publish_birdland_pdf_spreads.py'
+      - 'scripts/birdland-pdf-sources.json'
+      - 'wiki/birdland/pdf-viewer/**'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: sync-repertoire-plugin-main
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      FORGE_REF: f6019d86e6d9ebf357e8d9dae82004d932e0974f
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: main}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - name: Install PDF tools
+        run: python -m pip install --disable-pip-version-check pypdf==6.3.0 PyMuPDF==1.26.6 requests==2.32.5 gdown==5.2.0
+      - name: Check PDF ranges, original score preservation and spread navigation
+        run: |
+          python -m unittest discover -s scripts -p 'test_publish_birdland_pdf_spreads.py' -v
+          node --test scripts/test_birdland_pdf_viewer.mjs
+      - name: Download the reviewed shared Repertoire plugin
+        run: |
+          python - <<'PY'
+          import json, os, pathlib, re, urllib.request
+          ref=os.environ['FORGE_REF']
+          assert re.fullmatch(r'[0-9a-f]{40}',ref)
+          with urllib.request.urlopen(f'https://raw.githubusercontent.com/maans/huwiki-forge/{ref}/plugins/repertoire/dist/plugin.json',timeout=60) as r:
+              data=r.read()
+          p=json.loads(data)
+          assert p['title']=='$:/plugins/huwiki/repertoire' and p['version']=='0.2.0'
+          pathlib.Path('/tmp/repertoire-release.json').write_bytes(data)
+          PY
+      - name: Synchronize the shared plugin without changing scores
+        run: |
+          python - <<'PY'
+          import pathlib, subprocess,sys
+          files=sorted(str(p) for p in pathlib.Path('wiki').rglob('index.html') if 'tiddlywiki-tiddler-store' in p.read_text(encoding='utf-8'))
+          subprocess.run([sys.executable,'scripts/update_abc_plugin.py','--title','$:/plugins/huwiki/repertoire','--plugin','/tmp/repertoire-release.json',*files],check=True)
+          PY
+      - name: Prepare two-page readers and reference excerpts
+        run: python scripts/publish_birdland_pdf_spreads.py --download-public --reference-previews
+      - name: Check storage and publish verified changes
+        run: |
+          python -c 'from pathlib import Path; files=[p for p in Path("wiki").rglob("*") if p.is_file()]; size=sum(p.stat().st_size for p in files); assert size<200000000,size; print("Wiki files:",len(files),"bytes:",size)'
+          git diff --check
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- wiki research/birdland/reference-previews.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'feat(birdland): show PDF spreads and mixed ABC/PDF repertoire'
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
