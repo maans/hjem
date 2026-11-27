@@ -56,7 +56,7 @@ for r in rows:
  if title in conversions:
   c=conversions[title];sid=title+' · Leadsheet';fields.update({'repertoire-leadsheet-source':sid,'repertoire-has-leadsheet':'yes','repertoire-source-role':'leadsheet'})
   tiddlers.append(tid(sid,'<$huwiki-repertoire-piece tiddler=<<currentTiddler>>/>',**{'caption':title,'music-template':'off','repertoire-work-title':title,'repertoire-abc-label':'Leadsheet (ABC)','abc-source':c['abc_source'],'abc-accompaniment':json.dumps({'enabled':True,'style':'bossa' if title in ['Wave','Desafinado'] else 'swing'}),'abc-bars-per-line':'4','helles-source-file':c['original']}))
-  fields['repertoire-key']=c['target']
+  fields['repertoire-key']=r['key'] if '+' in r.get('key','') else c['target']
  if extra.get('lyrics'):fields['helles-lyrics-pdf']='pdf/'+extra['lyrics']
  text='<$huwiki-repertoire-piece tiddler=<<currentTiddler>>/>\n\n'
  if not r.get('pdf') and title not in conversions:text+='Nodefil til dette nummer er endnu ikke fundet i arkivet.\n\n'
@@ -123,3 +123,4 @@ assert len({t['title'] for t in tiddlers})==len(tiddlers)
 (DATA/'tiddlers.json').write_text(json.dumps(tiddlers,ensure_ascii=False))
 (DATA/'build-summary.json').write_text(json.dumps({'pieces':25,'pdf_leadsheets':sum(bool(r.get('pdf')) for r in rows),'chord_stabs':sum(bool(a.get('stabs')) for a in assets.values()),'abc':len(conversions),'lyric_sheets':3,'missing':missing},ensure_ascii=False,indent=2))
 print((DATA/'build-summary.json').read_text())
+

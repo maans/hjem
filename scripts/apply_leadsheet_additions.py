@@ -37,6 +37,12 @@ def merge(rows):
         work.update(addition)
         if work.get('repertoire-pdf') or work.get('repertoire-chord-stabs-source'):
             work['text']=work.get('text','').replace('Nodefil til dette nummer er endnu ikke fundet i arkivet.\n\n','')
+    # Keep the arranged key sequence on both the work and its orchestra entry.
+    # A transposing instrument is a display choice, not a replacement for modulation.
+    if index.get('Those Who Were · Leadsheet',{}).get('huwiki-import-source')=='Those Who Were.mscz':
+        for row in index.values():
+            if row.get('title')=='Those Who Were' or row.get('music-title')=='Those Who Were':
+                row['repertoire-key']='G + Bb'
     if 'Materialestatus' in index:
         count=sum(bool(index.get(r.get('repertoire-leadsheet-source',''),{}).get('abc-source')) for r in index.values() if r.get('repertoire-kind')=='piece')
         status=index['Materialestatus']
@@ -74,3 +80,4 @@ if __name__=='__main__':
     if '--data-only' not in sys.argv:
         for path in (ROOT/'wiki').rglob('index.html'):apply_html(path)
     print('Reviewed ABC leadsheets merged; original PDFs and other tiddlers preserved')
+
