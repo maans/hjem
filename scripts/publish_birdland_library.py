@@ -60,7 +60,7 @@ def main():
    assert re.search(r'^K:\s*'+re.escape(lead['abc_key'])+r'\s*$',lead['abc_source'],re.M)
    assert re.search(r'^Q:\s*'+re.escape(lead['abc_tempo'])+r'\s*$',lead['abc_source'],re.M)
    assert lead['abc_chord_count']>0
-   changes[sid]={'title':sid,'caption':title,'type':'text/vnd.tiddlywiki','text':'<$huwiki-abc tiddler=<<currentTiddler>> view="full" embedded="yes" audio="all" show-title="no"/>','repertoire-work-title':title,'repertoire-abc-label':'Leadsheet (ABC)','abc-source':lead['abc_source'],'source-url':lead['source'],'repertoire-source-reference':lead['birdland_reference']['reference']}
+   changes[sid]={'title':sid,'caption':title,'type':'text/vnd.tiddlywiki','text':'<$huwiki-abc tiddler=<<currentTiddler>> view="full" embedded="yes" audio="all" show-title="no"/>','music-template':'off','repertoire-work-title':title,'repertoire-abc-label':'Leadsheet (ABC)','abc-source':lead['abc_source'],'source-url':lead['source'],'repertoire-source-reference':lead['birdland_reference']['reference']}
    changes[title]['repertoire-leadsheet-source']=sid
    changes[title]['repertoire-has-leadsheet']='yes'
    view='<$huwiki-repertoire-piece tiddler="'+title+'"/>'
@@ -115,6 +115,7 @@ def main():
    source=after[after[lead['title']]['repertoire-leadsheet-source']]
    assert source['abc-source']==lead['abc_source']
    assert '<$huwiki-abc ' in source['text'] and 'audio="all"' in source['text']
+   assert source['music-template']=='off'
   assert 'to={{!!repertoire-leadsheet-source}}' in after['Leadsheets']['text']
   updates[p]=result
  for p,text in updates.items():(ROOT/p).write_text(text)
