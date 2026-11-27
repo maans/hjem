@@ -57,16 +57,19 @@
   },
   {
     "title": "Those Who Were",
-    "original": "Those Who Were 2 ms.musicxml",
-    "xml": "Those Who Were 2 ms.musicxml",
-    "key": "C",
+    "original": "those-who-were.mscx",
+    "xml": "those-who-were.mscx",
+    "preserve_modulations": true,
+    "key": "G",
     "target": "G",
-    "shift": -5,
-    "warnings": [],
+    "shift": 0,
+    "warnings": [
+      "Gentagelse i anden toneart fra takt 20 (+3 halvtoner)."
+    ],
     "abcWarnings": [],
-    "notes": 111,
-    "chords": 34,
-    "abc_source": "X:1\nT:Those Who Were\nM:4/4\nL:1/8\nQ:1/4=50\nK:G\nB, |: \"G\"B,B, B,B,\"Am/G\" CD EF | \"G\"B,2 B,2-\"B7/D#\" B,2 z F | \"Em\"GG\"Em/D\" FF\"Cmaj7\" EE FF | [1\"Bsus4\"B,6\"B7\" z B, :|\n[2\"Bsus4\"B,6\"B7\" z E | \"Cmaj7\"E3 G,\"D/C\" G,F, F,E | \"G/B\"D2\"B7/D#\" B,4\"Em7\" z B, | \"Am7\"C3 C\"Dsus4\" D3 A, |\n\"Gmaj7\"B,6\"Gmaj7\" z E | \"Cmaj7\"E3 G,\"D/C\" G,F, F,E | \"G/B\"D3\"B7/D#\" B,/A,/\"Em7\" G,2 z/ G,/A,/B,/ | \"Asus4\"B,3 A,\"A7\" A,2- A,/A,/A,/E/ |\n[1\"Dsus4\"E3 D\"D13\" D3 z :| [2\"Dsus4\"E3 D\"D13\" D3 z | \"G\"z [B,G,D,] [CA,E,][B,G,D,] [DB,F,][B,G,D,] [CA,E,][B,G,D,] | \"Am/G\"z [CA,E,] [DB,F,][CA,E,] [ECG,][CA,E,] [DB,F,][CA,E,] |\n\"G\"z [GDB,] [FDA,][ECG,] [DB,F,][B,G,D,] [CA,E,][A,E,C,] | [B,G,D,]8 |\n",
+    "notes": 366,
+    "chords": 68,
+    "abc_source": "X:1\nT:Those Who Were\nM:4/4\nL:1/8\nQ:1/4=50\nK:G\n%%MIDI program 73\nB |: \"G\"BBBB\"Am/G\" cdef | \"G\"B2 B2-\"B7b9/D#\" B2 z f | \"Em\"gg\"Em/D\"ff\"Cmaj7\" eeff | [1\"Bsus4\"B6\"B7\" z B :|\n[2\"Bsus4\"B6\"B7\" z e |: \"Cmaj7\"e3 G\"D/C\" GFFe | \"G/B\"d2\"B7b9/D#\" B4\"Em7\" z B | \"Am7\"c3 c\"Dsus4\" d3 A |\n\"Gmaj7#5\"B6\"Gmaj7\" z e | \"Cmaj7\"e3 G\"D/C\" GFFe | \"G/B\"d3\"B7b9/D#\" B/A/\"Em7\" G2 z/ G/A/B/ | \"Asus4\"B3 A\"A7\" A2- A/A/A/e/ |\n[1\"Dsus4\"e3 d\"D13\" d3 z :| [2\"Dsus4\"e3 d\"D13\" d3 z | \"G\"z [DGB] [EAc][DGB] [FBd][DGB][EAc][DGB] | \"Am/G\"z [EAc] [FBd][EAc] [Gce][EAc][FBd][EAc] |\n\"G\"z [Bdg] [Adf][Gce] [FBd][DGB][EAc][CEA] | [DGB]8 | [K:Bb] d |: \"Bb\"dddd\"Cm/Bb\" efga | \"Bb\"d2 d2-\"D7b9/F#\" d2 z a |\n\"Gm\"bb\"Gm/F\"aa\"Ebmaj7\" ggaa | [1\"Dsus4\"d6\"D7\" z d :| [2\"Dsus4\"d6\"D7\" z g |: \"Ebmaj7\"g3 B\"F/Eb\" BAAg |\n\"Bb/D\"f2\"D7b9/F#\" d4\"Gm7\" z d | \"Cm7\"e3 e\"Fsus4\" f3 c | \"Bbmaj7#5\"d6\"Bbmaj7\" z g | \"Ebmaj7\"g3 B\"F/Eb\" BAAg |\n\"Bb/D\"f3\"D7b9/F#\" d/c/\"Gm7\" B2 z/ B/c/d/ | \"Csus4\"d3 c\"C7\" c2- c/c/c/g/ | [1\"Fsus4\"g3 f\"F13\" f3 z :| [2\"Fsus4\"g3 f\"F13\" f3 z |\n\"Bb\"z [FBd] [Gce][FBd] [Adf][FBd][Gce][FBd] | \"Cm/Bb\"z [Gce] [Adf][Gce] [Beg][Gce][Adf][Gce] | \"Bb\"z [dfb] [cfa][Beg] [Adf][FBd][Gce][EGc] | [FBd]8 |\n",
     "publish": true
   },
   {
