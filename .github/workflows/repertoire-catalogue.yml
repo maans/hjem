@@ -1,0 +1,55 @@
+name: Refresh shared leadsheet and repertoire library
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'wiki/**/index.html'
+      - '.github/workflows/repertoire-catalogue.yml'
+  workflow_dispatch:
+  workflow_run:
+    workflows:
+      - Publish Helles repertoire wiki
+      - Add reviewed Helles ABC leadsheets
+      - Publish Birdland dated folders and reviewed leadsheets
+      - Publish Birdland mixed notation and two-page PDF readers
+      - Synchronize shared ABC and Repertoire plugins in musician wikis
+      - Synchronize shared Repertoire and ABC plugins in musician wikis
+      - Synchronize shared MuseScore, ABC and Repertoire plugins
+    types: [completed]
+permissions:
+  contents: write
+concurrency:
+  group: shared-repertoire-catalogue-main
+  cancel-in-progress: false
+jobs:
+  catalogue:
+    if: github.event_name != 'workflow_run' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'main')
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/checkout@v4
+        with:
+          repository: maans/huwiki-forge
+          ref: b343c719bfb4603bb4e16c008ec75990a5c27a0c
+          path: .catalogue-source
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Index every published repertoire and export existing ABC versions
+        run: node .catalogue-source/scripts/build-repertoire-catalogue.mjs --source . --output catalog/repertoire
+      - name: Publish the searchable index and selected ABC sources
+        run: |
+          git diff --check -- catalog/repertoire
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- catalog/repertoire
+          if ! git diff --cached --quiet; then
+            git commit -m 'build(library): refresh shared leadsheets and repertoire ABC sources'
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
