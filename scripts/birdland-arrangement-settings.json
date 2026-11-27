@@ -68,7 +68,8 @@
     "bpm": null,
     "status": "needs_birdland_tempo",
     "reference": "Birdlands guitar-PDF: tre b'er, Ebmaj7; intet numerisk tempo i det læste begyndelsesudsnit.",
-    "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/desafinado.pdf"
+    "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/desafinado.pdf",
+    "style": "bossa"
   },
   "It Could Happen to You": {
     "key": "Eb",
@@ -77,5 +78,120 @@
     "status": "needs_birdland_tempo",
     "reference": "Birdlands guitar-PDF: tre b'er og Eb-kadence; Moder­ate Swing uden numerisk tempo.",
     "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/it-could-happen-to-you.pdf"
+  },
+  "920 Special": {
+    "key": "C",
+    "beat": "1/4",
+    "bpm": 170,
+    "reference": "Birdlands originale guitar-/klaver-PDF, første side: Ingen faste fortegn, C ved takt 15, trykt fjerdedel=170 Swing.",
+    "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/920-special.pdf"
+  },
+  "A Foggy Day": {
+    "key": "Eb",
+    "beat": "1/4",
+    "bpm": 150,
+    "reference": "Birdlands originale guitar-/klaver-PDF, første side: Tre b’er og Eb-dur; trykt fjerdedel=c.150, swingottendedele.",
+    "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/a-foggy-day.pdf"
+  },
+  "Ain't Misbehavin'": {
+    "key": "F",
+    "beat": "1/4",
+    "bpm": 76,
+    "reference": "Birdlands originale guitar-/klaver-PDF, første side: Ét b og F6 i takt 5; Ballad (fjerdedel=76), swing eighths.",
+    "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/ain-t-misbehavin.pdf",
+    "style": "jazzballad"
+  },
+  "Almost Like Being in Love": {
+    "key": "F",
+    "beat": "1/4",
+    "bpm": 156,
+    "reference": "Birdlands originale guitar-/klaver-PDF, første side: Ét b og F-dur; Moderate swing fjerdedel=156.",
+    "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/almost-like-being-in-love.pdf"
+  },
+  "Avalon": {
+    "key": "C",
+    "beat": "1/4",
+    "bpm": 264,
+    "reference": "Birdlands originale guitar-/klaver-PDF, første side: Ingen faste fortegn, Dm7-Em7-Fmaj7-G7; Very Fast Jazz fjerdedel=264.",
+    "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/avalon.pdf"
+  },
+  "Bye Bye Blackbird": {
+    "key": "F",
+    "beat": "1/4",
+    "bpm": 100,
+    "reference": "Birdlands originale guitar-/klaver-PDF, første side: Ét b og Fmaj7; Med. Easy Swing fjerdedel=100.",
+    "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/bye-bye-blackbird.pdf"
+  },
+  "Cheek to Cheek": {
+    "key": "Bb",
+    "beat": "1/4",
+    "bpm": 150,
+    "reference": "Birdlands originale guitar-/klaver-PDF, første side: To b’er og Bbmaj7 i takt 12; fjerdedel=150.",
+    "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/cheek-to-cheek.pdf"
+  },
+  "Cotton Tail": {
+    "key": "Bb",
+    "beat": "1/4",
+    "bpm": 190,
+    "reference": "Birdlands originale guitar-/klaver-PDF, første side: Håndskrevet Bb–Gm7–Cm7–F7; tempo 190 under titlen.",
+    "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/cotton-tail.pdf"
+  },
+  "Do Nothin' Till You Hear from Me": {
+    "key": "G",
+    "beat": "1/4",
+    "bpm": 102,
+    "reference": "Birdlands originale guitar-/klaver-PDF, første side: Ét kryds og G-dur; Moderate Shuffle fjerdedel=102.",
+    "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/do-nothin-till-you-hear-from-me.pdf"
+  },
+  "Honeysuckle Rose": {
+    "key": "Db",
+    "beat": "1/4",
+    "bpm": 192,
+    "reference": "Birdlands originale guitar-/klaver-PDF, første side: Fem b’er og Vocal [Db]; Fast Jazz fjerdedel=192.",
+    "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/honeysuckle-rose.pdf"
+  },
+  "I'm Beginning to See the Light": {
+    "key": "C",
+    "beat": "1/4",
+    "bpm": 120,
+    "reference": "Birdlands originale guitar-/klaver-PDF, første side: Ingen faste fortegn og C-dur; fjerdedel=120.",
+    "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/i-m-beginning-to-see-the-light.pdf"
+  },
+  "Lullaby of Birdland": {
+    "key": "Bbm",
+    "beat": "1/4",
+    "bpm": 126,
+    "reference": "Birdlands originale guitar-/klaver-PDF, første side: Fem b’er og Bbm ved A; Med. Groove fjerdedel=126.",
+    "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/lullaby-of-birdland.pdf",
+    "abc_source_key_override": "Fm",
+    "abc_source_key_evidence": "Kildens K:Ab angiver de fire b’er, men melodi og åbningsharmoni Fm–Dm7b5–G7–Cm viser F-mol. Birdland spiller samme moltema i B-mol (internationalt Bbm)."
+  },
+  "Makin' Whoopee": {
+    "key": "C",
+    "beat": "1/4",
+    "bpm": 92,
+    "reference": "Birdlands originale guitar-/klaver-PDF, første side: Ingen faste fortegn og Cmaj7; Moderately Slow & Bluesy fjerdedel=92.",
+    "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/makin-whoopee.pdf"
+  },
+  "Shiny Stockings": {
+    "key": "Bb",
+    "beat": "1/4",
+    "bpm": 120,
+    "reference": "Birdlands originale guitar-/klaver-PDF, første side: To b’er og Bb6, Tempo 120.",
+    "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/shiny-stockings.pdf"
+  },
+  "Sweet Georgia Brown": {
+    "key": "Eb",
+    "beat": "1/4",
+    "bpm": 184,
+    "reference": "Birdlands originale guitar-/klaver-PDF, første side: Tre b’er og Eb-dur; Medium Bright fjerdedel=184.",
+    "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/sweet-georgia-brown.pdf"
+  },
+  "The Lady Is a Tramp": {
+    "key": "Bb",
+    "beat": "1/4",
+    "bpm": 172,
+    "reference": "Birdlands originale guitar-/klaver-PDF, første side: To b’er og Bb6; Moderato swing fjerdedel=172.",
+    "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/the-lady-is-a-tramp.pdf"
   }
 }

@@ -2,7 +2,7 @@ name: Publish Birdland dated folders and reviewed leadsheets
 on:
   push:
     branches: [main]
-    paths: ['scripts/publish_birdland_library.py', 'scripts/birdland-setlists.json', 'scripts/birdland-arrangement-settings.json', 'scripts/convert_birdland_leadsheets.mjs']
+    paths: ['scripts/publish_birdland_library.py', 'scripts/birdland-setlists.json', 'scripts/birdland-arrangement-settings.json', 'scripts/convert_birdland_leadsheets.mjs', 'scripts/extend_birdland_leadsheets.mjs']
   workflow_dispatch:
 permissions: {contents: write}
 concurrency:
@@ -34,6 +34,13 @@ jobs:
           python scripts/research_birdland_sources.py --skip-archive
           node scripts/convert_birdland_leadsheets.mjs --references scripts/birdland-arrangement-settings.json --converter .forge-source/plugins/musescore-import/src/converter.js --dom-module /tmp/birdland-dom/node_modules/@xmldom/xmldom
           python -c 'import json; r=json.load(open("research/birdland/conversion.json")); assert r["converted"]==5,r["converted"]'
+      - name: Convert and audition additional free MuseScore and ABC melodies
+        env:
+          FORGE_SOURCE: ${{ github.workspace }}/.forge-source
+        run: |
+          node scripts/extend_birdland_leadsheets.mjs --forge .forge-source --dom-module /tmp/birdland-dom/node_modules/@xmldom/xmldom
+          python -c 'import json; r=json.load(open("research/birdland/bulk-conversion.json")); assert r["converted"]>=22,r["converted"]'
+          node scripts/test_birdland_leadsheet_playback.mjs
       - name: Update shared Repertoire without changing original notes
         run: |
           python scripts/update_abc_plugin.py --title '$:/plugins/huwiki/repertoire' --plugin .forge-source/plugins/repertoire/dist/plugin.json wiki/birdland/index.html wiki/birdland/guitar/index.html wiki/bjarke/index.html wiki/silba/index.html wiki/akustisk/index.html wiki/fest/index.html wiki/index.html
@@ -54,7 +61,7 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -- wiki research/birdland
           if ! git diff --cached --quiet; then
-            git commit -m 'feat(birdland): add dated folders and five reviewed leadsheets'
+            git commit -m 'feat(birdland): publish reviewed melody leadsheets with jazz accompaniment'
             git fetch origin main
             git rebase origin/main
             git push origin HEAD:main

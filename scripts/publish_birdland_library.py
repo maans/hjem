@@ -8,6 +8,13 @@ from publish_birdland_pdf_spreads import safe_json
 ROOT=Path(__file__).resolve().parents[1]
 WIKIS=['wiki/birdland/index.html','wiki/birdland/guitar/index.html']
 ORIGIN='https://xn--mns-ula.dk/'
+def backing_defaults(piece,reference):
+ try:settings=json.loads(piece.get('abc-accompaniment') or '{}')
+ except (ValueError,TypeError):settings={}
+ if not isinstance(settings,dict):settings={}
+ settings.setdefault('style',reference.get('style','swing'))
+ settings.setdefault('enabled',True)
+ piece['abc-accompaniment']=json.dumps(settings,ensure_ascii=False,separators=(',',':'))
 def read(html):
  out={}
  for store in SCRIPT.finditer(html):
@@ -60,7 +67,7 @@ def main():
    assert re.search(r'^K:\s*'+re.escape(lead['abc_key'])+r'\s*$',lead['abc_source'],re.M)
    assert re.search(r'^Q:\s*'+re.escape(lead['abc_tempo'])+r'\s*$',lead['abc_source'],re.M)
    assert lead['abc_chord_count']>0
-   changes[sid]={'title':sid,'caption':title,'type':'text/vnd.tiddlywiki','text':'<$huwiki-abc tiddler=<<currentTiddler>> view="full" embedded="yes" audio="all" show-title="no"/>','music-template':'off','repertoire-work-title':title,'repertoire-abc-label':'Leadsheet (ABC)','abc-source':lead['abc_source'],'source-url':lead['source'],'repertoire-source-reference':lead['birdland_reference']['reference']}
+   changes[sid]={**current.get(sid,{}),'title':sid,'caption':title,'type':'text/vnd.tiddlywiki','text':'<$huwiki-abc tiddler=<<currentTiddler>> view="full" embedded="yes" audio="all" show-title="no"/>','music-template':'off','repertoire-work-title':title,'repertoire-abc-label':'Leadsheet (ABC)','abc-source':lead['abc_source'],'source-url':lead['source'],'repertoire-source-reference':lead['birdland_reference']['reference']}
    changes[title]['repertoire-leadsheet-source']=sid
    changes[title]['repertoire-has-leadsheet']='yes'
    view='<$huwiki-repertoire-piece tiddler="'+title+'"/>'
@@ -107,6 +114,8 @@ def main():
    if home in current:
     changes[home]=dict(current[home])
     if '[[Nodemapper]]' not in changes[home].get('text',''):changes[home]['text']=changes[home].get('text','')+'\n\n[[Nodemapper]] · Sætlister med dato og begivenhed.\n'
+  for title,piece in changes.items():
+   if piece.get('abc-source'):backing_defaults(piece,refs.get(piece.get('repertoire-work-title',title),{}))
   result=patch(originals[p],changes);after=read(result)
   for title,t in current.items():
    if 'abc-source' in t:assert after[title].get('abc-source')==t['abc-source'],title
