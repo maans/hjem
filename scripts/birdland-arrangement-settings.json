@@ -1,0 +1,81 @@
+{
+  "Easy Money": {
+    "key": "F",
+    "beat": "1/4",
+    "bpm": 126,
+    "reference": "Birdlands eksisterende guitar-ABC: K:F og Q:Medium swing 1/4=126"
+  },
+  "I Left My Heart in San Francisco": {
+    "key": "C",
+    "beat": "1/4",
+    "bpm": 102,
+    "reference": "Birdlands eksisterende guitar-ABC: K:C og Q:Slow swing 1/4=102"
+  },
+  "The Legend": {
+    "key": "Cm",
+    "beat": "1/4",
+    "bpm": 92,
+    "reference": "Birdlands eksisterende guitar-ABC: K:Cm og Q:Medium-slow swing 1/4=92"
+  },
+  "The Wiggle Walk": {
+    "key": "Gm",
+    "beat": "1/4",
+    "bpm": 160,
+    "reference": "Birdlands eksisterende guitar-ABC: K:Gm og Q:Medium swing 1/4=160"
+  },
+  "All of Me": {
+    "key": "C",
+    "beat": "1/4",
+    "bpm": 142,
+    "reference": "Birdlands guitar-PDF, første side: ingen fortegn, C6/9 ved A, Swing fjerdedel=142",
+    "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/all-of-me.pdf"
+  },
+  "Fly Me to the Moon": {
+    "key": "C",
+    "beat": "1/4",
+    "bpm": 116,
+    "reference": "Birdlands guitar-PDF: ingen fortegn, relativ-mol-åbning i Am, trykt fjerdedel=116",
+    "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/fly-me-to-the-moon.pdf"
+  },
+  "On the Sunny Side of the Street": {
+    "key": "G",
+    "beat": "1/4",
+    "bpm": 104,
+    "reference": "Birdlands klaver/guitar-PDF: ét kryds, G6 ved melodistart, Medium Swing fjerdedel=104",
+    "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/on-the-sunny-side-of-the-street.pdf"
+  },
+  "Summertime": {
+    "key": "Cm",
+    "beat": "1/4",
+    "bpm": 76,
+    "source_mode_override": "minor",
+    "source_mode_evidence": "Kildens key.mode=major er misvisende. Melodi E-C-E...A og harmoni Am7-Bb7-Am7-E7 viser A-mol uden faste fortegn.",
+    "reference": "Birdlands guitar-PDF: tre b'er, Cm6, A Little Faster fjerdedel=76 fra takt 5. Introen i arrangementet er langsommere (67); leadsheetet starter ved melodien.",
+    "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/summertime.pdf",
+    "arrangement_intro_bpm": 67,
+    "arrangement_theme_start_bar": 5
+  },
+  "Take the A Train": {
+    "key": "C",
+    "beat": "1/4",
+    "bpm": 165,
+    "reference": "Birdlands guitar-PDF: ingen faste fortegn, C6/9 ved A, Swing fjerdedel=165",
+    "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/take-the-a-train.pdf"
+  },
+  "Desafinado": {
+    "key": "Eb",
+    "beat": "1/4",
+    "bpm": null,
+    "status": "needs_birdland_tempo",
+    "reference": "Birdlands guitar-PDF: tre b'er, Ebmaj7; intet numerisk tempo i det læste begyndelsesudsnit.",
+    "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/desafinado.pdf"
+  },
+  "It Could Happen to You": {
+    "key": "Eb",
+    "beat": "1/4",
+    "bpm": null,
+    "status": "needs_birdland_tempo",
+    "reference": "Birdlands guitar-PDF: tre b'er og Eb-kadence; Moder­ate Swing uden numerisk tempo.",
+    "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/it-could-happen-to-you.pdf"
+  }
+}

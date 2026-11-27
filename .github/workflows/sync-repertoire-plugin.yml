@@ -3,7 +3,6 @@ on:
   push:
     branches: [main]
     paths:
-      - '.github/workflows/sync-repertoire-plugin.yml'
       - 'scripts/update_abc_plugin.py'
   workflow_dispatch:
 permissions:
@@ -17,8 +16,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     env:
-      FORGE_REF: f6019d86e6d9ebf357e8d9dae82004d932e0974f
-      REPERTOIRE_VERSION: '0.2.0'
+      FORGE_REF: 6b57177f9ef2cee0f2dde7c7be38fd39497f9ad3
+      REPERTOIRE_VERSION: '0.2.1'
     steps:
       - uses: actions/checkout@v4
         with:

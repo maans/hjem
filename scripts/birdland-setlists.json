@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "title": "Birdland · Daterede nodemapper",
+  "scope": "Ét arrangement pr. begivenhed med fælles nummerorden og valg af nodeudgave. Programmerne er de senest annoncerede programmer fundet i materialet; de dokumenterer ikke nødvendigvis, hvad der faktisk blev spillet.",
+  "view_modes": [
+    {
+      "id": "leadsheet",
+      "title": "Leadsheets (ABC)"
+    },
+    {
+      "id": "guitar-pdf",
+      "title": "Guitar (PDF)"
+    },
+    {
+      "id": "chord-stabs",
+      "title": "Guitar · chord stabs (ABC)"
+    },
+    {
+      "id": "score-pdf",
+      "title": "Fuldt partitur (PDF)"
+    }
+  ],
+  "availability": "Nodeudgaver findes kun, hvor den enkelte titel har kontrolleret materiale; manglende udgaver skal markeres.",
+  "events": [
+    {
+      "id": "2024-11-21-kfum",
+      "date": "2024-11-21",
+      "event": "Koncert i KFUM",
+      "venue": "KFUMs klubhus, Aalborg",
+      "date_status": "explicit_day_month_year_from_context",
+      "programme_status": "final_announced",
+      "order_status": "numbered_programme",
+      "source_date": "2024-11-15",
+      "notes": "Det seneste nummererede program er brugt. En tidligere kladde havde en anden rækkefølge. Pause mellem sæt 1 og 2.",
+      "sets": [
+        {
+          "id": "set-1",
+          "title": "Sæt 1",
+          "items": [
+            "Easy Money",
+            "The Wiggle Walk",
+            "Flight of the Foo Birds",
+            "Down for Double",
+            "Everyday I Have the Blues",
+            "A Foggy Day",
+            "More"
+          ]
+        },
+        {
+          "id": "set-2",
+          "title": "Sæt 2",
+          "items": [
+            "Big Swing Face",
+            "The Legend",
+            "It's Only a Paper Moon",
+            "Do Nothin' Till You Hear from Me",
+            "Don't Know Why",
+            "Ain't Misbehavin'",
+            "Cheek to Cheek"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2025-01-26-vokslev",
+      "date": "2025-01-26",
+      "event": "Vokslevkoncerten",
+      "venue": "Vokseværket, Vokslev",
+      "date_status": "explicit_day_month_year_from_context",
+      "programme_status": "final_announced",
+      "order_status": "numbered_programme",
+      "source_date": "2025-01-21",
+      "notes": "Det reviderede program med 13 numre er brugt. Øveprogrammet fra 15. januar indeholdt også Down for Double og en anden rækkefølge i første sæt. Pause mellem sæt 1 og 2.",
+      "sets": [
+        {
+          "id": "set-1",
+          "title": "Sæt 1",
+          "items": [
+            "Easy Money",
+            "The Wiggle Walk",
+            "A Foggy Day",
+            "Everyday I Have the Blues",
+            "Flight of the Foo Birds",
+            "More"
+          ]
+        },
+        {
+          "id": "set-2",
+          "title": "Sæt 2",
+          "items": [
+            "Big Swing Face",
+            "The Legend",
+            "It's Only a Paper Moon",
+            "Do Nothin' Till You Hear from Me",
+            "Don't Know Why",
+            "Ain't Misbehavin'",
+            "Cheek to Cheek"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2025-05-12-studenterhuset",
+      "date": "2025-05-12",
+      "event": "Bigbandkoncert på Studenterhuset",
+      "venue": "Studenterhuset, Aalborg",
+      "date_status": "explicit_day_month_year_from_context",
+      "programme_status": "final_announced",
+      "order_status": "numbered_programme",
+      "source_date": "2025-05-11",
+      "notes": "Det seneste nummererede program begynder med Easy Money. En tidligere liste begyndte med Fun Time og gjorde Flight of the Foo Birds afhængig af tiden.",
+      "sets": [
+        {
+          "id": "set-1",
+          "title": "Sæt",
+          "items": [
+            "Easy Money",
+            "Fun Time",
+            "The Wiggle Walk",
+            "Big Swing Face",
+            "Flight of the Foo Birds"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2025-11-20-jazzcentret",
+      "date": "2025-11-20",
+      "event": "Koncert på Jazzcentret",
+      "venue": "Jazzcentret",
+      "date_status": "explicit_day_month_year_from_context",
+      "programme_status": "latest_announced_repertoire",
+      "order_status": "mail_list_order_not_explicitly_performance_order",
+      "source_date": "2025-11-14",
+      "notes": "Numrene står i den seneste repertoirelistes rækkefølge. Mailen kalder ikke udtrykkeligt rækkefølgen for spillerrækkefølge. For Lena and Lenny stod på en tidligere liste, men er udeladt i denne seneste udgave.",
+      "sets": [
+        {
+          "id": "set-1",
+          "title": "Sæt",
+          "items": [
+            "Easy Money",
+            "Fun Time",
+            "Flight of the Foo Birds",
+            "I Left My Heart in San Francisco",
+            "The Wiggle Walk",
+            "Teddy the Toad",
+            "Down for Double",
+            "The Legend",
+            "Do Nothin' Till You Hear from Me",
+            "Don't Know Why",
+            "Ain't Misbehavin'"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2026-11-28-maans-60-aar",
+      "date": "2026-11-28",
+      "event": "Måns' 60-års musikfest",
+      "venue": "Himmerlands Efterskole",
+      "date_status": "explicit_day_month_year_from_context",
+      "programme_status": "final_announced",
+      "order_status": "explicit_performance_order",
+      "source_date": "2026-11-26",
+      "notes": "Det endelige program angiver udtrykkeligt denne spillerrækkefølge. Stolen Moments fra den tidligere forberedelsesliste er ikke med i det endelige program.",
+      "sets": [
+        {
+          "id": "set-1",
+          "title": "Sæt",
+          "items": [
+            "Easy Money",
+            "I Left My Heart in San Francisco",
+            "The Legend",
+            "The Wiggle Walk"
+          ]
+        }
+      ]
+    }
+  ],
+  "pending_events": [
+    {
+      "id": "2025-11-23-nordjysk-bigband-dag",
+      "date": "2025-11-23",
+      "event": "Nordjysk Bigband Dag",
+      "date_status": "explicit_day_month_year_from_context",
+      "programme_status": "material_confirmed_block_order_unverified",
+      "source_date": "2025-11-14",
+      "order_status": "not_stated_between_blocks",
+      "notes": "Birdlands eget nummer og fællesnummeret er dokumenteret, men deres indbyrdes placering i dagens program fremgår ikke af mailen. Opret ikke en påstået samlet spillerrækkefølge uden programmet.",
+      "blocks": [
+        {
+          "id": "birdland-own",
+          "title": "Birdlands eget nummer",
+          "items": [
+            "The Wiggle Walk"
+          ]
+        },
+        {
+          "id": "joint-number",
+          "title": "Fællesnummer med de øvrige bigbands",
+          "items": [
+            "Jayhawk"
+          ]
+        }
+      ]
+    }
+  ],
+  "normalizations": [
+    {
+      "source": "Down for a Double",
+      "canonical": "Down for Double"
+    },
+    {
+      "source": "Flight of the Foo Bird",
+      "canonical": "Flight of the Foo Birds"
+    },
+    {
+      "source": "I left my heart",
+      "canonical": "I Left My Heart in San Francisco"
+    },
+    {
+      "source": "Do nothing till you hear from me",
+      "canonical": "Do Nothin' Till You Hear from Me"
+    }
+  ]
+}
