@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 permissions: {contents: write}
 concurrency:
-  group: publish-helles
+  group: sync-shared-musician-plugins-main
   cancel-in-progress: false
 jobs:
   publish:
@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v4
         with: {ref: main}
       - uses: actions/checkout@v4
-        with: {repository: maans/huwiki-forge, path: .forge-source}
+        with: {repository: maans/huwiki-forge, ref: a7c46ab1458b0ffab5068f86b9ea585c5e423342, path: .forge-source}
       - uses: actions/setup-node@v4
         with: {node-version: '22'}
       - uses: actions/setup-python@v5
@@ -31,16 +31,21 @@ jobs:
         env:
           FORGE_SOURCE: .forge-source
         run: |
+          node .forge-source/scripts/build-abc-ui.mjs
+          node .forge-source/scripts/build-repertoire-plugin.mjs
+          node .forge-source/scripts/build-musescore-import.mjs
           node scripts/convert_helles.mjs
           python scripts/build_helles.py
           node scripts/test_helles.mjs
+          python scripts/apply_leadsheet_additions.py --data-only
           node scripts/assemble_helles.mjs
+          python scripts/apply_leadsheet_additions.py
       - name: Publish Helles only
         run: |
           git diff --check
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add wiki/helles research/helles/conversions.json research/helles/build-summary.json
+          git add wiki/helles research/helles/conversions.json research/helles/build-summary.json research/helles/tiddlers.json
           if ! git diff --cached --quiet; then
             git commit -m 'feat(helles): publish repertoire, original charts, lyrics and concert-pitch ABC'
             git fetch origin main
