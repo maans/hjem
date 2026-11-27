@@ -1,0 +1,53 @@
+name: Fix guitar PDF previews to show each song's own pages
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/fix-guitar-pdf-previews.yml'
+      - 'scripts/fix_guitar_pdf_previews.py'
+      - 'scripts/test_guitar_pdf_previews.py'
+      - 'scripts/guitar-pdf-pages.json'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: guitar-pdf-previews-main
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install PDF tools
+        run: python -m pip install --disable-pip-version-check pypdf==6.3.0 PyMuPDF==1.26.6 requests==2.32.5 gdown==5.2.0
+      - name: Verify page extraction and preservation of wiki data
+        run: python -m unittest discover -s scripts -p 'test_guitar_pdf_previews.py' -v
+      - name: Extract the exact pages from anonymously downloadable originals
+        run: python scripts/fix_guitar_pdf_previews.py --download-public
+      - name: Preserve visual PDF checks and diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: guitar-pdf-previews
+          path: test-results/guitar-pdf/
+          if-no-files-found: ignore
+          retention-days: 7
+      - name: Publish corrected previews and wiki links
+        run: |
+          git diff --check
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- wiki/birdland/guitar/index.html wiki/birdland/guitar/pdf
+          if ! git diff --cached --quiet; then
+            git commit -m 'fix(guitar): open each chart at its own PDF pages'
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
