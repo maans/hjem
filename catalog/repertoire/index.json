@@ -5930,7 +5930,7 @@
       ],
       "variants": [
         {
-          "id": "leadsheet:2f95536c-7e6709cc-658",
+          "id": "leadsheet:5ddb6111-868f3047-1166",
           "format": "abc",
           "role": "leadsheet",
           "label": "Leadsheet (ABC)",
@@ -5939,9 +5939,9 @@
           "composer": "",
           "sourceTitle": "Those Who Were · Leadsheet",
           "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#Those%20Who%20Were%20%C2%B7%20Leadsheet",
-          "originalURL": "",
+          "originalURL": "https://xn--mns-ula.dk/research/helles/sources/those-who-were.mscx",
           "collection": "Helles",
-          "abcPath": "abc/227c855b4a690a82dd7ecf3473750b45ae5a553447fe18d321ee3c24711f9fea.json"
+          "abcPath": "abc/245f36a9d6d525fd87328de03d15e88dca4ebc18c6f9dd7636a6563f23a9ff4e.json"
         },
         {
           "id": "pdf:8d58afed-100457b1-67",
@@ -6501,7 +6501,7 @@
     {
       "name": "Helles",
       "path": "wiki/helles/index.html",
-      "sha256": "8b647eba23b802106671ed799bbeef38918f04db1846b0518aa1826f87fc9e2c"
+      "sha256": "85ca0f979472a7a7d169c3411e72fe9e4696e05a5ff06b83f979d45b68d29148"
     },
     {
       "name": "Silba Ätno",
