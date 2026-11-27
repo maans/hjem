@@ -40,6 +40,7 @@ for name,value in {
  '$:/GitHub/Branch':'main','$:/GitHub/Filename':'index.html','$:/GitHub/Path':'wiki/helles/',
  '$:/GitHub/Repo':'maans/hjem','$:/GitHub/Username':'maans',
  '$:/config/huwiki/abc/tab-default':'off',
+ '$:/config/maans/repertoire/pdf-viewer':'/wiki/birdland/pdf-viewer/',
 }.items():tiddlers.append(tid(name,value))
 tiddlers.append(tid(ORCH,name='Helles',**{'repertoire-kind':'orchestra'}))
 for r in rows:
@@ -112,7 +113,7 @@ addon='''exports.name='helles-reading';exports.platforms=['browser'];exports.aft
 exports.startup=function(){
 var model=require('$:/plugins/huwiki/repertoire/model.js');model.viewLabels.score='Leadsheet (PDF)';model.viewLabels.guitar='Chord stabs (PDF)';
 var Book=require('$:/plugins/huwiki/repertoire/book-widget.js')['huwiki-repertoire-book'],draw=Book.prototype.draw;
-Book.prototype.draw=function(){draw.apply(this,arguments);if(!this.host||this._editReturn)return;var work=model.work(this.wiki,this.activeItem);if(!work)return;var d=this.document,box=d.createElement('details'),summary=d.createElement('summary');box.className='helles-reader-lyrics';summary.textContent='Sangtekst og noter';box.appendChild(summary);var body=d.createElement('div'),a=d.createElement('a');a.href='#'+encodeURIComponent(work.fields.title+' · Sangtekst');a.textContent='Åbn / redigér sangtekst';body.appendChild(a);if(work.fields['helles-lyrics']){var p=d.createElement('pre');p.textContent=work.fields['helles-lyrics'];body.appendChild(p);}if(work.fields['helles-lyrics-pdf']){var p=d.createElement('a');p.href=work.fields['helles-lyrics-pdf'];p.target='_blank';p.rel='noopener';p.textContent=' · Original tekstside (PDF)';body.appendChild(p);}box.appendChild(body);this.host.appendChild(box);};
+Book.prototype.draw=function(){draw.apply(this,arguments);if(!this.host||this._editReturn)return;var selected=this.wiki.getTiddler(this.activeItem),work=selected&&selected.fields['music-title']?this.wiki.getTiddler(selected.fields['music-title']):selected;if(!work)return;var d=this.document,box=d.createElement('details'),summary=d.createElement('summary');box.className='helles-reader-lyrics';summary.textContent='Sangtekst og noter';box.appendChild(summary);var body=d.createElement('div'),a=d.createElement('a');a.href='#'+encodeURIComponent(work.fields.title+' · Sangtekst');a.textContent='Åbn / redigér sangtekst';body.appendChild(a);if(work.fields['helles-lyrics']){var p=d.createElement('pre');p.textContent=work.fields['helles-lyrics'];body.appendChild(p);}if(work.fields['helles-lyrics-pdf']){var p=d.createElement('a');p.href=work.fields['helles-lyrics-pdf'];p.target='_blank';p.rel='noopener';p.textContent=' · Original tekstside (PDF)';body.appendChild(p);}box.appendChild(body);this.host.appendChild(box);};
 };'''
 tiddlers.append(tid('$:/helles/reading.js',addon,type='application/javascript',**{'module-type':'startup'}))
 assert len({t['title'] for t in tiddlers})==len(tiddlers)
