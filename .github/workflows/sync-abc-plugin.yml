@@ -103,7 +103,7 @@ jobs:
           python scripts/apply_leadsheet_additions.py
           python scripts/apply_repertoire_videos.py
       - name: Verify existing notation in every set and full repertoire
-        run: node scripts/check_repertoire_views.mjs $(rg --files wiki -g index.html)
+        run: node scripts/check_repertoire_views.mjs $(find wiki -type f -name index.html)
       - name: Publish the updated musician wikis
         run: |
           git diff --check
