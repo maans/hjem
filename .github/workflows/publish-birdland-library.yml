@@ -37,9 +37,11 @@ jobs:
       - name: Convert and audition additional free MuseScore and ABC melodies
         env:
           FORGE_SOURCE: ${{ github.workspace }}/.forge-source
+          DOM_MODULE: /tmp/birdland-dom/node_modules/@xmldom/xmldom
         run: |
+          node --test scripts/test_birdland_leadsheet_fallback.mjs
           node scripts/extend_birdland_leadsheets.mjs --forge .forge-source --dom-module /tmp/birdland-dom/node_modules/@xmldom/xmldom
-          python -c 'import json; r=json.load(open("research/birdland/bulk-conversion.json")); assert r["converted"]>=22,r["converted"]'
+          python -c 'import json; r=json.load(open("research/birdland/bulk-conversion.json")); assert r["converted"]>=34,r["converted"]'
           node scripts/test_birdland_leadsheet_playback.mjs
       - name: Update shared Repertoire without changing original notes
         run: |

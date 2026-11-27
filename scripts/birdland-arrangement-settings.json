@@ -193,5 +193,58 @@
     "bpm": 172,
     "reference": "Birdlands originale guitar-/klaver-PDF, første side: To b’er og Bb6; Moderato swing fjerdedel=172.",
     "pdf": "https://xn--mns-ula.dk/wiki/birdland/guitar/pdf/the-lady-is-a-tramp.pdf"
+  },
+  "All the Things You Are": {
+    "key": "Ab",
+    "reference": "Birdlands originale guitar-/klaver-PDF, første side: tonearten er læst i fortegn og harmoni; numerisk tempo ikke angivet.",
+    "bpm": null
+  },
+  "But Not for Me": {
+    "key": "G",
+    "reference": "Birdlands originale guitar-/klaver-PDF, første side: tonearten er læst i fortegn og harmoni; numerisk tempo ikke angivet.",
+    "bpm": null
+  },
+  "Have You Met Miss Jones?": {
+    "key": "G",
+    "reference": "Birdlands originale guitar-/klaver-PDF, første side: tonearten er læst i fortegn og harmoni; numerisk tempo ikke angivet.",
+    "bpm": null
+  },
+  "It Don't Mean a Thing (If It Ain't Got That Swing)": {
+    "key": "Gm",
+    "reference": "Birdlands originale guitar-/klaver-PDF, første side: tonearten er læst i fortegn og harmoni; numerisk tempo ikke angivet.",
+    "bpm": null
+  },
+  "It's Only a Paper Moon": {
+    "key": "Bb",
+    "reference": "Birdlands originale guitar-/klaver-PDF, første side: tonearten er læst i fortegn og harmoni; numerisk tempo ikke angivet.",
+    "bpm": null
+  },
+  "Love Is Here to Stay": {
+    "key": "F",
+    "reference": "Birdlands originale guitar-/klaver-PDF, første side: tonearten er læst i fortegn og harmoni; numerisk tempo ikke angivet.",
+    "bpm": null
+  },
+  "Moten Swing": {
+    "key": "Ab",
+    "reference": "Birdlands originale guitar-/klaver-PDF, første side: tonearten er læst i fortegn og harmoni; numerisk tempo ikke angivet.",
+    "bpm": null
+  },
+  "My Funny Valentine": {
+    "key": "Cm",
+    "reference": "Birdlands originale guitar-/klaver-PDF, første side: tonearten er læst i fortegn og harmoni; numerisk tempo ikke angivet.",
+    "bpm": null,
+    "style": "jazzballad",
+    "abc_source_key_override": "Cm",
+    "abc_source_key_evidence": "Kildens K:Eb har samme fortegn som C-mol; åbningsharmonien Cm og den tilhørende melodi viser C-mol."
+  },
+  "Perdido": {
+    "key": "Bb",
+    "reference": "Birdlands originale guitar-/klaver-PDF, første side: tonearten er læst i fortegn og harmoni; numerisk tempo ikke angivet.",
+    "bpm": null
+  },
+  "Thou Swell": {
+    "key": "G",
+    "reference": "Birdlands originale guitar-/klaver-PDF, første side: tonearten er læst i fortegn og harmoni; numerisk tempo ikke angivet.",
+    "bpm": null
   }
 }

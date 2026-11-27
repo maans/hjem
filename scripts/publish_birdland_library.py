@@ -65,9 +65,16 @@ def main():
   for lead in leads:
    title=lead['title'];sid=title+' · Leadsheet'
    assert re.search(r'^K:\s*'+re.escape(lead['abc_key'])+r'\s*$',lead['abc_source'],re.M)
-   assert re.search(r'^Q:\s*'+re.escape(lead['abc_tempo'])+r'\s*$',lead['abc_source'],re.M)
+   if lead['abc_tempo']:assert re.search(r'^Q:\s*'+re.escape(lead['abc_tempo'])+r'\s*$',lead['abc_source'],re.M)
+   else:assert not re.search(r'^Q:',lead['abc_source'],re.M)
    assert lead['abc_chord_count']>0
-   changes[sid]={**current.get(sid,{}),'title':sid,'caption':title,'type':'text/vnd.tiddlywiki','text':'<$huwiki-abc tiddler=<<currentTiddler>> view="full" embedded="yes" audio="all" show-title="no"/>','music-template':'off','repertoire-work-title':title,'repertoire-abc-label':'Leadsheet (ABC)','abc-source':lead['abc_source'],'source-url':lead['source'],'repertoire-source-reference':lead['birdland_reference']['reference']}
+   origins=lead.get('settings_origin',{'key':'birdland','tempo':'birdland'})
+   note=[]
+   if origins['key']=='source':note.append('Toneart fra leadsheetet.')
+   if origins['tempo']=='source':note.append('Tempo fra leadsheetet.')
+   if origins['tempo']=='player_default':note.append('Tempo er ikke angivet i kilden; afspillerens standardtempo bruges.')
+   body=(' '.join(note)+'\n\n' if note else '')+'<$huwiki-abc tiddler=<<currentTiddler>> view="full" embedded="yes" audio="all" show-title="no"/>'
+   changes[sid]={**current.get(sid,{}),'title':sid,'caption':title,'type':'text/vnd.tiddlywiki','text':body,'music-template':'off','repertoire-work-title':title,'repertoire-abc-label':'Leadsheet (ABC)','abc-source':lead['abc_source'],'source-url':lead['source'],'repertoire-source-reference':lead['birdland_reference'].get('reference','Leadsheetets egne oplysninger'),'repertoire-key-origin':origins['key'],'repertoire-tempo-origin':origins['tempo']}
    changes[title]['repertoire-leadsheet-source']=sid
    changes[title]['repertoire-has-leadsheet']='yes'
    view='<$huwiki-repertoire-piece tiddler="'+title+'"/>'
@@ -107,7 +114,7 @@ def main():
    page='Nodemappe · '+name
    changes[page]={'title':page,'type':'text/vnd.tiddlywiki','tags':'BirdlandNodemappe','text':'! '+name+'\n\n'+event['notes']+'\n\n<$huwiki-repertoire-book setlist="'+sid+'"/>\n'}
    links.append('* [['+name+'|'+page+']]')
-  changes['Leadsheets']={'title':'Leadsheets','type':'text/vnd.tiddlywiki','tags':'Birdland Oversigt','text':'Afspillelige ABC-noder med melodi og becifringer, tilpasset Birdlands klingende toneart og tempo.\n\n<$list filter="[field:repertoire-has-leadsheet[yes]has[repertoire-leadsheet-source]sort[title]]" emptyMessage="Der er endnu ingen færdigkontrollerede leadsheets i denne wiki."><div><$link to={{!!repertoire-leadsheet-source}}><$view field="title"/></$link></div></$list>\n'}
+  changes['Leadsheets']={'title':'Leadsheets','type':'text/vnd.tiddlywiki','tags':'Birdland Oversigt','text':'Afspillelige ABC-noder med melodi og becifringer. Birdlands toneart og tempo bruges, hvor de kendes; ellers bruges leadsheetets egne oplysninger.\n\n<$list filter="[field:repertoire-has-leadsheet[yes]has[repertoire-leadsheet-source]sort[title]]" emptyMessage="Der er endnu ingen færdigkontrollerede leadsheets i denne wiki."><div><$link to={{!!repertoire-leadsheet-source}}><$view field="title"/></$link></div></$list>\n'}
   changes['Nodemapper']={'title':'Nodemapper','type':'text/vnd.tiddlywiki','tags':'Birdland Oversigt','text':'! Daterede nodemapper\n\nÉn fælles rækkefølge med valgfri visning for hele mappen og for hvert nummer.\n\n'+'\n'.join(links)+'\n\nNordjysk Bigband Dag 23.11.2025 afventer dokumenteret rækkefølge.\n'}
   changes['$:/config/maans/repertoire/default-source-role']={'title':'$:/config/maans/repertoire/default-source-role','text':role}
   for home in ['Birdland · Guitar','Birdlands orkesterwiki']:
