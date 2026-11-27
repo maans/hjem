@@ -1,0 +1,49 @@
+name: Publish Helles repertoire wiki
+on:
+  push:
+    branches: [main]
+    paths: ['scripts/*helles*', 'research/helles/arrangements.json', 'research/helles/asset-manifest.json', 'research/helles/source-manifest.json', 'research/helles/assets.zip', 'research/helles/sources/**', '.github/workflows/publish-helles.yml']
+  workflow_dispatch:
+permissions: {contents: write}
+concurrency:
+  group: publish-helles
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: main}
+      - uses: actions/checkout@v4
+        with: {repository: maans/huwiki-forge, path: .forge-source}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - name: Prepare original MuseScore files
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y musescore3
+          pip install pypdf
+          python scripts/prepare_helles_sources.py
+      - name: Convert, assemble and validate
+        env:
+          FORGE_SOURCE: .forge-source
+        run: |
+          node scripts/convert_helles.mjs
+          python scripts/build_helles.py
+          node scripts/test_helles.mjs
+          node scripts/assemble_helles.mjs
+      - name: Publish Helles only
+        run: |
+          git diff --check
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add wiki/helles research/helles/conversions.json research/helles/build-summary.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'feat(helles): publish repertoire, original charts, lyrics and concert-pitch ABC'
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi

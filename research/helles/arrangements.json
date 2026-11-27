@@ -1,0 +1,164 @@
+[
+  {
+    "id": "1",
+    "title": "Autumn Leaves",
+    "key": "Cm",
+    "tempo": 138,
+    "tempoDisp": "♩=138",
+    "form": "Intro sax (rubato); instr sax; vokal; solo sax; solo gui/bas; vokal rit",
+    "cues": ""
+  },
+  {
+    "id": "2",
+    "title": "Sakta vi gå genom stan",
+    "key": "Bb",
+    "tempo": 108,
+    "tempoDisp": "♩=108",
+    "form": "Instr sax; vokal; solo gui/bas; vokal+sax (rit.)",
+    "cues": ""
+  },
+  {
+    "id": "3",
+    "title": "Desafinado",
+    "key": "F",
+    "tempo": 132,
+    "tempoDisp": "♩=132",
+    "form": "Intro 8t u.sax; vokal; solo sax; vokal+sax fra C; outro (7t.)",
+    "cues": ""
+  },
+  {
+    "id": "4",
+    "title": "All The Things You Are",
+    "key": "Cm/eb",
+    "tempo": 138,
+    "tempoDisp": "♩=138",
+    "form": "Intro (4 sidste t.); vokal+sax; solo bas/gui; solo sax; vokal (rit.)",
+    "cues": ""
+  },
+  {
+    "id": "5",
+    "title": "What It Means To Me",
+    "key": "Cm/Eb",
+    "tempo": 60,
+    "tempoDisp": "♩=60 (lige)",
+    "form": "Instr sax; vokal; solo - sax+vok; solo gui; vokal+sax fra B",
+    "cues": ""
+  },
+  {
+    "id": "6",
+    "title": "Wave",
+    "key": "Eb",
+    "tempo": 126,
+    "tempoDisp": "♩=126",
+    "form": "Intro 8t; vokal; solo gui; solo sax AA/vok BC; outro (8t.)",
+    "cues": ""
+  },
+  {
+    "id": "7",
+    "title": "Hvorfor er lykken så lunefuld",
+    "key": "Fm",
+    "tempo": 54,
+    "tempoDisp": "♩=54",
+    "form": "Intro vers (t1-12 u.sax); vokal; solo sax; solo gui/vok (B;) outro intro (rit bas)",
+    "cues": ""
+  },
+  {
+    "id": "8",
+    "title": "Brevet",
+    "key": "Dm",
+    "tempo": 66,
+    "tempoDisp": "♩=66",
+    "form": "Intro (D.S. og ud); vokal; solo fl (AA+B); vokal (D.S. og ud)",
+    "cues": ""
+  },
+  {
+    "id": "9",
+    "title": "There Will Never Be Another You",
+    "key": "C",
+    "tempo": 152,
+    "tempoDisp": "♩=152",
+    "form": "Intro (4 sidste t); vokal; chase vok/fl; chase gui/bas; vokal+fl; outro (3x3 t + sidste)",
+    "cues": ""
+  },
+  {
+    "id": "10",
+    "title": "Dejlighedssang",
+    "key": "Bb",
+    "tempo": 88,
+    "tempoDisp": "♩=88",
+    "form": "Instr sax+bas; vokal+gui; vokal+bas; tutti (f); solo sax (m. GUI+Bas); vokal (u.Sax); vokal+sax (fra 2/4 m. bas + gui); tutti (p)",
+    "cues": ""
+  },
+  {
+    "id": "11",
+    "title": "Dansevise",
+    "key": "Am",
+    "tempo": 160,
+    "tempoDisp": "♩=160",
+    "form": "Intro (8t u.sax); vokal; solo sax; solo gui/vok (fra t. 21); coda (rubato)",
+    "cues": ""
+  },
+  {
+    "id": "12",
+    "title": "This Masquerade",
+    "key": "Bbm",
+    "tempo": 108,
+    "tempoDisp": "♩=108",
+    "form": "Intro (4t); instr sax+4t; vokal+4t; solo gui (AB)/vok+sax (A); outro (3 x  t.13-16, rit)",
+    "cues": ""
+  },
+  {
+    "id": "13",
+    "title": "Libertango",
+    "key": "Cm",
+    "tempo": 116,
+    "tempoDisp": "♩=116",
+    "form": "A0+A1 -sax; B gui;  A2 gui; A0+A1 vok; B+A2 sax; A0 -sax; A1 -gui+bas (lyrisk); B+A2 - Vokal+sax",
+    "cues": ""
+  },
+  {
+    "id": "14",
+    "title": "Those Who Were",
+    "key": "G + Bb",
+    "tempo": 50,
+    "tempoDisp": "♩=50",
+    "form": "Intro (4t); instr sax; vokal/+sax fra B; vokal+sax; solo sax; vokal+sax; outro (4t.)",
+    "cues": ""
+  },
+  {
+    "id": "15",
+    "title": "'Round Midnight",
+    "key": "Cm",
+    "tempo": 60,
+    "tempoDisp": "♩=60",
+    "form": "Intro sax (solo)/+gui; instr; vokal; solo- sax (2xA)/Gui (B+A); sax (2xA, mel)/vok (B+A)",
+    "cues": ""
+  },
+  {
+    "id": "16",
+    "title": "Quiet Night of Quiet Stars",
+    "key": "Bb",
+    "tempo": 63,
+    "tempoDisp": "♩=63",
+    "form": "Intro (t25 og ud); vokal; solo-sax; solo-gui; vokal+sax (u. rit.)",
+    "cues": ""
+  },
+  {
+    "id": "17",
+    "title": "Deidres Samba",
+    "key": "Cm",
+    "tempo": 72,
+    "tempoDisp": "♩=72",
+    "form": "Intro (sidste 8t u.fl); vokal+ml spil (8 t) vokal+ml spil (8 t) vokal+ml spil (8 t) ; vokal (slut på 4.-slag)",
+    "cues": ""
+  },
+  {
+    "id": "18",
+    "title": "Nature Boy",
+    "key": "Dm",
+    "tempo": 108,
+    "tempoDisp": "♩=108",
+    "form": "Intro (bas4t+gui4t); vokal (1/2 H 1/2 S); solo Fl; vokal (H+S)/Da capo; solo gui da capo; Outro (tutti, Bas+Gui., Bas)",
+    "cues": ""
+  }
+]

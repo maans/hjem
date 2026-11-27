@@ -1,0 +1,81 @@
+{
+  "All The Things You Are": {
+    "stabs": "all-the-things-you-are-chord-stabs.pdf",
+    "stabs_pages": [
+      24
+    ]
+  },
+  "Autumn Leaves": {
+    "stabs": "autumn-leaves-chord-stabs.pdf",
+    "stabs_pages": [
+      26
+    ]
+  },
+  "Brevet": {
+    "stabs": "brevet-chord-stabs.pdf",
+    "stabs_pages": [
+      28
+    ]
+  },
+  "Dansevise": {
+    "stabs": "dansevise-chord-stabs.pdf",
+    "stabs_pages": [
+      32,
+      33
+    ],
+    "lyrics": "dansevise-sangtekst.pdf"
+  },
+  "Hvorfor er lykken så lunefuld": {
+    "stabs": "hvorfor-er-lykken-chord-stabs.pdf",
+    "stabs_pages": [
+      42
+    ]
+  },
+  "Libertango": {
+    "stabs": "libertango-chord-stabs.pdf",
+    "stabs_pages": [
+      46,
+      47
+    ]
+  },
+  "Quiet Night of Quiet Stars": {
+    "stabs": "quiet-night-chord-stabs.pdf",
+    "stabs_pages": [
+      55
+    ]
+  },
+  "Sakta vi gå genom stan": {
+    "stabs": "sakta-chord-stabs.pdf",
+    "stabs_pages": [
+      59
+    ],
+    "lyrics": "sakta-sangtekst.pdf"
+  },
+  "There Will Never Be Another You": {
+    "stabs": "there-will-never-chord-stabs.pdf",
+    "stabs_pages": [
+      64
+    ]
+  },
+  "This Masquerade": {
+    "stabs": "this-masquerade-chord-stabs.pdf",
+    "stabs_pages": [
+      67
+    ]
+  },
+  "Those Who Were": {
+    "stabs": "those-who-were-chord-stabs.pdf",
+    "stabs_pages": [
+      69
+    ]
+  },
+  "Deidres Samba": {
+    "lyrics": "deidres-samba-sangtekst.pdf"
+  },
+  "Har du visor, min vän": {
+    "pdf": "har-du-visor.pdf"
+  },
+  "Visan från Utanmyra": {
+    "pdf": "visan-fran-utanmyra.pdf"
+  }
+}
