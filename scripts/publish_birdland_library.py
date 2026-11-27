@@ -73,7 +73,7 @@ def main():
    if origins['key']=='source':note.append('Toneart fra leadsheetet.')
    if origins['tempo']=='source':note.append('Tempo fra leadsheetet.')
    if origins['tempo']=='player_default':note.append('Tempo er ikke angivet i kilden; afspillerens standardtempo bruges.')
-   body=(' '.join(note)+'\n\n' if note else '')+'<$huwiki-abc tiddler=<<currentTiddler>> view="full" embedded="yes" audio="all" show-title="no"/>'
+   body=(' '.join(note)+'\n\n' if note else '')+'<$huwiki-repertoire-piece tiddler=<<currentTiddler>>/>'
    changes[sid]={**current.get(sid,{}),'title':sid,'caption':title,'type':'text/vnd.tiddlywiki','text':body,'music-template':'off','repertoire-work-title':title,'repertoire-abc-label':'Leadsheet (ABC)','abc-source':lead['abc_source'],'source-url':lead['source'],'repertoire-source-reference':lead['birdland_reference'].get('reference','Leadsheetets egne oplysninger'),'repertoire-key-origin':origins['key'],'repertoire-tempo-origin':origins['tempo']}
    changes[title]['repertoire-leadsheet-source']=sid
    changes[title]['repertoire-has-leadsheet']='yes'
@@ -121,7 +121,24 @@ def main():
    if home in current:
     changes[home]=dict(current[home])
     if '[[Nodemapper]]' not in changes[home].get('text',''):changes[home]['text']=changes[home].get('text','')+'\n\n[[Nodemapper]] · Sætlister med dato og begivenhed.\n'
+  for home in ['Birdland · Guitar','Birdlands orkesterwiki']:
+   if home in changes:
+    body=changes[home]['text'].replace('[[Repertoire og sætlister|HUWiki Repertoire – Start]]','[[Redigér sætlister|Repertoire – Sætlister]]').replace('[[Redigér sætlister|HUWiki Repertoire – Start]]','[[Redigér sætlister|Repertoire – Sætlister]]')
+    entry='[[Nodemapper og numre|HUWiki Repertoire – Start]]'
+    if entry not in body:body='<div class="bird-links">'+entry+' · [[Redigér sætlister|Repertoire – Sætlister]]</div>\n\n'+body
+    changes[home]['text']=body
+  for title in titles:
+   piece=changes[title]
+   original=piece.get('repertoire-original-text',current.get(title,{}).get('text',''))
+   piece['repertoire-original-text']=original
+   notes=re.sub(r'<iframe\b[^>]*>[\s\S]*?</iframe\s*>','',original,flags=re.I)
+   notes=re.sub(r'<\$(?:huwiki-repertoire-piece|huwiki-abc)[^\n]*/>','',notes)
+   piece['text']='<$huwiki-repertoire-piece tiddler="'+title+'"/>\n\n<details class="bird-original-sources"><summary>Originalfiler og noter</summary>\n\n'+notes.strip()+'\n\n</details>'
+   piece['music-template']='off'
   for title,piece in changes.items():
+   if piece.get('repertoire-work-title') and piece.get('abc-source'):
+    if piece.get('repertoire-abc-label')!='Leadsheet (ABC)':piece['text']='<$huwiki-repertoire-piece tiddler=<<currentTiddler>>/>'
+    piece['music-template']='off'
    if piece.get('abc-source'):backing_defaults(piece,refs.get(piece.get('repertoire-work-title',title),{}))
   result=patch(originals[p],changes);after=read(result)
   for title,t in current.items():
@@ -130,7 +147,7 @@ def main():
   for lead in leads:
    source=after[after[lead['title']]['repertoire-leadsheet-source']]
    assert source['abc-source']==lead['abc_source']
-   assert '<$huwiki-abc ' in source['text'] and 'audio="all"' in source['text']
+   assert '<$huwiki-repertoire-piece ' in source['text']
    assert source['music-template']=='off'
   assert 'to={{!!repertoire-leadsheet-source}}' in after['Leadsheets']['text']
   updates[p]=result
