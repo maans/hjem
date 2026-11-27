@@ -30,6 +30,9 @@ if (DATA/'assets.zip').exists():
   for name in z.namelist():
    assert name.startswith('pdf/') and '..' not in Path(name).parts
    (OUT/name).parent.mkdir(exist_ok=True,parents=True);(OUT/name).write_bytes(z.read(name))
+# Remove superseded generated charts whose identification was not confirmed.
+for old in ['brevet','libertango','this-masquerade','those-who-were']:
+ (OUT/'pdf'/(old+'-chord-stabs.pdf')).unlink(missing_ok=True)
 tiddlers=[]
 for p in ['themes/modern/dist/theme.json','languages/da-DK/plugin.json']+[f'plugins/{n}/dist/plugin.json' for n in ['abc','music','musescore-import','repertoire','site-publisher','print-article']]:
  tiddlers.append(json.loads((FORGE/p).read_text()))
@@ -82,7 +85,7 @@ De ti numre fra Helles seneste repertoiremail. Åbn nodemappen for at bladre gen
 
 ''Saxofon:'' Vælg instrumentnoder i ABC-visningen: B♭ sopransax, B♭ tenor eller E♭ alto. Afspilningen beholder den klingende toneart. Originale PDF’er vises i deres egen toneart.
 
-''Guitar:'' Vælg Chord stabs (PDF), hvor den originale guitarudgave findes. Capo og håndskrevne noter i PDF’en bevares.
+''Guitar:'' Vælg Chord stabs (PDF), hvor den originale guitarudgave findes. Capo og håndskrevne noter i PDF’en bevares. Akkordarkene stammer fra Per Aspera-arkivet; sammenhold toneart og aftaler med Helles’ leadsheet.
 
 !! Nodemapper
 
@@ -118,5 +121,5 @@ Book.prototype.draw=function(){draw.apply(this,arguments);if(!this.host||this._e
 tiddlers.append(tid('$:/helles/reading.js',addon,type='application/javascript',**{'module-type':'startup'}))
 assert len({t['title'] for t in tiddlers})==len(tiddlers)
 (DATA/'tiddlers.json').write_text(json.dumps(tiddlers,ensure_ascii=False))
-(DATA/'build-summary.json').write_text(json.dumps({'pieces':25,'pdf_leadsheets':sum(bool(r.get('pdf')) for r in rows),'chord_stabs':11,'abc':len(conversions),'lyric_sheets':3,'missing':missing},ensure_ascii=False,indent=2))
+(DATA/'build-summary.json').write_text(json.dumps({'pieces':25,'pdf_leadsheets':sum(bool(r.get('pdf')) for r in rows),'chord_stabs':sum(bool(a.get('stabs')) for a in assets.values()),'abc':len(conversions),'lyric_sheets':3,'missing':missing},ensure_ascii=False,indent=2))
 print((DATA/'build-summary.json').read_text())
