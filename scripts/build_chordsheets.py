@@ -12,6 +12,14 @@ charts=[]
 def add(title,key,tempo,style,pdf,sections,meter='4/4',note='',config=None):
     charts.append(dict(title=title,key=key,tempo=tempo,style=style,pdf=pdf,sections=sections,meter=meter,note=note,config=config))
 
+add('I din hand','Bm',110,'Swing','i-din-hand-leadsheet.pdf',[
+ ('Intro','Bm|Bm|Bm|Bm|Bm|Bm|Bm|Bm|Bm|Bm|Bm|Bm|Bm|Bm|Bm|Bm'),
+ ('A1','Bm|Db7/Ab|Gm7b5|C7|Fm|G7/D|Bbm6|Fm/C C7|Em|F#7/C#|Cm7b5|Faug|Gm7b5|C/Bb|C#m7|F#aug F#7'),
+ ('A2','Bm|Db7/Ab|Gm7b5|C7|Fm|G7/D|Bbm6|Fm/C C7|Em|F#7/C#|Cm7b5|Faug|Gm7b5|C/Bb|C#m7|F#aug F#7'),
+ ('B og overgang','Gmaj7|Gmaj7|G#m7b5|Db7|Gbmaj7|Gbmaj7|Gm7b5|C7|A/C#|Dm|C/E|Fm Fm/Eb|Bb/D Bbm/Db|Ab/C Abm/Cb|Eb7/Bb|Eb7/Bb|A#dim7'),
+ ('Intro / slutning','Bm|Bm|Bm|Bm|Bm|Bm|Bm|Bm|Bm|Bm|Bm|Bm|Bm|Bm|Bm|Bm')],
+ note='Becifringer og tempo 110 efter den vedlagte Frans Bak-node. Introens gentagelse og A’s to volter er skrevet ud. F med forhøjet kvint er Faug; F♯ med forhøjet kvint er F#aug. Den håndskrevne A♯dim-overgang efter B er medtaget. Øveform: Intro–AAB–intro; soloer over AAB vælges manuelt. Slutning ifølge håndskriften: A til anden volte, derefter intro til anden volte/Fine. Basindsats én takt før intro aftales manuelt.')
+
 add('Autumn Leaves','Cm',138,'Swing','autumn-leaves-leadsheet.pdf',[
  ('A1','Fm7|Bb7|Ebmaj7|Abmaj7|Dm7b5|G7b9|Cmmaj7|Cmmaj7'),
  ('A2','Fm7|Bb7|Ebmaj7|Abmaj7|Dm7b5|G7b9|Cmmaj7|Cmmaj7'),
@@ -133,8 +141,10 @@ def build():
           'helles-source-file':source,'helles-source-note':note,'helles-source-url':chart.get('url',''),'helles-written-bars':str(bars),
           'helles-verification':'PDF-transskription' if chart['pdf'] else 'Indspilningsbaseret øveform; afventer Helles-arrangement'})
         canonical={'title':chart['title'],'repertoire-chord-stabs-source':title,'repertoire-abc-playback-source':title}
-        if chart['title'] in ('Har du visor, min vän','The Guaracha','Oy como va','Visan från Utanmyra'):
+        if chart['title'] in ('I din hand','Har du visor, min vän','The Guaracha','Oy como va','Visan från Utanmyra'):
             canonical.update({'repertoire-key':chart['key'],'repertoire-tempo':'1/4='+str(chart['tempo']),'helles-source-note':note})
+        if chart['title']=='I din hand':
+            canonical.update({'repertoire-pdf':source,'repertoire-score-pdf':source,'helles-source-file':source})
         rows.append(canonical)
     (DATA/'chordsheet-additions.json').write_text(json.dumps(rows,ensure_ascii=False,indent=2)+'\n')
     (DATA/'chordsheet-transcriptions.json').write_text(json.dumps(charts,ensure_ascii=False,indent=2)+'\n')

@@ -24,5 +24,5 @@ for(const work of rows.filter(r=>r['repertoire-kind']==='piece')){
  summary.push({title:work.title,source:source.title,style:config.style,tracks:audio.tracks.map(t=>({bus:t.huwabcPart,notes:notes(t).length}))});
 }
 console.log(JSON.stringify(summary,null,2));
-assert.ok(summary.filter(x=>x.status!=='missing').length>=24);
-assert.ok(summary.filter(x=>x.status==='missing').every(x=>x.title==='I din hand'));
+assert.equal(summary.filter(x=>x.status!=='missing').length,25);
+assert.deepEqual(summary.filter(x=>x.status==='missing'),[]);

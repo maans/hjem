@@ -1,5 +1,38 @@
 [
   {
+    "title": "I din hand · ABC-akkordark",
+    "caption": "I din hand",
+    "type": "text/vnd.tiddlywiki",
+    "text": "<$huwiki-repertoire-piece tiddler=<<currentTiddler>>/>\n\nBecifringer og tempo 110 efter den vedlagte Frans Bak-node. Introens gentagelse og A’s to volter er skrevet ud. F med forhøjet kvint er Faug; F♯ med forhøjet kvint er F#aug. Den håndskrevne A♯dim-overgang efter B er medtaget. Øveform: Intro–AAB–intro; soloer over AAB vælges manuelt. Slutning ifølge håndskriften: A til anden volte, derefter intro til anden volte/Fine. Basindsats én takt før intro aftales manuelt.",
+    "music-template": "off",
+    "repertoire-work-title": "I din hand",
+    "repertoire-sheet-format": "abc",
+    "repertoire-source-role": "chord-stabs",
+    "repertoire-abc-label": "Akkordark (ABC)",
+    "abc-source": "X:1\nT:I din hand\nR:Swing\nM:4/4\nL:1/4\nQ:1/4=110\nK:Bm\n%%barsperstaff 4\nP:Intro\n\"Bm\"z4  | \"Bm\"z4  | \"Bm\"z4  | \"Bm\"z4  | \n\"Bm\"z4  | \"Bm\"z4  | \"Bm\"z4  | \"Bm\"z4  | \n\"Bm\"z4  | \"Bm\"z4  | \"Bm\"z4  | \"Bm\"z4  | \n\"Bm\"z4  | \"Bm\"z4  | \"Bm\"z4  | \"Bm\"z4  | \n||\nP:A1\n\"Bm\"z4  | \"Db7/Ab\"z4  | \"Gm7b5\"z4  | \"C7\"z4  | \n\"Fm\"z4  | \"G7/D\"z4  | \"Bbm6\"z4  | \"Fm/C\"z2 \"C7\"z2  | \n\"Em\"z4  | \"F#7/C#\"z4  | \"Cm7b5\"z4  | \"Faug\"z4  | \n\"Gm7b5\"z4  | \"C/Bb\"z4  | \"C#m7\"z4  | \"F#aug\"z2 \"F#7\"z2  | \n||\nP:A2\n\"Bm\"z4  | \"Db7/Ab\"z4  | \"Gm7b5\"z4  | \"C7\"z4  | \n\"Fm\"z4  | \"G7/D\"z4  | \"Bbm6\"z4  | \"Fm/C\"z2 \"C7\"z2  | \n\"Em\"z4  | \"F#7/C#\"z4  | \"Cm7b5\"z4  | \"Faug\"z4  | \n\"Gm7b5\"z4  | \"C/Bb\"z4  | \"C#m7\"z4  | \"F#aug\"z2 \"F#7\"z2  | \n||\nP:B og overgang\n\"Gmaj7\"z4  | \"Gmaj7\"z4  | \"G#m7b5\"z4  | \"Db7\"z4  | \n\"Gbmaj7\"z4  | \"Gbmaj7\"z4  | \"Gm7b5\"z4  | \"C7\"z4  | \n\"A/C#\"z4  | \"Dm\"z4  | \"C/E\"z4  | \"Fm\"z2 \"Fm/Eb\"z2  | \n\"Bb/D\"z2 \"Bbm/Db\"z2  | \"Ab/C\"z2 \"Abm/Cb\"z2  | \"Eb7/Bb\"z4  | \"Eb7/Bb\"z4  | \n\"A#dim7\"z4  | ||\nP:Intro / slutning\n\"Bm\"z4  | \"Bm\"z4  | \"Bm\"z4  | \n\"Bm\"z4  | \"Bm\"z4  | \"Bm\"z4  | \"Bm\"z4  | \n\"Bm\"z4  | \"Bm\"z4  | \"Bm\"z4  | \"Bm\"z4  | \n\"Bm\"z4  | \"Bm\"z4  | \"Bm\"z4  | \"Bm\"z4  | \n\"Bm\"z4  | ||\n|]\n",
+    "abc-key": "Bm",
+    "abc-genre": "Swing",
+    "abc-view": "chords",
+    "abc-bars-per-line": "4",
+    "abc-accompaniment": "{\"enabled\": true, \"style\": \"auto\"}",
+    "helles-source-file": "pdf/i-din-hand-leadsheet.pdf",
+    "helles-source-note": "Becifringer og tempo 110 efter den vedlagte Frans Bak-node. Introens gentagelse og A’s to volter er skrevet ud. F med forhøjet kvint er Faug; F♯ med forhøjet kvint er F#aug. Den håndskrevne A♯dim-overgang efter B er medtaget. Øveform: Intro–AAB–intro; soloer over AAB vælges manuelt. Slutning ifølge håndskriften: A til anden volte, derefter intro til anden volte/Fine. Basindsats én takt før intro aftales manuelt.",
+    "helles-source-url": "",
+    "helles-written-bars": "81",
+    "helles-verification": "PDF-transskription"
+  },
+  {
+    "title": "I din hand",
+    "repertoire-chord-stabs-source": "I din hand · ABC-akkordark",
+    "repertoire-abc-playback-source": "I din hand · ABC-akkordark",
+    "repertoire-key": "Bm",
+    "repertoire-tempo": "1/4=110",
+    "helles-source-note": "Becifringer og tempo 110 efter den vedlagte Frans Bak-node. Introens gentagelse og A’s to volter er skrevet ud. F med forhøjet kvint er Faug; F♯ med forhøjet kvint er F#aug. Den håndskrevne A♯dim-overgang efter B er medtaget. Øveform: Intro–AAB–intro; soloer over AAB vælges manuelt. Slutning ifølge håndskriften: A til anden volte, derefter intro til anden volte/Fine. Basindsats én takt før intro aftales manuelt.",
+    "repertoire-pdf": "pdf/i-din-hand-leadsheet.pdf",
+    "repertoire-score-pdf": "pdf/i-din-hand-leadsheet.pdf",
+    "helles-source-file": "pdf/i-din-hand-leadsheet.pdf"
+  },
+  {
     "title": "Autumn Leaves · ABC-akkordark",
     "caption": "Autumn Leaves",
     "type": "text/vnd.tiddlywiki",

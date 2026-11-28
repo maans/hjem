@@ -69,10 +69,12 @@ def merge(rows):
         status['text']=re.sub(r'\d+ transponérbare ABC-leadsheets',str(count)+' transponérbare ABC-leadsheets',status.get('text',''))
         pdf_count=sum(bool(r.get('repertoire-score-pdf')) for r in index.values() if r.get('repertoire-kind')=='piece')
         status['text']=re.sub(r'\d+ leadsheets som PDF',str(pdf_count)+' leadsheets som PDF',status['text'])
-        for title in ('The Guaracha','Altid et Goodbye'):
+        for title in ('The Guaracha','Altid et Goodbye','I din hand'):
             work=index.get(title,{})
             if work.get('repertoire-pdf') or work.get('repertoire-chord-stabs-source'):
                 status['text']=status['text'].replace('* [['+title+']]\n','')
+        if index.get('I din hand · ABC-akkordark',{}).get('abc-source'):
+            status['text']=status['text'].replace('Dansevise, I din hand og Visan från Utanmyra er fundet som MusicXML, men indeholder ingen becifringer. De er bevaret i kildearkivet og afventer sammenhold med originalerne.','Dansevise, I din hand og Visan från Utanmyra er også bevaret som MusicXML uden becifringer. Deres ABC-akkordark er nu sammenholdt med PDF-originalerne.')
         works=[r for r in index.values() if r.get('repertoire-kind')=='piece']
         ready=[];missing=[]
         for work in works:
