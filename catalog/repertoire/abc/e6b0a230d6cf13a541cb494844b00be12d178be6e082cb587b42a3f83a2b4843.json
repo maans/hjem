@@ -1,0 +1,16 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Sakta vi gå genom stan\nR:Swing\nM:4/4\nL:1/4\nQ:1/4=108\nK:Bb\n%%barsperstaff 4\nP:A1\n\"Bbmaj7\"z2 \"F9#5\"z2  | \"Bbmaj7\"z2 \"F9#5\"z2  | \"Bbmaj7\"z2 \"Eb7\"z2  | \"Dm7b5\"z2 \"G7b9\"z2  | \n\"Cm7\"z2 \"G7/B\"z2  | \"Cm7\"z2 \"Am7b5\"z2  | \"Ab7\"z \"G7\"z \"Gb7b5\"z \"F7\"z  | \"Bbmaj7\"z2 \"F9#5\"z2  | \n||\nP:A2\n\"Bbmaj7\"z2 \"F9#5\"z2  | \"Bbmaj7\"z2 \"F9#5\"z2  | \"Bbmaj7\"z2 \"Eb7\"z2  | \"Dm7b5\"z2 \"G7b9\"z2  | \n\"Cm7\"z2 \"G7/B\"z2  | \"Cm7\"z2 \"Am7b5\"z2  | \"Ab7\"z \"G7\"z \"Gb7b5\"z \"F7\"z  | \"Bbmaj7\"z2 \"A7b9\"z2  | \n||\nP:B\n\"Dm7\"z2 \"Dmmaj7/C#\"z2  | \"Dm7/C\"z2 \"Bm7b5\"z2  | \"Bbmaj7\"z4  | \"Em7b5\"z2 \"A7b9\"z2  | \n\"Dm7\"z2 \"Dmmaj7/C#\"z2  | \"Dm7/C\"z2 \"Bm7b5\"z2  | \"Gm7\"z2 \"C7\"z2  | \"Cm7\"z2 \"F7b9\"z2  | \n||\nP:A3\n\"Bbmaj7\"z2 \"F9#5\"z2  | \"Bbmaj7\"z2 \"F9#5\"z2  | \"Bbmaj7\"z2 \"Eb7\"z2  | \"Dm7b5\"z2 \"G7b9\"z2  | \n\"Cm7\"z2 \"G7/B\"z2  | \"Cm7\"z2 \"F7\"z2  | \"Cm7\"z2 \"F7\"z2  | \"Bb6\"z2 \"Cm7\"z \"F7\"z  | \n||\n|]\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-sheet-format": "abc",
+  "repertoire-abc-label": "Akkordark (ABC)",
+  "abc-key": "Bb",
+  "abc-genre": "Swing",
+  "abc-view": "chords",
+  "abc-bars-per-line": "4",
+  "abc-accompaniment": "{\"enabled\": true, \"style\": \"auto\"}"
+}

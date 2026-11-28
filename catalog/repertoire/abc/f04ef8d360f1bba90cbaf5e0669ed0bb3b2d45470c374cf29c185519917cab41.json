@@ -1,0 +1,16 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:There Will Never Be Another You\nR:Swing\nM:4/4\nL:1/4\nQ:1/4=152\nK:C\n%%barsperstaff 4\nP:A1\n\"Cmaj7\"z4  | \"Cmaj7\"z4  | \"Bm7b5\"z4  | \"E7\"z4  | \n\"Am\"z4  | \"Am\"z4  | \"Gm9\"z4  | \"C9\"z4  | \n\"Fmaj7\"z4  | \"Bb9#11\"z4  | \"Cmaj7\"z4  | \"Am7\"z4  | \n\"D9\"z4  | \"D9\"z4  | \"Dm7\"z4  | \"G7\"z4  | \n||\nP:A2\n\"Cmaj7\"z4  | \"Cmaj7\"z4  | \"Bm7b5\"z4  | \"E7\"z4  | \n\"Am\"z4  | \"Am\"z4  | \"Gm9\"z4  | \"C9\"z4  | \n\"Fmaj7\"z4  | \"Bb9#11\"z4  | \"Cmaj7\"z4  | \"F#m7b5\"z2 \"B7\"z2  | \n\"C6\"z2 \"F9#11\"z2  | \"Em7\"z2 \"A7\"z2  | \"Dm7\"z2 \"G13\"z2  | \"C6\"z4  | \n||\n|]\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-sheet-format": "abc",
+  "repertoire-abc-label": "Akkordark (ABC)",
+  "abc-key": "C",
+  "abc-genre": "Swing",
+  "abc-view": "chords",
+  "abc-bars-per-line": "4",
+  "abc-accompaniment": "{\"enabled\": true, \"style\": \"auto\"}"
+}

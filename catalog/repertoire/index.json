@@ -6,12 +6,27 @@
       "title": "'Round Midnight",
       "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#'Round%20Midnight",
       "aliases": [
-        "'Round Midnight"
+        "'Round Midnight",
+        "'Round Midnight · ABC-akkordark"
       ],
       "collections": [
         "Helles"
       ],
       "variants": [
+        {
+          "id": "chord-stabs:105d66bd-889a0f53-731",
+          "format": "abc",
+          "role": "chord-stabs",
+          "label": "Chord stabs (ABC)",
+          "key": "Cm",
+          "meter": "4/4",
+          "composer": "",
+          "sourceTitle": "'Round Midnight · ABC-akkordark",
+          "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#'Round%20Midnight%20%C2%B7%20ABC-akkordark",
+          "originalURL": "",
+          "collection": "Helles",
+          "abcPath": "abc/24724a632b1c66cdf27e374fedf5c8268a77f5b6782ae07f3ebb806ee6c8958b.json"
+        },
         {
           "id": "pdf:a6dd864c-62607b2-67",
           "format": "pdf",
@@ -373,7 +388,8 @@
       "aliases": [
         "All the Things You Are",
         "All the Things You Are · Leadsheet",
-        "All The Things You Are"
+        "All The Things You Are",
+        "All The Things You Are · ABC-akkordark"
       ],
       "collections": [
         "Birdland",
@@ -394,6 +410,20 @@
           "originalURL": "https://jazzleadsheet.com/post/all-the-things-you-are/",
           "collection": "Birdland",
           "abcPath": "abc/63c97a47bb40c94f9471ba1bf802ccc2ac9d02d84823b8288cc8263859cb318b.json"
+        },
+        {
+          "id": "chord-stabs:3c71ad08-a4ac0ee-587",
+          "format": "abc",
+          "role": "chord-stabs",
+          "label": "Chord stabs (ABC)",
+          "key": "Eb",
+          "meter": "4/4",
+          "composer": "",
+          "sourceTitle": "All The Things You Are · ABC-akkordark",
+          "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#All%20The%20Things%20You%20Are%20%C2%B7%20ABC-akkordark",
+          "originalURL": "",
+          "collection": "Helles",
+          "abcPath": "abc/9c4902705e469562af49f3916d08cf092a7306ff340a19b81e4e018a1f13ae98.json"
         },
         {
           "id": "pdf:ed173579-d442c47f-74",
@@ -570,7 +600,7 @@
       ],
       "variants": [
         {
-          "id": "chord-stabs:5a281cc1-679d71c1-1509",
+          "id": "chord-stabs:46b52edb-96908c25-1518",
           "format": "abc",
           "role": "chord-stabs",
           "label": "Chord stabs (ABC)",
@@ -581,7 +611,7 @@
           "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#Altid%20et%20Goodbye%20%C2%B7%20Chord%20stabs",
           "originalURL": "",
           "collection": "Helles",
-          "abcPath": "abc/f1b8bab02199ec7ad5a33152ad396c4e888fdc30d6e4edfeec8c923353db51a0.json"
+          "abcPath": "abc/4b42edb65c54a9eccc3bdb3fbdfae5c2989dde8b49489518f2bc2356343c6a07.json"
         }
       ]
     },
@@ -617,12 +647,27 @@
       "title": "Autumn Leaves",
       "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#Autumn%20Leaves",
       "aliases": [
-        "Autumn Leaves"
+        "Autumn Leaves",
+        "Autumn Leaves · ABC-akkordark"
       ],
       "collections": [
         "Helles"
       ],
       "variants": [
+        {
+          "id": "chord-stabs:e8928f35-adfa4f7f-556",
+          "format": "abc",
+          "role": "chord-stabs",
+          "label": "Chord stabs (ABC)",
+          "key": "Cm",
+          "meter": "4/4",
+          "composer": "",
+          "sourceTitle": "Autumn Leaves · ABC-akkordark",
+          "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#Autumn%20Leaves%20%C2%B7%20ABC-akkordark",
+          "originalURL": "",
+          "collection": "Helles",
+          "abcPath": "abc/3f9fb0ee70baeff7c0ff6b4d4c397440a77e76ea37fb92a7d8fd66174c4ab1f1.json"
+        },
         {
           "id": "pdf:c789e9b0-6152152-66",
           "format": "pdf",
@@ -1016,7 +1061,7 @@
       ],
       "variants": [
         {
-          "id": "leadsheet:38c90588-82d23dcc-1255",
+          "id": "leadsheet:376ee45b-73c1bd11-1268",
           "format": "abc",
           "role": "leadsheet",
           "label": "Leadsheet (ABC)",
@@ -1027,7 +1072,7 @@
           "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#Bluesette%20%C2%B7%20Leadsheet",
           "originalURL": "",
           "collection": "Helles",
-          "abcPath": "abc/24f6d24d881e7bac2e0b6d7a07e493ad4faa34df9639ebf45c74134125284ce4.json"
+          "abcPath": "abc/31b3ee373d18f4560cf81257cadd0fb5700c692c3eedb96cba7924be7354db5b.json"
         }
       ]
     },
@@ -1090,12 +1135,27 @@
       "title": "Brevet",
       "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#Brevet",
       "aliases": [
-        "Brevet"
+        "Brevet",
+        "Brevet · ABC-akkordark"
       ],
       "collections": [
         "Helles"
       ],
       "variants": [
+        {
+          "id": "chord-stabs:137390b9-fac2d975-1159",
+          "format": "abc",
+          "role": "chord-stabs",
+          "label": "Chord stabs (ABC)",
+          "key": "Dm",
+          "meter": "4/4",
+          "composer": "",
+          "sourceTitle": "Brevet · ABC-akkordark",
+          "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#Brevet%20%C2%B7%20ABC-akkordark",
+          "originalURL": "",
+          "collection": "Helles",
+          "abcPath": "abc/b78c836cf402c2db31c4d442bed889e370253131cc492e4fb57bf3b8248cd219.json"
+        },
         {
           "id": "pdf:a67f753d-16b5d193-59",
           "format": "pdf",
@@ -1766,12 +1826,27 @@
       "title": "Dansevise",
       "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#Dansevise",
       "aliases": [
-        "Dansevise"
+        "Dansevise",
+        "Dansevise · ABC-akkordark"
       ],
       "collections": [
         "Helles"
       ],
       "variants": [
+        {
+          "id": "chord-stabs:6bdae158-d54181a-1259",
+          "format": "abc",
+          "role": "chord-stabs",
+          "label": "Chord stabs (ABC)",
+          "key": "Am",
+          "meter": "3/4",
+          "composer": "",
+          "sourceTitle": "Dansevise · ABC-akkordark",
+          "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#Dansevise%20%C2%B7%20ABC-akkordark",
+          "originalURL": "",
+          "collection": "Helles",
+          "abcPath": "abc/03d8e2aea0ffc18b55a7dfa7659b8a68b654757951471d80a4e4f10ea1386684.json"
+        },
         {
           "id": "pdf:bd02cc93-e5cc8575-62",
           "format": "pdf",
@@ -1809,12 +1884,27 @@
       "title": "Deidres Samba",
       "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#Deidres%20Samba",
       "aliases": [
-        "Deidres Samba"
+        "Deidres Samba",
+        "Deidres Samba · ABC-akkordark"
       ],
       "collections": [
         "Helles"
       ],
       "variants": [
+        {
+          "id": "chord-stabs:fb90b0d4-d9863306-561",
+          "format": "abc",
+          "role": "chord-stabs",
+          "label": "Chord stabs (ABC)",
+          "key": "Cm",
+          "meter": "4/4",
+          "composer": "",
+          "sourceTitle": "Deidres Samba · ABC-akkordark",
+          "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#Deidres%20Samba%20%C2%B7%20ABC-akkordark",
+          "originalURL": "",
+          "collection": "Helles",
+          "abcPath": "abc/6b778c08e5385297cf43dca3b42c187632e720c8ac0d27f12cd2bb558a409e9a.json"
+        },
         {
           "id": "pdf:89fd4f86-642ba58-66",
           "format": "pdf",
@@ -1842,12 +1932,27 @@
       "title": "Dejlighedssang",
       "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#Dejlighedssang",
       "aliases": [
-        "Dejlighedssang"
+        "Dejlighedssang",
+        "Dejlighedssang · ABC-akkordark"
       ],
       "collections": [
         "Helles"
       ],
       "variants": [
+        {
+          "id": "chord-stabs:ed59fca-787f4c88-306",
+          "format": "abc",
+          "role": "chord-stabs",
+          "label": "Chord stabs (ABC)",
+          "key": "Bb",
+          "meter": "4/4",
+          "composer": "",
+          "sourceTitle": "Dejlighedssang · ABC-akkordark",
+          "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#Dejlighedssang%20%C2%B7%20ABC-akkordark",
+          "originalURL": "",
+          "collection": "Helles",
+          "abcPath": "abc/dae8f99b86f49003bd8ea95e8188720ec636353e68c1390db5e0a8808588a3a7.json"
+        },
         {
           "id": "pdf:76cc5963-1e1ee649-67",
           "format": "pdf",
@@ -1899,7 +2004,7 @@
           "abcPath": "abc/9b5a572003434b90035562ed47475fb2057361f46fe88d4fb9600a4e2e5da9cd.json"
         },
         {
-          "id": "leadsheet:9b2f7749-3bfbaff1-1247",
+          "id": "leadsheet:fdf3e855-6e3fc129-1260",
           "format": "abc",
           "role": "leadsheet",
           "label": "Leadsheet (ABC)",
@@ -1910,7 +2015,7 @@
           "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#Desafinado%20%C2%B7%20Leadsheet",
           "originalURL": "",
           "collection": "Helles",
-          "abcPath": "abc/97b65f05e4c4f3976bc61186d1c3e50d822a0139abfed163796276988198ef7e.json"
+          "abcPath": "abc/e8e6759f0fbddadac298551123a49f838a06f7d4dd6262d08f5a5e7e324ff796.json"
         },
         {
           "id": "pdf:810a02cf-7eb3bee5-62",
@@ -2915,12 +3020,27 @@
       "title": "Har du visor, min vän",
       "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#Har%20du%20visor%2C%20min%20v%C3%A4n",
       "aliases": [
-        "Har du visor, min vän"
+        "Har du visor, min vän",
+        "Har du visor, min vän · ABC-akkordark"
       ],
       "collections": [
         "Helles"
       ],
       "variants": [
+        {
+          "id": "chord-stabs:4a0d5fa0-288eaf2e-451",
+          "format": "abc",
+          "role": "chord-stabs",
+          "label": "Chord stabs (ABC)",
+          "key": "Dm",
+          "meter": "3/4",
+          "composer": "",
+          "sourceTitle": "Har du visor, min vän · ABC-akkordark",
+          "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#Har%20du%20visor%2C%20min%20v%C3%A4n%20%C2%B7%20ABC-akkordark",
+          "originalURL": "",
+          "collection": "Helles",
+          "abcPath": "abc/32c523f704e02b8f39f99c16f378b5f5405369412b426a8cf6bb445c43a804eb.json"
+        },
         {
           "id": "pdf:5e1ddd0c-c7b76a54-55",
           "format": "pdf",
@@ -3141,12 +3261,27 @@
       "title": "Hvorfor er lykken så lunefuld",
       "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#Hvorfor%20er%20lykken%20s%C3%A5%20lunefuld",
       "aliases": [
-        "Hvorfor er lykken så lunefuld"
+        "Hvorfor er lykken så lunefuld",
+        "Hvorfor er lykken så lunefuld · ABC-akkordark"
       ],
       "collections": [
         "Helles"
       ],
       "variants": [
+        {
+          "id": "chord-stabs:12052da3-9b591797-782",
+          "format": "abc",
+          "role": "chord-stabs",
+          "label": "Chord stabs (ABC)",
+          "key": "Fm",
+          "meter": "4/4",
+          "composer": "",
+          "sourceTitle": "Hvorfor er lykken så lunefuld · ABC-akkordark",
+          "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#Hvorfor%20er%20lykken%20s%C3%A5%20lunefuld%20%C2%B7%20ABC-akkordark",
+          "originalURL": "",
+          "collection": "Helles",
+          "abcPath": "abc/c6f6a8572f90df70e43c0fe01b95a686d08062a56857483c8a63dc3b94951542.json"
+        },
         {
           "id": "pdf:7f396807-851f61cb-82",
           "format": "pdf",
@@ -3894,7 +4029,7 @@
           "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#Libertango%20%C2%B7%20Leadsheet",
           "originalURL": "",
           "collection": "Helles",
-          "abcPath": "abc/43ae27972a57732b61c9e35f19ec02da0b97b38bc91eedac8c255ffdb54198ac.json"
+          "abcPath": "abc/d6a714fc38241cfc415865b6f016c0460db02259c3a82bc2aacbf3174036adb2.json"
         },
         {
           "id": "pdf:eb87e5ae-43b75642-63",
@@ -4493,12 +4628,27 @@
       "title": "Nature Boy",
       "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#Nature%20Boy",
       "aliases": [
-        "Nature Boy"
+        "Nature Boy",
+        "Nature Boy · ABC-akkordark"
       ],
       "collections": [
         "Helles"
       ],
       "variants": [
+        {
+          "id": "chord-stabs:b6e551c8-600f221a-548",
+          "format": "abc",
+          "role": "chord-stabs",
+          "label": "Chord stabs (ABC)",
+          "key": "Dm",
+          "meter": "4/4",
+          "composer": "",
+          "sourceTitle": "Nature Boy · ABC-akkordark",
+          "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#Nature%20Boy%20%C2%B7%20ABC-akkordark",
+          "originalURL": "",
+          "collection": "Helles",
+          "abcPath": "abc/4db97bf7cdf3fc6241951b65d3505c7a1ce0d63545dcab1b986614f293ed0a4c.json"
+        },
         {
           "id": "pdf:2a14c64f-6c20c641-63",
           "format": "pdf",
@@ -4670,12 +4820,28 @@
       "title": "Oy como va",
       "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#Oy%20como%20va",
       "aliases": [
-        "Oy como va"
+        "Oy como va",
+        "Oy como va · ABC-akkordark"
       ],
       "collections": [
         "Helles"
       ],
-      "variants": []
+      "variants": [
+        {
+          "id": "chord-stabs:507c852a-5789f33e-387",
+          "format": "abc",
+          "role": "chord-stabs",
+          "label": "Chord stabs (ABC)",
+          "key": "Am",
+          "meter": "4/4",
+          "composer": "",
+          "sourceTitle": "Oy como va · ABC-akkordark",
+          "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#Oy%20como%20va%20%C2%B7%20ABC-akkordark",
+          "originalURL": "",
+          "collection": "Helles",
+          "abcPath": "abc/e221ac2822766c8a12b3d36734e67e56c57041ab2c355a143d3cb9b5da3532da.json"
+        }
+      ]
     },
     {
       "id": "perdido",
@@ -4792,12 +4958,27 @@
       "title": "Quiet Night of Quiet Stars",
       "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#Quiet%20Night%20of%20Quiet%20Stars",
       "aliases": [
-        "Quiet Night of Quiet Stars"
+        "Quiet Night of Quiet Stars",
+        "Quiet Night of Quiet Stars · ABC-akkordark"
       ],
       "collections": [
         "Helles"
       ],
       "variants": [
+        {
+          "id": "chord-stabs:ad7573b-c5a61f5f-632",
+          "format": "abc",
+          "role": "chord-stabs",
+          "label": "Chord stabs (ABC)",
+          "key": "Bb",
+          "meter": "4/4",
+          "composer": "",
+          "sourceTitle": "Quiet Night of Quiet Stars · ABC-akkordark",
+          "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#Quiet%20Night%20of%20Quiet%20Stars%20%C2%B7%20ABC-akkordark",
+          "originalURL": "",
+          "collection": "Helles",
+          "abcPath": "abc/7cc77381a6b3990911853bb26c8b1a4a025766006b61a9edf866a00d329393c0.json"
+        },
         {
           "id": "pdf:9963fca9-5b322f93-79",
           "format": "pdf",
@@ -4835,12 +5016,27 @@
       "title": "Sakta vi gå genom stan",
       "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#Sakta%20vi%20g%C3%A5%20genom%20stan",
       "aliases": [
-        "Sakta vi gå genom stan"
+        "Sakta vi gå genom stan",
+        "Sakta vi gå genom stan · ABC-akkordark"
       ],
       "collections": [
         "Helles"
       ],
       "variants": [
+        {
+          "id": "chord-stabs:f5974b8d-d197c689-833",
+          "format": "abc",
+          "role": "chord-stabs",
+          "label": "Chord stabs (ABC)",
+          "key": "Bb",
+          "meter": "4/4",
+          "composer": "",
+          "sourceTitle": "Sakta vi gå genom stan · ABC-akkordark",
+          "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#Sakta%20vi%20g%C3%A5%20genom%20stan%20%C2%B7%20ABC-akkordark",
+          "originalURL": "",
+          "collection": "Helles",
+          "abcPath": "abc/e6b0a230d6cf13a541cb494844b00be12d178be6e082cb587b42a3f83a2b4843.json"
+        },
         {
           "id": "pdf:9c42c2dc-83ec3072-75",
           "format": "pdf",
@@ -5536,12 +5732,27 @@
       "title": "The Guaracha",
       "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#The%20Guaracha",
       "aliases": [
-        "The Guaracha"
+        "The Guaracha",
+        "The Guaracha · ABC-akkordark"
       ],
       "collections": [
         "Helles"
       ],
       "variants": [
+        {
+          "id": "chord-stabs:9881b1a5-9de13edd-359",
+          "format": "abc",
+          "role": "chord-stabs",
+          "label": "Chord stabs (ABC)",
+          "key": "Cm",
+          "meter": "4/4",
+          "composer": "",
+          "sourceTitle": "The Guaracha · ABC-akkordark",
+          "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#The%20Guaracha%20%C2%B7%20ABC-akkordark",
+          "originalURL": "",
+          "collection": "Helles",
+          "abcPath": "abc/6567fbf19c0a51b1c6a65e554e2b552119d6f0e7afc4bb265f9bd680c70fd8f6.json"
+        },
         {
           "id": "pdf:b98c86a3-937319ab-61",
           "format": "pdf",
@@ -5812,12 +6023,27 @@
       "title": "There Will Never Be Another You",
       "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#There%20Will%20Never%20Be%20Another%20You",
       "aliases": [
-        "There Will Never Be Another You"
+        "There Will Never Be Another You",
+        "There Will Never Be Another You · ABC-akkordark"
       ],
       "collections": [
         "Helles"
       ],
       "variants": [
+        {
+          "id": "chord-stabs:35909da4-8d763a84-516",
+          "format": "abc",
+          "role": "chord-stabs",
+          "label": "Chord stabs (ABC)",
+          "key": "C",
+          "meter": "4/4",
+          "composer": "",
+          "sourceTitle": "There Will Never Be Another You · ABC-akkordark",
+          "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#There%20Will%20Never%20Be%20Another%20You%20%C2%B7%20ABC-akkordark",
+          "originalURL": "",
+          "collection": "Helles",
+          "abcPath": "abc/f04ef8d360f1bba90cbaf5e0669ed0bb3b2d45470c374cf29c185519917cab41.json"
+        },
         {
           "id": "pdf:36e1a68d-6c3fc899-84",
           "format": "pdf",
@@ -5889,12 +6115,27 @@
       "title": "This Masquerade",
       "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#This%20Masquerade",
       "aliases": [
-        "This Masquerade"
+        "This Masquerade",
+        "This Masquerade · ABC-akkordark"
       ],
       "collections": [
         "Helles"
       ],
       "variants": [
+        {
+          "id": "chord-stabs:7550ab5d-dbfea73-668",
+          "format": "abc",
+          "role": "chord-stabs",
+          "label": "Chord stabs (ABC)",
+          "key": "Bbm",
+          "meter": "4/4",
+          "composer": "",
+          "sourceTitle": "This Masquerade · ABC-akkordark",
+          "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#This%20Masquerade%20%C2%B7%20ABC-akkordark",
+          "originalURL": "",
+          "collection": "Helles",
+          "abcPath": "abc/cd57ef21b3cad92f4aac872e3d2545b32f18712d8f1992bbe3324d769fbb293a.json"
+        },
         {
           "id": "pdf:e2097334-5e5b81c6-68",
           "format": "pdf",
@@ -5941,7 +6182,7 @@
           "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#Those%20Who%20Were%20%C2%B7%20Leadsheet",
           "originalURL": "https://xn--mns-ula.dk/research/helles/sources/those-who-were.mscx",
           "collection": "Helles",
-          "abcPath": "abc/245f36a9d6d525fd87328de03d15e88dca4ebc18c6f9dd7636a6563f23a9ff4e.json"
+          "abcPath": "abc/a6f179fbeb0d13f9e0ae0026bf1f8d4a5492efa178a26111039d773f9246d425.json"
         },
         {
           "id": "pdf:8d58afed-100457b1-67",
@@ -6175,12 +6416,27 @@
       "title": "Visan från Utanmyra",
       "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#Visan%20fr%C3%A5n%20Utanmyra",
       "aliases": [
-        "Visan från Utanmyra"
+        "Visan från Utanmyra",
+        "Visan från Utanmyra · ABC-akkordark"
       ],
       "collections": [
         "Helles"
       ],
       "variants": [
+        {
+          "id": "chord-stabs:5c5ec8bf-4b239143-414",
+          "format": "abc",
+          "role": "chord-stabs",
+          "label": "Chord stabs (ABC)",
+          "key": "Am",
+          "meter": "4/4",
+          "composer": "",
+          "sourceTitle": "Visan från Utanmyra · ABC-akkordark",
+          "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#Visan%20fr%C3%A5n%20Utanmyra%20%C2%B7%20ABC-akkordark",
+          "originalURL": "",
+          "collection": "Helles",
+          "abcPath": "abc/c67fcc068e9e20159c9ef5c708cdcc312a144776d6b8975b9ea25f4751d42ec9.json"
+        },
         {
           "id": "pdf:4644102-705fac7e-62",
           "format": "pdf",
@@ -6250,7 +6506,7 @@
       ],
       "variants": [
         {
-          "id": "leadsheet:8f9e55a4-13028ff8-763",
+          "id": "leadsheet:f6f22c2a-cc850c40-776",
           "format": "abc",
           "role": "leadsheet",
           "label": "Leadsheet (ABC)",
@@ -6261,7 +6517,7 @@
           "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#Wave%20%C2%B7%20Leadsheet",
           "originalURL": "",
           "collection": "Helles",
-          "abcPath": "abc/cda30d4a8cfe62924858f0e232824ff7dede19004764757579e15f5d9d16fc32.json"
+          "abcPath": "abc/2e4b5cb9b9c97d4f86e726242d8ef6fccdf68ac90c6fe735de7f62439592e9fa.json"
         },
         {
           "id": "pdf:1ba1bed2-d41319a4-57",
@@ -6324,12 +6580,27 @@
       "title": "What It Means To Me",
       "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#What%20It%20Means%20To%20Me",
       "aliases": [
-        "What It Means To Me"
+        "What It Means To Me",
+        "What It Means To Me · ABC-akkordark"
       ],
       "collections": [
         "Helles"
       ],
       "variants": [
+        {
+          "id": "chord-stabs:2d9ee0d3-cb0cc389-537",
+          "format": "abc",
+          "role": "chord-stabs",
+          "label": "Chord stabs (ABC)",
+          "key": "Cm",
+          "meter": "4/4",
+          "composer": "",
+          "sourceTitle": "What It Means To Me · ABC-akkordark",
+          "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#What%20It%20Means%20To%20Me%20%C2%B7%20ABC-akkordark",
+          "originalURL": "",
+          "collection": "Helles",
+          "abcPath": "abc/14196cc4d9c79c771c5dc555b277726e220593200511c8e556e4ee731ecddee4.json"
+        },
         {
           "id": "pdf:fa0633d5-f81f8651-72",
           "format": "pdf",
@@ -6501,7 +6772,7 @@
     {
       "name": "Helles",
       "path": "wiki/helles/index.html",
-      "sha256": "2e645f1e92ccfe3615110b95d3c70b4b237c955c50f530ca868632d525453b42"
+      "sha256": "539e36a32621d59775e04448c007585d10691c65874c63a28f2255bfcee29ee3"
     },
     {
       "name": "Silba Ätno",

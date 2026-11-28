@@ -1,0 +1,16 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Har du visor, min vän\nR:Jazz waltz\nM:3/4\nL:1/4\nQ:1/4=120\nK:Dm\n%%barsperstaff 4\nP:A\n\"Dm\"z3  | \"Am7\"z3  | \"Dsus4\"z3  | \"D7\"z3  | \n\"Gm\"z3  | \"Gm/Bb\"z3  | \"G#dim7\"z3  | \"A\"z3  | \n\"Bbmaj7\"z3  | \"Am7\"z \"Dsus4\"z2  | \"Dm\"z3  | \"Dm\"z3  | \n||\nP:B\n\"Gm7\"z3  | \"C7\"z3  | \"Fmaj7\"z3  | \"Bbmaj7\"z3  | \n\"Gm/E\"z3  | \"A7\"z3  | \"G#dim7\"z3  | \"A\"z3  | \n\"Dm\"z2 \"Dm/C\"z  | \"Gm/Bb\"z3  | \"D7/A\"z3  | \"Gm\"z3  | \n\"Dm/A\"z2 \"Am7\"z  | \"Dsus4\"z3  | \"Dm\"z3  | \"Dm\"z3  | \n||\n|]\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-sheet-format": "abc",
+  "repertoire-abc-label": "Akkordark (ABC)",
+  "abc-key": "Dm",
+  "abc-genre": "Jazz waltz",
+  "abc-view": "chords",
+  "abc-bars-per-line": "4",
+  "abc-accompaniment": "{\"enabled\": true, \"style\": \"auto\"}"
+}

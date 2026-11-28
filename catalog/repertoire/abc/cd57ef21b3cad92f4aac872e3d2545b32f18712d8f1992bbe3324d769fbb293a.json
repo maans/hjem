@@ -1,0 +1,16 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:This Masquerade\nR:Bossa nova\nM:4/4\nL:1/4\nQ:1/4=108\nK:Bbm\n%%barsperstaff 4\nP:A1\n\"Bbm\"z4  | \"Bbmmaj7\"z4  | \"Bbm7\"z4  | \"Eb13\"z4  | \n\"Bbm7\"z4  | \"Gb9\"z4  | \"Cm7\"z4  | \"F7#5\"z4  | \n||\nP:A2\n\"Bbm\"z4  | \"Bbmmaj7\"z4  | \"Bbm7\"z4  | \"Eb13\"z4  | \n\"Gb7\"z4  | \"F7#5\"z4  | \"Bbm7\"z4  | \"Bbm7\"z4  | \n||\nP:B\n\"Abm7\"z4  | \"Db13b9\"z4  | \"Gbmaj7\"z4  | \"Gbmaj7\"z4  | \n\"Abm7\"z4  | \"Db13b9\"z4  | \"Gbmaj7\"z4  | \"Gbmaj7\"z4  | \n\"Gm7\"z4  | \"C13\"z2 \"C7#5\"z2  | \"Fmaj7\"z4  | \"Fmaj7\"z2 \"G7\"z2  | \n\"Cm7\"z4  | \"C13\"z2 \"C7#5\"z2  | \"F9sus4\"z4  | \"F9sus4\"z4  | \n||\nP:A3\n\"Bbm\"z4  | \"Bbmmaj7\"z4  | \"Bbm7\"z4  | \"Eb13\"z4  | \n\"Bbm7\"z4  | \"Gb9\"z4  | \"Cm7\"z4  | \"F7#5\"z4  | \n\"Bbm7\"z4  | \"Bbm7\"z4  | ||\n|]\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-sheet-format": "abc",
+  "repertoire-abc-label": "Akkordark (ABC)",
+  "abc-key": "Bbm",
+  "abc-genre": "Bossa nova",
+  "abc-view": "chords",
+  "abc-bars-per-line": "4",
+  "abc-accompaniment": "{\"enabled\": true, \"style\": \"auto\"}"
+}

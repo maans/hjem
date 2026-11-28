@@ -1,0 +1,16 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:'Round Midnight\nR:Slow jazz ballad\nM:4/4\nL:1/4\nQ:1/4=60\nK:Cm\n%%barsperstaff 4\nP:A1\n\"Cm\"z2 \"Am7b5\"z2  | \"Dm7b5\"z2 \"G7#5\"z2  | \"Cm7\"z2 \"F7\"z2  | \"Abm7\"z \"Db7\"z \"Gm7\"z \"C7\"z  | \n\"Fm\"z2 \"Bb7\"z2  | \"Cm\"z2 \"F7\"z2  | \"Ab7\"z4  | \"G7\"z4  | \n||\nP:A2\n\"Cm\"z2 \"Am7b5\"z2  | \"Dm7b5\"z2 \"G7#5\"z2  | \"Cm7\"z2 \"F7\"z2  | \"Abm7\"z \"Db7\"z \"Gm7\"z \"C7\"z  | \n\"Fm\"z2 \"Bb7\"z2  | \"Cm\"z2 \"F7\"z2  | \"Ab7\"z2 \"G7\"z2  | \"Cm7\"z4  | \n||\nP:B\n\"Am7b5\"z2 \"D7b9\"z2  | \"G7\"z4  | \"Am7b5\"z2 \"D7b9\"z2  | \"G7\"z4  | \n\"Fm7\"z \"Bb7\"z \"Ebmaj7\"z2  | \"Ab7\"z2 \"G7\"z2  | \"C7\"z2 \"Bb7\"z2  | \"Ab7\"z2 \"G7\"z2  | \n||\nP:A3\n\"Cm\"z2 \"Am7b5\"z2  | \"Dm7b5\"z2 \"G7#5\"z2  | \"Cm7\"z2 \"F7\"z2  | \"Abm7\"z \"Db7\"z \"Gm7\"z \"C7\"z  | \n\"Fm\"z2 \"Bb7\"z2  | \"Cm\"z2 \"F7\"z2  | \"Ab7\"z4  | \"G7\"z4  | \n\"Cm\"z4  | ||\n|]\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-sheet-format": "abc",
+  "repertoire-abc-label": "Akkordark (ABC)",
+  "abc-key": "Cm",
+  "abc-genre": "Slow jazz ballad",
+  "abc-view": "chords",
+  "abc-bars-per-line": "4",
+  "abc-accompaniment": "{\"enabled\": true, \"style\": \"auto\"}"
+}

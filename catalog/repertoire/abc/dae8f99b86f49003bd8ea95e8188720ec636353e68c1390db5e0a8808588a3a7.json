@@ -1,0 +1,16 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Dejlighedssang\nR:Ballad\nM:4/4\nL:1/4\nQ:1/4=88\nK:Bb\n%%barsperstaff 4\nP:Vers\n\"Eb6\"z2 \"Bb/D\"z2  | \"F/A\"z2 \"Gm\"z2  | \"D\"z2 \"D7/F#\"z2  | \"Gm\"z2 \"Gm/F\"z2  | \n\"Ebmaj7\"z4  | \"Dm\"z2 \"Eb\"z2  | \"Cm7\"z4  | \"Eb\"z2 \"F\"z2  | \n[M:2/4]\"F\"z2  | [M:4/4]\"Ebm\"z4  | \"Gm7\"z4  | \"Cm\"z2 \"F7\"z2  | \n\"Bbsus4\"z2 \"Bb\"z2  | ||\n|]\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-sheet-format": "abc",
+  "repertoire-abc-label": "Akkordark (ABC)",
+  "abc-key": "Bb",
+  "abc-genre": "Ballad",
+  "abc-view": "chords",
+  "abc-bars-per-line": "4",
+  "abc-accompaniment": "{\"enabled\": true, \"style\": \"auto\"}"
+}

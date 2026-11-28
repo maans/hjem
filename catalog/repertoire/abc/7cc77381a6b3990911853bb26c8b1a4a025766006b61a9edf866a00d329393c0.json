@@ -1,0 +1,16 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Quiet Night of Quiet Stars\nR:Bossa nova\nM:4/4\nL:1/4\nQ:1/4=63\nK:Bb\n%%barsperstaff 4\nP:A1\n\"C7/G\"z4  | \"C7/G\"z4  | \"Gbdim7\"z4  | \"Gbdim7\"z4  | \n\"Fm7\"z4  | \"Bb7sus4\"z2 \"Ebmaj7\"z2  | \"Ebdim7/A\"z2 \"Ebmaj7/Bb\"z2  | \"Ebmaj7/Bb\"z4  | \n||\nP:B\n\"Ebm7\"z4  | \"Ab7\"z4  | \"Dm7b5\"z4  | \"G7#5\"z4  | \n\"C7\"z4  | \"C7\"z4  | \"Cm7\"z4  | \"Gbdim7\"z4  | \n||\nP:A2\n\"C7/G\"z4  | \"C7/G\"z4  | \"Gbdim7\"z4  | \"Gbdim7\"z4  | \n\"Fm7\"z4  | \"Bb7sus4\"z2 \"Ebmaj7\"z2  | \"Ebdim7/A\"z2 \"Ebmaj7/Bb\"z2  | \"Ebmaj7/Bb\"z4  | \n||\nP:C\n\"Ebm7\"z4  | \"Ab7\"z4  | \"Dm7b5\"z4  | \"Gm7\"z4  | \n\"Cm7\"z4  | \"F7\"z4  | \"Dm7b5\"z4  | \"G7#5\"z4  | \n\"Cm7\"z4  | \"F7\"z4  | \"Bb6\"z4  | \"Bb6\"z4  | \n||\n|]\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-sheet-format": "abc",
+  "repertoire-abc-label": "Akkordark (ABC)",
+  "abc-key": "Bb",
+  "abc-genre": "Bossa nova",
+  "abc-view": "chords",
+  "abc-bars-per-line": "4",
+  "abc-accompaniment": "{\"enabled\": true, \"style\": \"auto\"}"
+}

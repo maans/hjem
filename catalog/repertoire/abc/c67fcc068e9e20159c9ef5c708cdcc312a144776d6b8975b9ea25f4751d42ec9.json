@@ -1,0 +1,16 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Visan från Utanmyra\nR:Ballad\nM:4/4\nL:1/4\nQ:1/4=103\nK:Am\n%%barsperstaff 4\nP:A\n\"Am\"z4  | \"E\"z4  | \"Am\"z4  | \"E\"z4  | \n\"Am\"z4  | \"D\"z4  | \"Am\"z2 \"G\"z2  | \"C\"z4  | \n\"Em\"z4  | \"E\"z4  | \"Am\"z4  | \"Em\"z4  | \n\"C\"z4  | \"E\"z4  | \"Am\"z4  | \"G\"z4  | \n||\nP:B\n\"F\"z4  | \"E\"z4  | \"Am\"z4  | \"E\"z4  | \n\"F\"z4  | \"C\"z4  | \"C\"z4  | \"G\"z4  | \n\"Am\"z4  | \"Am\"z4  | \"Am\"z4  | \"E\"z4  | \n\"Am\"z4  | \"Am\"z4  | \"Am\"z4  | \"Am\"z4  | \n||\n|]\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-sheet-format": "abc",
+  "repertoire-abc-label": "Akkordark (ABC)",
+  "abc-key": "Am",
+  "abc-genre": "Ballad",
+  "abc-view": "chords",
+  "abc-bars-per-line": "4",
+  "abc-accompaniment": "{\"enabled\": true, \"style\": \"auto\"}"
+}

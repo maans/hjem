@@ -1,0 +1,16 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Dansevise\nR:Jazz waltz\nM:3/4\nL:1/4\nQ:1/4=160\nK:Am\n%%barsperstaff 4\nP:A1\n\"Am7\"z3  | \"D7\"z3  | \"Am\"z3  | \"D7\"z3  | \n\"Am\"z3  | \"D7\"z3  | \"Am\"z3  | \"Am\"z3  | \n\"C\"z3  | \"Am\"z3  | \"F\"z3  | \"Am\"z3  | \n\"F7\"z3  | \"F7\"z3  | \"Bm\"z3  | \"E7\"z3  | \n||\nP:A2\n\"Am7\"z3  | \"D7\"z3  | \"Am\"z3  | \"D7\"z3  | \n\"Am\"z3  | \"D7\"z3  | \"Am\"z3  | \"Am\"z3  | \n\"C\"z3  | \"Am\"z3  | \"F\"z3  | \"Am\"z3  | \n\"F7\"z3  | \"E7\"z \"Am\"z \"G\"z  | \"Am\"z3  | \"Am\"z3  | \n||\nP:B\n\"Dm\"z3  | \"Dm\"z3  | \"G7\"z3  | \"C\"z3  | \n\"Am\"z3  | \"F7\"z3  | \"F7\"z3  | \"Am\"z3  | \n\"F\"z3  | \"F\"z3  | \"G7\"z3  | \"C\"z3  | \n\"Am\"z3  | \"F7\"z3  | \"F7\"z3  | \"Am\"z3/2 \"D7\"z3/2  | \n||\nP:A3\n\"Am\"z3  | \"D7\"z3  | \"Am\"z3  | \"D7\"z3  | \n\"Am\"z3  | \"D7\"z3  | \"Am\"z3  | \"Am\"z3  | \n\"C\"z3  | \"Am\"z3  | \"F\"z3  | \"Am\"z3  | \n\"F7\"z3  | \"E7\"z \"Am\"z \"G\"z  | ||\nP:Vamp\n\"Am\"z3  | \"G\"z3  | \n\"Am\"z3  | \"G\"z3  | \"Am\"z3  | \"G\"z3  | \n\"Am\"z3  | \"G\"z3  | \"Am\"z3  | \"G\"z3  | \n\"Am\"z3  | \"Am\"z3  | \"Dm\"z3  | \"Dm\"z3  | \n\"Dm\"z3  | \"Dm\"z3  | \"Am\"z3  | \"G\"z3  | \n\"Am\"z3  | \"Am\"z3  | ||\nP:B2\n\"Dm\"z3  | \"G7\"z3  | \n\"C\"z3  | \"Am\"z3/2 \"F\"z3/2  | \"G7\"z3  | \"C\"z3  | \n\"Am\"z3  | \"Dm\"z3  | \"E7\"z3  | \"Am\"z3  | \n\"Am7\"z3  | \"Dm\"z3  | \"Dm\"z3  | \"Dm/E\"z3  | \n\"Dm/E\"z3  | \"E7\"z3  | \"E7\"z3  | ||\nP:Coda\n\"Am\"z3  | \n\"G\"z3  | \"Am\"z3  | \"G\"z3  | \"Am\"z3  | \n\"Am\"z3  | \"Am\"z3  | \"Am\"z3  | ||\n|]\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-sheet-format": "abc",
+  "repertoire-abc-label": "Akkordark (ABC)",
+  "abc-key": "Am",
+  "abc-genre": "Jazz waltz",
+  "abc-view": "chords",
+  "abc-bars-per-line": "4",
+  "abc-accompaniment": "{\"enabled\": true, \"style\": \"auto\"}"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Deidres Samba\nR:Samba\nM:4/4\nL:1/4\nQ:1/4=72\nK:Cm\n%%barsperstaff 4\nP:Vers\n\"Cm6\"z2 \"Cm6/G\"z2  | \"Ddim7/Ab\"z4  | \"G7\"z2 \"G7/B\"z2  | \"Cm6\"z4  | \n\"Fm7\"z4  | \"Bb7\"z4  | \"Fm7\"z2 \"Bb7\"z2  | \"Eb\"z2 \"G7/D\"z2  | \n\"Cm\"z2 \"Cm/Bb\"z2  | \"Adim7\"z4  | \"D7\"z4  | \"G7\"z4  | \n\"Cm\"z4  | \"Cm7\"z2 \"Fm\"z \"Cm\"z  | \"Ddim7\"z2 \"F#dim7\"z2  | \"G7\"z4  | \n\"G7\"z4  | ||\nP:Omkvæd\n\"C6\"z4  | \"C6\"z4  | \"C6\"z4  | \n\"C6\"z2 \"F6\"z2  | \"F6\"z4  | \"F6\"z4  | \"C6\"z4  | \n||\nP:Refræn 1\n\"C7\"z4  | \"F6\"z4  | \"Dm7\"z2 \"G7\"z2  | \"C6\"z4  | \n||\nP:Refræn 2\n\"C7\"z4  | \"F6\"z4  | \"Dm7\"z2 \"G7\"z2  | \"C\"z4  | \n||\n|]\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-sheet-format": "abc",
+  "repertoire-abc-label": "Akkordark (ABC)",
+  "abc-key": "Cm",
+  "abc-genre": "Samba",
+  "abc-view": "chords",
+  "abc-bars-per-line": "4",
+  "abc-accompaniment": "{\"enabled\": true, \"style\": \"auto\"}"
+}

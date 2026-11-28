@@ -1,0 +1,16 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Nature Boy\nR:Bossa nova\nM:4/4\nL:1/4\nQ:1/4=108\nK:Dm\n%%barsperstaff 4\nP:A\n\"Dm\"z4  | \"Em7b5\"z2 \"A7\"z2  | \"Dm\"z4  | \"Em7b5\"z2 \"A7\"z2  | \n\"Dm\"z2 \"Dmmaj7\"z2  | \"Dm7\"z4  | \"Dm6\"z2 \"Gm6\"z2  | \"Dm\"z4  | \n\"Em7b5\"z4  | \"A7\"z4  | \"A7\"z4  | \"Dm\"z4  | \n\"Dm\"z4  | \"E7b9\"z4  | \"E7b9\"z4  | \"A7\"z4  | \n\"A7\"z4  | ||\nP:B\n\"Dm\"z4  | \"Em7b5\"z2 \"A7\"z2  | \"Dm\"z4  | \n\"Em7b5\"z2 \"A7\"z2  | \"Dm\"z2 \"Dmmaj7\"z2  | \"Dm7\"z4  | \"Dm6\"z2 \"Gm6\"z2  | \n\"Dm\"z4  | \"Em7b5\"z4  | \"A7\"z4  | \"A7\"z4  | \n\"Dm\"z4  | \"Bm7b5\"z4  | \"E7b9\"z4  | \"A7b9\"z4  | \n\"Dm\"z4  | \"Em7b5\"z2 \"A7\"z2  | ||\n|]\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-sheet-format": "abc",
+  "repertoire-abc-label": "Akkordark (ABC)",
+  "abc-key": "Dm",
+  "abc-genre": "Bossa nova",
+  "abc-view": "chords",
+  "abc-bars-per-line": "4",
+  "abc-accompaniment": "{\"enabled\": true, \"style\": \"auto\"}"
+}

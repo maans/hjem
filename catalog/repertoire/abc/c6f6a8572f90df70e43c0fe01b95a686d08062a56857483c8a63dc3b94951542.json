@@ -1,0 +1,16 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Hvorfor er lykken så lunefuld\nR:Ballad\nM:4/4\nL:1/4\nQ:1/4=54\nK:Fm\n%%barsperstaff 4\nP:Vers / intro\n\"Fm\"z4  | \"Cm\"z4  | \"Fm\"z4  | \"Cm\"z4  | \n\"Fm6\"z4  | \"G7\"z4  | \"Fm6\"z4  | \"G7\"z4  | \n\"C7\"z4  | \"Fm\"z2 \"C7\"z2  | \"Db7\"z4  | \"C7b9\"z4  | \n||\nP:A1\n\"Fm\"z2 \"C7/G\"z2  | \"Fm/Ab\"z2 \"F7/A\"z2  | \"Bbm\"z2 \"F7/C\"z2  | \"Bbm/Db\"z2 \"G7\"z2  | \n\"C7b9\"z4  | \"C7b9\"z4  | \"Fm\"z2 \"C7\"z2  | \"Fm\"z2 \"C7\"z2  | \n||\nP:A2\n\"Fm\"z2 \"C7/G\"z2  | \"Fm/Ab\"z2 \"F7/A\"z2  | \"Bbm\"z2 \"F7/C\"z2  | \"Bbm/Db\"z2 \"G7\"z2  | \n\"C7b9\"z4  | \"C7b9\"z4  | \"Fm\"z2 \"C7\"z2  | \"Fm\"z4  | \n||\nP:B\n\"F7\"z4  | \"Bbm\"z4  | \"F7\"z4  | \"Bbm\"z4  | \n\"G7\"z4  | \"Cm\"z2 \"G7\"z2  | \"C7b9\"z4  | \"C7b9\"z4  | \n||\nP:A3\n\"Fm\"z2 \"C7/G\"z2  | \"Fm/Ab\"z2 \"F7/A\"z2  | \"Bbm\"z2 \"F7/C\"z2  | \"Bbm/Db\"z2 \"G7\"z2  | \n\"C7b9\"z4  | \"C7b9\"z4  | \"Fm\"z2 \"C7\"z2  | \"Fm\"z4  | \n||\n|]\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-sheet-format": "abc",
+  "repertoire-abc-label": "Akkordark (ABC)",
+  "abc-key": "Fm",
+  "abc-genre": "Ballad",
+  "abc-view": "chords",
+  "abc-bars-per-line": "4",
+  "abc-accompaniment": "{\"enabled\": true, \"style\": \"auto\"}"
+}

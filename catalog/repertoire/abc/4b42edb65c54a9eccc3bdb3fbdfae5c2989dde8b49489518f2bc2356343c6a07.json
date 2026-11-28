@@ -1,0 +1,15 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Altid et goodbye\nC:Troels Trier\nZ:Akkordforløb efter Chordifys automatiske analyse af Troels Trier-indspilningen. Ikke kontrolleret mod Helles' arrangement.\nR:Ballad\nM:4/4\nL:1/4\nQ:1/4=77\nU:s=!style=rhythm!\nV:G clef=treble name=\"Akkorder\"\n%%MIDI program 24\nK:Eb\n%%barsperstaff 4\n\"Bb\"sB | \n\"Eb\"sB sB \"G7\"sB sB | \"Cm\"sB sB sB sB | \"Fm\"sB sB \"Ab\"sB sB | \"Bb\"sB sB sB sB |\n\"Eb\"sB sB \"G7\"sB sB | \"Cm\"sB sB sB sB | \"Ab\"sB sB \"Eb\"sB sB | \"Fm\"sB sB \"Bb\"sB sB |\n\"Eb\"sB sB \"G\"sB sB | \"Cm\"sB sB sB sB | \"Fm\"sB sB \"Ab\"sB sB | \"Bb\"sB sB sB sB |\n\"G\"sB sB sB sB | \"Cm\"sB sB sB sB | \"Fm\"sB sB sB sB | \"Bb\"sB sB sB sB |\n\"Eb\"sB sB \"G7\"sB sB | \"Cm\"sB sB sB sB | \"Fm\"sB sB \"Bb\"sB sB | \"Eb\"sB sB \"C\"sB sB |\n\"Fm\"sB sB \"Bb\"sB sB | \"Eb\"sB sB \"Bb\"sB sB | \"Eb\"sB sB \"G\"sB sB | \"Cm\"sB sB sB sB |\n\"Ab\"sB sB \"Eb\"sB sB | \"Fm\"sB sB \"Bb\"sB sB | \"Eb\"sB sB \"G\"sB sB | \"Cm\"sB sB sB sB |\n\"Fm\"sB sB \"Ab\"sB sB | \"Bb\"sB sB sB sB | \"G\"sB sB sB sB | \"Cm\"sB sB sB sB |\n\"Fm\"sB sB sB sB | \"Bb\"sB sB sB sB | \"Eb\"sB sB \"G\"sB sB | \"Cm\"sB sB sB sB |\n\"Fm\"sB sB \"Bb\"sB sB | \"Eb\"sB sB \"C\"sB sB | \"Fm\"sB sB \"Bb\"sB sB | \"Eb\"sB sB sB sB |\nsB sB \"G7\"sB sB | \"Cm\"sB sB sB sB | \"Ab\"sB sB \"Eb\"sB sB | \"Fm\"sB sB \"Bb\"sB sB |\n\"Eb\"sB sB \"G\"sB sB | \"Cm\"sB sB sB sB | \"Fm\"sB sB \"Ab\"sB sB | \"Bb\"sB sB sB sB |\n\"G\"sB sB sB sB | \"Cm\"sB sB sB sB | \"Fm\"sB sB sB sB | \"Bb\"sB sB sB sB |\n\"Eb\"sB sB \"G7\"sB sB | \"Cm\"sB sB sB sB | \"Fm\"sB sB \"Bb\"sB sB | \"Eb\"sB sB \"C\"sB sB |\n\"Fm\"sB sB \"Bb\"sB sB | \"Eb\"sB sB \"C\"sB sB | \"Fm\"sB sB \"Bb\"sB sB | \"Eb\"sB sB \"Ab\"sB sB |\n\"Eb\"sB sB sB sB | sB sB |] \n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-sheet-format": "abc",
+  "abc-key": "Eb",
+  "abc-bars-per-line": "4",
+  "abc-accompaniment": "{\"enabled\": true, \"style\": \"auto\"}",
+  "abc-rhythm-playback": "written",
+  "abc-genre": "Ballad"
+}

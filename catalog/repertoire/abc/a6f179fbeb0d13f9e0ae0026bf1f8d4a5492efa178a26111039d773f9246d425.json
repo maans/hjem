@@ -11,6 +11,6 @@
   "abc-genre": "Slow jazz ballad",
   "abc-bars-per-line": "auto",
   "abc-parts-new-line": "no",
-  "abc-accompaniment": "{\"enabled\":true,\"style\":\"auto\",\"variation\":15}",
+  "abc-accompaniment": "{\"enabled\": true, \"style\": \"auto\", \"variation\": 15}",
   "abc-origin-url": "https://xn--mns-ula.dk/research/helles/sources/those-who-were.mscx"
 }

@@ -1,0 +1,16 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:The Guaracha\nR:Guaracha / cha-cha-cha\nM:4/4\nL:1/4\nQ:1/4=120\nK:Cm\n%%barsperstaff 4\nP:Vers\n\"Cm\"z4  | \"Cm\"z4  | \"Cm\"z4  | \"G7\"z4  | \n\"G7\"z4  | \"G7\"z4  | \"G7\"z4  | \"Cm\"z4  | \n\"Cm\"z4  | \"Cm\"z4  | \"Cm\"z4  | \"Fm\"z4  | \n\"Fm\"z4  | \"G7\"z4  | \"G7\"z4  | \"Cm\"z4  | \n||\nP:Refræn\n\"Cm\"z4  | \"G7\"z4  | \"G7\"z4  | \"Cm\"z4  | \n\"Cm\"z4  | \"G7\"z4  | \"G7\"z4  | \"Cm\"z4  | \n||\n|]\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-sheet-format": "abc",
+  "repertoire-abc-label": "Akkordark (ABC)",
+  "abc-key": "Cm",
+  "abc-genre": "Guaracha / cha-cha-cha",
+  "abc-view": "chords",
+  "abc-bars-per-line": "4",
+  "abc-accompaniment": "{\"enabled\": true, \"style\": \"custom\", \"bass\": \"alternate\", \"chords\": \"offbeat\", \"drums\": \"percussion\", \"bassInstrument\": 32, \"chordInstrument\": 0}"
+}

@@ -9,6 +9,6 @@
   "repertoire-abc-label": "Leadsheet (ABC)",
   "abc-key": "Cm",
   "abc-bars-per-line": "6",
-  "abc-accompaniment": "{\"enabled\": false, \"style\": \"auto\"}",
+  "abc-accompaniment": "{\"enabled\": true, \"style\": \"custom\", \"bass\": \"alternate\", \"chords\": \"beats\", \"drums\": \"off\", \"bassInstrument\": 32, \"chordInstrument\": 0}",
   "abc-genre": "Tango nuevo"
 }

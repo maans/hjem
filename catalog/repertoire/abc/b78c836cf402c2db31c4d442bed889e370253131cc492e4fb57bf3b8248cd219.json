@@ -1,0 +1,16 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Brevet\nR:Ballad\nM:4/4\nL:1/4\nQ:1/4=66\nK:Dm\n%%barsperstaff 4\nP:Vers 1\n\"Dm\"z2 \"C/E\"z \"F\"z  | \"Bbmaj7\"z2 \"C\"z2  | \"A7/C#\"z4  | \"Bb/D\"z2 \"C/E\"z \"F\"z  | \n\"Bbmaj7\"z2 \"C\"z2  | \"A7\"z4  | \"Gm\"z2 \"Dm/F\"z2  | \"C/E\"z2 \"Dm\"z2  | \n||\nP:Vers 2\n\"Dm\"z2 \"C/E\"z \"F\"z  | \"Bbmaj7\"z2 \"C\"z2  | \"A7/C#\"z4  | \"Bb/D\"z2 \"C/E\"z \"F\"z  | \n\"Bbmaj7\"z2 \"C\"z2  | \"A7\"z4  | \"Bb\"z2 \"F/A\"z2  | \"Gm7\"z2 \"C\"z2  | \n||\nP:Mellemstykke\n\"F\"z4  | [M:2/4]\"Csus4\"z \"C\"z  | [M:4/4]\"Bb/D\"z \"C/E\"z \"F\"z \"Bb\"z  | \"Bdim7\"z4  | \n[M:2/4]\"C\"z2  | [M:4/4]\"A7/C#\"z1/2 \"Dm\"z1/2 \"C/E\"z \"Cdim7/F#\"z \"D\"z  | ||\nP:Videre\n[M:3/4]\"Ebdim7\"z \"Em\"z2  | [M:4/4]\"C\"z1/2 \"D\"z1/2 \"Em\"z \"Am7\"z \"D\"z  | \n\"Esus4\"z \"Em\"z2 \"D/F#\"z  | \"G\"z4  | [M:2/4]\"D\"z2  | [M:4/4]\"C/E\"z1/2 \"D/F#\"z1/2 \"G\"z \"Cdim7\"z \"A7/C#\"z  | \n[M:2/4]\"D\"z2  | ||\nP:Modulation\n[M:4/4]\"B/D#\"z1/2 \"Em\"z1/2 \"F#dim7\"z \"Ddim7/G#\"z \"E7\"z  | [M:3/4]\"Fdim7\"z \"F#m\"z2  | [M:4/4]\"D\"z1/2 \"E\"z1/2 \"F#m\"z \"Bm7\"z \"E\"z  | \n\"F#sus4\"z2 \"F#m\"z2  | \"F#m/E\"z \"D\"z2 \"G/D\"z  | \"A/D\"z2 \"G/D\"z2  | \"D\"z2 \"G/D\"z2  | \n\"Gm6/D\"z4  | ||\nP:Tilbage\n\"Bb/D\"z1/2 \"C/E\"z1/2 \"F\"z \"Bb\"z \"Bdim7\"z  | [M:3/4]\"C#dim7\"z \"Dm\"z2  | [M:4/4]\"Bb\"z1/2 \"C\"z1/2 \"Dm\"z \"Gm7\"z \"C\"z  | \n\"Dsus4\"z2 \"Dm\"z2  | ||\n|]\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-sheet-format": "abc",
+  "repertoire-abc-label": "Akkordark (ABC)",
+  "abc-key": "Dm",
+  "abc-genre": "Ballad",
+  "abc-view": "chords",
+  "abc-bars-per-line": "4",
+  "abc-accompaniment": "{\"enabled\": true, \"style\": \"auto\"}"
+}

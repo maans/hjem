@@ -1,0 +1,16 @@
+{
+  "type": "text/vnd.tiddlywiki",
+  "tags": [
+    "ABC",
+    "Musik"
+  ],
+  "abc-source": "X:1\nT:Oy como va\nR:Cha-cha-cha / Latin\nM:4/4\nL:1/4\nQ:1/4=125\nK:Am\n%%barsperstaff 4\nP:Intro / tema\n\"Am7\"z4  | \"D7\"z4  | \"Am7\"z4  | \"D7\"z4  | \n\"Am7\"z4  | \"D7\"z4  | \"Am7\"z4  | \"D7\"z4  | \n||\nP:Sang\n\"Am7\"z4  | \"D7\"z4  | \"Am7\"z4  | \"D7\"z4  | \n\"Am7\"z4  | \"D7\"z4  | \"Am7\"z4  | \"D7\"z4  | \n||\nP:Solo-vamp\n\"Am7\"z4  | \"D7\"z4  | \"Am7\"z4  | \"D7\"z4  | \n\"Am7\"z4  | \"D7\"z4  | \"Am7\"z4  | \"D7\"z4  | \n||\n|]\n",
+  "text": "<$huwiki-abc/>",
+  "repertoire-sheet-format": "abc",
+  "repertoire-abc-label": "Akkordark (ABC)",
+  "abc-key": "Am",
+  "abc-genre": "Cha-cha-cha / Latin",
+  "abc-view": "chords",
+  "abc-bars-per-line": "4",
+  "abc-accompaniment": "{\"enabled\": true, \"style\": \"custom\", \"bass\": \"alternate\", \"chords\": \"offbeat\", \"drums\": \"percussion\", \"bassInstrument\": 32, \"chordInstrument\": 0}"
+}
