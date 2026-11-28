@@ -3319,12 +3319,48 @@
       "title": "I din hand",
       "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#I%20din%20hand",
       "aliases": [
-        "I din hand"
+        "I din hand",
+        "I din hand · ABC-akkordark"
       ],
       "collections": [
         "Helles"
       ],
-      "variants": []
+      "variants": [
+        {
+          "id": "chord-stabs:fae976bd-bb72e663-1137",
+          "format": "abc",
+          "role": "chord-stabs",
+          "label": "Chord stabs (ABC)",
+          "key": "Bm",
+          "meter": "4/4",
+          "composer": "",
+          "sourceTitle": "I din hand · ABC-akkordark",
+          "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#I%20din%20hand%20%C2%B7%20ABC-akkordark",
+          "originalURL": "",
+          "collection": "Helles",
+          "abcPath": "abc/4fb6c8a6ed49740515d2a2a4a02e5bc6fdf9c00b65bc0492f4298436a9bf4fb2.json"
+        },
+        {
+          "id": "pdf:6a4ded3a-719db1a8-63",
+          "format": "pdf",
+          "role": "pdf",
+          "label": "Originalnode (PDF)",
+          "sourceTitle": "I din hand",
+          "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#I%20din%20hand",
+          "url": "https://xn--mns-ula.dk/wiki/helles/pdf/i-din-hand-leadsheet.pdf",
+          "collection": "Helles"
+        },
+        {
+          "id": "score:6a4ded3a-719db1a8-63",
+          "format": "pdf",
+          "role": "score",
+          "label": "Partitur (PDF)",
+          "sourceTitle": "I din hand",
+          "sourceURL": "https://xn--mns-ula.dk/wiki/helles/#I%20din%20hand",
+          "url": "https://xn--mns-ula.dk/wiki/helles/pdf/i-din-hand-leadsheet.pdf",
+          "collection": "Helles"
+        }
+      ]
     },
     {
       "id": "igetakickoutofyou",
@@ -6772,7 +6808,7 @@
     {
       "name": "Helles",
       "path": "wiki/helles/index.html",
-      "sha256": "59c0259d951bbf33c60865846c973db10465fc4241835c3bf005e12f2c7f619d"
+      "sha256": "6b1cfbbcaa60d7340d905cd2d90c3a82f46bc027e16e9e325a419f9b2492a005"
     },
     {
       "name": "Silba Ätno",
