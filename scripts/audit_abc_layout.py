@@ -9,6 +9,9 @@ for path in sorted(pathlib.Path('wiki').rglob('index.html')):
   attrs={m['name'].lower():m['value'] for m in updater.ATTRIBUTE.finditer(match['attrs'])}
   if 'tiddlywiki-tiddler-store' not in attrs.get('class','').split() or attrs.get('type')!='application/json':continue
   for f,_,_ in updater.array_items(match['body']):
+   if f.get('title')=='$:/plugins/huwiki/abc':
+    vendor=json.loads(f['text'])['tiddlers']['$:/plugins/huwiki/abc/vendor/abcjs.js']['text']
+    print('PLUGIN',str(path),f.get('version'),'collision_patch=', 'return{num:"?",str:r,note:t}}function c(e,t)' in vendor)
    source=f.get('abc-source') or (f.get('text','') if f.get('type')=='text/vnd.abc' else '')
    if not source:continue
    lines=[s.strip() for s in source.splitlines() if s.strip() and not re.match(r'^(%|[A-Za-z]:)',s.strip())]

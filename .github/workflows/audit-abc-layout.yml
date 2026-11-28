@@ -27,6 +27,7 @@ jobs:
       - run: python scripts/audit_abc_layout.py
       - run: node scripts/audit_abc_layout_browser.mjs
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: abc-layout-inventory
           path: |
