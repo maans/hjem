@@ -14,8 +14,21 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - uses: actions/checkout@v4
+        with:
+          repository: maans/huwiki-forge
+          ref: 3479536f73c30c380f18f000100a0aeb9a994b3a
+          path: .forge-source
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node .forge-source/scripts/build-abc-ui.mjs
+      - run: npm install --no-save --no-package-lock --ignore-scripts playwright-core@1.56.1
       - run: python scripts/audit_abc_layout.py
+      - run: node scripts/audit_abc_layout_browser.mjs
       - uses: actions/upload-artifact@v4
         with:
           name: abc-layout-inventory
-          path: abc-layout-inventory.json
+          path: |
+            abc-layout-inventory.json
+            abc-layout-measured.json

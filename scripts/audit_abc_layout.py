@@ -12,8 +12,8 @@ for path in sorted(pathlib.Path('wiki').rglob('index.html')):
    source=f.get('abc-source') or (f.get('text','') if f.get('type')=='text/vnd.abc' else '')
    if not source:continue
    lines=[s.strip() for s in source.splitlines() if s.strip() and not re.match(r'^(%|[A-Za-z]:)',s.strip())]
-   counts=[len(re.findall(r'(?<!:)\\|(?!:)',s)) for s in lines]
-   rows.append({'wiki':str(path),'title':f['title'],'mode':f.get('abc-bars-per-line','auto'),'parts':f.get('abc-parts-new-line','default'),'origin':f.get('abc-origin-url',f.get('abc-importer','')),'directives':re.findall(r'^%%(?:barsperstaff|staffbreak|continueall|linebreak).*$',source,re.M),'sourceBars':counts})
+   counts=[len(re.findall(r'[|]',s)) for s in lines]
+   rows.append({'wiki':str(path),'title':f['title'],'mode':f.get('abc-bars-per-line','auto'),'parts':f.get('abc-parts-new-line','default'),'origin':f.get('abc-origin-url',f.get('abc-importer','')),'directives':re.findall(r'^%%(?:barsperstaff|staffbreak|continueall|linebreak).*$',source,re.M),'sourceBars':counts,'fields':f})
 print('ABC layout inventory:',len(rows),'scores')
 print('Modes:',dict(collections.Counter(r['mode'] for r in rows)))
 print('Per wiki:',dict(collections.Counter(r['wiki'] for r in rows)))
