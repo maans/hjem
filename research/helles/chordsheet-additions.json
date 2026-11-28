@@ -19,7 +19,8 @@
     "helles-source-note": "Becifringer og tempo 110 efter den vedlagte Frans Bak-node. Introens gentagelse og A’s to volter er skrevet ud. F med forhøjet kvint er Faug; F♯ med forhøjet kvint er F#aug. Den håndskrevne A♯dim-overgang efter B er medtaget. Øveform: Intro–AAB–intro; soloer over AAB vælges manuelt. Slutning ifølge håndskriften: A til anden volte, derefter intro til anden volte/Fine. Basindsats én takt før intro aftales manuelt.",
     "helles-source-url": "",
     "helles-written-bars": "81",
-    "helles-verification": "PDF-transskription"
+    "helles-verification": "PDF-transskription",
+    "abc-parts-new-line": "no"
   },
   {
     "title": "I din hand",
@@ -106,7 +107,8 @@
     "helles-source-note": "Blandet 4/4, 2/4 og 3/4 og modulationer følger nodearket. Grundformen slutter før D.S.; koncertgentagelser vælges efter aftalerne.",
     "helles-source-url": "",
     "helles-written-bars": "41",
-    "helles-verification": "PDF-transskription"
+    "helles-verification": "PDF-transskription",
+    "abc-parts-new-line": "no"
   },
   {
     "title": "Brevet",
@@ -133,7 +135,8 @@
     "helles-source-note": "A/B, vamp og coda efter PDF. Rubato i coda styres manuelt; akkompagnementet holder det valgte tempo.",
     "helles-source-url": "",
     "helles-written-bars": "107",
-    "helles-verification": "PDF-transskription"
+    "helles-verification": "PDF-transskription",
+    "abc-parts-new-line": "no"
   },
   {
     "title": "Dansevise",
@@ -160,7 +163,8 @@
     "helles-source-note": "Mollvers og duromkvæd efter PDF; sidste refræn afrundes på C. Tempo 72 følger Helles’ aftaler.",
     "helles-source-url": "",
     "helles-written-bars": "32",
-    "helles-verification": "PDF-transskription"
+    "helles-verification": "PDF-transskription",
+    "abc-parts-new-line": "no"
   },
   {
     "title": "Deidres Samba",
@@ -271,7 +275,8 @@
     "helles-source-note": "PDF’ens udskrevne A/B-forløb med udvidet slutfrase. Latinpræg fra Helles’ node; bossa bruges som øveakkompagnement.",
     "helles-source-url": "",
     "helles-written-bars": "34",
-    "helles-verification": "PDF-transskription"
+    "helles-verification": "PDF-transskription",
+    "abc-parts-new-line": "no"
   },
   {
     "title": "Nature Boy",
