@@ -5,7 +5,7 @@ on:
     paths: ['scripts/audit_abc_layout.py', '.github/workflows/audit-abc-layout.yml']
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
 jobs:
   audit:
     runs-on: ubuntu-latest
@@ -26,6 +26,19 @@ jobs:
       - run: npm install --no-save --no-package-lock --ignore-scripts playwright-core@1.56.1
       - run: python scripts/audit_abc_layout.py
       - run: node scripts/audit_abc_layout_browser.mjs
+      - run: python scripts/apply_abc_layout.py
+      - name: Publish verified notation layout corrections
+        run: |
+          git diff --check
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- 'wiki/**/index.html' 'research/**/*.json'
+          if ! git diff --cached --quiet; then
+            git commit -m "fix(notation): remove legacy forced part breaks from 14 measured scores"
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
       - uses: actions/upload-artifact@v4
         if: always()
         with:

@@ -19,6 +19,19 @@ try{
   for(const row of rows){
    const source=row.fields['abc-source']||row.fields.text;
    const result={wiki:row.wiki,title:row.title,mode:row.mode,modes:[]};
+   if(row.title==='Majčin čoček · Hm-greb · capo I'){
+    const view=$tw.modules.execute('$:/plugins/huwiki/abc/instrument-view.js'),tabs=$tw.modules.execute('$:/plugins/huwiki/abc/tabs.js');
+    view.change('eb');view.setCapo(3);view.setTranspose(2);view.setTab('mandolin');
+    const host=document.createElement('div');document.body.appendChild(host);
+    try{
+     const t=tabs.view(row.fields),tabOptions=tabs.options(ABC,source,t.enabled,t.config);
+     const tune=ABC.renderAbc(host,source,{staffwidth:720,oneSvgPerLine:true,visualTranspose:view.current().semitones,tablature:tabOptions.options,...sheet.options(ABC,source,row.fields),afterParsing:tune=>{
+      sheet.prepare(tune,row.fields,source);tabs.notation.project(ABC,tune,t.config,t.enabled);
+      tune.tablatures=ABC.parseOnly(source,{visualTranspose:view.current().semitones,tablature:tabOptions.options})[0].tablatures;
+     }})[0];tabs.finish(tune,t.config);result.tabDiagnostic={ok:true};
+    }catch(error){result.tabDiagnostic={ok:false,stack:error.stack};}
+    finally{host.remove();view.change('c');view.setCapo(0);view.setTranspose(0);view.setTab('off');}
+   }
    try{
     const before=JSON.stringify(audio(ABC.parseOnly(source)[0]));
     for(const strategy of ['existing','noParts','balanced']){
