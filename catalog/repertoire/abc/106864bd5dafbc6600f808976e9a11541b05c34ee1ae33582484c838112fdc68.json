@@ -8,5 +8,6 @@
   "text": "<$huwiki-abc/>",
   "abc-view": "full",
   "abc-bars-per-line": "4",
-  "abc-accompaniment": "{\"enabled\": false, \"metronome\": false, \"bassSource\": \"voice:1\", \"melodyInstrument\": \"source\"}"
+  "abc-accompaniment": "{\"enabled\": false, \"metronome\": false, \"bassSource\": \"voice:1\", \"melodyInstrument\": \"source\"}",
+  "abc-parts-new-line": "no"
 }

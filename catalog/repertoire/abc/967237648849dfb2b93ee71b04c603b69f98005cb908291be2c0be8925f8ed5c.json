@@ -8,5 +8,6 @@
   "text": "<$huwiki-abc/>",
   "abc-view": "full",
   "abc-bars-per-line": "4",
-  "abc-accompaniment": "{\"enabled\":true,\"metronome\":false,\"style\":\"balkan\",\"bassSource\":\"voice:1\",\"bass\":\"alternating\",\"chords\":\"folk\",\"drums\":\"balkan\",\"melodyInstrument\":\"source\",\"melodyVolume\":100,\"bassVolume\":50,\"chordVolume\":45,\"drumVolume\":40,\"droneEnabled\":false,\"variation\":20}"
+  "abc-accompaniment": "{\"enabled\":true,\"metronome\":false,\"style\":\"balkan\",\"bassSource\":\"voice:1\",\"bass\":\"alternating\",\"chords\":\"folk\",\"drums\":\"balkan\",\"melodyInstrument\":\"source\",\"melodyVolume\":100,\"bassVolume\":50,\"chordVolume\":45,\"drumVolume\":40,\"droneEnabled\":false,\"variation\":20}",
+  "abc-parts-new-line": "no"
 }

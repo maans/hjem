@@ -12,5 +12,6 @@
   "abc-genre": "Bossa nova",
   "abc-view": "chords",
   "abc-bars-per-line": "4",
-  "abc-accompaniment": "{\"enabled\": true, \"style\": \"auto\"}"
+  "abc-accompaniment": "{\"enabled\": true, \"style\": \"auto\"}",
+  "abc-parts-new-line": "no"
 }
