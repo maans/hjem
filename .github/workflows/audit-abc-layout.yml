@@ -1,0 +1,21 @@
+name: Audit existing repertoire notation layout
+on:
+  push:
+    branches: [main]
+    paths: ['scripts/audit_abc_layout.py', '.github/workflows/audit-abc-layout.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/audit_abc_layout.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: abc-layout-inventory
+          path: abc-layout-inventory.json
