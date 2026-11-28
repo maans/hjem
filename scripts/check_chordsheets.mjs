@@ -16,7 +16,11 @@ for(const work of rows.filter(r=>r['repertoire-kind']==='piece')){
  const settings=acc.read(source);assert.equal(settings.enabled,true,source.title);
  const config=acc.resolve(settings,abc,source);acc.prepare(ABC,tune,abc,config,true,source);
  const audio=tune.setUpAudio({}),notes=t=>t.filter(e=>e.cmd==='note'&&e.volume>0&&e.duration>0);
- for(const bus of ['bassVolume','chordVolume'])assert.ok(audio.tracks.some(t=>t.huwabcPart===bus&&notes(t).length),source.title+' has no '+bus);
+ for(const bus of ['bassVolume','chordVolume']){
+  const events=audio.tracks.filter(t=>t.huwabcPart===bus).flatMap(notes);
+  assert.ok(events.length,source.title+' has no '+bus);
+  if(source['helles-written-bars'])for(let quarter=0;quarter<4;quarter++)assert.ok(events.some(e=>e.start>=audio.totalDuration*quarter/4&&e.start<audio.totalDuration*(quarter+1)/4),source.title+' '+bus+' is missing in quarter '+quarter);
+ }
  summary.push({title:work.title,source:source.title,style:config.style,tracks:audio.tracks.map(t=>({bus:t.huwabcPart,notes:notes(t).length}))});
 }
 console.log(JSON.stringify(summary,null,2));
