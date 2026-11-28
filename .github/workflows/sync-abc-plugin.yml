@@ -9,6 +9,8 @@ on:
       - 'research/videos/recordings.json'
       - 'scripts/apply_leadsheet_additions.py'
       - 'research/helles/leadsheet-additions.json'
+      - 'research/helles/chordsheet-additions.json'
+      - 'scripts/check_chordsheets.mjs'
   workflow_run:
     workflows: ['Publish Helles repertoire wiki']
     types: [completed]
@@ -105,6 +107,7 @@ jobs:
         run: |
           python scripts/apply_leadsheet_additions.py
           python scripts/apply_repertoire_videos.py
+          FORGE_SOURCE=.forge-source node scripts/check_chordsheets.mjs
       - name: Verify existing notation in every set and full repertoire
         run: node scripts/check_repertoire_views.mjs
       - name: Publish the updated musician wikis

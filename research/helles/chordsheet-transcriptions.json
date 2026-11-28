@@ -1,0 +1,494 @@
+[
+  {
+    "title": "Autumn Leaves",
+    "key": "Cm",
+    "tempo": 138,
+    "style": "Swing",
+    "pdf": "autumn-leaves-leadsheet.pdf",
+    "sections": [
+      [
+        "A1",
+        "Fm7|Bb7|Ebmaj7|Abmaj7|Dm7b5|G7b9|Cmmaj7|Cmmaj7"
+      ],
+      [
+        "A2",
+        "Fm7|Bb7|Ebmaj7|Abmaj7|Dm7b5|G7b9|Cmmaj7|Cmmaj7"
+      ],
+      [
+        "B",
+        "Dm7b5|G7b9|Cmmaj7|Cmmaj7|Fm7|Bb7|Ebmaj7|Abmaj7"
+      ],
+      [
+        "C",
+        "Dm7b5|G7b9|Cmmaj7 F9b5|Bbm7 Eb7b5|Abmaj7|Dm7b5 G7#5|Cmmaj7|Cmmaj7"
+      ]
+    ],
+    "meter": "4/4",
+    "note": "",
+    "config": null
+  },
+  {
+    "title": "All The Things You Are",
+    "key": "Eb",
+    "tempo": 138,
+    "style": "Swing",
+    "pdf": "all-the-things-you-are-leadsheet.pdf",
+    "sections": [
+      [
+        "A1",
+        "Cm7|Fm7|Bb7|Ebmaj7|Abmaj7|Am7 D7|Gmaj7|Gmaj7"
+      ],
+      [
+        "A2",
+        "Gm7|Cm7|F7|Bbmaj7|Ebmaj7|Em7b5 A7|Dmaj7|Dmaj7"
+      ],
+      [
+        "B",
+        "Em7|A7|Dmaj7|Dmaj7|C#m7b5|F#7|Bmaj7|G7#5"
+      ],
+      [
+        "A3",
+        "Cm7|Fm7|Bb7|Ebmaj7|Abmaj7|Db7|Gm7|F#dim7|Fm7|Bb7|Ebmaj7|Dm7b5 G7#9"
+      ]
+    ],
+    "meter": "4/4",
+    "note": "Grundform 36 takter; den overstregede intro er udeladt. Intro kan spilles fra de sidste fire takter.",
+    "config": null
+  },
+  {
+    "title": "Brevet",
+    "key": "Dm",
+    "tempo": 66,
+    "style": "Ballad",
+    "pdf": "brevet-leadsheet.pdf",
+    "sections": [
+      [
+        "Vers 1",
+        "Dm C/E F|Bbmaj7:2 C:2|A7/C#|Bb/D C/E F|Bbmaj7:2 C:2|A7|Gm Dm/F|C/E Dm"
+      ],
+      [
+        "Vers 2",
+        "Dm C/E F|Bbmaj7:2 C:2|A7/C#|Bb/D C/E F|Bbmaj7:2 C:2|A7|Bb F/A|Gm7 C"
+      ],
+      [
+        "Mellemstykke",
+        "F|{2/4}Csus4 C|{4/4}Bb/D C/E F Bb|Bdim7|{2/4}C|{4/4}A7/C# Dm C/E Cdim7/F# D"
+      ],
+      [
+        "Videre",
+        "{3/4}Ebdim7:1 Em:2|{4/4}C D Em Am7 D|Esus4:1 Em:2 D/F#:1|G|{2/4}D|{4/4}C/E D/F# G Cdim7 A7/C#|{2/4}D"
+      ],
+      [
+        "Modulation",
+        "{4/4}B/D# Em F#dim7 Ddim7/G# E7|{3/4}Fdim7:1 F#m:2|{4/4}D E F#m Bm7 E|F#sus4 F#m|F#m/E:1 D:2 G/D:1|A/D G/D|D G/D|Gm6/D"
+      ],
+      [
+        "Tilbage",
+        "Bb/D C/E F Bb Bdim7|{3/4}C#dim7:1 Dm:2|{4/4}Bb C Dm Gm7 C|Dsus4 Dm"
+      ]
+    ],
+    "meter": "4/4",
+    "note": "Blandet 4/4, 2/4 og 3/4 og modulationer følger nodearket. Grundformen slutter før D.S.; koncertgentagelser vælges efter aftalerne.",
+    "config": null
+  },
+  {
+    "title": "Dansevise",
+    "key": "Am",
+    "tempo": 160,
+    "style": "Jazz waltz",
+    "pdf": "dansevise-leadsheet.pdf",
+    "sections": [
+      [
+        "A1",
+        "Am7|D7|Am|D7|Am|D7|Am|Am|C|Am|F|Am|F7|F7|Bm|E7"
+      ],
+      [
+        "A2",
+        "Am7|D7|Am|D7|Am|D7|Am|Am|C|Am|F|Am|F7|E7 Am G|Am|Am"
+      ],
+      [
+        "B",
+        "Dm|Dm|G7|C|Am|F7|F7|Am|F|F|G7|C|Am|F7|F7|Am D7"
+      ],
+      [
+        "A3",
+        "Am|D7|Am|D7|Am|D7|Am|Am|C|Am|F|Am|F7|E7 Am G"
+      ],
+      [
+        "Vamp",
+        "Am|G|Am|G|Am|G|Am|G|Am|G|Am|Am|Dm|Dm|Dm|Dm|Am|G|Am|Am"
+      ],
+      [
+        "B2",
+        "Dm|G7|C|Am F|G7|C|Am|Dm|E7|Am|Am7|Dm|Dm|Dm/E|Dm/E|E7|E7"
+      ],
+      [
+        "Coda",
+        "Am|G|Am|G|Am|Am|Am|Am"
+      ]
+    ],
+    "meter": "3/4",
+    "note": "A/B, vamp og coda efter PDF. Rubato i coda styres manuelt; akkompagnementet holder det valgte tempo.",
+    "config": null
+  },
+  {
+    "title": "Deidres Samba",
+    "key": "Cm",
+    "tempo": 72,
+    "style": "Samba",
+    "pdf": "deidres-samba-leadsheet.pdf",
+    "sections": [
+      [
+        "Vers",
+        "Cm6 Cm6/G|Ddim7/Ab|G7 G7/B|Cm6|Fm7|Bb7|Fm7 Bb7|Eb G7/D|Cm Cm/Bb|Adim7|D7|G7|Cm|Cm7 Fm Cm|Ddim7 F#dim7|G7|G7"
+      ],
+      [
+        "Omkvæd",
+        "C6|C6|C6|C6 F6|F6|F6|C6"
+      ],
+      [
+        "Refræn 1",
+        "C7|F6|Dm7 G7|C6"
+      ],
+      [
+        "Refræn 2",
+        "C7|F6|Dm7 G7|C"
+      ]
+    ],
+    "meter": "4/4",
+    "note": "Mollvers og duromkvæd efter PDF; sidste refræn afrundes på C. Tempo 72 følger Helles’ aftaler.",
+    "config": null
+  },
+  {
+    "title": "Dejlighedssang",
+    "key": "Bb",
+    "tempo": 88,
+    "style": "Ballad",
+    "pdf": "dejlighedssang-leadsheet.pdf",
+    "sections": [
+      [
+        "Vers",
+        "Eb6 Bb/D|F/A Gm|D D7/F#|Gm Gm/F|Ebmaj7|Dm Eb|Cm7|Eb F|{2/4}F|{4/4}Ebm|Gm7|Cm:2 F7:2|Bbsus4 Bb"
+      ]
+    ],
+    "meter": "4/4",
+    "note": "Klingende B♭: svarer til G-greb med capo III / A-greb med capo I. Helles’ øvetempo 88 bevares; PDF angiver 95.",
+    "config": null
+  },
+  {
+    "title": "Har du visor, min vän",
+    "key": "Dm",
+    "tempo": 120,
+    "style": "Jazz waltz",
+    "pdf": "har-du-visor.pdf",
+    "sections": [
+      [
+        "A",
+        "Dm|Am7|Dsus4|D7|Gm|Gm/Bb|G#dim7|A|Bbmaj7|Am7:1 Dsus4:2|Dm|Dm"
+      ],
+      [
+        "B",
+        "Gm7|C7|Fmaj7|Bbmaj7|Gm/E|A7|G#dim7|A|Dm:2 Dm/C:1|Gm/Bb|D7/A|Gm|Dm/A:2 Am7:1|Dsus4|Dm|Dm"
+      ]
+    ],
+    "meter": "3/4",
+    "note": "PDF angiver cirka 110–130; afspilningen begynder ved 120. Optakt er udeladt i akkordgrundformen.",
+    "config": null
+  },
+  {
+    "title": "Hvorfor er lykken så lunefuld",
+    "key": "Fm",
+    "tempo": 54,
+    "style": "Ballad",
+    "pdf": "hvorfor-er-lykken-sa-lunefuld-leadsheet.pdf",
+    "sections": [
+      [
+        "Vers / intro",
+        "Fm|Cm|Fm|Cm|Fm6|G7|Fm6|G7|C7|Fm C7|Db7|C7b9"
+      ],
+      [
+        "A1",
+        "Fm C7/G|Fm/Ab F7/A|Bbm F7/C|Bbm/Db G7|C7b9|C7b9|Fm C7|Fm C7"
+      ],
+      [
+        "A2",
+        "Fm C7/G|Fm/Ab F7/A|Bbm F7/C|Bbm/Db G7|C7b9|C7b9|Fm C7|Fm"
+      ],
+      [
+        "B",
+        "F7|Bbm|F7|Bbm|G7|Cm G7|C7b9|C7b9"
+      ],
+      [
+        "A3",
+        "Fm C7/G|Fm/Ab F7/A|Bbm F7/C|Bbm/Db G7|C7b9|C7b9|Fm C7|Fm"
+      ]
+    ],
+    "meter": "4/4",
+    "note": "Vers/intro og AABA efter begge PDF-sider. De trykte basomvendinger er bevaret.",
+    "config": null
+  },
+  {
+    "title": "Nature Boy",
+    "key": "Dm",
+    "tempo": 108,
+    "style": "Bossa nova",
+    "pdf": "nature-boy-leadsheet.pdf",
+    "sections": [
+      [
+        "A",
+        "Dm|Em7b5 A7|Dm|Em7b5 A7|Dm Dmmaj7|Dm7|Dm6 Gm6|Dm|Em7b5|A7|A7|Dm|Dm|E7b9|E7b9|A7|A7"
+      ],
+      [
+        "B",
+        "Dm|Em7b5 A7|Dm|Em7b5 A7|Dm Dmmaj7|Dm7|Dm6 Gm6|Dm|Em7b5|A7|A7|Dm|Bm7b5|E7b9|A7b9|Dm|Em7b5 A7"
+      ]
+    ],
+    "meter": "4/4",
+    "note": "PDF’ens udskrevne A/B-forløb med udvidet slutfrase. Latinpræg fra Helles’ node; bossa bruges som øveakkompagnement.",
+    "config": null
+  },
+  {
+    "title": "'Round Midnight",
+    "key": "Cm",
+    "tempo": 60,
+    "style": "Slow jazz ballad",
+    "pdf": "round-midnight-leadsheet.pdf",
+    "sections": [
+      [
+        "A1",
+        "Cm Am7b5|Dm7b5 G7#5|Cm7 F7|Abm7 Db7 Gm7 C7|Fm Bb7|Cm F7|Ab7|G7"
+      ],
+      [
+        "A2",
+        "Cm Am7b5|Dm7b5 G7#5|Cm7 F7|Abm7 Db7 Gm7 C7|Fm Bb7|Cm F7|Ab7 G7|Cm7"
+      ],
+      [
+        "B",
+        "Am7b5 D7b9|G7|Am7b5 D7b9|G7|Fm7:1 Bb7:1 Ebmaj7:2|Ab7 G7|C7 Bb7|Ab7 G7"
+      ],
+      [
+        "A3",
+        "Cm Am7b5|Dm7b5 G7#5|Cm7 F7|Abm7 Db7 Gm7 C7|Fm Bb7|Cm F7|Ab7|G7|Cm"
+      ]
+    ],
+    "meter": "4/4",
+    "note": "",
+    "config": null
+  },
+  {
+    "title": "Quiet Night of Quiet Stars",
+    "key": "Bb",
+    "tempo": 63,
+    "style": "Bossa nova",
+    "pdf": "quiet-night-of-quiet-stars-leadsheet.pdf",
+    "sections": [
+      [
+        "A1",
+        "C7/G|C7/G|Gbdim7|Gbdim7|Fm7|Bb7sus4 Ebmaj7|Ebdim7/A Ebmaj7/Bb|Ebmaj7/Bb"
+      ],
+      [
+        "B",
+        "Ebm7|Ab7|Dm7b5|G7#5|C7|C7|Cm7|Gbdim7"
+      ],
+      [
+        "A2",
+        "C7/G|C7/G|Gbdim7|Gbdim7|Fm7|Bb7sus4 Ebmaj7|Ebdim7/A Ebmaj7/Bb|Ebmaj7/Bb"
+      ],
+      [
+        "C",
+        "Ebm7|Ab7|Dm7b5|Gm7|Cm7|F7|Dm7b5|G7#5|Cm7|F7|Bb6|Bb6"
+      ]
+    ],
+    "meter": "4/4",
+    "note": "A–B–A–C efter Helles’ PDF, inklusive slutforlængelsen. Tempo 63 følger den noterede puls.",
+    "config": null
+  },
+  {
+    "title": "There Will Never Be Another You",
+    "key": "C",
+    "tempo": 152,
+    "style": "Swing",
+    "pdf": "there-will-never-be-another-you-leadsheet.pdf",
+    "sections": [
+      [
+        "A1",
+        "Cmaj7|Cmaj7|Bm7b5|E7|Am|Am|Gm9|C9|Fmaj7|Bb9#11|Cmaj7|Am7|D9|D9|Dm7|G7"
+      ],
+      [
+        "A2",
+        "Cmaj7|Cmaj7|Bm7b5|E7|Am|Am|Gm9|C9|Fmaj7|Bb9#11|Cmaj7|F#m7b5 B7|C6 F9#11|Em7 A7|Dm7 G13|C6"
+      ]
+    ],
+    "meter": "4/4",
+    "note": "",
+    "config": null
+  },
+  {
+    "title": "This Masquerade",
+    "key": "Bbm",
+    "tempo": 108,
+    "style": "Bossa nova",
+    "pdf": "this-masquerade-leadsheet.pdf",
+    "sections": [
+      [
+        "A1",
+        "Bbm|Bbmmaj7|Bbm7|Eb13|Bbm7|Gb9|Cm7|F7#5"
+      ],
+      [
+        "A2",
+        "Bbm|Bbmmaj7|Bbm7|Eb13|Gb7|F7#5|Bbm7|Bbm7"
+      ],
+      [
+        "B",
+        "Abm7|Db13b9|Gbmaj7|Gbmaj7|Abm7|Db13b9|Gbmaj7|Gbmaj7|Gm7|C13 C7#5|Fmaj7|Fmaj7 G7|Cm7|C13 C7#5|F9sus4|F9sus4"
+      ],
+      [
+        "A3",
+        "Bbm|Bbmmaj7|Bbm7|Eb13|Bbm7|Gb9|Cm7|F7#5|Bbm7|Bbm7"
+      ]
+    ],
+    "meter": "4/4",
+    "note": "AABA med udskrevet 16-takters B. Den sidste A afrundes på B♭m; intro/outro-vamp findes i spilleaftalerne.",
+    "config": null
+  },
+  {
+    "title": "What It Means To Me",
+    "key": "Cm",
+    "tempo": 60,
+    "style": "Ballad",
+    "pdf": "what-it-means-to-me-leadsheet.pdf",
+    "sections": [
+      [
+        "A1",
+        "Cm7|Gm7|Abadd2|Bb11|Eb|Eb/G|Abadd2|Bb11"
+      ],
+      [
+        "A2",
+        "Cm7|Gm7|Abadd2|Bb11|Eb|Eb/G|Am11|D7"
+      ],
+      [
+        "B",
+        "Gmaj7|Cmaj7|F#dim7|B7b9|Em7|A7|Am7 F#dim7|Fm11 Bb7"
+      ],
+      [
+        "C",
+        "Eb|Eb/G|Abadd2|Bb11|Cm7 F7|Bb7sus4 Bb7/D|Ebsus4|Eb"
+      ]
+    ],
+    "meter": "4/4",
+    "note": "Lige ottendedele, two-beat ved 60 som i Helles’ aftaler. Modulationen i B og tilbagevendingen til E♭ er bevaret.",
+    "config": {
+      "style": "jazzballad",
+      "feel": "two",
+      "swing": false
+    }
+  },
+  {
+    "title": "The Guaracha",
+    "key": "Cm",
+    "tempo": 120,
+    "style": "Guaracha / cha-cha-cha",
+    "pdf": "guaracha-leadsheet.pdf",
+    "sections": [
+      [
+        "Vers",
+        "Cm|Cm|Cm|G7|G7|G7|G7|Cm|Cm|Cm|Cm|Fm|Fm|G7|G7|Cm"
+      ],
+      [
+        "Refræn",
+        "Cm|G7|G7|Cm|Cm|G7|G7|Cm"
+      ]
+    ],
+    "meter": "4/4",
+    "note": "Efter Guaracha(1).pdf. Tempo er ikke angivet; 120 er et valgt øvetempo. Latinakkompagnement med percussion.",
+    "config": {
+      "style": "custom",
+      "bass": "alternate",
+      "chords": "offbeat",
+      "drums": "percussion",
+      "bassInstrument": 32,
+      "chordInstrument": 0
+    }
+  },
+  {
+    "title": "Oy como va",
+    "key": "Am",
+    "tempo": 125,
+    "style": "Cha-cha-cha / Latin",
+    "pdf": "",
+    "sections": [
+      [
+        "Intro / tema",
+        "Am7|D7|Am7|D7|Am7|D7|Am7|D7"
+      ],
+      [
+        "Sang",
+        "Am7|D7|Am7|D7|Am7|D7|Am7|D7"
+      ],
+      [
+        "Solo-vamp",
+        "Am7|D7|Am7|D7|Am7|D7|Am7|D7"
+      ]
+    ],
+    "meter": "4/4",
+    "note": "To-takters vamp efter Tito Puentes indspilning på Chordify. 24-takters øveform; Helles’ koncertform og tempo er endnu ikke dokumenteret.",
+    "config": {
+      "style": "custom",
+      "bass": "alternate",
+      "chords": "offbeat",
+      "drums": "percussion",
+      "bassInstrument": 32,
+      "chordInstrument": 0
+    },
+    "url": "https://chordify.net/chords/tito-puente-songs/oye-como-va-3-chords"
+  },
+  {
+    "title": "Sakta vi gå genom stan",
+    "key": "Bb",
+    "tempo": 108,
+    "style": "Swing",
+    "pdf": "sakta-vi-ga-genom-stan-leadsheet.pdf",
+    "sections": [
+      [
+        "A1",
+        "Bbmaj7 F9#5|Bbmaj7 F9#5|Bbmaj7 Eb7|Dm7b5 G7b9|Cm7 G7/B|Cm7 Am7b5|Ab7 G7 Gb7b5 F7|Bbmaj7 F9#5"
+      ],
+      [
+        "A2",
+        "Bbmaj7 F9#5|Bbmaj7 F9#5|Bbmaj7 Eb7|Dm7b5 G7b9|Cm7 G7/B|Cm7 Am7b5|Ab7 G7 Gb7b5 F7|Bbmaj7 A7b9"
+      ],
+      [
+        "B",
+        "Dm7 Dmmaj7/C#|Dm7/C Bm7b5|Bbmaj7|Em7b5 A7b9|Dm7 Dmmaj7/C#|Dm7/C Bm7b5|Gm7 C7|Cm7 F7b9"
+      ],
+      [
+        "A3",
+        "Bbmaj7 F9#5|Bbmaj7 F9#5|Bbmaj7 Eb7|Dm7b5 G7b9|Cm7 G7/B|Cm7 F7|Cm7 F7|Bb6:2 Cm7:1 F7:1"
+      ]
+    ],
+    "meter": "4/4",
+    "note": "Første 32-takters harmoniske grundform efter PDF (A gentages med to slutninger). Senere tekstvers og slutforlængelser står i original-PDF’en; solorækkefølge følger spilleaftalerne.",
+    "config": null
+  },
+  {
+    "title": "Visan från Utanmyra",
+    "key": "Am",
+    "tempo": 103,
+    "style": "Ballad",
+    "pdf": "",
+    "sections": [
+      [
+        "A",
+        "Am|E|Am|E|Am|D|Am G|C|Em|E|Am|Em|C|E|Am|G"
+      ],
+      [
+        "B",
+        "F|E|Am|E|F|C|C|G|Am|Am|Am|E|Am|Am|Am|Am"
+      ]
+    ],
+    "meter": "4/4",
+    "note": "Forenklet harmonisk øveform efter Chordifys analyse af Jan Johansson/Georg Riedel. Ikke en transskription af alle klavervariationer i PDF’en; Helles’ toneart og tempo afventer bekræftelse.",
+    "config": null,
+    "url": "https://chordify.net/chords/jan-johansson-songs/visa-fran-utanmyra-chords"
+  }
+]
