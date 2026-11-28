@@ -3,6 +3,8 @@ on:
   push:
     branches: [main]
     paths:
+      - 'scripts/apply_silba_birthday.py'
+      - 'research/silba/birthday-set.json'
       - '.github/workflows/sync-abc-plugin.yml'
       - 'scripts/update_abc_plugin.py'
       - 'scripts/apply_repertoire_videos.py'
@@ -26,10 +28,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     env:
-      FORGE_REF: d4a65275aa66623be288a56a3ee2ec8cf4edf20a
-      ABC_VERSION: '0.3.76'
+      FORGE_REF: c8218e742c8bc7cb667b6995032358cc4d98fee5
+      ABC_VERSION: '0.3.77'
       REPERTOIRE_VERSION: '0.3.18'
-      PRINT_VERSION: '0.2.11-test.1'
+      PRINT_VERSION: '0.2.12-test.1'
       MUSESCORE_VERSION: '0.1.12'
     steps:
       - uses: actions/checkout@v4
@@ -42,7 +44,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: maans/huwiki-forge
-          ref: d4a65275aa66623be288a56a3ee2ec8cf4edf20a
+          ref: c8218e742c8bc7cb667b6995032358cc4d98fee5
           path: .forge-source
           persist-credentials: false
       - uses: actions/setup-node@v4
@@ -107,6 +109,7 @@ jobs:
         run: |
           python scripts/apply_leadsheet_additions.py
           python scripts/apply_repertoire_videos.py
+          python scripts/apply_silba_birthday.py
           FORGE_SOURCE=.forge-source node scripts/check_chordsheets.mjs
       - name: Verify existing notation in every set and full repertoire
         run: node scripts/check_repertoire_views.mjs

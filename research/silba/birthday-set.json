@@ -1,0 +1,19 @@
+{
+  "name": "28.11.2026 · Måns’ fødselsdag",
+  "source": "Henriks sætliste, Måns fødselsdag.docx, 27. november 2026",
+  "note": "Rækkefølge og aftaler efter den seneste liste fra generalprøven. Gadjo Cocek og Syv sind er mulige tilvalg, sat i parentes af Henrik 27/11. Cocek Srece er ekstranummer. De to tilvalg er bevaret på deres pladser i listen og tydeligt mærket i spilleaftalerne.",
+  "songs": [
+    {"title":"Silbaätno (Fm/Gm)","key":"Gm","form":"3 gennemspilninger","cues":"Steen starter.","instrumentation":"Måns: banjo"},
+    {"title":"Brudmarch från Jämtland","key":"Gm","cues":"1. gennemspilning: Steen og Måns.","instrumentation":"Måns: guitar"},
+    {"title":"Låt från Dalarne","key":"F#m","form":"2 gennemspilninger · optempo","cues":"Måns starter? Afklares ved indsats (spørgsmålstegn i kildelisten).","instrumentation":"Måns: guitar"},
+    {"title":"Ålidhems höjder","form":"1. gennemspilning: Steen og Måns på melodi. 2. gennemspilning: optempo, Ebbe på melodi.","cues":"Henrik tæller op.","instrumentation":"Måns: guitar"},
+    {"title":"Oh verden","key":"Dm","form":"E7 – A7 – Dm","cues":"Henrik og Steen starter; Måns falder ind på offbeat.","instrumentation":"Måns: guitar"},
+    {"title":"Hotel Nora","key":"Cm","cues":"Måns starter på C-stykket."},
+    {"title":"Gadjo Cocek (Dm/Iberisk A)","key":"Dm","form":"2 gennemspilninger + helt A-stykke · Iberisk A","cues":"VALGFRIT · sat i parentes af Henrik 27/11. Henrik starter.","instrumentation":"Måns: banjo","optional":true},
+    {"title":"Cupria Express (Fm)","key":"Fm","form":"2 gennemspilninger","cues":"Henrik starter roligt.","instrumentation":"Måns: banjo"},
+    {"title":"Mita, Barfly (Gm)","key":"Gm","cues":"Henrik og Måns starter.","instrumentation":"Måns: banjo"},
+    {"title":"Syv sind (Em)","key":"Em","form":"3 gennemspilninger · V2: sax og klarinet","cues":"VALGFRIT · sat i parentes af Henrik 27/11. Henrik tæller.","instrumentation":"Måns: banjo","optional":true},
+    {"title":"Purim Niggun","key":"C","form":"2 gennemspilninger + A-stykke","cues":"Ebbe og Steen starter. Husk breaks i A-stykkerne.","instrumentation":"Måns: banjo"},
+    {"title":"Cocek Srece","key":"Dm","cues":"EKSTRANUMMER · Henrik starter.","encore":true}
+  ]
+}
